@@ -1,0 +1,52 @@
+export default {
+  "2021-02-28": 'https://www.facebook.com/groups/279746385504501/permalink/2394475977364854/',
+  "2021-02-27": 'https://www.facebook.com/groups/279746385504501/permalink/2393574227455029/',
+  "2021-02-26": 'https://www.facebook.com/groups/279746385504501/permalink/2392660020879783/',
+  "2021-02-25": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2391705670975218/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2391583117654140/',
+  ],
+  "2021-02-24": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2390831021062683/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2390783797734072/',
+  ],
+  "2021-02-23": 'https://www.facebook.com/groups/279746385504501/permalink/2389925461153239/',
+  "2021-02-22": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2389040774575041/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2388666781279107/',
+  ],
+  "2021-02-21": 'https://www.facebook.com/groups/279746385504501/permalink/2388171161328669/',
+  "2021-02-20": 'https://www.facebook.com/groups/279746385504501/permalink/2387211051424680/',
+  "2021-02-19": 'https://www.facebook.com/groups/279746385504501/permalink/2386360318176420/',
+  "2021-02-18": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2385481764930942/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2385544091591376/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2385332754945843/',
+  ],
+  "2021-02-17": 'https://www.facebook.com/groups/279746385504501/permalink/2384572341688551/',
+  "2021-02-16": 'https://www.facebook.com/groups/279746385504501/permalink/2383742861771499/',
+  "2021-02-15": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2382840718528380/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2382445001901285/',
+  ],
+  "2021-02-14": 'https://www.facebook.com/groups/279746385504501/permalink/2381979378614514/',
+  "2021-02-13": 'https://www.facebook.com/groups/279746385504501/permalink/2381113515367767/',
+  "2021-02-12": 'https://www.facebook.com/groups/279746385504501/permalink/2380093662136419/',
+  "2021-02-11": 'https://www.facebook.com/groups/279746385504501/permalink/2379139155565203/',
+  "2021-02-10": 'https://www.facebook.com/groups/279746385504501/permalink/2378208098991642/',
+  "2021-02-09": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2377404099072042/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2377185472427238/',
+  ],
+  "2021-02-08": 'https://www.facebook.com/groups/279746385504501/permalink/2376554392490346/',
+  "2021-02-07": 'https://www.facebook.com/groups/279746385504501/permalink/2375633152582470/',
+  "2021-02-06": 'https://www.facebook.com/groups/279746385504501/permalink/2374627752683010/',
+  "2021-02-05": 'https://www.facebook.com/groups/279746385504501/permalink/2373727242773061/',
+  "2021-02-04": [
+    'https://www.facebook.com/groups/279746385504501/permalink/2372746686204450/',
+    'https://www.facebook.com/groups/279746385504501/permalink/2372589849553467/',
+  ],
+  "2021-02-03": '',
+  "2021-02-02": '',
+  "2021-02-01": '',
+};
