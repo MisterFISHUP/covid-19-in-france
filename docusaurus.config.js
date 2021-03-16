@@ -1,3 +1,9 @@
+const currentYear = new Date().getFullYear();
+const startYear = 2021;
+const siteYear = startYear == currentYear
+  ? String(startYear)
+  : `${startYear} - ${currentYear}`;
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: '法國 COVID-19 日誌',
@@ -8,7 +14,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Mister FISH UP', // Usually your GitHub org/user name.
-  projectName: 'covid-19-in-france', // Usually your repo name.
+  // projectName: 'covid-19-in-france', // Usually your repo name.
   i18n: {
     defaultLocale: 'zh-Hant',
     locales: ['zh-Hant'],
@@ -48,13 +54,13 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
-      hideOnScroll: true,
+      hideOnScroll: false, // can't be true if using scroll smooth
       // style: 'primary', // or 'dark'
       title: '法國 COVID-19 日誌',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-        srcDark: 'img/undraw_docusaurus_mountain.svg',
+        // srcDark: 'img/undraw_docusaurus_mountain.svg',
       },
       items: [
         {
@@ -63,46 +69,50 @@ module.exports = {
           label: '日誌',
           position: 'left',
         },
-        // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          // label: 'GitHub',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
+          to: 'journal/2021/introduction',
+          label: '2021 年'
         },
+        {
+          to: 'journal/2020/december/31',
+          label: '2020 年'
+        },
+        // { to: 'blog', label: 'Blog', position: 'left' },
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   // label: 'GitHub',
+        //   position: 'right',
+        //   className: 'header-github-link',
+        //   'aria-label': 'GitHub repository',
+        // },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '日誌',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: '2021 年',
+              to: 'journal/2021/introduction',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: '2020 年',
+              to: 'journal/2020/december/31',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '法國疫情數據',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Santé publique France',
+              href: 'https://www.gouvernement.fr/info-coronavirus/carte-et-donnees',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'gouvernement.fr',
+              href: 'https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde',
             },
           ],
         },
@@ -120,7 +130,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${siteYear} 法國 COVID-19 日誌`,
     },
   },
   presets: [
