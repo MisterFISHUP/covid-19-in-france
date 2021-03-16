@@ -91,7 +91,7 @@ const CasesCumul = ({ date }) => {
   }
 };
 
-// not empty if `deathsCumul` exists for the date
+// not empty if `deathsHospiCumul` exists for the date
 const DeathsCumul = ({ date }) => {
   const deathsCumul = od[date]?.deathsCumul;
   const deathsCumulTdb = od[tdb(date)]?.deathsCumul;
@@ -122,23 +122,23 @@ const DeathsCumul = ({ date }) => {
     );
   }
 
-  if (!isNum(deathsCumul)) {
+  if (!isNum(deathsHospiCumul)) {
     return <></>;
   } else {
     return (
       <>
         <h3>☠️ 累積死亡數</h3>
         <ul>
-          <li>
-            總累計：{bn(deathsCumul)}
-            {isNum(deathsCumulTdb) ? <em> ({bnws(deathsCumul - deathsCumulTdb)})</em> : null}
-          </li>
-          {isNum(deathsHospiCumul) ? (
+          {isNum(deathsCumul) ? (
             <li>
-              醫院：{bn(deathsHospiCumul)}
-              {isNum(deathsHospiCumulTdb) ? <em> ({bnws(deathsHospiCumul - deathsHospiCumulTdb)})</em> : null}
+              總累計：{bn(deathsCumul)}
+              {isNum(deathsCumulTdb) ? <em> ({bnws(deathsCumul - deathsCumulTdb)})</em> : null}
             </li>
           ) : null}
+          <li>
+            醫院：{bn(deathsHospiCumul)}
+            {isNum(deathsHospiCumulTdb) ? <em> ({bnws(deathsHospiCumul - deathsHospiCumulTdb)})</em> : null}
+          </li>
           {deathsEhpadEmsCumulItem}
         </ul>
       </>
