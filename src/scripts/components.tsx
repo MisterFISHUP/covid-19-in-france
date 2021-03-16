@@ -12,6 +12,7 @@ import {
   errorMessage as errMsg,
   isNumber as isNum,
   lastUpdated,
+  toYYYYMM,
 } from "./utils";
 
 const SourceOfData = () => (
@@ -316,7 +317,7 @@ export const Grace = ({ children }) => (
 export const MainImg = ({ date }) => {
   return (
     <img
-      src={`/img/journal/covid-19-in-france-${date}.jpg`}
+      src={`/img/journal/${toYYYYMM(date)}/covid-19-in-france-${date}.jpg`}
       className="img-journal"
       alt={zhDate(date) + "法國新冠疫情匯報"}
       title={zhDate(date) + "法國新冠疫情匯報"}

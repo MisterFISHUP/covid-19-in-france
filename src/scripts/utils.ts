@@ -18,6 +18,11 @@ export const toZhDate = (d: string): string => {
   return `${yyyy} 年 ${mm.replace(/^0/, "")} 月 ${dd.replace(/^0/, "")} 日`;
 };
 
+// ex: '2020-12-01' -> '202012'
+export const toYYYYMM = (d: string): string => {
+  return d.slice(0, 4) + d.slice(5, 7);
+}
+
 // ex: '2021-01-01' -> '2020-12-31'
 export const theDayBefore = (d: string): string => {
   const temp = new Date(Date.parse(d) - 864e5);
