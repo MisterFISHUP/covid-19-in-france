@@ -1,0 +1,20 @@
+export default {
+  "2020-02-29": [
+    "https://www.facebook.com/groups/279746385504501/permalink/2012467888899000/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2012690355543420/",
+  ],
+  "2020-02-28": "https://www.facebook.com/groups/279746385504501/permalink/2011648275647628/",
+  "2020-02-27": "https://www.facebook.com/groups/279746385504501/permalink/2010646069081182/",
+  "2020-02-26": [
+    "https://www.facebook.com/groups/279746385504501/permalink/2009105902568532/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2009550482524074/",
+  ],
+  "2020-02-25": "https://www.facebook.com/groups/279746385504501/permalink/2008486599297129/",
+  "2020-02-15": [
+    "https://www.facebook.com/groups/279746385504501/permalink/1997825647029891/",
+    "https://www.facebook.com/groups/279746385504501/permalink/1997273353751787/",
+  ],
+  "2020-02-08": "https://www.facebook.com/groups/279746385504501/permalink/1989908817821574/",
+  "2020-02-04": "https://www.facebook.com/groups/279746385504501/permalink/1985700958242360/",
+  "2020-02-02": "https://www.facebook.com/groups/279746385504501/permalink/1984227015056421/",
+};
