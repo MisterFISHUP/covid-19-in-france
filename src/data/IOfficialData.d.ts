@@ -16,7 +16,7 @@ type NumNumStr = [number, number, string]
 // # `null` should ALWAYS be a possible value
 
 interface IOfficialDataDaily {
-  // from gouv. informations officielles (main page)
+  // from ministère de la santé
   readonly vac1?: NumStrPair | null;
   readonly vac2?: NumStrPair | null;
 

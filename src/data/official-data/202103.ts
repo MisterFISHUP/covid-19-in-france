@@ -16,7 +16,7 @@ export const data202103: IOfficialData = {
   "2021-03-18": {},
   "2021-03-17": {},
   "2021-03-16": {
-    // from gouv infos ofcl
+    // from ministère de la santé
     vac1: [5295735, '3/15'],
     vac2: [2256385, '3/15'],
 
@@ -44,9 +44,9 @@ export const data202103: IOfficialData = {
     vacEhpadUsld: [89, '3/15'],
   },
   "2021-03-15": {
-    // from gouv infos ofcl
-    vac1: [5135616, '3/14'],
-    vac2: [2223980, '3/14'],
+    // from ministère de la santé
+    vac1: [5151631, '3/14'],
+    vac2: [2228718, '3/14'],
 
     // from gouv c&d `vue d'ensemble`
     casesCumul: 4078133,
@@ -72,9 +72,9 @@ export const data202103: IOfficialData = {
     vacEhpadUsld: [88.8, '3/14'],
   },
   "2021-03-14": {
-    // from gouv infos ofcl
-    vac1: [5076402, '3/13'],
-    vac2: [2221674, '3/13'],
+    // from ministère de la santé
+    vac1: [5091870, '3/13'],
+    vac2: [2226403, '3/13'],
 
     // from gouv c&d `vue d'ensemble`
     casesCumul: 4071662,
@@ -99,10 +99,10 @@ export const data202103: IOfficialData = {
     icuWeek: 2251,
     vacEhpadUsld: [88.6, '3/13'],
   },
-  "2021-03-13": {//TODO
-    // from gouv infos ofcl
-    // vac1: [3017891, '2/28'],
-    // vac2: [1622784, '2/28'],
+  "2021-03-13": {
+    // from ministère de la santé
+    vac1: [4876369, '3/12'],
+    vac2: [2212232, '3/12'],
 
     // from gouv c&d `vue d'ensemble`
     casesCumul: 4045319,
@@ -128,6 +128,10 @@ export const data202103: IOfficialData = {
     // vacEhpadUsld: [829, ''],
   },
   "2021-03-12": {
+    // from ministère de la santé
+    vac1: [4598591, '3/11'],
+    vac2: [2163137, '3/11'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 4015560,
     deathsCumul: 90120,
@@ -141,6 +145,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-11": {
+    // from ministère de la santé
+    vac1: [4371112, '3/10'],
+    vac2: [2103177, '3/10'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3990331,
     deathsCumul: 89897,
@@ -154,6 +162,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-10": {
+    // from ministère de la santé
+    vac1: [4203184, '3/9'],
+    vac2: [2049530, '3/9'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3963165,
     deathsCumul: 89632,
@@ -167,6 +179,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: 25311,
   },
   "2021-03-09": {
+    // from ministère de la santé
+    vac1: [4039896, '3/8'],
+    vac2: [1997100, '3/8'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3932862,
     deathsCumul: 89301,
@@ -180,6 +196,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: 25244,
   },
   "2021-03-08": {
+    // from ministère de la santé
+    vac1: [3939552, '3/7'],
+    vac2: [1951082, '3/7'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3909560,
     deathsCumul: 88933,
@@ -193,6 +213,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-07": {
+    // from ministère de la santé
+    vac1: [3827026, '3/6'],
+    vac2: [1948780, '3/6'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3904233,
     deathsCumul: 88574,
@@ -206,6 +230,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-06": {
+    // from ministère de la santé
+    vac1: [3630406, '3/5'],
+    vac2: [1932380, '3/5'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3882408,
     deathsCumul: 88444,
@@ -219,6 +247,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-05": {
+    // from ministère de la santé
+    vac1: [3438806, '3/4'],
+    vac2: [1873015, '3/4'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3859102,
     deathsCumul: 88274,
@@ -232,6 +264,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: 25174,
   },
   "2021-03-04": {
+    // from ministère de la santé
+    vac1: [3286355, '3/3'],
+    vac2: [1802598, '3/3'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3835595,
     deathsCumul: 87835,
@@ -245,6 +281,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-03": {
+    // from ministère de la santé
+    vac1: [3176392, '3/2'],
+    vac2: [1739773, '3/2'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3810316,
     deathsCumul: 87542,
@@ -258,6 +298,10 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: "noUpdate",
   },
   "2021-03-02": {
+    // from ministère de la santé
+    vac1: [3080470, '3/1'],
+    vac2: [1675443, '3/1'],
+
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3783528,
     deathsCumul: 87220,
@@ -271,9 +315,9 @@ export const data202103: IOfficialData = {
     deathsEhpadEmsCumul: 24973,
   },
   "2021-03-01": {
-    // from gouv infos ofcl
-    vac1: [3017891, '2/28'],
-    vac2: [1622784, '2/28'],
+    // from ministère de la santé
+    vac1: [3019928, '2/28'],
+    vac2: [1624523, '2/28'],
 
     // from gouv c&d `vue d'ensemble`
     casesCumul: 3760671,

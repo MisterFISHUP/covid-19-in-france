@@ -114,6 +114,10 @@ module.exports = {
               label: 'gouvernement.fr',
               href: 'https://www.gouvernement.fr/info-coronavirus/carte-et-donnees',
             },
+            {
+              label: '法國衛生部 - 疫苗數據',
+              href: 'https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination',
+            },
           ],
         },
         {
