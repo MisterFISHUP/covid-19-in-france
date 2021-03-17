@@ -49,9 +49,9 @@ const CasesCumul = ({ date }) => {
   } else if (isNum(casesEhpadEmsCumul)) {
     if (casesEhpadEmsCumulTdb == "noUpdate") {
       const m: number = lastUpdated(tdb(date), "casesEhpadEmsCumul");
-      casesEhpadEmsCumulVar = <em> {m == errNum ? errMsg : bnws(casesEhpadEmsCumul - m)}</em>;
+      casesEhpadEmsCumulVar = <em> ({m == errNum ? errMsg : bnws(casesEhpadEmsCumul - m)})</em>;
     } else if (isNum(casesEhpadEmsCumulTdb)) {
-      casesEhpadEmsCumulVar = <em> {bnws(casesEhpadEmsCumul - casesEhpadEmsCumulTdb)}</em>;
+      casesEhpadEmsCumulVar = <em> ({bnws(casesEhpadEmsCumul - casesEhpadEmsCumulTdb)})</em>;
     }
     casesEhpadEmsCumulItem = (
       <li>
@@ -76,13 +76,13 @@ const CasesCumul = ({ date }) => {
           {isNum(casesRtPcrCumul) ? (
             <li>
               RT-PCR 確診：{bn(casesRtPcrCumul)}
-              {isNum(casesRtPcrCumulTdb) ? <em> {bnws(casesRtPcrCumul - casesRtPcrCumulTdb)}</em> : null}
+              {isNum(casesRtPcrCumulTdb) ? <em> ({bnws(casesRtPcrCumul - casesRtPcrCumulTdb)})</em> : null}
             </li>
           ) : null}
           {isNum(casesAntigCumul) ? (
             <li>
               抗原檢測確診：{bn(casesAntigCumul)}
-              {isNum(casesAntigCumulTdb) ? <em> {bnws(casesAntigCumul - casesAntigCumulTdb)}</em> : null}
+              {isNum(casesAntigCumulTdb) ? <em> ({bnws(casesAntigCumul - casesAntigCumulTdb)})</em> : null}
             </li>
           ) : null}
         </ul>
@@ -109,9 +109,9 @@ const DeathsCumul = ({ date }) => {
   } else if (isNum(deathsEhpadEmsCumul)) {
     if (deathsEhpadEmsCumulTdb == "noUpdate") {
       const m: number = lastUpdated(tdb(date), "deathsEhpadEmsCumul");
-      deathsEhpadEmsCumulVar = <em> {m == errNum ? errMsg : bnws(deathsEhpadEmsCumul - m)}</em>;
+      deathsEhpadEmsCumulVar = <em> ({m == errNum ? errMsg : bnws(deathsEhpadEmsCumul - m)})</em>;
     } else if (isNum(deathsEhpadEmsCumulTdb)) {
-      deathsEhpadEmsCumulVar = <em> {bnws(deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb)}</em>;
+      deathsEhpadEmsCumulVar = <em> ({bnws(deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb)})</em>;
     }
     deathsEhpadEmsCumulItem = (
       <li>
@@ -322,6 +322,20 @@ export const MainImg = ({ date }) => {
       alt={zhDate(date) + "法國新冠疫情匯報"}
       title={zhDate(date) + "法國新冠疫情匯報"}
     />
+  );
+};
+
+// date is necessary, srcx needed for any images other than the main one
+export const Figure = ({ date, srcx, children }) => {
+  const folder = `/img/journal/${toYYYYMM(date)}/`;
+  const fileName = srcx ? `covid-19-in-france-${date}-${srcx}.jpg` : `covid-19-in-france-${date}.jpg`;
+  const caption = children ? children : `${zhDate(date)}法國新冠疫情匯報`;
+  // todo: caption could be `object` and alt and title will go wrong...  
+  return (
+    <>
+      <img src={folder + fileName} className="img-journal" alt={caption} title={caption} />
+      <div className="caption">{caption}</div>
+    </>
   );
 };
 
