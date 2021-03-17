@@ -108,11 +108,11 @@ module.exports = {
           items: [
             {
               label: 'Santé publique France',
-              href: 'https://www.gouvernement.fr/info-coronavirus/carte-et-donnees',
+              href: 'https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde',
             },
             {
               label: 'gouvernement.fr',
-              href: 'https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde',
+              href: 'https://www.gouvernement.fr/info-coronavirus/carte-et-donnees',
             },
           ],
         },
