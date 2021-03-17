@@ -312,28 +312,23 @@ export const Grace = ({ children }) => (
   </a>
 );
 
-// There should ALWAYS be an image `covid-19-in-frace-[date].jpg` for any date
-// use className `img-journal`
-export const MainImg = ({ date }) => {
-  return (
-    <img
-      src={`/img/journal/${toYYYYMM(date)}/covid-19-in-france-${date}.jpg`}
-      className="img-journal"
-      alt={zhDate(date) + "法國新冠疫情匯報"}
-      title={zhDate(date) + "法國新冠疫情匯報"}
-    />
-  );
-};
-
-// date is necessary, srcx needed for any images other than the main one
+// date is necessary; if srcx is absent, img will be the main img
+// use className `img-journal` and `caption`
 export const Figure = ({ date, srcx, children }) => {
   const folder = `/img/journal/${toYYYYMM(date)}/`;
-  const fileName = srcx ? `covid-19-in-france-${date}-${srcx}.jpg` : `covid-19-in-france-${date}.jpg`;
+  const fileName = `covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`;
   const caption = children ? children : `${zhDate(date)}法國新冠疫情匯報`;
-  // todo: caption could be `object` and alt and title will go wrong...  
+
+  const getText = (reactElem: any): string => {
+    if (typeof reactElem == "string") return reactElem;
+    if (Array.isArray(reactElem)) return reactElem.map(getText).join("");
+    if (typeof reactElem === "object") return getText(reactElem.props.children);
+    return "";
+  };
+
   return (
     <>
-      <img src={folder + fileName} className="img-journal" alt={caption} title={caption} />
+      <img src={folder + fileName} className="img-journal" alt={getText(caption)} title={getText(caption)} />
       <div className="caption">{caption}</div>
     </>
   );
