@@ -23,9 +23,9 @@ export const toYYYYMM = (d: string): string => {
   return d.slice(0, 4) + d.slice(5, 7);
 }
 
-// ex: '2021-01-01' -> '2020-12-31'
-export const theDayBefore = (d: string): string => {
-  const temp = new Date(Date.parse(d) - 864e5);
+// ex: '2021-01-01' -> '2020-12-31' (or n = 2 => '2020-12-30')
+export const theDayBefore = (d: string, n:number = 1): string => {
+  const temp = new Date(Date.parse(d) - 864e5 * n);
   return temp.toISOString().slice(0, 10);
 };
 
