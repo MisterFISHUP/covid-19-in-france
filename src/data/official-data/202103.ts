@@ -16,6 +16,32 @@ export const data202103: IOfficialData = {
   "2021-03-18": {},
   "2021-03-17": {},
   "2021-03-16": {
+    // from gouv infos ofcl
+    vac1: [5295735, '3/15'],
+    vac2: [2256385, '3/15'],
+
+    // from gouv c&d `vue d'ensemble`
+    casesCumul: 4108108,
+    deathsCumul: 91170,
+    hospi: 25492,
+    hospiNew: 2005,
+    icu: 4239,
+    icuNew: 435,
+    returnHomeCumul: 275360,
+    deathsHospiCumul: 65765,
+    casesEhpadEmsCumul: null,
+    deathsEhpadEmsCumul: 25405,
+
+    // from gouv c&d `carte des indicateurs`
+    icuOccupR: [83.8, '3/16'],
+    incidR: [250, '3/13'],
+    r: [1.02, '3/6'],
+
+    // from SdF
+    posR: 7.5,
+    hospiWeek: 10034,
+    icuWeek: 2272,
+    vacEhpadUsld: [89, '3/15'],
   },
   "2021-03-15": {
     // from gouv infos ofcl
