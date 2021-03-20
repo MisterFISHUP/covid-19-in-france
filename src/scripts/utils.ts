@@ -1,15 +1,16 @@
-import { officialData as od } from "../data/official-data";
-
-export const errorNumber: number = -9e5; // could be returned by `lastUpdated` in theory
-export const errorMessage: string = "錯誤，請聯絡站長";
 export const graceTseng: string = "Grace Tseng";
+export const startDate: string = "2020-03-01";
 
 export const isNumber = (x: any) => typeof x == "number";
 
-// ex: 1234.56 -> '1,234.56'
-export const beautifyNumber = (x: number): string => x.toLocaleString("en");
+// ex: 1234.567 -> '1,234.57'
+const maxDecimal = 2;
+export const beautifyNumber = (x: number): string => {
+  x = Math.round(x * Math.pow(10, maxDecimal)) / Math.pow(10, maxDecimal)
+  return x.toLocaleString("en");
+}
 
-// ex: 1234.56 -> '+1,234.56'
+// ex: 1234.567 -> '+1,234.57'
 export const beautifyNumberWithSign = (x: number): string => (x >= 0 ? "+" + beautifyNumber(x) : beautifyNumber(x));
 
 // ex: '2020-12-01' -> '2020 年 12 月 1 日'
@@ -24,22 +25,7 @@ export const toYYYYMM = (d: string): string => {
 }
 
 // ex: '2021-01-01' -> '2020-12-31' (or n = 2 => '2020-12-30')
-export const theDayBefore = (d: string, n:number = 1): string => {
+export const theDayBefore = (d: string, n: number = 1): string => {
   const temp = new Date(Date.parse(d) - 864e5 * n);
   return temp.toISOString().slice(0, 10);
-};
-
-// get the last updated value of key = `key` before date = `d`
-// return `errorNumber` if can't get the value
-export const lastUpdated = (d: string, key: string): number => {
-  let day = theDayBefore(d);
-  let backtrack = 0;
-  while (backtrack < 30) {
-    if (isNumber(od[day]?.[key])) {
-      return od[day][key];
-    }
-    day = theDayBefore(day);
-    backtrack += 1;
-  }
-  return errorNumber;
 };
