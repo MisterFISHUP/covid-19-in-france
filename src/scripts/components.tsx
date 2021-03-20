@@ -1,8 +1,8 @@
 // added `"resolveJsonModule": true,` in `tsconfig.json` in `@tsconfig/docusaurus` to import json
 import React from "react";
 import webLinks from "../data/website-links";
-import od from "../data/official-data.json";
-import { fbPostsLinks as links } from "../data/facebook-posts";
+import od from "../data/official-data/official-data.json";
+import { fbPostsLinks as fbLinks } from "../data/facebook-posts-links/all";
 import {
   beautifyNumber as bn,
   beautifyNumberWithSign as bnws,
@@ -344,29 +344,29 @@ export const SourceFb = ({ date }) => {
   const thisPost = "此貼文";
   const linkTitle = "前往臉書社團貼文";
   let content = <></>;
-  if (!links.hasOwnProperty(date)) {
+  if (!fbLinks.hasOwnProperty(date)) {
     return content;
   }
 
-  if (typeof links[date] == "string") {
+  if (typeof fbLinks[date] == "string") {
     content = (
       <>
         {phrase}
-        <a href={links[date]} title={linkTitle} target="_blank">
+        <a href={fbLinks[date]} title={linkTitle} target="_blank">
           {thisPost}
         </a>
         。
       </>
     );
-  } else if (Array.isArray(links[date])) {
-    const linksNum: number = links[date].length;
-    content = links[date].map((link: string, i: number) => (
+  } else if (Array.isArray(fbLinks[date])) {
+    const fbLinksNum: number = fbLinks[date].length;
+    content = fbLinks[date].map((link: string, i: number) => (
       <React.Fragment key={i}>
-        {i == 0 ? phrase : i == linksNum - 1 ? "以及" : "、"}
+        {i == 0 ? phrase : i == fbLinksNum - 1 ? "以及" : "、"}
         <a href={link} title={linkTitle} target="_blank">
           {thisPost}
         </a>
-        {i == linksNum - 1 ? "。" : ""}
+        {i == fbLinksNum - 1 ? "。" : ""}
       </React.Fragment>
     ));
   }
