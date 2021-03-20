@@ -17,7 +17,7 @@ function scrapeOneDay() {
     let hospiNew = document.querySelectorAll('.jsx-792689997.value')[1]?.firstChild.textContent.replace(/\s+/g, '');
     let icu = document.querySelector('.jsx-659902412.value')?.firstChild.textContent.replace(/\s+/g, '');
     let icuNew = document.querySelectorAll('.jsx-659902412.value')[1]?.firstChild.textContent.replace(/\s+/g, '');
-    let returnHome = (new Date(date) > new Date("2021-12-26"))
+    let returnHome = (new Date(date) > new Date("2020-12-26"))
       ? document.querySelectorAll('.jsx-850173864.value')[1]?.firstChild.textContent.replace(/\s+/g, '')
       : document.querySelector('.jsx-850173864.value')?.firstChild.textContent.replace(/\s+/g, '');
     let deathsHospi = (new Date(date) > new Date("2020-03-31"))
