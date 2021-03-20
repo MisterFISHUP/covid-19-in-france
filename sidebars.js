@@ -104,6 +104,7 @@ module.exports = {
         // "2020/december/2",
         // "2020/december/1",
       ],
+      "3 月": ["2020/march/1"],
     },
   ],
   journal: ["preface", { Docusaurus: ["doc1", "doc2", "doc3"] }, { Features: ["mdx"] }],
