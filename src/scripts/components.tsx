@@ -1,5 +1,6 @@
 // added `"resolveJsonModule": true,` in `tsconfig.json` in `@tsconfig/docusaurus` to import json
 import React from "react";
+import { Line } from "react-chartjs-2";
 import webLinks from "../data/website-links";
 import od from "../data/official-data/official-data.json";
 import { fbPostsLinks as fbLinks } from "../data/facebook-posts-links/all";
@@ -12,6 +13,10 @@ import {
   startDate,
   isNumber as isNum,
   toYYYYMM,
+  arrayOfDates as arrD,
+  toLabelDate as lblDate,
+  neutralGray,
+  dimNeutralGray,
 } from "./utils";
 
 // used className `source_block`
@@ -283,6 +288,105 @@ const Indicators = ({ date }) => {
   );
 };
 
+const ChartCases = ({ date }) => {
+  const duration = 14;
+  const renderChartThold = 5;
+  const dataName = "casesCumul";
+
+  const listOfDates: string[] = arrD(date, duration);
+  const dataCasesCumul = listOfDates.map((d) => od[d]?.[dataName]);
+  const definedDataCasesCumul: number[] = dataCasesCumul.filter(Number);
+
+  // don't show the chart if there are less than `renderChartThold` entries
+  if (definedDataCasesCumul.length < renderChartThold) return <></>;
+
+  const dataMin = Math.min(...definedDataCasesCumul);
+  const stepSize = dataMin > 200000 ? 10000 : dataMin > 2000 ? 1000 : 100;
+  const suggestedMin = Math.max(0, dataMin - 2 * stepSize);
+
+  const data = {
+    labels: listOfDates.map(lblDate),
+    datasets: [
+      {
+        label: "總累計",
+        data: dataCasesCumul,
+        fill: false,
+        pointBackgroundColor: "rgb(54, 162, 235, 1)",
+        borderColor: "rgb(54, 162, 235, 0.8)",
+        borderWidth: 1,
+        pointHoverRadius: 5,
+        yAxisID: "y-axis-cumul",
+      },
+      {
+        type: "bar",
+        label: "當日確診數",
+        data: dataCasesCumul.map((x, i, arr) => (i > 0 ? x - arr[i - 1] : x - od[tdb(date, duration)]?.[dataName])),
+        backgroundColor: "rgb(255, 97, 132, 0.2)",
+        hoverBackgroundColor: "rgb(255, 97, 132, 0.3)",
+        borderWidth: 1,
+        borderColor: "rgb(231, 84, 116, 0.4)",
+        hoverBorderColor: "rgb(231, 84, 116, 0.9)",
+        yAxisID: "y-axis-var",
+      },
+    ],
+  };
+  const options = {
+    title: {
+      display: true,
+      fontSize: 24,
+      fontColor: dimNeutralGray,
+      text: "確診數近兩週走勢",
+    },
+    legend: {
+      labels: {
+        fontSize: 18,
+        fontColor: neutralGray,
+      },
+    },
+    tooltips: {
+      titleFontSize: 20,
+      bodyFontSize: 16,
+      xPadding: 10,
+      yPadding: 8,
+      caretSize: 8,
+    },
+    scales: {
+      xAxes: [
+        {
+          offset: true,
+          ticks: {
+            fontColor: neutralGray,
+          },
+        },
+      ],
+      yAxes: [
+        {
+          id: "y-axis-cumul",
+          position: "left",
+          ticks: {
+            maxTicksLimit: 9,
+            fontColor: neutralGray,
+            stepSize: stepSize,
+            suggestedMin: suggestedMin,
+          },
+        },
+        {
+          id: "y-axis-var",
+          position: "right",
+          gridLines: {
+            drawOnChartArea: false,
+          },
+          ticks: {
+            maxTicksLimit: 9,
+            fontColor: neutralGray,
+          },
+        },
+      ],
+    },
+  };
+  return <Line data={data} options={options} />;
+};
+
 // --------
 // EXPORTS
 // --------
@@ -327,6 +431,7 @@ export const OfficialData = ({ date }) => {
   return (
     <>
       <SourceOfData />
+      <ChartCases date={date} />
       <CasesCumul date={date} />
       <DeathsCumul date={date} />
       <Hospi date={date} />
