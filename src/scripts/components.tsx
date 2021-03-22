@@ -322,7 +322,7 @@ const ChartCases = ({ date }) => {
         label: "當日確診數",
         data: dataCasesCumul.map((x, i, arr) => (i > 0 ? x - arr[i - 1] : x - od[tdb(date, duration)]?.[dataName])),
         backgroundColor: "rgb(255, 97, 132, 0.2)",
-        hoverBackgroundColor: "rgb(255, 97, 132, 0.3)",
+        hoverBackgroundColor: "rgb(255, 97, 132, 0.5)",
         borderWidth: 1,
         borderColor: "rgb(231, 84, 116, 0.4)",
         hoverBorderColor: "rgb(231, 84, 116, 0.9)",
@@ -401,6 +401,14 @@ export const Grace = ({ children }) => (
   <a>
     <em>
       {gt}: {children}
+    </em>
+  </a>
+);
+
+export const Fish = ({ children }) => (
+  <a>
+    <em>
+      FISH UP: {children}
     </em>
   </a>
 );
