@@ -407,9 +407,7 @@ export const Grace = ({ children }) => (
 
 export const Fish = ({ children }) => (
   <a>
-    <em>
-      FISH UP: {children}
-    </em>
+    <em>FISH UP: {children}</em>
   </a>
 );
 
@@ -453,7 +451,7 @@ export const OfficialData = ({ date }) => {
 
 // used className `source_block`
 export const SourceFb = ({ date }) => {
-  const phrase = `以下內容整理於 ${gt} 在臉書社團中的`;
+  const phrase = `📝 以下內容整理於 ${gt} 在臉書社團中的`;
   const thisPost = "此貼文";
   const linkTitle = "前往臉書社團貼文";
   let content = <></>;
