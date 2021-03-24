@@ -279,7 +279,7 @@ const Indicators = ({ date }) => {
         ) : null}
         {Array.isArray(clusters) ? (
           <li>
-            2020/5/9 起（或第一次解封後）至 {clusters[2]} 群聚感染情況：尚在調查中的有 {bn(clusters[0])}{" "}
+            2020 年 5/9 起（或第一次解封後）至 {clusters[2]} 群聚感染情況：尚在調查中的有 {bn(clusters[0])}{" "}
             起，其中包含養老院 {bn(clusters[1])} 起
           </li>
         ) : null}
