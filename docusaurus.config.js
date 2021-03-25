@@ -64,18 +64,24 @@ module.exports = {
       },
       items: [
         {
-          to: 'journal/',
-          activeBasePath: 'journal',
-          label: '日誌',
-          position: 'left',
+          type: 'doc',
+          docId: 'preface',
+          label: '日誌序',
         },
         {
-          to: 'journal/2021/introduction',
-          label: '2021 年'
+          type: 'doc',
+          docId: '2021/introduction',
+          label: '2021 年',
         },
         {
-          to: 'journal/2020/december/31',
-          label: '2020 年'
+          type: 'doc',
+          docId: '2020/december/31',
+          label: '2020 年',
+        },
+        {
+          type: 'doc',
+          docId: 'sources',
+          label: '附錄'
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         // {

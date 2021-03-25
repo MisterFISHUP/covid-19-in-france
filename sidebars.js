@@ -1,4 +1,8 @@
 module.exports = {
+  "appendices": [
+    "sources",
+    "formatting-guidelines",
+  ],
   "2021": [
     "2021/introduction",
     {
@@ -462,5 +466,4 @@ module.exports = {
       ],
     },
   ],
-  journal: ["preface", { Docusaurus: ["doc1", "doc2", "doc3"] }, { Features: ["mdx"] }],
 };
