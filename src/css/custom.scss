@@ -82,8 +82,13 @@ html[data-theme="dark"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1em 0.5em;
-  margin-top: 2em;
   ul {
     list-style-type: none;
   }
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }

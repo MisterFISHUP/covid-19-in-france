@@ -331,11 +331,10 @@ const ChartCases = ({ date }) => {
     ],
   };
   const options = {
-    title: {
-      display: true,
-      fontSize: 24,
-      fontColor: dimNeutralGray,
-      text: "確診數近兩週走勢",
+    layout: {
+      padding: {
+        bottom: 30,
+      },
     },
     legend: {
       labels: {
@@ -384,7 +383,12 @@ const ChartCases = ({ date }) => {
       ],
     },
   };
-  return <Line data={data} options={options} />;
+  return (
+    <>
+      <div className="chart-title">確診數近兩週走勢</div>
+      <Line data={data} options={options} />
+    </>
+  );
 };
 
 // --------
