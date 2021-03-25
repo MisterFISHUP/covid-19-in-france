@@ -49,7 +49,7 @@ const CasesCumul = ({ date }) => {
     return <></>;
   } else {
     return (
-      <>
+      <div>
         <h3>🧫 累積確診數</h3>
         <ul>
           <li>
@@ -62,7 +62,7 @@ const CasesCumul = ({ date }) => {
               {!isNum(casesEhpadEmsCumulTdb) ? null : casesEhpadEmsCumul - casesEhpadEmsCumulTdb ? (
                 <em> ({bnws(casesEhpadEmsCumul - casesEhpadEmsCumulTdb)})</em>
               ) : (
-                "（未更新）"
+                <em>（未更新）</em>
               )}
             </li>
           ) : null}
@@ -79,7 +79,7 @@ const CasesCumul = ({ date }) => {
             </li>
           ) : null}
         </ul>
-      </>
+      </div>
     );
   }
 };
@@ -97,7 +97,7 @@ const DeathsCumul = ({ date }) => {
     return <></>;
   } else {
     return (
-      <>
+      <div>
         <h3>☠️ 累積死亡數</h3>
         <ul>
           {isNum(deathsCumul) ? (
@@ -116,12 +116,12 @@ const DeathsCumul = ({ date }) => {
               {!isNum(deathsEhpadEmsCumulTdb) ? null : deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb ? (
                 <em> ({bnws(deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb)})</em>
               ) : (
-                "（未更新）"
+                <em>（未更新）</em>
               )}
             </li>
           ) : null}
         </ul>
-      </>
+      </div>
     );
   }
 };
@@ -138,7 +138,7 @@ const Hospi = ({ date }) => {
     return <></>;
   } else {
     return (
-      <>
+      <div>
         <h3>🏥 住院數</h3>
         <ul>
           <li>
@@ -158,7 +158,7 @@ const Hospi = ({ date }) => {
             </li>
           ) : null}
         </ul>
-      </>
+      </div>
     );
   }
 };
@@ -175,7 +175,7 @@ const Icu = ({ date }) => {
     return <></>;
   } else {
     return (
-      <>
+      <div>
         <h3>😞 重症數</h3>
         <ul>
           <li>
@@ -195,7 +195,7 @@ const Icu = ({ date }) => {
             </li>
           ) : null}
         </ul>
-      </>
+      </div>
     );
   }
 };
@@ -208,7 +208,7 @@ const ReturnHomeCumul = ({ date }) => {
     return <></>;
   } else {
     return (
-      <>
+      <div>
         <h3>🏡 累積出院數</h3>
         <ul>
           <li>
@@ -217,7 +217,7 @@ const ReturnHomeCumul = ({ date }) => {
             {isNum(returnHomeCumultdb) ? <em> ({bnws(returnHomeCumul - returnHomeCumultdb)})</em> : null}
           </li>
         </ul>
-      </>
+      </div>
     );
   }
 };
@@ -232,7 +232,7 @@ const VacCumul = ({ date }) => {
     return <></>;
   } else {
     return (
-      <>
+      <div>
         <h3>💉 疫苗接種數</h3>
         <ul>
           <li>
@@ -246,7 +246,7 @@ const VacCumul = ({ date }) => {
             </li>
           ) : null}
         </ul>
-      </>
+      </div>
     );
   }
 };
@@ -264,7 +264,7 @@ const Indicators = ({ date }) => {
     return <></>;
   }
   return (
-    <>
+    <div>
       <h3>📊 各項指標數據</h3>
       <ul>
         {isNum(incidR) ? <li>法國每 10 萬人確診數：{bn(incidR)}</li> : null}
@@ -284,7 +284,7 @@ const Indicators = ({ date }) => {
           </li>
         ) : null}
       </ul>
-    </>
+    </div>
   );
 };
 
@@ -438,13 +438,15 @@ export const OfficialData = ({ date }) => {
     <>
       <SourceOfData />
       <ChartCases date={date} />
-      <CasesCumul date={date} />
-      <DeathsCumul date={date} />
-      <Hospi date={date} />
-      <Icu date={date} />
-      <ReturnHomeCumul date={date} />
-      <VacCumul date={date} />
-      <Indicators date={date} />
+      <div className="official_data_block">
+        <CasesCumul date={date} />
+        <DeathsCumul date={date} />
+        <Hospi date={date} />
+        <Icu date={date} />
+        <ReturnHomeCumul date={date} />
+        <VacCumul date={date} />
+        <Indicators date={date} />
+      </div>
     </>
   );
 };
