@@ -80,6 +80,7 @@ Data are entered manually.
 | vacEhpadUsldPct_date | `str` | todo | todo |
 | casesRtPcrCumul | `int` | todo | todo |
 | casesAntigCumul | `int` | todo | todo |
+| highVul | `int` | todo | todo |
 | clusters | `int` | todo | todo |
 | clusters_ehpad | `int` | todo | todo |
 | clusters_date | `str` | todo | todo |
@@ -99,6 +100,15 @@ The data of any given date is again a js object. Below is a detailed list of all
 | vac1 | `int` | (vac.csv) vac1 |
 | vac2 | `int` | (vac.csv) vac2 |
 | casesCumul | `int` | (vue-densemble.csv) casesCumul |
+| deathsCumul | `int` | (vue-densemble.csv) deathsCumul |
+| hospi | `int` | (vue-densemble.csv) hospi |
+| hospiNew | `int` | (vue-densemble.csv) hospiNew |
+| icu | `int` | (vue-densemble.csv) icu |
+| icuNew | `int` | (vue-densemble.csv) icuNew |
+| returnHomeCumul | `int` | (vue-densemble.csv) returnHomeCumul |
+| deathsHospiCumul | `int` | (vue-densemble.csv) deathsHospiCumul |
+| casesEhpadEmsCumul | `int` | (vue-densemble.csv) casesEhpadEmsCumul |
+| deathsEhpadEmsCumul | `int` | (vue-densemble.csv) deathsEhpadEmsCumul |
 | incidR | `float` | (indicators.csv) incidR |
 | icuOccupR | `float` | (indicators.csv) icuOccupR |
 | r | `float` | (indicators.csv) r|
@@ -108,4 +118,5 @@ The data of any given date is again a js object. Below is a detailed list of all
 | vacEhpadUsldPct | `array` | (spf.csv) [vacEhpadUsldPct, vacEhpadUsldPct_date] |
 | casesRtPcrCumul | `int` | (spf.csv) casesRtPcrCuul |
 | casesAntigCumul | `int` | (spf.csv) casesAntigCumul |
+| highVul | `int` | (spf.csv) highVul |
 | clusters | `array` | (spf.csv) [clusters, clusters_ehpad, clusters_date]|
