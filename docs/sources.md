@@ -11,7 +11,7 @@ description: 介紹這本法國 COVID-19 日誌內容的資料來源
 
 1. Ministère des Solidarités et de la Santé（法國社會事務及衛生部）的 [Le tableau de bord de la vaccination][vac]
 2. gouvernement.fr 的 [cartes et données][gouv_c&d] - vue d'ensemble
-3. gouvernement.fr 的 [cartes et données][gouv_c&d] - carte des indicateurs（同樣數據也可在 [data.gouv.fr][data_indic] 找到）
+3. gouvernement.fr 的 [cartes et données][gouv_c&d] - carte des indicateurs（相同數據也可在 [data.gouv.fr][data_indic] 找到）
 4. Santé publique France 的 [Coronavirus : chiffres clés et évolution de la COVID-19 en France et dans le Monde][spf]
 
 [spf]: <https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-mondea> (Santé publique France)
@@ -27,8 +27,8 @@ description: 介紹這本法國 COVID-19 日誌內容的資料來源
 ---|:---:|---
 總累計|[2][gouv_c&d]|自 2020/3/2 起
 養老院/護理院|[2][gouv_c&d]|自 2020/4/12 起至 2021/2/19，除了 2020/4/21
-RT-PCR 確診|[4][spf]|???
-抗原檢測確診|[4][spf]|???
+RT-PCR 確診|[4][spf]|自 2020/11/17 起至 2020/12/7
+抗原檢測確診|[4][spf]|自 2020/11/18 起至 2020/12/7
 
 註：日誌中數據後括號加減數值表示與前一日的數據變化。「養老院/護理院」數據未更新時，括號內會註明「未更新」。
 
@@ -48,7 +48,7 @@ RT-PCR 確診|[4][spf]|???
 ---|:---:|---
 當前|[2][gouv_c&d]|自 2020/3/15 起，除了 2020/3/16
 本日入院|[2][gouv_c&d]|自 2020/3/19 起
-過去七日入院|[4][spf]|??? 
+過去七日入院|[4][spf]|???，除了 2021/3/19 
 
 註：日誌中數據後括號加減數值表示與前一日的數據變化。「過去七日入院」數據則會跟前七日的數據相比。
 
@@ -58,7 +58,7 @@ RT-PCR 確診|[4][spf]|???
 ---|:---:|---
 當前|[2][gouv_c&d]|自 2020/3/4 起，除了 2020/3/8,13,15,16
 本日重症|[2][gouv_c&d]|自 2020/3/19 起
-過去七日重症|[4][spf]|???
+過去七日重症|[4][spf]|???，除了 2021/3/19 
 
 註：日誌中數據後括號加減數值表示與前一日的數據變化。「過去七日重症」數據則會跟前七日的數據相比。
 
@@ -87,9 +87,9 @@ RT-PCR 確診|[4][spf]|???
 重症病房佔有率|[3][data_indic]|自 2020/3/18 起
 基本傳染數 (R)|[3][data_indic]|自 2020/6/1 起
 過去七日陽性確診率|[3][data_indic]|自 2020/5/19 起
-疫情列為高度脆弱地區|[4][spf]|???
-2020 年 5/9 起（或第一次解封後）群聚感染情況|[4][spf]|???
-養老院/長照機構接種至少 1 劑疫苗比例|[4][spf]|???
+疫情列為高度脆弱地區|[4][spf]|??? 至 2021/2/7
+2020 年 5/9 起（或第一次解封後）群聚感染情況|[4][spf]|??? 至 2021/1/26
+養老院/長照機構接種至少 1 劑疫苗比例|[4][spf]|自 2021/2/8 至 2021/3/17
 
 ## 本日新聞重點 {#news}
 
