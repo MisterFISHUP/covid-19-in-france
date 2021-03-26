@@ -83,6 +83,11 @@ module.exports = {
           docId: 'sources',
           label: '附錄'
         },
+        {
+          to: 'about',
+          label: '關於本站',
+          position: 'right',
+        },
         // { to: 'blog', label: 'Blog', position: 'left' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
