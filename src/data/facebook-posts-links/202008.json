@@ -1,15 +1,15 @@
-export default {
+{
   "2020-08-31": "https://www.facebook.com/groups/279746385504501/permalink/2210212732457847/",
   "2020-08-30": [
     "https://www.facebook.com/groups/279746385504501/permalink/2209191269226660/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2208896175922836/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2208896175922836/"
   ],
   "2020-08-29": "https://www.facebook.com/groups/279746385504501/permalink/2208052219340565/",
   "2020-08-28": "https://www.facebook.com/groups/279746385504501/permalink/2206907366121717/",
   "2020-08-27": [
     "https://www.facebook.com/groups/279746385504501/permalink/2205780442901076/",
     "https://www.facebook.com/groups/279746385504501/permalink/2205650816247372/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2205335982945522/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2205335982945522/"
   ],
   "2020-08-26": "https://www.facebook.com/groups/279746385504501/permalink/2204692396343214/",
   "2020-08-25": "https://www.facebook.com/groups/279746385504501/permalink/2203619833117137/",
@@ -17,14 +17,14 @@ export default {
   "2020-08-23": "https://www.facebook.com/groups/279746385504501/permalink/2201499606662493/",
   "2020-08-22": [
     "https://www.facebook.com/groups/279746385504501/permalink/2200563480089439/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2200456823433438/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2200456823433438/"
   ],
   "2020-08-21": "https://www.facebook.com/groups/279746385504501/permalink/2199305640215223/",
   "2020-08-20": "https://www.facebook.com/groups/279746385504501/permalink/2198170270328760/",
   "2020-08-19": "https://www.facebook.com/groups/279746385504501/permalink/2197089763770144/",
   "2020-08-18": [
     "https://www.facebook.com/groups/279746385504501/permalink/2195958123883308/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2195572997255154/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2195572997255154/"
   ],
   "2020-08-17": "https://www.facebook.com/groups/279746385504501/permalink/2194853797327074/",
   "2020-08-16": "https://www.facebook.com/groups/279746385504501/permalink/2193741337438320/",
@@ -34,19 +34,19 @@ export default {
   "2020-08-12": "https://www.facebook.com/groups/279746385504501/permalink/2189147811231006/",
   "2020-08-11": [
     "https://www.facebook.com/groups/279746385504501/permalink/2187909568021497/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2187707981374989/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2187707981374989/"
   ],
   "2020-08-10": "https://www.facebook.com/groups/279746385504501/permalink/2186793321466455/",
-  // "2020-08-09": '',
+  "2020-08-09": null,
   "2020-08-08": [
     "https://www.facebook.com/groups/279746385504501/permalink/2184591255019995/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2184523895026731/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2184523895026731/"
   ],
   "2020-08-07": "https://www.facebook.com/groups/279746385504501/permalink/2183429001802887/",
   "2020-08-06": "https://www.facebook.com/groups/279746385504501/permalink/2182346951911092/",
   "2020-08-05": "https://www.facebook.com/groups/279746385504501/permalink/2181209765358144/",
   "2020-08-04": "https://www.facebook.com/groups/279746385504501/permalink/2180098228802631/",
   "2020-08-03": "https://www.facebook.com/groups/279746385504501/permalink/2179033802242407/",
-  // "2020-08-02": '',
-  // "2020-08-01": '',
-};
+  "2020-08-02": null,
+  "2020-08-01": null
+}

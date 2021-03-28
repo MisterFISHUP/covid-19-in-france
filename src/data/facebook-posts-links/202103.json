@@ -1,13 +1,13 @@
-export default {
-  // "2021-03-31": '',
-  // "2021-03-30": '',
-  // "2021-03-29": '',
-  // "2021-03-28": '',
+{
+  "2021-03-31": null,
+  "2021-03-30": null,
+  "2021-03-29": null,
+  "2021-03-28": null,
   "2021-03-27": "https://www.facebook.com/groups/279746385504501/permalink/2421082351370883/",
   "2021-03-26": "https://www.facebook.com/groups/279746385504501/permalink/2420083304804121/",
   "2021-03-25": [
     "https://www.facebook.com/groups/279746385504501/permalink/2419120658233719/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2419017871577331/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2419017871577331/"
   ],
   "2021-03-24": "https://www.facebook.com/groups/279746385504501/permalink/2418163561662762/",
   "2021-03-23": "https://www.facebook.com/groups/279746385504501/permalink/2417280941751024/",
@@ -16,32 +16,32 @@ export default {
   "2021-03-20": "https://www.facebook.com/groups/279746385504501/permalink/2414447848701000/",
   "2021-03-19": [
     "https://www.facebook.com/groups/279746385504501/permalink/2413218395490612/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2412902528855532/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2412902528855532/"
   ],
   "2021-03-18": [
     "https://www.facebook.com/groups/279746385504501/permalink/2412156468930138/",
     "https://www.facebook.com/groups/279746385504501/permalink/2412085755603876/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2411640752315043/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2411640752315043/"
   ],
   "2021-03-17": [
     "https://www.facebook.com/groups/279746385504501/permalink/2411001172379001/",
     "https://www.facebook.com/groups/279746385504501/permalink/2410879302391188/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2410445695767882/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2410445695767882/"
   ],
   "2021-03-16": "https://www.facebook.com/groups/279746385504501/permalink/2409844305828021/",
   "2021-03-15": [
     "https://www.facebook.com/groups/279746385504501/permalink/2408862415926210/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2408718879273897/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2408718879273897/"
   ],
   "2021-03-14": "https://www.facebook.com/groups/279746385504501/permalink/2407984799347305/",
   "2021-03-13": [
     "https://www.facebook.com/groups/279746385504501/permalink/2406795689466216/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2406601596152292/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2406601596152292/"
   ],
   "2021-03-12": "https://www.facebook.com/groups/279746385504501/permalink/2405722466240205/",
   "2021-03-11": [
     "https://www.facebook.com/groups/279746385504501/permalink/2404755843003534/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2404626633016455/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2404626633016455/"
   ],
   "2021-03-10": "https://www.facebook.com/groups/279746385504501/permalink/2403812093097909/",
   "2021-03-09": "https://www.facebook.com/groups/279746385504501/permalink/2402945876517864/",
@@ -51,9 +51,9 @@ export default {
   "2021-03-05": "https://www.facebook.com/groups/279746385504501/permalink/2398998180245967/",
   "2021-03-04": [
     "https://www.facebook.com/groups/279746385504501/permalink/2398034037009048/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2397918170353968/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2397918170353968/"
   ],
   "2021-03-03": "https://www.facebook.com/groups/279746385504501/permalink/2397140820431703/",
   "2021-03-02": "https://www.facebook.com/groups/279746385504501/permalink/2396241537188298/",
-  "2021-03-01": "https://www.facebook.com/groups/279746385504501/permalink/2395345260611259/",
-};
+  "2021-03-01": "https://www.facebook.com/groups/279746385504501/permalink/2395345260611259/"
+}

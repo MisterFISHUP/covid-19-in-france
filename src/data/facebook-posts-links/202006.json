@@ -1,4 +1,4 @@
-export default {
+{
   "2020-06-30": "https://www.facebook.com/groups/279746385504501/permalink/2142823985863389/",
   "2020-06-29": "https://www.facebook.com/groups/279746385504501/permalink/2141758965969891/",
   "2020-06-28": "https://www.facebook.com/groups/279746385504501/permalink/2140816809397440/",
@@ -8,7 +8,7 @@ export default {
   "2020-06-24": "https://www.facebook.com/groups/279746385504501/permalink/2136073253205129/",
   "2020-06-23": [
     "https://www.facebook.com/groups/279746385504501/permalink/2134946119984509/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2134537870025334/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2134537870025334/"
   ],
   "2020-06-22": "https://www.facebook.com/groups/279746385504501/permalink/2133918076753980/",
   "2020-06-21": "https://www.facebook.com/groups/279746385504501/permalink/2132963230182798/",
@@ -21,7 +21,7 @@ export default {
   "2020-06-14": [
     "https://www.facebook.com/groups/279746385504501/permalink/2125432977602490/",
     "https://www.facebook.com/groups/279746385504501/permalink/2125289274283527/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2124878810991240/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2124878810991240/"
   ],
   "2020-06-13": "https://www.facebook.com/groups/279746385504501/permalink/2124280104384444/",
   "2020-06-12": "https://www.facebook.com/groups/279746385504501/permalink/2123168521162269/",
@@ -36,7 +36,7 @@ export default {
   "2020-06-03": "https://www.facebook.com/groups/279746385504501/permalink/2113173575495097/",
   "2020-06-02": [
     "https://www.facebook.com/groups/279746385504501/permalink/2112173318928456/",
-    "https://www.facebook.com/groups/279746385504501/permalink/2111729838972804/",
+    "https://www.facebook.com/groups/279746385504501/permalink/2111729838972804/"
   ],
-  "2020-06-01": "https://www.facebook.com/groups/279746385504501/permalink/2110988545713600/",
-};
+  "2020-06-01": "https://www.facebook.com/groups/279746385504501/permalink/2110988545713600/"
+}

@@ -461,9 +461,6 @@ export const SourceFb = ({ date }) => {
   const thisPost = "此貼文";
   const linkTitle = "前往臉書社團貼文";
   let content = <></>;
-  if (!fbLinks.hasOwnProperty(date)) {
-    return content;
-  }
 
   if (typeof fbLinks[date] == "string") {
     content = (
@@ -475,7 +472,9 @@ export const SourceFb = ({ date }) => {
         。
       </>
     );
-  } else if (Array.isArray(fbLinks[date])) {
+    return <div className="source_block">{content}</div>;
+  }
+  if (Array.isArray(fbLinks[date])) {
     const fbLinksNum: number = fbLinks[date].length;
     content = fbLinks[date].map((link: string, i: number) => (
       <React.Fragment key={i}>
@@ -486,6 +485,8 @@ export const SourceFb = ({ date }) => {
         {i == fbLinksNum - 1 ? "。" : ""}
       </React.Fragment>
     ));
+    return <div className="source_block">{content}</div>;
   }
-  return <div className="source_block">{content}</div>;
+
+  return content;
 };
