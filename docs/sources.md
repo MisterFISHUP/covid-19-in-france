@@ -19,6 +19,10 @@ description: 介紹這本法國 COVID-19 日誌內容的資料來源
 [gouv_c&d]: <https://www.gouvernement.fr/info-coronavirus/carte-et-donnees> (cartes et données, gouvernement.fr)
 [data_indic]: <https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/> (Indicateurs de suivi de l’épidémie de COVID-19)
 
+:::caution 注意
+資料來源 [1][vac] 與 [3][data_indic] 在更新數據時，歷史數據有時也會改變。
+:::
+
 除了 2020 年 3 月 1 日也就是第一篇日誌不含法國官方數據之外，其後的每一篇日誌都有。以下介紹日誌中**法國官方數據**內的資料來源。
 
 ### 累積確診數 {#cumulative-cases}
