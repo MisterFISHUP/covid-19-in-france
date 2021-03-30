@@ -1,9 +1,7 @@
-// added `"resolveJsonModule": true,` in `tsconfig.json` in `@tsconfig/docusaurus` to import json
 import React from "react";
 import { Line } from "react-chartjs-2";
 import webLinks from "../data/website-links";
-import od from "../data/official-data/official-data.json";
-import { fbPostsLinks as fbLinks } from "../data/facebook-posts-links/all";
+import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
 import {
   beautifyNumber as bn,
   beautifyNumberWithSign as bnws,
@@ -16,7 +14,6 @@ import {
   arrayOfDates as arrD,
   toLabelDate as lblDate,
   neutralGray,
-  dimNeutralGray,
 } from "./utils";
 
 // used className `source_block`

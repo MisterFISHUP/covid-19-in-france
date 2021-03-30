@@ -1,7 +1,6 @@
 export const graceTseng: string = "Grace Tseng";
 export const startDate: string = "2020-03-01";
 export const neutralGray: string = "rgb(150, 150, 150)";
-export const dimNeutralGray: string = "rgb(110, 110, 110)";
 
 export const isNumber = (x: any) => typeof x == "number";
 
