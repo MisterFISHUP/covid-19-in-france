@@ -76,7 +76,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: '2021/introduction',
+          docId: '2021/intro',
           label: '2021 年',
         },
         {

@@ -23,4 +23,4 @@ yarn-error.log*
 /.vscode
 
 # Generated files (in docs)
-docs/20??/*/
+docs/20??/

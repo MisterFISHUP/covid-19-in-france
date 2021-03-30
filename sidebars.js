@@ -4,7 +4,7 @@ module.exports = {
     "formatting-guidelines",
   ],
   "2021": [
-    "2021/introduction",
+    "2021/intro",
     {
       "4 月": [
       //   "2021/april/30",
