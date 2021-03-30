@@ -1,6 +1,5 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import webLinks from "../data/website-links";
 import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
 import {
   beautifyNumber as bn,
@@ -19,15 +18,7 @@ import {
 // used className `source_block`
 const SourceOfData = () => (
   <div className="source_block">
-    數據來源：
-    <a href={webLinks.gouvernementFr} target="_blank">
-      gouvernement.fr
-    </a>{" "}
-    以及{" "}
-    <a href={webLinks.spf} target="_blank">
-      Santé publique France
-    </a>
-    。詳情請見...
+    數據來源在附錄的<a href="../../sources">資料來源</a>有完整說明。
   </div>
 );
 

@@ -128,32 +128,40 @@ module.exports = {
           title: '法國疫情數據',
           items: [
             {
-              label: 'Santé publique France',
-              href: 'https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde',
+              label: '官方數據儀表板',
+              href: 'https://www.gouvernement.fr/info-coronavirus/carte-et-donnees',
             },
             {
-              label: 'gouvernement.fr',
-              href: 'https://www.gouvernement.fr/info-coronavirus/carte-et-donnees',
+              label: '官方數據儀表板 - 疫情總覽',
+              href: 'https://dashboard.covid19.data.gouv.fr/vue-d-ensemble',
+            }, 
+            {
+              label: '官方數據庫',
+              href: 'https://www.data.gouv.fr/fr/pages/donnees-coronavirus',
             },
             {
               label: '法國衛生部 - 疫苗數據',
               href: 'https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '法國公共衛生局 SpF',
+              href: 'https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde',
             },
           ],
         },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: 'blog',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/facebook/docusaurus',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${siteYear} 法國 COVID-19 日誌`,
     },

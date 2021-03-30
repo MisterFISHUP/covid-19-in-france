@@ -13,7 +13,7 @@ When an entry is missing/not available, it's left empty.
 
 ### vac.csv
 
->  Source: [Le tableau de bord de la vaccination](https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination) (Suivi quotidien du nombre de personnes ayant reçu une dose ou deux doses) from Ministère des solidarités et de la santé
+>  Source: [Le tableau de bord de la vaccination](https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination) (Suivi quotidien du nombre de personnes ayant reçu une dose ou deux doses) from Ministère des solidarités et de la santé, or [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/)
 
 Data can be downloaded directly from the above source.
 
@@ -28,13 +28,13 @@ Data are all `int`.
 
 ### vue-densemble.csv
 
-> Source: gouvernement.fr/info-coronavirus >> carte et données >> [Vue d'ensemble](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
+> Source: [Tableau de bord COVID-19 Suivi de l’épidémie de COVID-19 en France - Vue d'ensemble](https://dashboard.covid19.data.gouv.fr/vue-d-ensemble) or [data.gouv.fr](https://www.data.gouv.fr/en/datasets/donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble/)
 
-Data are scraped by js codes from the above source.
+Data are scraped by js codes from the above source (first one), and can also be downloaded directly (second source). 
 
 No data are available before 2020/3/1 (included).
 
-Not using vac1 from this source (it is the same as the vac1 from the above section).
+Not using vac1 from this source (it is the same as the vac1 from the previous section).
 
 Data are all `int`.
 
@@ -53,7 +53,7 @@ Data are all `int`.
 
 ### indicators.csv
 
-> Sources: gouvernement.fr/info-coronavirus >> carte et données >> [carte des indicateurs](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees) or [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
+> Source: [Tableau de bord COVID-19 Suivi de l’épidémie de COVID-19 en France - Carte des indicateurs](https://dashboard.covid19.data.gouv.fr/suivi-indicateurs) or [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
 
 Data can be downloaded directly from the second source.
 

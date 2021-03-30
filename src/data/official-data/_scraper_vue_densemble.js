@@ -1,4 +1,4 @@
-// https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+// https://dashboard.covid19.data.gouv.fr/suivi-indicateurs
 // scrape data for `vue-densemble.csv` (on large screens)
 // copy the following two functions `scrapeOneDay` & `scrapeCSV`
 // and paste in the console
