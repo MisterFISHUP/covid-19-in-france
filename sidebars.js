@@ -6,7 +6,7 @@ module.exports = {
   "2021": [
     "2021/introduction",
     {
-      // "4 月": [
+      "4 月": [
       //   "2021/april/30",
       //   "2021/april/29",
       //   "2021/april/28",
@@ -36,8 +36,8 @@ module.exports = {
       //   "2021/april/4",
       //   "2021/april/3",
       //   "2021/april/2",
-      //   "2021/april/1",
-      // ],
+        "2021/april/1",
+      ],
       "3 月": [
         // "2021/march/31",
         // "2021/march/30",
@@ -60,11 +60,11 @@ module.exports = {
         // "2021/march/13",
         // "2021/march/12",
         // "2021/march/11",
-        "2021/march/10",
-        "2021/march/9",
-        "2021/march/8",
-        "2021/march/7",
-        "2021/march/6",
+        // "2021/march/10",
+        // "2021/march/9",
+        // "2021/march/8",
+        // "2021/march/7",
+        // "2021/march/6",
         "2021/march/5",
         "2021/march/4",
         "2021/march/3",
@@ -101,7 +101,7 @@ module.exports = {
         // "2021/february/2",
         "2021/february/1",
       ],
-      // "1 月": [
+      "1 月": [
       //   "2021/january/31",
       //   "2021/january/30",
       //   "2021/january/29",
@@ -132,8 +132,8 @@ module.exports = {
       //   "2021/january/4",
       //   "2021/january/3",
       //   "2021/january/2",
-      //   "2021/january/1",
-      // ],
+        "2021/january/1",
+      ],
     },
   ],
   "2020": [
@@ -169,9 +169,9 @@ module.exports = {
         // "2020/december/4",
         // "2020/december/3",
         // "2020/december/2",
-        // "2020/december/1",
+        "2020/december/1",
       ],
-      // "11 月": [
+      "11 月": [
       //   "2020/november/30",
       //   "2020/november/29",
       //   "2020/november/28",
@@ -201,9 +201,9 @@ module.exports = {
       //   "2020/november/4",
       //   "2020/november/3",
       //   "2020/november/2",
-      //   "2020/november/1",
-      // ],
-      // "10 月": [
+        "2020/november/1",
+      ],
+      "10 月": [
       //   "2020/october/31",
       //   "2020/october/30",
       //   "2020/october/29",
@@ -234,9 +234,9 @@ module.exports = {
       //   "2020/october/4",
       //   "2020/october/3",
       //   "2020/october/2",
-      //   "2020/october/1",
-      // ],
-      // "9 月": [
+        "2020/october/1",
+      ],
+      "9 月": [
       //   "2020/september/30",
       //   "2020/september/29",
       //   "2020/september/28",
@@ -266,9 +266,9 @@ module.exports = {
       //   "2020/september/4",
       //   "2020/september/3",
       //   "2020/september/2",
-      //   "2020/september/1",
-      // ],
-      // "8 月": [
+        "2020/september/1",
+      ],
+      "8 月": [
       //   "2020/august/31",
       //   "2020/august/30",
       //   "2020/august/29",
@@ -299,9 +299,9 @@ module.exports = {
       //   "2020/august/4",
       //   "2020/august/3",
       //   "2020/august/2",
-      //   "2020/august/1",
-      // ],
-      // "7 月": [
+        "2020/august/1",
+      ],
+      "7 月": [
       //   "2020/july/31",
       //   "2020/july/30",
       //   "2020/july/29",
@@ -332,9 +332,9 @@ module.exports = {
       //   "2020/july/4",
       //   "2020/july/3",
       //   "2020/july/2",
-      //   "2020/july/1",
-      // ],
-      // "6 月": [
+        "2020/july/1",
+      ],
+      "6 月": [
       //   "2020/june/30",
       //   "2020/june/29",
       //   "2020/june/28",
@@ -364,9 +364,9 @@ module.exports = {
       //   "2020/june/4",
       //   "2020/june/3",
       //   "2020/june/2",
-      //   "2020/june/1",
-      // ],
-      // "5 月": [
+        "2020/june/1",
+      ],
+      "5 月": [
       //   "2020/may/31",
       //   "2020/may/30",
       //   "2020/may/29",
@@ -397,9 +397,9 @@ module.exports = {
       //   "2020/may/4",
       //   "2020/may/3",
       //   "2020/may/2",
-      //   "2020/may/1",
-      // ],
-      // "4 月": [
+        "2020/may/1",
+      ],
+      "4 月": [
       //   "2020/april/30",
       //   "2020/april/29",
       //   "2020/april/28",
@@ -429,8 +429,8 @@ module.exports = {
       //   "2020/april/4",
       //   "2020/april/3",
       //   "2020/april/2",
-      //   "2020/april/1",
-      // ],
+        "2020/april/1",
+      ],
       "3 月": [
         //   "2020/march/31",
         //   "2020/march/30",
