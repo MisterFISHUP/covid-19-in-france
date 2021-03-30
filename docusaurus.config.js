@@ -106,7 +106,7 @@ module.exports = {
           items: [
             {
               label: '2021 年',
-              to: 'journal/2021/introduction',
+              to: 'journal/2021/',
             },
             {
               label: '2020 年',
