@@ -14,13 +14,19 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Mister FISH UP', // Usually your GitHub org/user name.
-  // projectName: 'covid-19-in-france', // Usually your repo name.
+  projectName: 'covid-19-in-france', // Usually your repo name.
   i18n: {
     defaultLocale: 'zh-Hant',
-    locales: ['zh-Hant'],
+    locales: ['zh-Hant', 'zh-Hans', 'en'],
     localeConfigs: {
       'zh-Hant': {
         label: '正體中文',
+      },
+      'zh-Hans': {
+        label: '简体中文',
+      },
+      en: {
+        label: 'English',
       },
     },
   },
@@ -86,6 +92,10 @@ module.exports = {
         {
           to: 'about',
           label: '關於本站',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
