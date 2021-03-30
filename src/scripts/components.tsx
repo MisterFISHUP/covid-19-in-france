@@ -15,9 +15,9 @@ import {
   neutralGray,
 } from "./utils";
 
-// used className `source_block`
+// used className `comment--translc_gray`
 const SourceOfData = () => (
-  <div className="source_block">
+  <div className="comment--translc_gray">
     數據來源在附錄的<a href="../../sources">資料來源</a>有完整說明。
   </div>
 );
@@ -443,7 +443,7 @@ export const OfficialData = ({ date }) => {
   );
 };
 
-// used className `source_block`
+// used className `comment--translc_gray`
 export const SourceFb = ({ date }) => {
   const phrase = `📝 以下內容整理於 ${gt} 在臉書社團中的`;
   const thisPost = "此貼文";
@@ -460,7 +460,7 @@ export const SourceFb = ({ date }) => {
         。
       </>
     );
-    return <div className="source_block">{content}</div>;
+    return <div className="comment--translc_gray">{content}</div>;
   }
   if (Array.isArray(fbLinks[date])) {
     const fbLinksNum: number = fbLinks[date].length;
@@ -473,7 +473,7 @@ export const SourceFb = ({ date }) => {
         {i == fbLinksNum - 1 ? "。" : ""}
       </React.Fragment>
     ));
-    return <div className="source_block">{content}</div>;
+    return <div className="comment--translc_gray">{content}</div>;
   }
 
   return content;
