@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "法国 COVID-19 日志",
+    "description": "The title in the navbar"
+  },
+  "item.label.日誌序": {
+    "message": "日志序",
+    "description": "Navbar item with label 日誌序"
+  },
+  "item.label.2021 年": {
+    "message": "2021 年",
+    "description": "Navbar item with label 2021 年"
+  },
+  "item.label.2020 年": {
+    "message": "2020 年",
+    "description": "Navbar item with label 2020 年"
+  },
+  "item.label.附錄": {
+    "message": "附录",
+    "description": "Navbar item with label 附錄"
+  },
+  "item.label.關於本站": {
+    "message": "关于本站",
+    "description": "Navbar item with label 關於本站"
+  }
+}

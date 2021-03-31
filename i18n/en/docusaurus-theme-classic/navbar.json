@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Journal of Covid-19 in France",
+    "description": "The title in the navbar"
+  },
+  "item.label.日誌序": {
+    "message": "Preface",
+    "description": "Navbar item with label 日誌序"
+  },
+  "item.label.2021 年": {
+    "message": "2021",
+    "description": "Navbar item with label 2021 年"
+  },
+  "item.label.2020 年": {
+    "message": "2020",
+    "description": "Navbar item with label 2020 年"
+  },
+  "item.label.附錄": {
+    "message": "Appendices",
+    "description": "Navbar item with label 附錄"
+  },
+  "item.label.關於本站": {
+    "message": "About",
+    "description": "Navbar item with label 關於本站"
+  }
+}

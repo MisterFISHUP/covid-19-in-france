@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.2020.category.12 月": {
+    "message": "December",
+    "description": "The label for category 12 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.11 月": {
+    "message": "November",
+    "description": "The label for category 11 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.10 月": {
+    "message": "October",
+    "description": "The label for category 10 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.9 月": {
+    "message": "September",
+    "description": "The label for category 9 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.8 月": {
+    "message": "August",
+    "description": "The label for category 8 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.7 月": {
+    "message": "July",
+    "description": "The label for category 7 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.6 月": {
+    "message": "June",
+    "description": "The label for category 6 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.5 月": {
+    "message": "May",
+    "description": "The label for category 5 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.4 月": {
+    "message": "April",
+    "description": "The label for category 4 月 in sidebar 2020"
+  },
+  "sidebar.2020.category.3 月": {
+    "message": "March",
+    "description": "The label for category 3 月 in sidebar 2020"
+  },
+  "sidebar.2021.category.4 月": {
+    "message": "April",
+    "description": "The label for category 4 月 in sidebar 2021"
+  },
+  "sidebar.2021.category.3 月": {
+    "message": "March",
+    "description": "The label for category 3 月 in sidebar 2021"
+  },
+  "sidebar.2021.category.2 月": {
+    "message": "February",
+    "description": "The label for category 2 月 in sidebar 2021"
+  },
+  "sidebar.2021.category.1 月": {
+    "message": "January",
+    "description": "The label for category 1 月 in sidebar 2021"
+  }
+}

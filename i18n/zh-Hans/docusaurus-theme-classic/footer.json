@@ -1,0 +1,42 @@
+{
+  "link.title.日誌": {
+    "message": "日志",
+    "description": "The title of the footer links column with title=日誌 in the footer"
+  },
+  "link.title.法國疫情數據": {
+    "message": "法国疫情数据",
+    "description": "The title of the footer links column with title=法國疫情數據 in the footer"
+  },
+  "link.item.label.2021 年": {
+    "message": "2021 年",
+    "description": "The label of footer link with label=2021 年 linking to journal/2021/"
+  },
+  "link.item.label.2020 年": {
+    "message": "2020 年",
+    "description": "The label of footer link with label=2020 年 linking to journal/2020/december/31"
+  },
+  "link.item.label.官方數據儀表板": {
+    "message": "官方数据仪表板",
+    "description": "The label of footer link with label=官方數據儀表板 linking to https://www.gouvernement.fr/info-coronavirus/carte-et-donnees"
+  },
+  "link.item.label.官方數據儀表板 - 疫情總覽": {
+    "message": "官方数据仪表板 - 疫情总览",
+    "description": "The label of footer link with label=官方數據儀表板 - 疫情總覽 linking to https://dashboard.covid19.data.gouv.fr/vue-d-ensemble"
+  },
+  "link.item.label.官方數據庫": {
+    "message": "官方数据库",
+    "description": "The label of footer link with label=官方數據庫 linking to https://www.data.gouv.fr/fr/pages/donnees-coronavirus"
+  },
+  "link.item.label.法國衛生部 - 疫苗數據": {
+    "message": "法国卫生部 - 疫苗数据",
+    "description": "The label of footer link with label=法國衛生部 - 疫苗數據 linking to https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination"
+  },
+  "link.item.label.法國公共衛生局 SpF": {
+    "message": "法国公共卫生局 SpF",
+    "description": "The label of footer link with label=法國公共衛生局 SpF linking to https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 法国 COVID-19 日志",
+    "description": "The footer copyright"
+  }
+}
