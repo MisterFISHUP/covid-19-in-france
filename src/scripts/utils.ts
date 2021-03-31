@@ -19,10 +19,16 @@ export const toYYYYMM = (d: string): string => {
   return d.slice(0, 4) + d.slice(5, 7);
 }
 
-// ex: '2021-01-01' -> '1/1', '2021-12-1' -> '12/1'
-export const toLabelDate = (d: string): string => {
+// ex: '2021-01-02' -> '1/2', '2021-12-01' -> '12/1'
+export const toLabelDateMD = (d: string): string => {
   const [yyyy, mm, dd] = d.split("-");
   return `${Number(mm)}/${Number(dd)}`
+}
+
+// ex: '2021-01-02' -> '2/1', '2021-12-01' -> '1/12'
+export const toLabelDateDM = (d: string): string => {
+  const [yyyy, mm, dd] = d.split("-");
+  return `${Number(dd)}/${Number(mm)}`
 }
 
 // ex: '2021-01-01' -> '2020-12-31' (or n = 2 => '2020-12-30')

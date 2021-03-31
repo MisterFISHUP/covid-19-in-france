@@ -11,7 +11,8 @@ import {
   isNumber as isNum,
   toYYYYMM,
   arrayOfDates as arrD,
-  toLabelDate as lblDate,
+  toLabelDateMD as lblDateMD,
+  toLabelDateDM as lblDateDM,
   neutralGray,
 } from "./utils";
 
@@ -314,7 +315,7 @@ export const Fish = ({ children }) => (
   </a>
 );
 
-// date is necessary; if srcx is absent, img will be the main img
+// date is required; if srcx is absent, img will be the main img
 // used className: `img-journal`, `caption`
 export const Figure = ({ date, srcx, children }) => {
   const folder = `/img/journal/${toYYYYMM(date)}/`;
@@ -351,7 +352,8 @@ export const Figure = ({ date, srcx, children }) => {
   );
 };
 
-export const ChartCases = ({ date }) => {
+// date is required; dataFmt is optional: with string 'd/m', the chart will have day/month date labels
+export const ChartCases = ({ date, dateFmt }) => {
   const duration = 14;
   const renderChartThold = 5;
   const dataName = "casesCumul";
@@ -368,10 +370,14 @@ export const ChartCases = ({ date }) => {
   const suggestedMin = Math.max(0, dataMin - 2 * stepSize);
 
   const data = {
-    labels: listOfDates.map(lblDate),
+    labels: dateFmt == "d/m" ? listOfDates.map(lblDateDM) : listOfDates.map(lblDateMD),
     datasets: [
       {
-        label: "總累計",
+        label: translate({
+          id: "journalPageCompo.chartCases.label.total",
+          message: "總累計",
+          description: "Label for total cases in ChartCases",
+        }),
         data: dataCasesCumul,
         fill: false,
         pointBackgroundColor: "rgb(54, 162, 235, 1)",
@@ -382,7 +388,11 @@ export const ChartCases = ({ date }) => {
       },
       {
         type: "bar",
-        label: "當日確診數",
+        label: translate({
+          id: "journalPageCompo.chartCases.label.new",
+          message: "當日確診數",
+          description: "Label for new cases in ChartCases",
+        }),
         data: dataCasesCumul.map((x, i, arr) => (i > 0 ? x - arr[i - 1] : x - od[tdb(date, duration)]?.[dataName])),
         backgroundColor: "rgb(255, 97, 132, 0.2)",
         hoverBackgroundColor: "rgb(255, 97, 132, 0.5)",
@@ -448,7 +458,11 @@ export const ChartCases = ({ date }) => {
   };
   return (
     <>
-      <div className="chart-title">確診數近兩週走勢</div>
+      <div className="chart-title">
+        <Translate id="journalPageCompo.chartCases.title" description="Title of ChartCases">
+          確診數近兩週走勢
+        </Translate>
+      </div>
       <Line data={data} options={options} />
     </>
   );

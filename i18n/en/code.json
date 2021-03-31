@@ -162,5 +162,17 @@
   "journalPageCompo.figureCaption": {
     "message": "Covid-19 in France on {d} {month_en} {y}",
     "description": "Default img caption"
+  },
+  "journalPageCompo.chartCases.label.total": {
+    "message": "Total cases",
+    "description": "Label for total cases in ChartCases"
+  },
+  "journalPageCompo.chartCases.label.new": {
+    "message": "New cases",
+    "description": "Label for new cases in ChartCases"
+  },
+  "journalPageCompo.chartCases.title": {
+    "message": "Confirmed cases - Trend over the last two weeks",
+    "description": "Title of ChartCases"
   }
 }

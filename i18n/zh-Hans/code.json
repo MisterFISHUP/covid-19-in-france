@@ -162,5 +162,17 @@
   "journalPageCompo.figureCaption": {
     "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报",
     "description": "Default img caption"
+  },
+  "journalPageCompo.chartCases.label.total": {
+    "message": "总累计",
+    "description": "Label for total cases in ChartCases"
+  },
+  "journalPageCompo.chartCases.label.new": {
+    "message": "当日确诊数",
+    "description": "Label for new cases in ChartCases"
+  },
+  "journalPageCompo.chartCases.title": {
+    "message": "确诊数近两週走势",
+    "description": "Title of ChartCases"
   }
 }
