@@ -14,12 +14,6 @@ export const beautifyNumber = (x: number): string => {
 // ex: 1234.567 -> '+1,234.57'
 export const beautifyNumberWithSign = (x: number): string => (x >= 0 ? "+" + beautifyNumber(x) : beautifyNumber(x));
 
-// ex: '2020-12-01' -> '2020 年 12 月 1 日'
-export const toZhDate = (d: string): string => {
-  const [yyyy, mm, dd] = d.split("-");
-  return `${yyyy} 年 ${mm.replace(/^0/, "")} 月 ${dd.replace(/^0/, "")} 日`;
-};
-
 // ex: '2020-12-01' -> '202012'
 export const toYYYYMM = (d: string): string => {
   return d.slice(0, 4) + d.slice(5, 7);

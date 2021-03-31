@@ -5,7 +5,6 @@ import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
 import {
   beautifyNumber as bn,
   beautifyNumberWithSign as bnws,
-  toZhDate as zhDate,
   theDayBefore as tdb,
   graceTseng as gt,
   startDate,
@@ -394,7 +393,7 @@ export const Subtitle = ({ date }) => {
   return (
     <p className="subtitle">
       <Translate
-        id="journal_page_compo.subtitle"
+        id="journalPageCompo.subtitle"
         description="subtitle of journal pages"
         values={{
           y: yyyy,
@@ -430,7 +429,22 @@ export const Fish = ({ children }) => (
 export const Figure = ({ date, srcx, children }) => {
   const folder = `/img/journal/${toYYYYMM(date)}/`;
   const fileName = `covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`;
-  const caption = children ? children : `${zhDate(date)}法國新冠疫情匯報`;
+
+  const [yyyy, mm, dd] = date.split("-");
+  const dateObj = new Date(date);
+  const month_en = dateObj.toLocaleString("en", { month: "long" });
+  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
+
+  const caption = children
+    ? children
+    : translate(
+        {
+          id: "journalPageCompo.figureCaption",
+          message: "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
+          description: "Default img caption",
+        },
+        { y: yyyy, m: mm.replace(/^0/, ""), d: dd.replace(/^0/, ""), month_en: month_en, month_fr: month_fr }
+      );
 
   const getText = (reactElem: any): string => {
     if (typeof reactElem == "string") return reactElem;
