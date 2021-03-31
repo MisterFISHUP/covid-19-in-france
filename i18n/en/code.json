@@ -174,5 +174,17 @@
   "journalPageCompo.chartCases.title": {
     "message": "Confirmed cases - Trend over the last two weeks",
     "description": "Title of ChartCases"
+  },
+  "journalPageCompo.vacCumul.title": {
+    "message": "💉 Cumulative vaccinations",
+    "description": "The header in VacCumul"
+  },
+  "journalPageCompo.vacCumul.vac1": {
+    "message": "First doses: ",
+    "description": "The description for vac1 in VacCumul"
+  },
+  "journalPageCompo.vacCumul.vac2": {
+    "message": "Second doses: ",
+    "description": "The description for vac2 in VacCumul"
   }
 }

@@ -215,15 +215,25 @@ const VacCumul = ({ date }) => {
   } else {
     return (
       <div>
-        <h3>💉 疫苗接種數</h3>
+        <h3>
+          <Translate id="journalPageCompo.vacCumul.title" description="The header in VacCumul">
+            💉 疫苗接種數
+          </Translate>
+        </h3>
         <ul>
           <li>
-            第 1 劑接種累計：{bn(vac1)}
+            <Translate id="journalPageCompo.vacCumul.vac1" description="The description for vac1 in VacCumul">
+              第 1 劑接種累計：
+            </Translate>
+            {bn(vac1)}
             {isNum(vac1Tdb) ? <em> ({bnws(vac1 - vac1Tdb)})</em> : null}
           </li>
           {isNum(vac2) ? (
             <li>
-              第 2 劑接種累計：{bn(vac2)}
+              <Translate id="journalPageCompo.vacCumul.vac2" description="The description for vac2 in VacCumul">
+                第 2 劑接種累計：
+              </Translate>
+              {bn(vac2)}
               {isNum(vac2Tdb) ? <em> ({bnws(vac2 - vac2Tdb)})</em> : null}
             </li>
           ) : null}

@@ -174,5 +174,17 @@
   "journalPageCompo.chartCases.title": {
     "message": "确诊数近两週走势",
     "description": "Title of ChartCases"
+  },
+  "journalPageCompo.vacCumul.title": {
+    "message": "💉 疫苗接种数",
+    "description": "The header in VacCumul"
+  },
+  "journalPageCompo.vacCumul.vac1": {
+    "message": "第 1 剂接种累计：",
+    "description": "The description for vac1 in VacCumul"
+  },
+  "journalPageCompo.vacCumul.vac2": {
+    "message": "第 2 剂接种累计：",
+    "description": "The description for vac2 in VacCumul"
   }
 }
