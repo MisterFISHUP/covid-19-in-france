@@ -154,5 +154,9 @@
   "theme.common.skipToMainContent": {
     "message": "跳到主要内容",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "journal_page_compo.subtitle": {
+    "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。日志第 {n} 篇。",
+    "description": "subtitle of journal pages"
   }
 }

@@ -154,5 +154,9 @@
   "theme.common.skipToMainContent": {
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "journal_page_compo.subtitle": {
+    "message": "Covid-19 in France on {d} {month_en} {y}. Journal Day {n}.",
+    "description": "subtitle of journal pages"
   }
 }

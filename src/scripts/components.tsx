@@ -1,5 +1,6 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+import Translate, { translate } from "@docusaurus/Translate";
 import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
 import {
   beautifyNumber as bn,
@@ -385,8 +386,29 @@ const ChartCases = ({ date }) => {
 
 // used className `subtitle`
 export const Subtitle = ({ date }) => {
-  const n = (Date.parse(date) - Date.parse(startDate)) / 864e5;
-  return <p className="subtitle">{`${zhDate(date)}法國新冠肺炎疫情匯報。日誌第 ${n + 1} 篇。`}</p>;
+  const n = 1 + (Date.parse(date) - Date.parse(startDate)) / 864e5;
+  const [yyyy, mm, dd] = date.split("-");
+  const dateObj = new Date(date);
+  const month_en = dateObj.toLocaleString("en", { month: "long" });
+  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
+  return (
+    <p className="subtitle">
+      <Translate
+        id="journal_page_compo.subtitle"
+        description="subtitle of journal pages"
+        values={{
+          y: yyyy,
+          m: mm.replace(/^0/, ""),
+          d: dd.replace(/^0/, ""),
+          month_en: month_en,
+          month_fr: month_fr,
+          n: n,
+        }}
+      >
+        {"{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。日誌第 {n} 篇。"}
+      </Translate>
+    </p>
+  );
 };
 
 export const Grace = ({ children }) => (
