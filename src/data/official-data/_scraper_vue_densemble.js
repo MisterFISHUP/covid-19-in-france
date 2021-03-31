@@ -1,4 +1,4 @@
-// https://dashboard.covid19.data.gouv.fr/suivi-indicateurs
+// https://dashboard.covid19.data.gouv.fr/vue-d-ensemble
 // scrape data for `vue-densemble.csv` (on large screens)
 // copy the following two functions `scrapeOneDay` & `scrapeCSV`
 // and paste in the console
@@ -85,23 +85,28 @@ function scrapeCSV(n) {
   }
 }
 
-// travel back to date = YYYY-MM-DD
+// go to date `YYYY-MM-DD`
 function goTo(date) {
-  const btn = document.querySelector('.jsx-2989278273.report-nav');
-  if (btn == null) {
-    console.log("Can't find the button. Please try again.");
-    return;
+  try {
+    // get curDate
+    const [dd, mm, yyyy] = document.querySelector("h3.jsx-2989278273").textContent.slice(11).split("/");
+    const curDate = `${yyyy}-${mm}-${dd}`;
+
+    // the given `date` is `n` days before or after
+    const n = (Date.parse(curDate) - Date.parse(date)) / 864e5;
+    const nAbs = Math.abs(n);
+
+    // get btn
+    const btns = document.querySelectorAll('.jsx-2989278273.report-nav');
+    const btn = n > 0 ? btns[0] : btns[1];
+
+    console.log(`Start jumping to ${nAbs} day${nAbs > 1 ? "s" : ""} ${n > 0 ? "before" : "after"}...`);
+    for (i = 1; i <= nAbs; i++) {
+      btn.click();
+      if (i % 30 == 0) console.log(`> already jumped ${i} days...`);
+    }
+    console.log(`Finished! Now on ${date}.`);
+  } catch (err) {
+    console.error(err);
   }
-
-  // the given `date` is `n` days before
-  const n = Math.floor((new Date() - Date.parse(date)) / 864e5);
-  console.log(`Go to ${n} day${n > 0 ? "s" : ""} before`)
-
-  // click the button n times
-  for (i = 1; i <= n; i++) {
-    btn.click();
-    if (i % 30 == 0) console.log(`Looped ${i} days already...`)
-  }
-
-  console.log(`Loop finished! Back to ${n} day${n > 0 ? "s" : ""} before.`);
 }
