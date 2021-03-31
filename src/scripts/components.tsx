@@ -15,13 +15,6 @@ import {
   neutralGray,
 } from "./utils";
 
-// used className `comment--translc_gray`
-const SourceOfData = () => (
-  <div className="comment--translc_gray">
-    數據來源在附錄的<a href="../../sources">資料來源</a>有完整說明。
-  </div>
-);
-
 // not empty if `casesCumul` exists for the date
 const CasesCumul = ({ date }) => {
   const casesCumul = od[date]?.casesCumul;
@@ -276,7 +269,89 @@ const Indicators = ({ date }) => {
   );
 };
 
-const ChartCases = ({ date }) => {
+// --------
+// EXPORTS
+// --------
+
+// used className `subtitle`
+export const Subtitle = ({ date }) => {
+  const n = 1 + (Date.parse(date) - Date.parse(startDate)) / 864e5;
+  const [yyyy, mm, dd] = date.split("-");
+  const dateObj = new Date(date);
+  const month_en = dateObj.toLocaleString("en", { month: "long" });
+  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
+  return (
+    <p className="subtitle">
+      <Translate
+        id="journalPageCompo.subtitle"
+        description="subtitle of journal pages"
+        values={{
+          y: yyyy,
+          m: mm.replace(/^0/, ""),
+          d: dd.replace(/^0/, ""),
+          month_en: month_en,
+          month_fr: month_fr,
+          n: n,
+        }}
+      >
+        {"{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。日誌第 {n} 篇。"}
+      </Translate>
+    </p>
+  );
+};
+
+export const Grace = ({ children }) => (
+  <a>
+    <em>
+      {gt}: {children}
+    </em>
+  </a>
+);
+
+export const Fish = ({ children }) => (
+  <a>
+    <em>FISH UP: {children}</em>
+  </a>
+);
+
+// date is necessary; if srcx is absent, img will be the main img
+// used className: `img-journal`, `caption`
+export const Figure = ({ date, srcx, children }) => {
+  const folder = `/img/journal/${toYYYYMM(date)}/`;
+  const fileName = `covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`;
+
+  const [yyyy, mm, dd] = date.split("-");
+  const dateObj = new Date(date);
+  const month_en = dateObj.toLocaleString("en", { month: "long" });
+  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
+
+  const caption = children
+    ? children
+    : translate(
+        {
+          id: "journalPageCompo.figureCaption",
+          message: "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
+          description: "Default img caption",
+        },
+        { y: yyyy, m: mm.replace(/^0/, ""), d: dd.replace(/^0/, ""), month_en: month_en, month_fr: month_fr }
+      );
+
+  const getText = (reactElem: any): string => {
+    if (typeof reactElem == "string") return reactElem;
+    if (Array.isArray(reactElem)) return reactElem.map(getText).join("");
+    if (typeof reactElem === "object") return getText(reactElem.props.children);
+    return "";
+  };
+
+  return (
+    <>
+      <img src={folder + fileName} className="img-journal" alt={getText(caption)} title={getText(caption)} />
+      <div className="caption">{caption}</div>
+    </>
+  );
+};
+
+export const ChartCases = ({ date }) => {
   const duration = 14;
   const renderChartThold = 5;
   const dataName = "casesCumul";
@@ -379,103 +454,17 @@ const ChartCases = ({ date }) => {
   );
 };
 
-// --------
-// EXPORTS
-// --------
-
-// used className `subtitle`
-export const Subtitle = ({ date }) => {
-  const n = 1 + (Date.parse(date) - Date.parse(startDate)) / 864e5;
-  const [yyyy, mm, dd] = date.split("-");
-  const dateObj = new Date(date);
-  const month_en = dateObj.toLocaleString("en", { month: "long" });
-  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
-  return (
-    <p className="subtitle">
-      <Translate
-        id="journalPageCompo.subtitle"
-        description="subtitle of journal pages"
-        values={{
-          y: yyyy,
-          m: mm.replace(/^0/, ""),
-          d: dd.replace(/^0/, ""),
-          month_en: month_en,
-          month_fr: month_fr,
-          n: n,
-        }}
-      >
-        {"{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。日誌第 {n} 篇。"}
-      </Translate>
-    </p>
-  );
-};
-
-export const Grace = ({ children }) => (
-  <a>
-    <em>
-      {gt}: {children}
-    </em>
-  </a>
-);
-
-export const Fish = ({ children }) => (
-  <a>
-    <em>FISH UP: {children}</em>
-  </a>
-);
-
-// date is necessary; if srcx is absent, img will be the main img
-// used className: `img-journal`, `caption`
-export const Figure = ({ date, srcx, children }) => {
-  const folder = `/img/journal/${toYYYYMM(date)}/`;
-  const fileName = `covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`;
-
-  const [yyyy, mm, dd] = date.split("-");
-  const dateObj = new Date(date);
-  const month_en = dateObj.toLocaleString("en", { month: "long" });
-  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
-
-  const caption = children
-    ? children
-    : translate(
-        {
-          id: "journalPageCompo.figureCaption",
-          message: "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
-          description: "Default img caption",
-        },
-        { y: yyyy, m: mm.replace(/^0/, ""), d: dd.replace(/^0/, ""), month_en: month_en, month_fr: month_fr }
-      );
-
-  const getText = (reactElem: any): string => {
-    if (typeof reactElem == "string") return reactElem;
-    if (Array.isArray(reactElem)) return reactElem.map(getText).join("");
-    if (typeof reactElem === "object") return getText(reactElem.props.children);
-    return "";
-  };
-
-  return (
-    <>
-      <img src={folder + fileName} className="img-journal" alt={getText(caption)} title={getText(caption)} />
-      <div className="caption">{caption}</div>
-    </>
-  );
-};
-
 export const OfficialData = ({ date }) => {
   return (
-    <>
-      <SourceOfData />
-      <ChartCases date={date} />
-      <div className="official_data_block">
-        <CasesCumul date={date} />
-        <DeathsCumul date={date} />
-        <Hospi date={date} />
-        <Icu date={date} />
-        <ReturnHomeCumul date={date} />
-        <VacCumul date={date} />
-        <Indicators date={date} />
-      </div>
-    </>
+    <div className="official_data_block">
+      <CasesCumul date={date} />
+      <DeathsCumul date={date} />
+      <Hospi date={date} />
+      <Icu date={date} />
+      <ReturnHomeCumul date={date} />
+      <VacCumul date={date} />
+      <Indicators date={date} />
+    </div>
   );
 };
 
