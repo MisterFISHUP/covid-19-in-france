@@ -157,7 +157,7 @@
   },
   "comp.VacCumul.title": {
     "message": "💉 Cumulative vaccinations",
-    "description": "The header in VacCumul"
+    "description": "The header of VacCumul"
   },
   "comp.VacCumul.vac1": {
     "message": "First doses: ",
@@ -186,5 +186,37 @@
   "comp.ChartCases.title": {
     "message": "Confirmed cases - Trend over the last two weeks",
     "description": "The title of ChartCases"
+  },
+  "comp.Indicators.title": {
+    "message": "📊 Monitoring indicators",
+    "description": "The header of Indicators"
+  },
+  "comp.Indicators.incidR": {
+    "message": "Incidence rate: ",
+    "description": "The description for incidR in Indicators"
+  },
+  "comp.Indicators.icuOccupR": {
+    "message": "ICU bed occupancy rate: ",
+    "description": "The description for icuOccupR in Indicators"
+  },
+  "comp.Indicators.r": {
+    "message": "Effective reproduction number (R): ",
+    "description": "The description for r in Indicators"
+  },
+  "comp.Indicators.posR": {
+    "message": "RT-PCR positivity rate:",
+    "description": "The description for posR in Indicators"
+  },
+  "comp.Indicators.highVul": {
+    "message": "Number of departments in a highly vulnerable situation: {highVul}",
+    "description": "The line for highVul in Indicators"
+  },
+  "comp.Indicators.vacEhpadUsldPct": {
+    "message": "Proportion of residents in EHPAD/long-term care units having received at least one dose of vaccine: {pct}% (up to {dateDM})",
+    "description": "The line for vacEhpadUsldPct in Indicators"
+  },
+  "comp.Indicators.clusters": {
+    "message": "Number of clusters under investigation from 9/5 in 2020 up to {dateDM}: {clustersTotal}, including  {clustersEhpad} in EHPAD",
+    "description": "The line for clusters in Indicators"
   }
 }

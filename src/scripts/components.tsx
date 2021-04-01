@@ -13,6 +13,7 @@ import {
   arrayOfDates as arrD,
   toLabelDateMD as lblDateMD,
   toLabelDateDM as lblDateDM,
+  reverseMDLabelDate as revMD,
   neutralGray,
 } from "./utils";
 
@@ -216,7 +217,7 @@ const VacCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.VacCumul.title" description="The header in VacCumul">
+          <Translate id="comp.VacCumul.title" description="The header of VacCumul">
             💉 疫苗接種數
           </Translate>
         </h3>
@@ -257,22 +258,80 @@ const Indicators = ({ date }) => {
   }
   return (
     <div>
-      <h3>📊 各項指標數據</h3>
+      <h3>
+        <Translate id="comp.Indicators.title" description="The header of Indicators">
+          📊 各項指標數據
+        </Translate>
+      </h3>
       <ul>
-        {isNum(incidR) ? <li>法國每 10 萬人確診數：{bn(incidR)}</li> : null}
-        <li>重症病房佔有率：{bn(icuOccupR)}%</li>
-        {isNum(r) ? <li>基本傳染數 (R)：{bn(r)}</li> : null}
-        {isNum(posR) ? <li>過去七日陽性確診率：{bn(posR)}%</li> : null}
-        {isNum(highVul) ? <li>疫情列為高度脆弱地區：共 {highVul} 區</li> : null}
+        {isNum(incidR) ? (
+          <li>
+            <Translate id="comp.Indicators.incidR" description="The description for incidR in Indicators">
+              法國每 10 萬人確診數：
+            </Translate>
+            {bn(incidR)}
+          </li>
+        ) : null}
+        <li>
+          <Translate id="comp.Indicators.icuOccupR" description="The description for icuOccupR in Indicators">
+            重症病房佔有率：
+          </Translate>
+          {bn(icuOccupR)}%
+        </li>
+        {isNum(r) ? (
+          <li>
+            <Translate id="comp.Indicators.r" description="The description for r in Indicators">
+              基本傳染數 (R)：
+            </Translate>
+            {bn(r)}
+          </li>
+        ) : null}
+        {isNum(posR) ? (
+          <li>
+            <Translate id="comp.Indicators.posR" description="The description for posR in Indicators">
+              RT-PCR 陽性確診率：
+            </Translate>
+            {bn(posR)}%
+          </li>
+        ) : null}
+        {isNum(highVul) ? (
+          <li>
+            <Translate
+              id="comp.Indicators.highVul"
+              description="The line for highVul in Indicators"
+              values={{ highVul: highVul }}
+            >
+              {"疫情列為高度脆弱地區：共 {highVul} 區"}
+            </Translate>
+          </li>
+        ) : null}
         {Array.isArray(vacEhpadUsldPct) ? (
           <li>
-            養老院/長照機構接種至少 1 劑疫苗比例：{bn(vacEhpadUsldPct[0])}%（截至 {vacEhpadUsldPct[1]}）
+            <Translate
+              id="comp.Indicators.vacEhpadUsldPct"
+              description="The line for vacEhpadUsldPct in Indicators"
+              values={{ pct: bn(vacEhpadUsldPct[0]), dateMD: vacEhpadUsldPct[1], dateDM: revMD(vacEhpadUsldPct[1]) }}
+            >
+              {"養老院/長照機構接種至少 1 劑疫苗比例：{pct}%（截至 {dateMD}）"}
+            </Translate>
           </li>
         ) : null}
         {Array.isArray(clusters) ? (
           <li>
-            2020 年 5/9 起（或第一次解封後）至 {clusters[2]} 群聚感染情況：尚在調查中的有 {bn(clusters[0])}{" "}
-            起，其中包含養老院 {bn(clusters[1])} 起
+            <Translate
+              id="comp.Indicators.clusters"
+              description="The line for clusters in Indicators"
+              values={{
+                clustersTotal: bn(clusters[0]),
+                clustersEhpad: bn(clusters[1]),
+                dateMD: clusters[2],
+                dateDM: revMD(clusters[2]),
+              }}
+            >
+              {
+                "2020 年 5/9 起（或第一次解封後）至 {dateMD} 群聚感染情況：尚在調查中的有 {clustersTotal} 起，其中包含養老院 {clustersEhpad} 起"
+              }
+            </Translate>
           </li>
         ) : null}
       </ul>

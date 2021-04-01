@@ -157,7 +157,7 @@
   },
   "comp.VacCumul.title": {
     "message": "💉 疫苗接种数",
-    "description": "The header in VacCumul"
+    "description": "The header of VacCumul"
   },
   "comp.VacCumul.vac1": {
     "message": "第 1 剂接种累计：",
@@ -186,5 +186,37 @@
   "comp.ChartCases.title": {
     "message": "确诊数近两週走势",
     "description": "The title of ChartCases"
+  },
+  "comp.Indicators.title": {
+    "message": "📊 各项指标数据",
+    "description": "The header of Indicators"
+  },
+  "comp.Indicators.incidR": {
+    "message": "法国每 10 万人确诊数：",
+    "description": "The description for incidR in Indicators"
+  },
+  "comp.Indicators.icuOccupR": {
+    "message": "重症病房佔有率：",
+    "description": "The description for icuOccupR in Indicators"
+  },
+  "comp.Indicators.r": {
+    "message": "基本传染数 (R)：",
+    "description": "The description for r in Indicators"
+  },
+  "comp.Indicators.posR": {
+    "message": "RT-PCR 阳性确诊率：",
+    "description": "The description for posR in Indicators"
+  },
+  "comp.Indicators.highVul": {
+    "message": "疫情列为高度脆弱地区：共 {highVul} 区",
+    "description": "The line for highVul in Indicators"
+  },
+  "comp.Indicators.vacEhpadUsldPct": {
+    "message": "养老院/长照机构接种至少 1 剂疫苗比例：{pct}%（截至 {dateMD}）",
+    "description": "The line for vacEhpadUsldPct in Indicators"
+  },
+  "comp.Indicators.clusters": {
+    "message": "2020 年 5/9 起（或第一次解封后）至 {dateMD} 群聚感染情况：尚在调查中的有 {clustersTotal} 起，其中包含养老院 {clustersEhpad} 起",
+    "description": "The line for clusters in Indicators"
   }
 }
