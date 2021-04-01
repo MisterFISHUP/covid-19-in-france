@@ -192,10 +192,19 @@ const ReturnHomeCumul = ({ date }) => {
   } else {
     return (
       <div>
-        <h3>🏡 累積出院數</h3>
+        <h3>
+          <Translate id="comp.ReturnHomeCumul.title" description="The heading of ReturnHomeCumul">
+            🏡 累積出院數
+          </Translate>
+        </h3>
         <ul>
           <li>
-            總累計：
+            <Translate
+              id="comp.ReturnHomeCumul.returnHomeCumul"
+              description="The description for returnHomeCumul in ReturnHomeCumul"
+            >
+              總累計：
+            </Translate>
             {bn(returnHomeCumul)}
             {isNum(returnHomeCumultdb) ? <em> ({bnws(returnHomeCumul - returnHomeCumultdb)})</em> : null}
           </li>
@@ -217,7 +226,7 @@ const VacCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.VacCumul.title" description="The header of VacCumul">
+          <Translate id="comp.VacCumul.title" description="The heading of VacCumul">
             💉 疫苗接種數
           </Translate>
         </h3>
@@ -259,7 +268,7 @@ const Indicators = ({ date }) => {
   return (
     <div>
       <h3>
-        <Translate id="comp.Indicators.title" description="The header of Indicators">
+        <Translate id="comp.Indicators.title" description="The heading of Indicators">
           📊 各項指標數據
         </Translate>
       </h3>

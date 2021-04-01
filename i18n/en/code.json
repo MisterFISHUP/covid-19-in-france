@@ -157,7 +157,7 @@
   },
   "comp.VacCumul.title": {
     "message": "💉 Cumulative vaccinations",
-    "description": "The header of VacCumul"
+    "description": "The heading of VacCumul"
   },
   "comp.VacCumul.vac1": {
     "message": "First doses: ",
@@ -189,7 +189,7 @@
   },
   "comp.Indicators.title": {
     "message": "📊 Monitoring indicators",
-    "description": "The header of Indicators"
+    "description": "The heading of Indicators"
   },
   "comp.Indicators.incidR": {
     "message": "Incidence rate: ",
@@ -218,5 +218,13 @@
   "comp.Indicators.clusters": {
     "message": "Number of clusters under investigation from 9/5 in 2020 up to {dateDM}: {clustersTotal}, including  {clustersEhpad} in EHPAD",
     "description": "The line for clusters in Indicators"
+  },
+  "comp.ReturnHomeCumul.title": {
+    "message": "🏡 Hospital discharges",
+    "description": "The heading of ReturnHomeCumul"
+  },
+  "comp.ReturnHomeCumul.returnHomeCumul": {
+    "message": "Total: ",
+    "description": "The description for returnHomeCumul in ReturnHomeCumul"
   }
 }

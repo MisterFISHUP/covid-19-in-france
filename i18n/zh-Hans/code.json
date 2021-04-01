@@ -157,7 +157,7 @@
   },
   "comp.VacCumul.title": {
     "message": "💉 疫苗接种数",
-    "description": "The header of VacCumul"
+    "description": "The heading of VacCumul"
   },
   "comp.VacCumul.vac1": {
     "message": "第 1 剂接种累计：",
@@ -189,7 +189,7 @@
   },
   "comp.Indicators.title": {
     "message": "📊 各项指标数据",
-    "description": "The header of Indicators"
+    "description": "The heading of Indicators"
   },
   "comp.Indicators.incidR": {
     "message": "法国每 10 万人确诊数：",
@@ -218,5 +218,13 @@
   "comp.Indicators.clusters": {
     "message": "2020 年 5/9 起（或第一次解封后）至 {dateMD} 群聚感染情况：尚在调查中的有 {clustersTotal} 起，其中包含养老院 {clustersEhpad} 起",
     "description": "The line for clusters in Indicators"
+  },
+  "comp.ReturnHomeCumul.title": {
+    "message": "🏡 累积出院数",
+    "description": "The heading of ReturnHomeCumul"
+  },
+  "comp.ReturnHomeCumul.returnHomeCumul": {
+    "message": "总累计：",
+    "description": "The description for returnHomeCumul in ReturnHomeCumul"
   }
 }
