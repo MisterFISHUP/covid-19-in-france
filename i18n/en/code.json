@@ -226,5 +226,45 @@
   "comp.ReturnHomeCumul.returnHomeCumul": {
     "message": "Total: ",
     "description": "The description for returnHomeCumul in ReturnHomeCumul"
+  },
+  "comp.Hospi.title": {
+    "message": "🏥 Hospitalisations",
+    "description": "The heading of Hospi"
+  },
+  "comp.Hospi.hospi": {
+    "message": "Total: ",
+    "description": "The description for hospi in Hospi"
+  },
+  "comp.Hospi.hospiNew": {
+    "message": "In the last 24 hours: ",
+    "description": "The description for hospiNew in Hospi"
+  },
+  "comp.Hospi.hospiWeek": {
+    "message": "In the last week: ",
+    "description": "The description for hospiWeek in Hospi"
+  },
+  "comp.Hospi.hospiWeekVar": {
+    "message": " (compared with last week {hospiWeekVar})",
+    "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
+  },
+  "comp.Icu.title": {
+    "message": "😞 ICU admissions",
+    "description": "The heading of Icu"
+  },
+  "comp.Icu.icu": {
+    "message": "Total: ",
+    "description": "The description for icu in Icu"
+  },
+  "comp.Icu.icuNew": {
+    "message": "In the last 24 hours: ",
+    "description": "The description for icuNew in Icu"
+  },
+  "comp.Icu.icuWeek": {
+    "message": "In the last week: ",
+    "description": "The description for icuWeek in Icu"
+  },
+  "comp.Icu.icuWeekVar": {
+    "message": " (compared with last week {icuWeekVar})",
+    "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   }
 }

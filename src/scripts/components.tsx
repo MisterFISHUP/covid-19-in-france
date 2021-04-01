@@ -122,22 +122,45 @@ const Hospi = ({ date }) => {
   } else {
     return (
       <div>
-        <h3>🏥 住院數</h3>
+        <h3>
+          <Translate id="comp.Hospi.title" description="The heading of Hospi">
+            🏥 住院數
+          </Translate>
+        </h3>
         <ul>
           <li>
-            當前：{bn(hospi)}
+            <Translate id="comp.Hospi.hospi" description="The description for hospi in Hospi">
+              當前：
+            </Translate>
+            {bn(hospi)}
             {isNum(hospiTdb) ? <em> ({bnws(hospi - hospiTdb)})</em> : null}
           </li>
           {isNum(hospiNew) ? (
             <li>
-              本日入院：{bn(hospiNew)}
+              <Translate id="comp.Hospi.hospiNew" description="The description for hospiNew in Hospi">
+                本日入院：
+              </Translate>
+              {bn(hospiNew)}
               {isNum(hospiNewTdb) ? <em> ({bnws(hospiNew - hospiNewTdb)})</em> : null}
             </li>
           ) : null}
           {isNum(hospiWeek) ? (
             <li>
-              過去七日入院：{bn(hospiWeek)}
-              {isNum(hospiWeekWb) ? <em>（與七日前數據相比 {bnws(hospiWeek - hospiWeekWb)}）</em> : null}
+              <Translate id="comp.Hospi.hospiWeek" description="The description for hospiWeek in Hospi">
+                過去七日入院：
+              </Translate>
+              {bn(hospiWeek)}
+              {isNum(hospiWeekWb) ? (
+                <em>
+                  <Translate
+                    id="comp.Hospi.hospiWeekVar"
+                    description="The weekly variation of hospiWeek in Hospi, inside parentheses"
+                    values={{ hospiWeekVar: bnws(hospiWeek - hospiWeekWb) }}
+                  >
+                    {"（與七日前數據相比 {hospiWeekVar}）"}
+                  </Translate>
+                </em>
+              ) : null}
             </li>
           ) : null}
         </ul>
@@ -159,22 +182,45 @@ const Icu = ({ date }) => {
   } else {
     return (
       <div>
-        <h3>😞 重症數</h3>
+        <h3>
+          <Translate id="comp.Icu.title" description="The heading of Icu">
+            😞 重症數
+          </Translate>
+        </h3>
         <ul>
           <li>
-            當前：{bn(icu)}
+            <Translate id="comp.Icu.icu" description="The description for icu in Icu">
+              當前：
+            </Translate>
+            {bn(icu)}
             {isNum(icuTdb) ? <em> ({bnws(icu - icuTdb)})</em> : null}
           </li>
           {isNum(icuNew) ? (
             <li>
-              本日重症：{bn(icuNew)}
+              <Translate id="comp.Icu.icuNew" description="The description for icuNew in Icu">
+                本日重症：
+              </Translate>
+              {bn(icuNew)}
               {isNum(icuNewTdb) ? <em> ({bnws(icuNew - icuNewTdb)})</em> : null}
             </li>
           ) : null}
           {isNum(icuWeek) ? (
             <li>
-              過去七日重症：{bn(icuWeek)}
-              {isNum(icuWeekWb) ? <em>（與七日前數據相比 {bnws(icuWeek - icuWeekWb)}）</em> : null}
+              <Translate id="comp.Icu.icuWeek" description="The description for icuWeek in Icu">
+                過去七日重症：
+              </Translate>
+              {bn(icuWeek)}
+              {isNum(icuWeekWb) ? (
+                <em>
+                  <Translate
+                    id="comp.Icu.icuWeekVar"
+                    description="The weekly variation of icuWeek in Icu, inside parentheses"
+                    values={{ icuWeekVar: bnws(icuWeek - icuWeekWb) }}
+                  >
+                    {"（與七日前數據相比 {icuWeekVar}）"}
+                  </Translate>
+                </em>
+              ) : null}
             </li>
           ) : null}
         </ul>

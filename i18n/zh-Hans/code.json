@@ -226,5 +226,45 @@
   "comp.ReturnHomeCumul.returnHomeCumul": {
     "message": "总累计：",
     "description": "The description for returnHomeCumul in ReturnHomeCumul"
+  },
+  "comp.Hospi.title": {
+    "message": "🏥 住院数",
+    "description": "The heading of Hospi"
+  },
+  "comp.Hospi.hospi": {
+    "message": "当前：",
+    "description": "The description for hospi in Hospi"
+  },
+  "comp.Hospi.hospiNew": {
+    "message": "本日入院：",
+    "description": "The description for hospiNew in Hospi"
+  },
+  "comp.Hospi.hospiWeek": {
+    "message": "过去七日入院：",
+    "description": "The description for hospiWeek in Hospi"
+  },
+  "comp.Hospi.hospiWeekVar": {
+    "message": "（与七日前数据相比 {hospiWeekVar}）",
+    "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
+  },
+  "comp.Icu.title": {
+    "message": "😞 重症数",
+    "description": "The heading of Icu"
+  },
+  "comp.Icu.icu": {
+    "message": "当前：",
+    "description": "The description for icu in Icu"
+  },
+  "comp.Icu.icuNew": {
+    "message": "本日重症：",
+    "description": "The description for icuNew in Icu"
+  },
+  "comp.Icu.icuWeek": {
+    "message": "过去七日重症：",
+    "description": "The description for icuWeek in Icu"
+  },
+  "comp.Icu.icuWeekVar": {
+    "message": "（与七日前数据相比 {icuWeekVar}）",
+    "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   }
 }
