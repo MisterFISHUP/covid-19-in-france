@@ -328,7 +328,7 @@ export const Fish = ({ children }) => (
 // date is required; if srcx is absent, img will be the main img
 // used className: `img-digest`, `caption`
 export const Figure = ({ date, srcx, children }) => {
-  const folder = `/img/journal/${toYYYYMM(date)}/`;
+  const folder = `/img/digest/${toYYYYMM(date)}/`;
   const fileName = `covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`;
 
   const [yyyy, mm, dd] = date.split("-");
