@@ -156,7 +156,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "comp.VacCumul.title": {
-    "message": "💉 Cumulative vaccinations",
+    "message": "💉 Cumulative Vaccinations",
     "description": "The heading of VacCumul"
   },
   "comp.VacCumul.vac1": {
@@ -188,7 +188,7 @@
     "description": "The title of ChartCases"
   },
   "comp.Indicators.title": {
-    "message": "📊 Monitoring indicators",
+    "message": "📊 Monitoring Indicators",
     "description": "The heading of Indicators"
   },
   "comp.Indicators.incidR": {
@@ -220,7 +220,7 @@
     "description": "The line for clusters in Indicators"
   },
   "comp.ReturnHomeCumul.title": {
-    "message": "🏡 Hospital discharges",
+    "message": "🏡 Hospital Discharges",
     "description": "The heading of ReturnHomeCumul"
   },
   "comp.ReturnHomeCumul.returnHomeCumul": {
@@ -248,7 +248,7 @@
     "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
   },
   "comp.Icu.title": {
-    "message": "😞 ICU admissions",
+    "message": "😞 ICU Admissions",
     "description": "The heading of Icu"
   },
   "comp.Icu.icu": {
@@ -268,7 +268,7 @@
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   },
   "comp.CasesCumul.title": {
-    "message": "🧫 Cumulative confirmed cases",
+    "message": "🧫 Cumulative Confirmed Cases",
     "description": "The heading of CasesCumul"
   },
   "comp.CasesCumul.casesCumul": {
@@ -292,7 +292,7 @@
     "description": "The description for casesAntigCumul in CasesCumul"
   },
   "comp.DeathsCumul.title": {
-    "message": "☠️ Cumulative deaths",
+    "message": "☠️ Cumulative Deaths",
     "description": "The heading of DeathsCumul"
   },
   "comp.DeathsCumul.deathsCumul": {
