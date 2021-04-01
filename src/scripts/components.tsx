@@ -24,9 +24,7 @@ const CasesCumul = ({ date }) => {
   const casesEhpadEmsCumul = od[date]?.casesEhpadEmsCumul;
   const casesEhpadEmsCumulTdb = od[tdb(date)]?.casesEhpadEmsCumul;
   const casesRtPcrCumul = od[date]?.casesRtPcrCumul;
-  const casesRtPcrCumulTdb = od[tdb(date)]?.casesRtPcrCumul;
   const casesAntigCumul = od[date]?.casesAntigCumul;
-  const casesAntigCumulTdb = od[tdb(date)]?.casesAntigCumul;
 
   if (!isNum(casesCumul)) {
     return <></>;
@@ -78,7 +76,6 @@ const CasesCumul = ({ date }) => {
                 新增 RT-PCR 確診：
               </Translate>
               {bn(casesRtPcrCumul)}
-              {isNum(casesRtPcrCumulTdb) ? <em> ({bnws(casesRtPcrCumul - casesRtPcrCumulTdb)})</em> : null}
             </li>
           ) : null}
           {isNum(casesAntigCumul) ? (
@@ -90,7 +87,6 @@ const CasesCumul = ({ date }) => {
                 新增抗原檢測確診：
               </Translate>
               {bn(casesAntigCumul)}
-              {isNum(casesAntigCumulTdb) ? <em> ({bnws(casesAntigCumul - casesAntigCumulTdb)})</em> : null}
             </li>
           ) : null}
         </ul>
