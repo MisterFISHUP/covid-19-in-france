@@ -155,36 +155,36 @@
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
-  "journalPageCompo.subtitle": {
-    "message": "Covid-19 in France on {d} {month_en} {y}. Journal Day {n}.",
-    "description": "subtitle of journal pages"
-  },
-  "journalPageCompo.figureCaption": {
-    "message": "Covid-19 in France on {d} {month_en} {y}",
-    "description": "Default img caption"
-  },
-  "journalPageCompo.chartCases.label.total": {
-    "message": "Total cases",
-    "description": "Label for total cases in ChartCases"
-  },
-  "journalPageCompo.chartCases.label.new": {
-    "message": "New cases",
-    "description": "Label for new cases in ChartCases"
-  },
-  "journalPageCompo.chartCases.title": {
-    "message": "Confirmed cases - Trend over the last two weeks",
-    "description": "Title of ChartCases"
-  },
-  "journalPageCompo.vacCumul.title": {
+  "comp.VacCumul.title": {
     "message": "💉 Cumulative vaccinations",
     "description": "The header in VacCumul"
   },
-  "journalPageCompo.vacCumul.vac1": {
+  "comp.VacCumul.vac1": {
     "message": "First doses: ",
     "description": "The description for vac1 in VacCumul"
   },
-  "journalPageCompo.vacCumul.vac2": {
+  "comp.VacCumul.vac2": {
     "message": "Second doses: ",
     "description": "The description for vac2 in VacCumul"
+  },
+  "comp.Subtitle": {
+    "message": "Daily digest of COVID-19 in France on {d} {month_en} {y}. Day {n}.",
+    "description": "The subtitle of a daily digest"
+  },
+  "comp.Figure.defaultCaption": {
+    "message": "Covid-19 in France on {d} {month_en} {y}",
+    "description": "The default image caption in Figure"
+  },
+  "comp.ChartCases.label.total": {
+    "message": "Total cases",
+    "description": "The label for total cases in ChartCases"
+  },
+  "comp.ChartCases.label.new": {
+    "message": "New cases",
+    "description": "The label for new cases in ChartCases"
+  },
+  "comp.ChartCases.title": {
+    "message": "Confirmed cases - Trend over the last two weeks",
+    "description": "The title of ChartCases"
   }
 }

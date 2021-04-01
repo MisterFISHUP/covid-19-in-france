@@ -216,13 +216,13 @@ const VacCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="journalPageCompo.vacCumul.title" description="The header in VacCumul">
+          <Translate id="comp.VacCumul.title" description="The header in VacCumul">
             💉 疫苗接種數
           </Translate>
         </h3>
         <ul>
           <li>
-            <Translate id="journalPageCompo.vacCumul.vac1" description="The description for vac1 in VacCumul">
+            <Translate id="comp.VacCumul.vac1" description="The description for vac1 in VacCumul">
               第 1 劑接種累計：
             </Translate>
             {bn(vac1)}
@@ -230,7 +230,7 @@ const VacCumul = ({ date }) => {
           </li>
           {isNum(vac2) ? (
             <li>
-              <Translate id="journalPageCompo.vacCumul.vac2" description="The description for vac2 in VacCumul">
+              <Translate id="comp.VacCumul.vac2" description="The description for vac2 in VacCumul">
                 第 2 劑接種累計：
               </Translate>
               {bn(vac2)}
@@ -294,8 +294,8 @@ export const Subtitle = ({ date }) => {
   return (
     <p className="subtitle">
       <Translate
-        id="journalPageCompo.subtitle"
-        description="subtitle of journal pages"
+        id="comp.Subtitle"
+        description="The subtitle of a daily digest"
         values={{
           y: yyyy,
           m: mm.replace(/^0/, ""),
@@ -340,9 +340,9 @@ export const Figure = ({ date, srcx, children }) => {
     ? children
     : translate(
         {
-          id: "journalPageCompo.figureCaption",
+          id: "comp.Figure.defaultCaption",
           message: "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
-          description: "Default img caption",
+          description: "The default image caption in Figure",
         },
         { y: yyyy, m: mm.replace(/^0/, ""), d: dd.replace(/^0/, ""), month_en: month_en, month_fr: month_fr }
       );
@@ -384,9 +384,9 @@ export const ChartCases = ({ date, dateFmt }) => {
     datasets: [
       {
         label: translate({
-          id: "journalPageCompo.chartCases.label.total",
+          id: "comp.ChartCases.label.total",
           message: "總累計",
-          description: "Label for total cases in ChartCases",
+          description: "The label for total cases in ChartCases",
         }),
         data: dataCasesCumul,
         fill: false,
@@ -399,9 +399,9 @@ export const ChartCases = ({ date, dateFmt }) => {
       {
         type: "bar",
         label: translate({
-          id: "journalPageCompo.chartCases.label.new",
+          id: "comp.ChartCases.label.new",
           message: "當日確診數",
-          description: "Label for new cases in ChartCases",
+          description: "The label for new cases in ChartCases",
         }),
         data: dataCasesCumul.map((x, i, arr) => (i > 0 ? x - arr[i - 1] : x - od[tdb(date, duration)]?.[dataName])),
         backgroundColor: "rgb(255, 97, 132, 0.2)",
@@ -469,7 +469,7 @@ export const ChartCases = ({ date, dateFmt }) => {
   return (
     <>
       <div className="chart-title">
-        <Translate id="journalPageCompo.chartCases.title" description="Title of ChartCases">
+        <Translate id="comp.ChartCases.title" description="The title of ChartCases">
           確診數近兩週走勢
         </Translate>
       </div>

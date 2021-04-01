@@ -155,36 +155,36 @@
     "message": "跳到主要内容",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
-  "journalPageCompo.subtitle": {
-    "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。日志第 {n} 篇。",
-    "description": "subtitle of journal pages"
-  },
-  "journalPageCompo.figureCaption": {
-    "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报",
-    "description": "Default img caption"
-  },
-  "journalPageCompo.chartCases.label.total": {
-    "message": "总累计",
-    "description": "Label for total cases in ChartCases"
-  },
-  "journalPageCompo.chartCases.label.new": {
-    "message": "当日确诊数",
-    "description": "Label for new cases in ChartCases"
-  },
-  "journalPageCompo.chartCases.title": {
-    "message": "确诊数近两週走势",
-    "description": "Title of ChartCases"
-  },
-  "journalPageCompo.vacCumul.title": {
+  "comp.VacCumul.title": {
     "message": "💉 疫苗接种数",
     "description": "The header in VacCumul"
   },
-  "journalPageCompo.vacCumul.vac1": {
+  "comp.VacCumul.vac1": {
     "message": "第 1 剂接种累计：",
     "description": "The description for vac1 in VacCumul"
   },
-  "journalPageCompo.vacCumul.vac2": {
+  "comp.VacCumul.vac2": {
     "message": "第 2 剂接种累计：",
     "description": "The description for vac2 in VacCumul"
+  },
+  "comp.Subtitle": {
+    "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。日志第 {n} 篇。",
+    "description": "The subtitle of a daily digest"
+  },
+  "comp.Figure.defaultCaption": {
+    "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报",
+    "description": "The default image caption in Figure"
+  },
+  "comp.ChartCases.label.total": {
+    "message": "总累计",
+    "description": "The label for total cases in ChartCases"
+  },
+  "comp.ChartCases.label.new": {
+    "message": "当日确诊数",
+    "description": "The label for new cases in ChartCases"
+  },
+  "comp.ChartCases.title": {
+    "message": "确诊数近两週走势",
+    "description": "The title of ChartCases"
   }
 }
