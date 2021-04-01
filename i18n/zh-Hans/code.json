@@ -266,5 +266,49 @@
   "comp.Icu.icuWeekVar": {
     "message": "（与七日前数据相比 {icuWeekVar}）",
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
+  },
+  "comp.CasesCumul.title": {
+    "message": "🧫 累积确诊数",
+    "description": "The heading of CasesCumul"
+  },
+  "comp.CasesCumul.casesCumul": {
+    "message": "总累计：",
+    "description": "The description for casesCumul in CasesCumul"
+  },
+  "comp.CasesCumul.casesEhpadEmsCumul": {
+    "message": "养老院/护理院：",
+    "description": "The description for casesEhpadEmsCumul in CasesCumul"
+  },
+  "comp.CasesCumul.noUpdateEhpadEms": {
+    "message": "（未更新）",
+    "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
+  },
+  "comp.CasesCumul.casesRtPcrCumul": {
+    "message": "新增 RT-PCR 确诊：",
+    "description": "The description for casesRtPcrCumul in CasesCumul"
+  },
+  "comp.CasesCumul.casesAntigCumul": {
+    "message": "新增抗原检测确诊：",
+    "description": "The description for casesAntigCumul in CasesCumul"
+  },
+  "comp.DeathsCumul.title": {
+    "message": "☠️ 累积死亡数",
+    "description": "The heading of DeathsCumul"
+  },
+  "comp.DeathsCumul.deathsCumul": {
+    "message": "总累计：",
+    "description": "The description for deathsCumul in DeathsCumul"
+  },
+  "comp.DeathsCumul.deathsHospiCumul": {
+    "message": "医院：",
+    "description": "The description for deathsHospiCumul in DeathsCumul"
+  },
+  "comp.DeathsCumul.deathsEhpadEmsCumul": {
+    "message": "养老院/护理院：",
+    "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
+  },
+  "comp.DeathsCumul.noUpdateEhpadEms": {
+    "message": "（未更新）",
+    "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
   }
 }

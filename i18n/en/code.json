@@ -266,5 +266,49 @@
   "comp.Icu.icuWeekVar": {
     "message": " (compared with last week {icuWeekVar})",
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
+  },
+  "comp.CasesCumul.title": {
+    "message": "🧫 Cumulative confirmed cases",
+    "description": "The heading of CasesCumul"
+  },
+  "comp.CasesCumul.casesCumul": {
+    "message": "Total: ",
+    "description": "The description for casesCumul in CasesCumul"
+  },
+  "comp.CasesCumul.casesEhpadEmsCumul": {
+    "message": "EHPAD/EMS: ",
+    "description": "The description for casesEhpadEmsCumul in CasesCumul"
+  },
+  "comp.CasesCumul.noUpdateEhpadEms": {
+    "message": " (no update)",
+    "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
+  },
+  "comp.CasesCumul.casesRtPcrCumul": {
+    "message": "New RT-PCR confirmed: ",
+    "description": "The description for casesRtPcrCumul in CasesCumul"
+  },
+  "comp.CasesCumul.casesAntigCumul": {
+    "message": "New antigen confirmed: ",
+    "description": "The description for casesAntigCumul in CasesCumul"
+  },
+  "comp.DeathsCumul.title": {
+    "message": "☠️ Cumulative deaths",
+    "description": "The heading of DeathsCumul"
+  },
+  "comp.DeathsCumul.deathsCumul": {
+    "message": "Total: ",
+    "description": "The description for deathsCumul in DeathsCumul"
+  },
+  "comp.DeathsCumul.deathsHospiCumul": {
+    "message": "Hospital: ",
+    "description": "The description for deathsHospiCumul in DeathsCumul"
+  },
+  "comp.DeathsCumul.deathsEhpadEmsCumul": {
+    "message": "EHPAD/EMS: ",
+    "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
+  },
+  "comp.DeathsCumul.noUpdateEhpadEms": {
+    "message": " (no update)",
+    "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
   }
 }

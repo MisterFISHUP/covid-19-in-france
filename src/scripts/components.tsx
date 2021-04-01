@@ -33,31 +33,63 @@ const CasesCumul = ({ date }) => {
   } else {
     return (
       <div>
-        <h3>🧫 累積確診數</h3>
+        <h3>
+          <Translate id="comp.CasesCumul.title" description="The heading of CasesCumul">
+            🧫 累積確診數
+          </Translate>
+        </h3>
         <ul>
           <li>
-            總累計：{bn(casesCumul)}
+            <Translate id="comp.CasesCumul.casesCumul" description="The description for casesCumul in CasesCumul">
+              總累計：
+            </Translate>
+            {bn(casesCumul)}
             {isNum(casesCumulTdb) ? <em> ({bnws(casesCumul - casesCumulTdb)})</em> : null}
           </li>
           {isNum(casesEhpadEmsCumul) ? (
             <li>
-              養老院/護理院：{bn(casesEhpadEmsCumul)}
+              <Translate
+                id="comp.CasesCumul.casesEhpadEmsCumul"
+                description="The description for casesEhpadEmsCumul in CasesCumul"
+              >
+                養老院/護理院：
+              </Translate>
+              {bn(casesEhpadEmsCumul)}
               {!isNum(casesEhpadEmsCumulTdb) ? null : casesEhpadEmsCumul - casesEhpadEmsCumulTdb ? (
                 <em> ({bnws(casesEhpadEmsCumul - casesEhpadEmsCumulTdb)})</em>
               ) : (
-                <em>（未更新）</em>
+                <em>
+                  <Translate
+                    id="comp.CasesCumul.noUpdateEhpadEms"
+                    description="The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
+                  >
+                    （未更新）
+                  </Translate>
+                </em>
               )}
             </li>
           ) : null}
           {isNum(casesRtPcrCumul) ? (
             <li>
-              RT-PCR 確診：{bn(casesRtPcrCumul)}
+              <Translate
+                id="comp.CasesCumul.casesRtPcrCumul"
+                description="The description for casesRtPcrCumul in CasesCumul"
+              >
+                新增 RT-PCR 確診：
+              </Translate>
+              {bn(casesRtPcrCumul)}
               {isNum(casesRtPcrCumulTdb) ? <em> ({bnws(casesRtPcrCumul - casesRtPcrCumulTdb)})</em> : null}
             </li>
           ) : null}
           {isNum(casesAntigCumul) ? (
             <li>
-              抗原檢測確診：{bn(casesAntigCumul)}
+              <Translate
+                id="comp.CasesCumul.casesAntigCumul"
+                description="The description for casesAntigCumul in CasesCumul"
+              >
+                新增抗原檢測確診：
+              </Translate>
+              {bn(casesAntigCumul)}
               {isNum(casesAntigCumulTdb) ? <em> ({bnws(casesAntigCumul - casesAntigCumulTdb)})</em> : null}
             </li>
           ) : null}
@@ -81,25 +113,51 @@ const DeathsCumul = ({ date }) => {
   } else {
     return (
       <div>
-        <h3>☠️ 累積死亡數</h3>
+        <h3>
+          <Translate id="comp.DeathsCumul.title" description="The heading of DeathsCumul">
+            ☠️ 累積死亡數
+          </Translate>
+        </h3>
         <ul>
           {isNum(deathsCumul) ? (
             <li>
-              總累計：{bn(deathsCumul)}
+              <Translate id="comp.DeathsCumul.deathsCumul" description="The description for deathsCumul in DeathsCumul">
+                總累計：
+              </Translate>
+              {bn(deathsCumul)}
               {isNum(deathsCumulTdb) ? <em> ({bnws(deathsCumul - deathsCumulTdb)})</em> : null}
             </li>
           ) : null}
           <li>
-            醫院：{bn(deathsHospiCumul)}
+            <Translate
+              id="comp.DeathsCumul.deathsHospiCumul"
+              description="The description for deathsHospiCumul in DeathsCumul"
+            >
+              醫院：
+            </Translate>
+            {bn(deathsHospiCumul)}
             {isNum(deathsHospiCumulTdb) ? <em> ({bnws(deathsHospiCumul - deathsHospiCumulTdb)})</em> : null}
           </li>
           {isNum(deathsEhpadEmsCumul) ? (
             <li>
-              養老院/護理院：{bn(deathsEhpadEmsCumul)}
+              <Translate
+                id="comp.DeathsCumul.deathsEhpadEmsCumul"
+                description="The description for deathsEhpadEmsCumul in DeathsCumul"
+              >
+                養老院/護理院：
+              </Translate>
+              {bn(deathsEhpadEmsCumul)}
               {!isNum(deathsEhpadEmsCumulTdb) ? null : deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb ? (
                 <em> ({bnws(deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb)})</em>
               ) : (
-                <em>（未更新）</em>
+                <em>
+                  <Translate
+                    id="comp.DeathsCumul.noUpdateEhpadEms"
+                    description="The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
+                  >
+                    （未更新）
+                  </Translate>
+                </em>
               )}
             </li>
           ) : null}
