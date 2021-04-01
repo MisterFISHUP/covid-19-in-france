@@ -1,6 +1,6 @@
 # Official data
 
-Build csv -> generate json -> display data in the journal by react components
+Build csv -> generate json -> display data in digest pages by react components
 
 
 ## Building csv files

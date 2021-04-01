@@ -116,11 +116,11 @@ module.exports = {
           items: [
             {
               label: '2021 年',
-              to: 'journal/2021/',
+              to: 'digest/2021/',
             },
             {
               label: '2020 年',
-              to: 'journal/2020/december/31',
+              to: 'digest/2020/december/31',
             },
           ],
         },
@@ -172,7 +172,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'journal',
+          routeBasePath: 'digest',
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },

@@ -118,7 +118,7 @@ RT-PCR 確診|[4][spf]|自 2020/11/17 起至 2020/12/7
 
 <div className="comment_block">我沒有使用其他來源來交叉比對此部分的內容，故不確保或負責其資訊的正確性，僅對 Grace Tseng 的臉書貼文做整理。若有錯誤還請指正，不勝感激！</div>
 
-<!-- todo: list of links of spf dl pages/links of journal pages (use component + json) -->
+<!-- todo: list of links of spf dl pages/links of digest pages (use component + json) -->
 
 ## 其他 {#others}
 

@@ -9,11 +9,11 @@
   },
   "link.item.label.2021 年": {
     "message": "2021 年",
-    "description": "The label of footer link with label=2021 年 linking to journal/2021/"
+    "description": "The label of footer link with label=2021 年 linking to digest/2021/"
   },
   "link.item.label.2020 年": {
     "message": "2020 年",
-    "description": "The label of footer link with label=2020 年 linking to journal/2020/december/31"
+    "description": "The label of footer link with label=2020 年 linking to digest/2020/december/31"
   },
   "link.item.label.官方數據儀表板": {
     "message": "官方数据仪表板",
