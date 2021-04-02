@@ -1,7 +1,7 @@
 ---
-title: 關於 2021
+title: 关于 2021
 description: todo
 slug: ./
 ---
 
-2021 還沒結束
+2021 还没结束
