@@ -78,8 +78,8 @@ Data are entered manually.
 | icuWeek | `int` | todo | todo |
 | vacEhpadUsldPct | `float` | todo | todo |
 | vacEhpadUsldPct_date | `str` | todo | todo |
-| casesRtPcrCumul | `int` | todo | todo |
-| casesAntigCumul | `int` | todo | todo |
+| casesRtPcr | `int` | todo | todo |
+| casesAntig | `int` | todo | todo |
 | highVul | `int` | todo | todo |
 | clusters | `int` | todo | todo |
 | clusters_ehpad | `int` | todo | todo |
@@ -116,7 +116,7 @@ The data of any given date is again a js object. Below is a detailed list of all
 | hospiWeek | `int` | (spf.csv) hospiWeek |
 | icuWeek | `int` | (spf.csv) icuWeek |
 | vacEhpadUsldPct | `array` | (spf.csv) [vacEhpadUsldPct, vacEhpadUsldPct_date] |
-| casesRtPcrCumul | `int` | (spf.csv) casesRtPcrCuul |
-| casesAntigCumul | `int` | (spf.csv) casesAntigCumul |
+| casesRtPcr | `int` | (spf.csv) casesRtPcr |
+| casesAntig | `int` | (spf.csv) casesAntig |
 | highVul | `int` | (spf.csv) highVul |
 | clusters | `array` | (spf.csv) [clusters, clusters_ehpad, clusters_date]|

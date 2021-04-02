@@ -204,7 +204,7 @@
     "description": "The description for r in Indicators"
   },
   "comp.Indicators.posR": {
-    "message": "RT-PCR positivity rate:",
+    "message": "RT-PCR positivity rate: ",
     "description": "The description for posR in Indicators"
   },
   "comp.Indicators.highVul": {
@@ -283,13 +283,13 @@
     "message": " (no update)",
     "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
   },
-  "comp.CasesCumul.casesRtPcrCumul": {
+  "comp.CasesCumul.casesRtPcr": {
     "message": "New RT-PCR confirmed: ",
-    "description": "The description for casesRtPcrCumul in CasesCumul"
+    "description": "The description for casesRtPcr in CasesCumul"
   },
-  "comp.CasesCumul.casesAntigCumul": {
+  "comp.CasesCumul.casesAntig": {
     "message": "New antigen confirmed: ",
-    "description": "The description for casesAntigCumul in CasesCumul"
+    "description": "The description for casesAntig in CasesCumul"
   },
   "comp.DeathsCumul.title": {
     "message": "☠️ Cumulative Deaths",

@@ -23,8 +23,8 @@ const CasesCumul = ({ date }) => {
   const casesCumulTdb = od[tdb(date)]?.casesCumul;
   const casesEhpadEmsCumul = od[date]?.casesEhpadEmsCumul;
   const casesEhpadEmsCumulTdb = od[tdb(date)]?.casesEhpadEmsCumul;
-  const casesRtPcrCumul = od[date]?.casesRtPcrCumul;
-  const casesAntigCumul = od[date]?.casesAntigCumul;
+  const casesRtPcr = od[date]?.casesRtPcr;
+  const casesAntig = od[date]?.casesAntig;
 
   if (!isNum(casesCumul)) {
     return <></>;
@@ -67,26 +67,20 @@ const CasesCumul = ({ date }) => {
               )}
             </li>
           ) : null}
-          {isNum(casesRtPcrCumul) ? (
+          {isNum(casesRtPcr) ? (
             <li>
-              <Translate
-                id="comp.CasesCumul.casesRtPcrCumul"
-                description="The description for casesRtPcrCumul in CasesCumul"
-              >
+              <Translate id="comp.CasesCumul.casesRtPcr" description="The description for casesRtPcr in CasesCumul">
                 新增 RT-PCR 確診：
               </Translate>
-              {bn(casesRtPcrCumul)}
+              {bn(casesRtPcr)}
             </li>
           ) : null}
-          {isNum(casesAntigCumul) ? (
+          {isNum(casesAntig) ? (
             <li>
-              <Translate
-                id="comp.CasesCumul.casesAntigCumul"
-                description="The description for casesAntigCumul in CasesCumul"
-              >
+              <Translate id="comp.CasesCumul.casesAntig" description="The description for casesAntig in CasesCumul">
                 新增抗原檢測確診：
               </Translate>
-              {bn(casesAntigCumul)}
+              {bn(casesAntig)}
             </li>
           ) : null}
         </ul>

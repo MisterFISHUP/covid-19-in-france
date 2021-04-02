@@ -1,4 +1,4 @@
-date,hospiWeek,icuWeek,vacEhpadUsldPct,vacEhpadUsldPct_date,casesRtPcrCumul,casesAntigCumul,highVul,clusters,clusters_ehpad,clusters_date
+date,hospiWeek,icuWeek,vacEhpadUsldPct,vacEhpadUsldPct_date,casesRtPcr,casesAntig,highVul,clusters,clusters_ehpad,clusters_date
 2020-10-01,,,,,,,,,,
 2020-10-02,,,,,,,,,,
 2020-10-03,,,,,,,,,,
