@@ -58,7 +58,7 @@ USLD|長照機構|unité de soins de longue durée
 
 半形文字與全形文字之間會多加入一個半形空格，但半形文字與全形符號則不加空格。
 
-<div className="comment_block">例：基本傳染數 (R)：0.99（1/2 數據）</div>
+<div className="comment_block">例：有效傳染數 (R)：0.99（1/2 數據）</div>
 
 #### 括號 {#parentheses}
 

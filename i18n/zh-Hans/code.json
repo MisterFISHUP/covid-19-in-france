@@ -200,7 +200,7 @@
     "description": "The description for icuOccupR in Indicators"
   },
   "comp.Indicators.r": {
-    "message": "基本传染数 (R)：",
+    "message": "有效传染数 (R)：",
     "description": "The description for r in Indicators"
   },
   "comp.Indicators.posR": {

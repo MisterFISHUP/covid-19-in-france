@@ -390,7 +390,7 @@ const Indicators = ({ date }) => {
         {isNum(r) ? (
           <li>
             <Translate id="comp.Indicators.r" description="The description for r in Indicators">
-              基本傳染數 (R)：
+              有效傳染數 (R)：
             </Translate>
             {bn(r)}
           </li>
