@@ -32,13 +32,13 @@ const CasesCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.CasesCumul.title" description="The heading of CasesCumul">
+          <Translate id="digestComp.CasesCumul.title" description="The heading of CasesCumul">
             🧫 累積確診數
           </Translate>
         </h3>
         <ul>
           <li>
-            <Translate id="comp.CasesCumul.casesCumul" description="The description for casesCumul in CasesCumul">
+            <Translate id="digestComp.CasesCumul.casesCumul" description="The description for casesCumul in CasesCumul">
               總累計：
             </Translate>
             {bn(casesCumul)}
@@ -47,7 +47,7 @@ const CasesCumul = ({ date }) => {
           {isNum(casesEhpadEmsCumul) ? (
             <li>
               <Translate
-                id="comp.CasesCumul.casesEhpadEmsCumul"
+                id="digestComp.CasesCumul.casesEhpadEmsCumul"
                 description="The description for casesEhpadEmsCumul in CasesCumul"
               >
                 養老院/護理院：
@@ -58,7 +58,7 @@ const CasesCumul = ({ date }) => {
               ) : (
                 <em>
                   <Translate
-                    id="comp.CasesCumul.noUpdateEhpadEms"
+                    id="digestComp.CasesCumul.noUpdateEhpadEms"
                     description="The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
                   >
                     （未更新）
@@ -69,7 +69,7 @@ const CasesCumul = ({ date }) => {
           ) : null}
           {isNum(casesRtPcr) ? (
             <li>
-              <Translate id="comp.CasesCumul.casesRtPcr" description="The description for casesRtPcr in CasesCumul">
+              <Translate id="digestComp.CasesCumul.casesRtPcr" description="The description for casesRtPcr in CasesCumul">
                 新增 RT-PCR 確診：
               </Translate>
               {bn(casesRtPcr)}
@@ -77,7 +77,7 @@ const CasesCumul = ({ date }) => {
           ) : null}
           {isNum(casesAntig) ? (
             <li>
-              <Translate id="comp.CasesCumul.casesAntig" description="The description for casesAntig in CasesCumul">
+              <Translate id="digestComp.CasesCumul.casesAntig" description="The description for casesAntig in CasesCumul">
                 新增抗原檢測確診：
               </Translate>
               {bn(casesAntig)}
@@ -104,14 +104,14 @@ const DeathsCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.DeathsCumul.title" description="The heading of DeathsCumul">
+          <Translate id="digestComp.DeathsCumul.title" description="The heading of DeathsCumul">
             ☠️ 累積死亡數
           </Translate>
         </h3>
         <ul>
           {isNum(deathsCumul) ? (
             <li>
-              <Translate id="comp.DeathsCumul.deathsCumul" description="The description for deathsCumul in DeathsCumul">
+              <Translate id="digestComp.DeathsCumul.deathsCumul" description="The description for deathsCumul in DeathsCumul">
                 總累計：
               </Translate>
               {bn(deathsCumul)}
@@ -120,7 +120,7 @@ const DeathsCumul = ({ date }) => {
           ) : null}
           <li>
             <Translate
-              id="comp.DeathsCumul.deathsHospiCumul"
+              id="digestComp.DeathsCumul.deathsHospiCumul"
               description="The description for deathsHospiCumul in DeathsCumul"
             >
               醫院：
@@ -131,7 +131,7 @@ const DeathsCumul = ({ date }) => {
           {isNum(deathsEhpadEmsCumul) ? (
             <li>
               <Translate
-                id="comp.DeathsCumul.deathsEhpadEmsCumul"
+                id="digestComp.DeathsCumul.deathsEhpadEmsCumul"
                 description="The description for deathsEhpadEmsCumul in DeathsCumul"
               >
                 養老院/護理院：
@@ -142,7 +142,7 @@ const DeathsCumul = ({ date }) => {
               ) : (
                 <em>
                   <Translate
-                    id="comp.DeathsCumul.noUpdateEhpadEms"
+                    id="digestComp.DeathsCumul.noUpdateEhpadEms"
                     description="The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
                   >
                     （未更新）
@@ -171,13 +171,13 @@ const Hospi = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.Hospi.title" description="The heading of Hospi">
+          <Translate id="digestComp.Hospi.title" description="The heading of Hospi">
             🏥 住院數
           </Translate>
         </h3>
         <ul>
           <li>
-            <Translate id="comp.Hospi.hospi" description="The description for hospi in Hospi">
+            <Translate id="digestComp.Hospi.hospi" description="The description for hospi in Hospi">
               當前：
             </Translate>
             {bn(hospi)}
@@ -185,7 +185,7 @@ const Hospi = ({ date }) => {
           </li>
           {isNum(hospiNew) ? (
             <li>
-              <Translate id="comp.Hospi.hospiNew" description="The description for hospiNew in Hospi">
+              <Translate id="digestComp.Hospi.hospiNew" description="The description for hospiNew in Hospi">
                 本日入院：
               </Translate>
               {bn(hospiNew)}
@@ -194,14 +194,14 @@ const Hospi = ({ date }) => {
           ) : null}
           {isNum(hospiWeek) ? (
             <li>
-              <Translate id="comp.Hospi.hospiWeek" description="The description for hospiWeek in Hospi">
+              <Translate id="digestComp.Hospi.hospiWeek" description="The description for hospiWeek in Hospi">
                 過去七日入院：
               </Translate>
               {bn(hospiWeek)}
               {isNum(hospiWeekWb) ? (
                 <em>
                   <Translate
-                    id="comp.Hospi.hospiWeekVar"
+                    id="digestComp.Hospi.hospiWeekVar"
                     description="The weekly variation of hospiWeek in Hospi, inside parentheses"
                     values={{ hospiWeekVar: bnws(hospiWeek - hospiWeekWb) }}
                   >
@@ -231,13 +231,13 @@ const Icu = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.Icu.title" description="The heading of Icu">
+          <Translate id="digestComp.Icu.title" description="The heading of Icu">
             😞 重症數
           </Translate>
         </h3>
         <ul>
           <li>
-            <Translate id="comp.Icu.icu" description="The description for icu in Icu">
+            <Translate id="digestComp.Icu.icu" description="The description for icu in Icu">
               當前：
             </Translate>
             {bn(icu)}
@@ -245,7 +245,7 @@ const Icu = ({ date }) => {
           </li>
           {isNum(icuNew) ? (
             <li>
-              <Translate id="comp.Icu.icuNew" description="The description for icuNew in Icu">
+              <Translate id="digestComp.Icu.icuNew" description="The description for icuNew in Icu">
                 本日重症：
               </Translate>
               {bn(icuNew)}
@@ -254,14 +254,14 @@ const Icu = ({ date }) => {
           ) : null}
           {isNum(icuWeek) ? (
             <li>
-              <Translate id="comp.Icu.icuWeek" description="The description for icuWeek in Icu">
+              <Translate id="digestComp.Icu.icuWeek" description="The description for icuWeek in Icu">
                 過去七日重症：
               </Translate>
               {bn(icuWeek)}
               {isNum(icuWeekWb) ? (
                 <em>
                   <Translate
-                    id="comp.Icu.icuWeekVar"
+                    id="digestComp.Icu.icuWeekVar"
                     description="The weekly variation of icuWeek in Icu, inside parentheses"
                     values={{ icuWeekVar: bnws(icuWeek - icuWeekWb) }}
                   >
@@ -287,14 +287,14 @@ const ReturnHomeCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.ReturnHomeCumul.title" description="The heading of ReturnHomeCumul">
+          <Translate id="digestComp.ReturnHomeCumul.title" description="The heading of ReturnHomeCumul">
             🏡 累積出院數
           </Translate>
         </h3>
         <ul>
           <li>
             <Translate
-              id="comp.ReturnHomeCumul.returnHomeCumul"
+              id="digestComp.ReturnHomeCumul.returnHomeCumul"
               description="The description for returnHomeCumul in ReturnHomeCumul"
             >
               總累計：
@@ -320,13 +320,13 @@ const VacCumul = ({ date }) => {
     return (
       <div>
         <h3>
-          <Translate id="comp.VacCumul.title" description="The heading of VacCumul">
+          <Translate id="digestComp.VacCumul.title" description="The heading of VacCumul">
             💉 疫苗接種數
           </Translate>
         </h3>
         <ul>
           <li>
-            <Translate id="comp.VacCumul.vac1" description="The description for vac1 in VacCumul">
+            <Translate id="digestComp.VacCumul.vac1" description="The description for vac1 in VacCumul">
               第 1 劑接種累計：
             </Translate>
             {bn(vac1)}
@@ -334,7 +334,7 @@ const VacCumul = ({ date }) => {
           </li>
           {isNum(vac2) ? (
             <li>
-              <Translate id="comp.VacCumul.vac2" description="The description for vac2 in VacCumul">
+              <Translate id="digestComp.VacCumul.vac2" description="The description for vac2 in VacCumul">
                 第 2 劑接種累計：
               </Translate>
               {bn(vac2)}
@@ -362,28 +362,28 @@ const Indicators = ({ date }) => {
   return (
     <div>
       <h3>
-        <Translate id="comp.Indicators.title" description="The heading of Indicators">
+        <Translate id="digestComp.Indicators.title" description="The heading of Indicators">
           📊 各項指標數據
         </Translate>
       </h3>
       <ul>
         {isNum(incidR) ? (
           <li>
-            <Translate id="comp.Indicators.incidR" description="The description for incidR in Indicators">
+            <Translate id="digestComp.Indicators.incidR" description="The description for incidR in Indicators">
               法國每 10 萬人確診數：
             </Translate>
             {bn(incidR)}
           </li>
         ) : null}
         <li>
-          <Translate id="comp.Indicators.icuOccupR" description="The description for icuOccupR in Indicators">
+          <Translate id="digestComp.Indicators.icuOccupR" description="The description for icuOccupR in Indicators">
             重症病房佔有率：
           </Translate>
           {bn(icuOccupR)}%
         </li>
         {isNum(r) ? (
           <li>
-            <Translate id="comp.Indicators.r" description="The description for r in Indicators">
+            <Translate id="digestComp.Indicators.r" description="The description for r in Indicators">
               有效傳染數 (R)：
             </Translate>
             {bn(r)}
@@ -391,7 +391,7 @@ const Indicators = ({ date }) => {
         ) : null}
         {isNum(posR) ? (
           <li>
-            <Translate id="comp.Indicators.posR" description="The description for posR in Indicators">
+            <Translate id="digestComp.Indicators.posR" description="The description for posR in Indicators">
               RT-PCR 陽性確診率：
             </Translate>
             {bn(posR)}%
@@ -400,7 +400,7 @@ const Indicators = ({ date }) => {
         {isNum(highVul) ? (
           <li>
             <Translate
-              id="comp.Indicators.highVul"
+              id="digestComp.Indicators.highVul"
               description="The line for highVul in Indicators"
               values={{ highVul: highVul }}
             >
@@ -411,7 +411,7 @@ const Indicators = ({ date }) => {
         {Array.isArray(vacEhpadUsldPct) ? (
           <li>
             <Translate
-              id="comp.Indicators.vacEhpadUsldPct"
+              id="digestComp.Indicators.vacEhpadUsldPct"
               description="The line for vacEhpadUsldPct in Indicators"
               values={{ pct: bn(vacEhpadUsldPct[0]), dateMD: vacEhpadUsldPct[1], dateDM: revMD(vacEhpadUsldPct[1]) }}
             >
@@ -422,7 +422,7 @@ const Indicators = ({ date }) => {
         {Array.isArray(clusters) ? (
           <li>
             <Translate
-              id="comp.Indicators.clusters"
+              id="digestComp.Indicators.clusters"
               description="The line for clusters in Indicators"
               values={{
                 clustersTotal: bn(clusters[0]),
@@ -456,7 +456,7 @@ export const Subtitle = ({ date }) => {
   return (
     <p className="subtitle">
       <Translate
-        id="comp.Subtitle"
+        id="digestComp.Subtitle"
         description="The subtitle of a daily digest"
         values={{
           y: yyyy,
@@ -502,7 +502,7 @@ export const Figure = ({ date, srcx, children }) => {
     ? children
     : translate(
         {
-          id: "comp.Figure.defaultCaption",
+          id: "digestComp.Figure.defaultCaption",
           message: "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
           description: "The default image caption in Figure",
         },
@@ -546,7 +546,7 @@ export const ChartCases = ({ date, dateFmt }) => {
     datasets: [
       {
         label: translate({
-          id: "comp.ChartCases.label.total",
+          id: "digestComp.ChartCases.label.total",
           message: "總累計",
           description: "The label for total cases in ChartCases",
         }),
@@ -561,7 +561,7 @@ export const ChartCases = ({ date, dateFmt }) => {
       {
         type: "bar",
         label: translate({
-          id: "comp.ChartCases.label.new",
+          id: "digestComp.ChartCases.label.new",
           message: "當日確診數",
           description: "The label for new cases in ChartCases",
         }),
@@ -631,7 +631,7 @@ export const ChartCases = ({ date, dateFmt }) => {
   return (
     <>
       <div className="chart-title">
-        <Translate id="comp.ChartCases.title" description="The title of ChartCases">
+        <Translate id="digestComp.ChartCases.title" description="The title of ChartCases">
           確診數近兩週走勢
         </Translate>
       </div>

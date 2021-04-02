@@ -155,159 +155,159 @@
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
-  "comp.VacCumul.title": {
+  "digestComp.VacCumul.title": {
     "message": "💉 Cumulative Vaccinations",
     "description": "The heading of VacCumul"
   },
-  "comp.VacCumul.vac1": {
+  "digestComp.VacCumul.vac1": {
     "message": "First doses: ",
     "description": "The description for vac1 in VacCumul"
   },
-  "comp.VacCumul.vac2": {
+  "digestComp.VacCumul.vac2": {
     "message": "Second doses: ",
     "description": "The description for vac2 in VacCumul"
   },
-  "comp.Subtitle": {
+  "digestComp.Subtitle": {
     "message": "Daily digest of COVID-19 in France on {d} {month_en} {y}. Day {n}.",
     "description": "The subtitle of a daily digest"
   },
-  "comp.Figure.defaultCaption": {
+  "digestComp.Figure.defaultCaption": {
     "message": "Covid-19 in France on {d} {month_en} {y}",
     "description": "The default image caption in Figure"
   },
-  "comp.ChartCases.label.total": {
+  "digestComp.ChartCases.label.total": {
     "message": "Total cases",
     "description": "The label for total cases in ChartCases"
   },
-  "comp.ChartCases.label.new": {
+  "digestComp.ChartCases.label.new": {
     "message": "New cases",
     "description": "The label for new cases in ChartCases"
   },
-  "comp.ChartCases.title": {
+  "digestComp.ChartCases.title": {
     "message": "Confirmed cases - Trend over the last two weeks",
     "description": "The title of ChartCases"
   },
-  "comp.Indicators.title": {
+  "digestComp.Indicators.title": {
     "message": "📊 Monitoring Indicators",
     "description": "The heading of Indicators"
   },
-  "comp.Indicators.incidR": {
+  "digestComp.Indicators.incidR": {
     "message": "Incidence rate: ",
     "description": "The description for incidR in Indicators"
   },
-  "comp.Indicators.icuOccupR": {
+  "digestComp.Indicators.icuOccupR": {
     "message": "ICU bed occupancy rate: ",
     "description": "The description for icuOccupR in Indicators"
   },
-  "comp.Indicators.r": {
+  "digestComp.Indicators.r": {
     "message": "Effective reproduction number (R): ",
     "description": "The description for r in Indicators"
   },
-  "comp.Indicators.posR": {
+  "digestComp.Indicators.posR": {
     "message": "RT-PCR positivity rate: ",
     "description": "The description for posR in Indicators"
   },
-  "comp.Indicators.highVul": {
+  "digestComp.Indicators.highVul": {
     "message": "Number of departments in a highly vulnerable situation: {highVul}",
     "description": "The line for highVul in Indicators"
   },
-  "comp.Indicators.vacEhpadUsldPct": {
+  "digestComp.Indicators.vacEhpadUsldPct": {
     "message": "Proportion of residents in EHPAD/long-term care units having received at least one dose of vaccine: {pct}% (up to {dateDM})",
     "description": "The line for vacEhpadUsldPct in Indicators"
   },
-  "comp.Indicators.clusters": {
+  "digestComp.Indicators.clusters": {
     "message": "Number of clusters under investigation from 9/5 in 2020 up to {dateDM}: {clustersTotal}, including  {clustersEhpad} in EHPAD",
     "description": "The line for clusters in Indicators"
   },
-  "comp.ReturnHomeCumul.title": {
+  "digestComp.ReturnHomeCumul.title": {
     "message": "🏡 Hospital Discharges",
     "description": "The heading of ReturnHomeCumul"
   },
-  "comp.ReturnHomeCumul.returnHomeCumul": {
+  "digestComp.ReturnHomeCumul.returnHomeCumul": {
     "message": "Total: ",
     "description": "The description for returnHomeCumul in ReturnHomeCumul"
   },
-  "comp.Hospi.title": {
+  "digestComp.Hospi.title": {
     "message": "🏥 Hospitalisations",
     "description": "The heading of Hospi"
   },
-  "comp.Hospi.hospi": {
+  "digestComp.Hospi.hospi": {
     "message": "Total: ",
     "description": "The description for hospi in Hospi"
   },
-  "comp.Hospi.hospiNew": {
+  "digestComp.Hospi.hospiNew": {
     "message": "In the last 24 hours: ",
     "description": "The description for hospiNew in Hospi"
   },
-  "comp.Hospi.hospiWeek": {
+  "digestComp.Hospi.hospiWeek": {
     "message": "In the last week: ",
     "description": "The description for hospiWeek in Hospi"
   },
-  "comp.Hospi.hospiWeekVar": {
+  "digestComp.Hospi.hospiWeekVar": {
     "message": " (compared with last week {hospiWeekVar})",
     "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
   },
-  "comp.Icu.title": {
+  "digestComp.Icu.title": {
     "message": "😞 ICU Admissions",
     "description": "The heading of Icu"
   },
-  "comp.Icu.icu": {
+  "digestComp.Icu.icu": {
     "message": "Total: ",
     "description": "The description for icu in Icu"
   },
-  "comp.Icu.icuNew": {
+  "digestComp.Icu.icuNew": {
     "message": "In the last 24 hours: ",
     "description": "The description for icuNew in Icu"
   },
-  "comp.Icu.icuWeek": {
+  "digestComp.Icu.icuWeek": {
     "message": "In the last week: ",
     "description": "The description for icuWeek in Icu"
   },
-  "comp.Icu.icuWeekVar": {
+  "digestComp.Icu.icuWeekVar": {
     "message": " (compared with last week {icuWeekVar})",
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   },
-  "comp.CasesCumul.title": {
+  "digestComp.CasesCumul.title": {
     "message": "🧫 Cumulative Confirmed Cases",
     "description": "The heading of CasesCumul"
   },
-  "comp.CasesCumul.casesCumul": {
+  "digestComp.CasesCumul.casesCumul": {
     "message": "Total: ",
     "description": "The description for casesCumul in CasesCumul"
   },
-  "comp.CasesCumul.casesEhpadEmsCumul": {
+  "digestComp.CasesCumul.casesEhpadEmsCumul": {
     "message": "EHPAD/EMS: ",
     "description": "The description for casesEhpadEmsCumul in CasesCumul"
   },
-  "comp.CasesCumul.noUpdateEhpadEms": {
+  "digestComp.CasesCumul.noUpdateEhpadEms": {
     "message": " (no update)",
     "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
   },
-  "comp.CasesCumul.casesRtPcr": {
+  "digestComp.CasesCumul.casesRtPcr": {
     "message": "New RT-PCR confirmed: ",
     "description": "The description for casesRtPcr in CasesCumul"
   },
-  "comp.CasesCumul.casesAntig": {
+  "digestComp.CasesCumul.casesAntig": {
     "message": "New antigen confirmed: ",
     "description": "The description for casesAntig in CasesCumul"
   },
-  "comp.DeathsCumul.title": {
+  "digestComp.DeathsCumul.title": {
     "message": "☠️ Cumulative Deaths",
     "description": "The heading of DeathsCumul"
   },
-  "comp.DeathsCumul.deathsCumul": {
+  "digestComp.DeathsCumul.deathsCumul": {
     "message": "Total: ",
     "description": "The description for deathsCumul in DeathsCumul"
   },
-  "comp.DeathsCumul.deathsHospiCumul": {
+  "digestComp.DeathsCumul.deathsHospiCumul": {
     "message": "Hospital: ",
     "description": "The description for deathsHospiCumul in DeathsCumul"
   },
-  "comp.DeathsCumul.deathsEhpadEmsCumul": {
+  "digestComp.DeathsCumul.deathsEhpadEmsCumul": {
     "message": "EHPAD/EMS: ",
     "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
   },
-  "comp.DeathsCumul.noUpdateEhpadEms": {
+  "digestComp.DeathsCumul.noUpdateEhpadEms": {
     "message": " (no update)",
     "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
   }

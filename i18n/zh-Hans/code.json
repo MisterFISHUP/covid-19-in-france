@@ -155,159 +155,159 @@
     "message": "跳到主要内容",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
-  "comp.VacCumul.title": {
+  "digestComp.VacCumul.title": {
     "message": "💉 疫苗接种数",
     "description": "The heading of VacCumul"
   },
-  "comp.VacCumul.vac1": {
+  "digestComp.VacCumul.vac1": {
     "message": "第 1 剂接种累计：",
     "description": "The description for vac1 in VacCumul"
   },
-  "comp.VacCumul.vac2": {
+  "digestComp.VacCumul.vac2": {
     "message": "第 2 剂接种累计：",
     "description": "The description for vac2 in VacCumul"
   },
-  "comp.Subtitle": {
+  "digestComp.Subtitle": {
     "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。日志第 {n} 篇。",
     "description": "The subtitle of a daily digest"
   },
-  "comp.Figure.defaultCaption": {
+  "digestComp.Figure.defaultCaption": {
     "message": "{y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报",
     "description": "The default image caption in Figure"
   },
-  "comp.ChartCases.label.total": {
+  "digestComp.ChartCases.label.total": {
     "message": "总累计",
     "description": "The label for total cases in ChartCases"
   },
-  "comp.ChartCases.label.new": {
+  "digestComp.ChartCases.label.new": {
     "message": "当日确诊数",
     "description": "The label for new cases in ChartCases"
   },
-  "comp.ChartCases.title": {
+  "digestComp.ChartCases.title": {
     "message": "确诊数近两週走势",
     "description": "The title of ChartCases"
   },
-  "comp.Indicators.title": {
+  "digestComp.Indicators.title": {
     "message": "📊 各项指标数据",
     "description": "The heading of Indicators"
   },
-  "comp.Indicators.incidR": {
+  "digestComp.Indicators.incidR": {
     "message": "法国每 10 万人确诊数：",
     "description": "The description for incidR in Indicators"
   },
-  "comp.Indicators.icuOccupR": {
+  "digestComp.Indicators.icuOccupR": {
     "message": "重症病房佔有率：",
     "description": "The description for icuOccupR in Indicators"
   },
-  "comp.Indicators.r": {
+  "digestComp.Indicators.r": {
     "message": "有效传染数 (R)：",
     "description": "The description for r in Indicators"
   },
-  "comp.Indicators.posR": {
+  "digestComp.Indicators.posR": {
     "message": "RT-PCR 阳性确诊率：",
     "description": "The description for posR in Indicators"
   },
-  "comp.Indicators.highVul": {
+  "digestComp.Indicators.highVul": {
     "message": "疫情列为高度脆弱地区：共 {highVul} 区",
     "description": "The line for highVul in Indicators"
   },
-  "comp.Indicators.vacEhpadUsldPct": {
+  "digestComp.Indicators.vacEhpadUsldPct": {
     "message": "养老院/长照机构接种至少 1 剂疫苗比例：{pct}%（截至 {dateMD}）",
     "description": "The line for vacEhpadUsldPct in Indicators"
   },
-  "comp.Indicators.clusters": {
+  "digestComp.Indicators.clusters": {
     "message": "2020 年 5/9 起（或第一次解封后）至 {dateMD} 群聚感染情况：尚在调查中的有 {clustersTotal} 起，其中包含养老院 {clustersEhpad} 起",
     "description": "The line for clusters in Indicators"
   },
-  "comp.ReturnHomeCumul.title": {
+  "digestComp.ReturnHomeCumul.title": {
     "message": "🏡 累积出院数",
     "description": "The heading of ReturnHomeCumul"
   },
-  "comp.ReturnHomeCumul.returnHomeCumul": {
+  "digestComp.ReturnHomeCumul.returnHomeCumul": {
     "message": "总累计：",
     "description": "The description for returnHomeCumul in ReturnHomeCumul"
   },
-  "comp.Hospi.title": {
+  "digestComp.Hospi.title": {
     "message": "🏥 住院数",
     "description": "The heading of Hospi"
   },
-  "comp.Hospi.hospi": {
+  "digestComp.Hospi.hospi": {
     "message": "当前：",
     "description": "The description for hospi in Hospi"
   },
-  "comp.Hospi.hospiNew": {
+  "digestComp.Hospi.hospiNew": {
     "message": "本日入院：",
     "description": "The description for hospiNew in Hospi"
   },
-  "comp.Hospi.hospiWeek": {
+  "digestComp.Hospi.hospiWeek": {
     "message": "过去七日入院：",
     "description": "The description for hospiWeek in Hospi"
   },
-  "comp.Hospi.hospiWeekVar": {
+  "digestComp.Hospi.hospiWeekVar": {
     "message": "（与七日前数据相比 {hospiWeekVar}）",
     "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
   },
-  "comp.Icu.title": {
+  "digestComp.Icu.title": {
     "message": "😞 重症数",
     "description": "The heading of Icu"
   },
-  "comp.Icu.icu": {
+  "digestComp.Icu.icu": {
     "message": "当前：",
     "description": "The description for icu in Icu"
   },
-  "comp.Icu.icuNew": {
+  "digestComp.Icu.icuNew": {
     "message": "本日重症：",
     "description": "The description for icuNew in Icu"
   },
-  "comp.Icu.icuWeek": {
+  "digestComp.Icu.icuWeek": {
     "message": "过去七日重症：",
     "description": "The description for icuWeek in Icu"
   },
-  "comp.Icu.icuWeekVar": {
+  "digestComp.Icu.icuWeekVar": {
     "message": "（与七日前数据相比 {icuWeekVar}）",
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   },
-  "comp.CasesCumul.title": {
+  "digestComp.CasesCumul.title": {
     "message": "🧫 累积确诊数",
     "description": "The heading of CasesCumul"
   },
-  "comp.CasesCumul.casesCumul": {
+  "digestComp.CasesCumul.casesCumul": {
     "message": "总累计：",
     "description": "The description for casesCumul in CasesCumul"
   },
-  "comp.CasesCumul.casesEhpadEmsCumul": {
+  "digestComp.CasesCumul.casesEhpadEmsCumul": {
     "message": "养老院/护理院：",
     "description": "The description for casesEhpadEmsCumul in CasesCumul"
   },
-  "comp.CasesCumul.noUpdateEhpadEms": {
+  "digestComp.CasesCumul.noUpdateEhpadEms": {
     "message": "（未更新）",
     "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
   },
-  "comp.CasesCumul.casesRtPcr": {
+  "digestComp.CasesCumul.casesRtPcr": {
     "message": "新增 RT-PCR 确诊：",
     "description": "The description for casesRtPcr in CasesCumul"
   },
-  "comp.CasesCumul.casesAntig": {
+  "digestComp.CasesCumul.casesAntig": {
     "message": "新增抗原检测确诊：",
     "description": "The description for casesAntig in CasesCumul"
   },
-  "comp.DeathsCumul.title": {
+  "digestComp.DeathsCumul.title": {
     "message": "☠️ 累积死亡数",
     "description": "The heading of DeathsCumul"
   },
-  "comp.DeathsCumul.deathsCumul": {
+  "digestComp.DeathsCumul.deathsCumul": {
     "message": "总累计：",
     "description": "The description for deathsCumul in DeathsCumul"
   },
-  "comp.DeathsCumul.deathsHospiCumul": {
+  "digestComp.DeathsCumul.deathsHospiCumul": {
     "message": "医院：",
     "description": "The description for deathsHospiCumul in DeathsCumul"
   },
-  "comp.DeathsCumul.deathsEhpadEmsCumul": {
+  "digestComp.DeathsCumul.deathsEhpadEmsCumul": {
     "message": "养老院/护理院：",
     "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
   },
-  "comp.DeathsCumul.noUpdateEhpadEms": {
+  "digestComp.DeathsCumul.noUpdateEhpadEms": {
     "message": "（未更新）",
     "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
   }
