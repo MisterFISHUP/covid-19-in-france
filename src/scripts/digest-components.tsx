@@ -1,6 +1,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 import Translate, { translate } from "@docusaurus/Translate";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
 import {
   beautifyNumber as bn,
@@ -15,6 +16,7 @@ import {
   toLabelDateDM as lblDateDM,
   reverseMDLabelDate as revMD,
   neutralGray,
+  earliestDate,
 } from "./utils";
 
 // not empty if `casesCumul` exists for the date
@@ -69,7 +71,10 @@ const CasesCumul = ({ date }) => {
           ) : null}
           {isNum(casesRtPcr) ? (
             <li>
-              <Translate id="digestComp.CasesCumul.casesRtPcr" description="The description for casesRtPcr in CasesCumul">
+              <Translate
+                id="digestComp.CasesCumul.casesRtPcr"
+                description="The description for casesRtPcr in CasesCumul"
+              >
                 新增 RT-PCR 確診：
               </Translate>
               {bn(casesRtPcr)}
@@ -77,7 +82,10 @@ const CasesCumul = ({ date }) => {
           ) : null}
           {isNum(casesAntig) ? (
             <li>
-              <Translate id="digestComp.CasesCumul.casesAntig" description="The description for casesAntig in CasesCumul">
+              <Translate
+                id="digestComp.CasesCumul.casesAntig"
+                description="The description for casesAntig in CasesCumul"
+              >
                 新增抗原檢測確診：
               </Translate>
               {bn(casesAntig)}
@@ -111,7 +119,10 @@ const DeathsCumul = ({ date }) => {
         <ul>
           {isNum(deathsCumul) ? (
             <li>
-              <Translate id="digestComp.DeathsCumul.deathsCumul" description="The description for deathsCumul in DeathsCumul">
+              <Translate
+                id="digestComp.DeathsCumul.deathsCumul"
+                description="The description for deathsCumul in DeathsCumul"
+              >
                 總累計：
               </Translate>
               {bn(deathsCumul)}
@@ -487,17 +498,20 @@ export const Fish = ({ children }) => (
   </a>
 );
 
-// date is required; if srcx is absent, img will be the main img
+// date is required, if date is earlier then earliestDate then use placeholder img
+// if srcx is absent, img will be the main img
 // used className: `img-digest`, `caption`
 export const Figure = ({ date, srcx, children }) => {
-  const folder = `/img/digest/${toYYYYMM(date)}/`;
-  const fileName = `covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`;
+  const n = (Date.parse(earliestDate) - Date.parse(date)) / 864e5;
+  const src =
+    n <= 0
+      ? `/img/digest/${toYYYYMM(date)}/covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`
+      : `/img/digest/placeholder/${1 + (n % 7)}.jpg`;
 
   const [yyyy, mm, dd] = date.split("-");
   const dateObj = new Date(date);
   const month_en = dateObj.toLocaleString("en", { month: "long" });
   const month_fr = dateObj.toLocaleString("fr", { month: "long" });
-
   const caption = children
     ? children
     : translate(
@@ -518,7 +532,7 @@ export const Figure = ({ date, srcx, children }) => {
 
   return (
     <>
-      <img src={folder + fileName} className="img-digest" alt={getText(caption)} title={getText(caption)} />
+      <img src={useBaseUrl(src)} className="img-digest" alt={getText(caption)} title={getText(caption)} />
       <div className="caption">{caption}</div>
     </>
   );
