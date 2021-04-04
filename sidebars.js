@@ -1,7 +1,7 @@
 module.exports = {
   "appendices": [
     "sources",
-    "formatting-guidelines",
+    "content-and-format-specification",
   ],
   "2021": [
     "2021/intro",

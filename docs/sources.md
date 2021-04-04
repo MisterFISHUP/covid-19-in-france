@@ -3,7 +3,7 @@ title: 資料來源
 description: 介紹這本法國 COVID-19 日誌內容的資料來源
 ---
 
-如同[日誌序](preface.md)所提到，一篇日誌一般會包含**法國官方數據**以及**本日新聞重點**兩部份，並且一週會有一篇日誌包含**一週疫情報告重點**。本頁面將會為您介紹這本**法國 COVID-19 日誌**內容的資料來源。
+如同[日誌序](preface.md)所提到，一篇日誌一般會包含**法國官方數據**以及**本日新聞重點**兩部份，並且一週會有一篇日誌包含**一週疫情報告重點**。本頁面將介紹這本**法國 COVID-19 日誌**內容的資料來源。
 
 ## 法國官方數據 {#official-data}
 
@@ -14,7 +14,7 @@ description: 介紹這本法國 COVID-19 日誌內容的資料來源
 3. [官方數據儀表板 - 疫情指標][indic]
 4. 法國公共衛生局 (Santé publique France) 的 [COVID-19 : bilan et chiffres clés en France][spf]
 
-第一點頁面有提供原始數據資料下載，而前三點的原始數據資料也可在[官方數據庫][ofcl]找到（頁面分別為：[疫苗數據][ofcl_vac]、[疫情總覽][ofcl_vue]、[疫情指標][ofcl_indic]）。
+第一點的頁面有提供原始數據資料下載，而前三點的原始數據資料也可在[官方數據庫][ofcl]找到（頁面分別為：[疫苗數據][ofcl_vac]、[疫情總覽][ofcl_vue]、[疫情指標][ofcl_indic]）。
 
 [vac]: <https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination> (法國衛生部 - 疫苗數據)
 [vue]: <https://dashboard.covid19.data.gouv.fr/vue-d-ensemble> (官方數據儀表板 - 疫情總覽)
@@ -117,8 +117,6 @@ description: 介紹這本法國 COVID-19 日誌內容的資料來源
 此部分的內容來同樣自於 Grace Tseng 的臉書貼文。原臉書貼文內容的資料來源為 Santé publique France 網站上的 **COVID-19 : point épidémiologique hebdomadaire** 文件。日誌內文會附上此文件的下載頁面連結。
 
 <div className="comment_block">我沒有使用其他來源來交叉比對此部分的內容，故不確保或負責其資訊的正確性，僅對 Grace Tseng 的臉書貼文做整理。若有錯誤還請指正，不勝感激！</div>
-
-<!-- todo: list of links of spf dl pages/links of digest pages (use component + json) -->
 
 ## 其他 {#others}
 
