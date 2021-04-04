@@ -216,7 +216,7 @@
     "description": "The line for vacEhpadUsldPct in Indicators"
   },
   "digestComp.Indicators.clusters": {
-    "message": "Number of clusters under investigation from 9/5 in 2020 up to {dateDM}: {clustersTotal}, including  {clustersEhpad} in EHPAD",
+    "message": "Number of clusters under investigation from 9/5/2020 up to {dateDM}: {clustersTotal}, including  {clustersEhpad} in EHPAD",
     "description": "The line for clusters in Indicators"
   },
   "digestComp.ReturnHomeCumul.title": {
