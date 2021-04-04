@@ -310,5 +310,17 @@
   "digestComp.DeathsCumul.noUpdateEhpadEms": {
     "message": " (no update)",
     "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
+  },
+  "digestComp.SourceFb.phrase": {
+    "message": "📝 以下內容整理於 {gt} 在臉書社團中的",
+    "description": "The starting phrase in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "digestComp.SourceFb.thisPost": {
+    "message": "此貼文",
+    "description": "'This post' (content of anchor tags in SourceFb, used only in traditional and simplified Chinese)"
+  },
+  "digestComp.SourceFb.linkTitle": {
+    "message": "前往臉書社團貼文",
+    "description": "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)"
   }
 }

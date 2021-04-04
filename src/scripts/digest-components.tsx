@@ -670,9 +670,24 @@ export const OfficialData = ({ date }) => {
 
 // used className `comment--translc_gray`
 export const SourceFb = ({ date }) => {
-  const phrase = `📝 以下內容整理於 ${gt} 在臉書社團中的`;
-  const thisPost = "此貼文";
-  const linkTitle = "前往臉書社團貼文";
+  const phrase = translate(
+    {
+      id: "digestComp.SourceFb.phrase",
+      description: "The starting phrase in SourceFb (used only in traditional and simplified Chinese)",
+      message: "📝 以下內容整理於 {gt} 在臉書社團中的",
+    },
+    { gt: gt }
+  );
+  const thisPost = translate({
+    id: "digestComp.SourceFb.thisPost",
+    description: "'This post' (content of anchor tags in SourceFb, used only in traditional and simplified Chinese)",
+    message: "此貼文",
+  });
+  const linkTitle = translate({
+    id: "digestComp.SourceFb.linkTitle",
+    description: "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)",
+    message: "前往臉書社團貼文",
+  });
   let content = <></>;
 
   if (typeof fbLinks[date] == "string") {
