@@ -12,7 +12,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'Mister FISH UP', // Usually your GitHub org/user name.
   projectName: 'covid-19-in-france', // Usually your repo name.
   i18n: {
@@ -66,7 +66,7 @@ module.exports = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-        // srcDark: 'img/undraw_docusaurus_mountain.svg',
+        // srcDark: 'img/logo.svg',
       },
       items: [
         {
@@ -109,8 +109,17 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       links: [
+        {
+          items: [
+            {
+              html: `
+                <img src="/img/logo.svg" alt="法國 COVID-19 日誌" title="法國 COVID-19 日誌"/>
+              `, // todo: change src link
+            },
+          ]
+        },
         {
           title: '日誌',
           items: [
@@ -134,7 +143,7 @@ module.exports = {
             {
               label: '官方數據儀表板 - 疫情總覽',
               href: 'https://dashboard.covid19.data.gouv.fr/vue-d-ensemble',
-            }, 
+            },
             {
               label: '官方數據庫',
               href: 'https://www.data.gouv.fr/fr/pages/donnees-coronavirus',
@@ -149,19 +158,19 @@ module.exports = {
             },
           ],
         },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: 'blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${siteYear} 法國 COVID-19 日誌`,
     },
