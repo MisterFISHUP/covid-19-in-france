@@ -115,7 +115,7 @@ module.exports = {
           items: [
             {
               html: `
-                <img src="/img/logo.svg" alt="法國 COVID-19 日誌" title="法國 COVID-19 日誌" class="footer-logo"/>
+                <img src="/img/logo.svg" alt="法國 COVID-19 日誌 | Daily Digest - COVID-19 IN FRANCE" title="法國 COVID-19 日誌 | Daily Digest - COVID-19 IN FRANCE" class="footer-logo"/>
               `, // todo: change src link
             },
           ]
@@ -162,11 +162,8 @@ module.exports = {
           title: '其他',
           items: [
             {
-              html: `
-                <a href="https://www.buymeacoffee.com/misterfishup" target="_blank" aria-label="支持本站" title="Buy me a coffee" class="footer__link-item">
-                  <img src="/img/coffee.svg" alt="Buy me a coffee" style="vertical-align: middle; height: 2em;"/> 支持本站
-                </a>
-              `, // todo: change src link
+              label: '🍰 支持本站',
+              href: 'https://www.buymeacoffee.com/misterfishup',
             },
           ],
         },

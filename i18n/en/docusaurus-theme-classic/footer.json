@@ -38,5 +38,13 @@
   "copyright": {
     "message": "Copyright © 2021 Daily Digest - COVID-19 IN FRANCE",
     "description": "The footer copyright"
+  },
+  "link.title.其他": {
+    "message": "More",
+    "description": "The title of the footer links column with title=其他 in the footer"
+  },
+  "link.item.label.🍰 支持本站": {
+    "message": "🍰 Support this website",
+    "description": "The label of footer link with label=🍰 支持本站 linking to https://www.buymeacoffee.com/misterfishup"
   }
 }
