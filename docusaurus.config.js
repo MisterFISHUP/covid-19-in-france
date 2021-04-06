@@ -13,8 +13,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Mister FISH UP', // Usually your GitHub org/user name.
-  projectName: 'covid-19-in-france', // Usually your repo name.
+  organizationName: 'MisterFISHUP',
+  projectName: 'covid-19-in-france',
   i18n: {
     defaultLocale: 'zh-Hant',
     locales: ['zh-Hant', 'zh-Hans', 'en'],
@@ -66,7 +66,7 @@ module.exports = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-        // srcDark: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {
@@ -100,7 +100,7 @@ module.exports = {
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         // {
-        //   href: 'https://github.com/facebook/docusaurus',
+        //   href: 'https://github.com/MisterFISHUP/covid-19-in-france',
         //   // label: 'GitHub',
         //   position: 'right',
         //   className: 'header-github-link',
@@ -115,7 +115,7 @@ module.exports = {
           items: [
             {
               html: `
-                <img src="/img/logo.svg" alt="法國 COVID-19 日誌" title="法國 COVID-19 日誌"/>
+                <img src="/img/logo.svg" alt="法國 COVID-19 日誌" title="法國 COVID-19 日誌" class="footer-logo"/>
               `, // todo: change src link
             },
           ]
@@ -159,15 +159,14 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: '其他',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              html: `
+                <a href="https://www.buymeacoffee.com/misterfishup" target="_blank" aria-label="支持本站" title="Buy me a coffee" class="footer__link-item">
+                  <img src="/img/coffee.svg" alt="Buy me a coffee" style="vertical-align: middle; height: 2em;"/> 支持本站
+                </a>
+              `, // todo: change src link
             },
           ],
         },
@@ -182,13 +181,9 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'digest',
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
