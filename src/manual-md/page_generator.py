@@ -142,7 +142,7 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
 ## Official Data {#official-data}
 '''
         news_only_zh = '''
-<div className="comment--translc_gray">📢 For the COVID-19 Daily News Digest, it is only available in <strong>traditional Chinese</strong> and <strong>simplified Chinese</strong> at the moment.</div>
+<div className="comment--translc_gray">📢 For the COVID-19 Daily News Digest, it is only available in <strong>traditional Chinese</strong> and <strong>simplified Chinese</strong> at the moment.</div><br />
 '''
         news_heading = '''
 ## COVID-19 Daily News Digest {#news}
