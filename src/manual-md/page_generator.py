@@ -221,29 +221,29 @@ def generate_pages(s_y, s_m, s_d, e_y, e_m, e_d):
 # generate_pages(2020,3,9,2020,3,10)
 
 # %% [markdown]
-# ## Create `intro.md` by copying manual `intro.md`
+# ## Create `intro.mdx` by copying manual `intro.md`
 # 
-# Copy `./manual/{cur_year}/intro.md` to `/docs/{cur_year}/intro.md`
+# Copy `./manual/{cur_year}/intro.md` to `/docs/{cur_year}/intro.mdx`
 # 
-# Copy `./manual_{locale}/{cur_year}/intro.md` to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.md`
+# Copy `./manual_{locale}/{cur_year}/intro.md` to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.mdx`
 
 # %%
-def create_intro_md(locale='zh-Hant'):
+def create_intro_mdx(locale='zh-Hant'):
     '''
-    Copy `./manual/{cur_year}/intro.md` to `/docs/{cur_year}/intro.md`,
-    or `./manual_{locale}/{cur_year}/intro.md` to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.md`.
+    Copy `./manual/{cur_year}/intro.md` to `/docs/{cur_year}/intro.mdx`,
+    or `./manual_{locale}/{cur_year}/intro.md` to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.mdx`.
     '''
     intro_root_dir_from = 'manual' if locale == 'zh-Hant' else f'manual_{locale}'
     intro_md_from = Path(intro_root_dir_from, str(cur_year), 'intro.md')
     intro_dir_to = Path('..', '..', 'docs', str(cur_year)) if locale == 'zh-Hant' else Path('..', '..', 'i18n', locale, 'docusaurus-plugin-content-docs', 'current', str(cur_year))
-    intro_md_to = Path(intro_dir_to, 'intro.md')
+    intro_md_to = Path(intro_dir_to, 'intro.mdx')
 
     # if intro md file doesn't exist, raise an error
     if not intro_md_from.is_file():
         if locale == 'zh-Hant':
-            raise Exception(f"File `./manual/{cur_year}/intro.md` doesn't exist, can't copy it to `/docs/{cur_year}/intro.md`.")
+            raise Exception(f"File `./manual/{cur_year}/intro.md` doesn't exist, can't copy it to `/docs/{cur_year}/intro.mdx`.")
         else:
-            raise Exception(f"File `./manual_{locale}/{cur_year}/intro.md` doesn't exist, can't copy it to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.md`.")
+            raise Exception(f"File `./manual_{locale}/{cur_year}/intro.md` doesn't exist, can't copy it to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.mdx`.")
 
     # intro md file exists as expected, so copy it
     else:
@@ -252,11 +252,11 @@ def create_intro_md(locale='zh-Hant'):
 
         # prompt: copy finished
         if locale == 'zh-Hant':
-            print(f'Copied `./manual/{cur_year}/intro.md` to `/docs/{cur_year}/intro.md`.')
+            print(f'Copied `./manual/{cur_year}/intro.md` to `/docs/{cur_year}/intro.mdx`.')
         else:
-            print(f'Copied `./manual_{locale}/{cur_year}/intro.md` to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.md`.')
+            print(f'Copied `./manual_{locale}/{cur_year}/intro.md` to `/i18n/{locale}/docusaurus-plugin-content-docs/current/{cur_year}/intro.mdx`.')
 
-# create_intro_md('zh-Hant')
+# create_intro_mdx('zh-Hant')
 
 # %% [markdown]
 # ## Clear generated pages
@@ -300,9 +300,9 @@ def main():
 
     generate_pages(2020,3,1,cur_year,lastest_month,lastest_day)
 
-    create_intro_md('zh-Hant')
-    create_intro_md('zh-Hans')
-    create_intro_md('en')
+    create_intro_mdx('zh-Hant')
+    create_intro_mdx('zh-Hans')
+    create_intro_mdx('en')
 
 main()
 
