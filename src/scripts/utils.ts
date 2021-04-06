@@ -1,5 +1,6 @@
 export const graceTseng: string = "Grace Tseng";
 export const startDate: string = "2020-03-01";
+export const latestDate2021 = { m: 4, d: 1 };
 export const earliestDate: string = "2020-10-26";
 export const neutralGray: string = "rgb(150, 150, 150)";
 
