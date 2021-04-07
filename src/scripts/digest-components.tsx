@@ -498,7 +498,7 @@ export const Fish = ({ children }) => (
   </a>
 );
 
-// date is required, if date is earlier then earliestDate then use placeholder img
+// date is required, if date is earlier then earliestDate then placeholder img is used
 // if srcx is absent, img will be the main img
 // used className: `img-digest`, `caption`
 export const Figure = ({ date, srcx, children }) => {
