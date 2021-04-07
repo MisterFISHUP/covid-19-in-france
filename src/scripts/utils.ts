@@ -51,8 +51,15 @@ export const arrayOfDates = (d: string, n: number): string[] =>
     .reverse()
     .map((x) => theDayBefore(d, x));
 
+// ex: (12, 'en') -> 'December'
 export const getMonthName = (m: number, locale: string): string => {
   const d = new Date();
   d.setMonth(m - 1);
   return d.toLocaleString(locale, { month: "long" });
+}
+
+// ex: (12, 'en) -> 'december'
+export const monthEnLower = (m: number): string => {
+  const monthEn = getMonthName(m, 'en');
+  return monthEn[0].toLowerCase() + monthEn.slice(1);
 }

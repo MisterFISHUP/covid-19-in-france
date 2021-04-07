@@ -4,11 +4,11 @@ description: 2021 年还没结束，今年的法国 COVID-19 日志持续更新�
 slug: ./
 ---
 
-import { latestDate2021 as date } from "@site/src/scripts/utils";
+import { latestDate2021 as date, monthEnLower } from "@site/src/scripts/utils";
 
 2021 年还没结束，今年的法国 COVID-19 日志持续更新中。
 
-<div>目前最新更新到 <span>{date.m}</span> 月 <span>{date.d}</span> 日。</div><br /><br />
+<div>目前最新更新到 <a href={`./${monthEnLower(date.m, 'en')}/${date.d}`}><span>{date.m}</span> 月 <span>{date.d}</span> 日</a>。</div><br /><br />
 
 祝大家 2021 平安健康 ☘️
 
