@@ -17,6 +17,7 @@ import {
   reverseMDLabelDate as revMD,
   neutralGray,
   earliestDate,
+  getMonthName,
 } from "./utils";
 
 // not empty if `casesCumul` exists for the date
@@ -461,9 +462,8 @@ const Indicators = ({ date }) => {
 export const Subtitle = ({ date }) => {
   const n = 1 + (Date.parse(date) - Date.parse(startDate)) / 864e5;
   const [yyyy, mm, dd] = date.split("-");
-  const dateObj = new Date(date);
-  const month_en = dateObj.toLocaleString("en", { month: "long" });
-  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
+  const month_en = getMonthName(parseInt(mm), "en");
+  const month_fr = getMonthName(parseInt(mm), "fr");
   return (
     <p className="subtitle">
       <Translate
@@ -509,9 +509,8 @@ export const Figure = ({ date, srcx, children }) => {
       : `/img/digest/placeholder/${1 + (n % 7)}.jpg`;
 
   const [yyyy, mm, dd] = date.split("-");
-  const dateObj = new Date(date);
-  const month_en = dateObj.toLocaleString("en", { month: "long" });
-  const month_fr = dateObj.toLocaleString("fr", { month: "long" });
+  const month_en = getMonthName(parseInt(mm), "en");
+  const month_fr = getMonthName(parseInt(mm), "fr");
   const caption = children
     ? children
     : translate(

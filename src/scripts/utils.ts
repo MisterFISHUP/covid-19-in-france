@@ -50,3 +50,9 @@ export const arrayOfDates = (d: string, n: number): string[] =>
   Array.from(Array(n).keys())
     .reverse()
     .map((x) => theDayBefore(d, x));
+
+export const getMonthName = (m: number, locale: string): string => {
+  const d = new Date();
+  d.setMonth(m - 1);
+  return d.toLocaleString(locale, { month: "long" });
+}
