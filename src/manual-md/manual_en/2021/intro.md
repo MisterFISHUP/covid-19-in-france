@@ -4,7 +4,8 @@ description: 2021 is not over yet, this year's daily digest of COVID-19 in Franc
 slug: ./
 ---
 
-import { latestDate2021 as date, monthEnLower } from "@site/src/scripts/utils";
+import { monthEnLower } from "@site/src/scripts/utils";
+import { latestDate2021 as date } from "@site/src/scripts/latestDate2021";
 
 2021 is not over yet, this year's daily digest of COVID-19 in France is constantly being updated.
 

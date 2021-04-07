@@ -4,7 +4,8 @@ description: 2021 年還沒結束，今年的法國 COVID-19 日誌持續更新�
 slug: ./
 ---
 
-import { latestDate2021 as date, monthEnLower } from "@site/src/scripts/utils";
+import { monthEnLower } from "@site/src/scripts/utils";
+import { latestDate2021 as date } from "@site/src/scripts/latestDate2021";
 
 2021 年還沒結束，今年的法國 COVID-19 日誌持續更新中。
 
