@@ -8,6 +8,7 @@ if (process.env.NODE_ENV === "development") {
       "2021/intro",
       {
         "4 月": [
+          "2021/april/5",
           "2021/april/1",
         ],
         "3 月": [
