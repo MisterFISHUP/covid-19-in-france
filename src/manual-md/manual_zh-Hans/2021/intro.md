@@ -5,7 +5,7 @@ slug: ./
 ---
 
 import { monthEnLower } from "@site/src/scripts/utils";
-import { latestDate2021 as date } from "@site/src/scripts/latestDate2021";
+import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
 
 2021 年还没结束，今年的法国 COVID-19 日志持续更新中。
 

@@ -68,9 +68,9 @@ module.exports = {
       },
       items: [
         {
-          type: "doc",
-          docId: "preface",
+          to: "digest",
           label: "日誌序",
+          activeBaseRegex: "digest/?$",
         },
         {
           type: "doc",

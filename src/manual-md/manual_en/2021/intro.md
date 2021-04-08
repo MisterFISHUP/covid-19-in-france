@@ -5,7 +5,7 @@ slug: ./
 ---
 
 import { monthEnLower } from "@site/src/scripts/utils";
-import { latestDate2021 as date } from "@site/src/scripts/latestDate2021";
+import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
 
 2021 is not over yet, this year's daily digest of COVID-19 in France is constantly being updated.
 
