@@ -3,7 +3,7 @@ title: Sources
 description: The sources of data used in Daily Digest of COVID-19 IN FRANCE
 ---
 
-如同[日誌序](preface.md)所提到，一篇日誌一般會包含**法國官方數據**以及**本日新聞重點**兩部份，並且一週會有一篇日誌包含**一週疫情報告重點**。本頁面將介紹這本**法國 COVID-19 日誌**內容的資料來源。
+如同[日誌序](/digest)所提到，一篇日誌一般會包含**法國官方數據**以及**本日新聞重點**兩部份，並且一週會有一篇日誌包含**一週疫情報告重點**。本頁面將介紹這本**法國 COVID-19 日誌**內容的資料來源。
 
 ## Official Data {#official-data}
 
