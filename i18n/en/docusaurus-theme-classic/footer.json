@@ -43,8 +43,12 @@
     "message": "More",
     "description": "The title of the footer links column with title=其他 in the footer"
   },
-  "link.item.label.🍰 支持本站": {
-    "message": "🍰 Support this website",
-    "description": "The label of footer link with label=🍰 支持本站 linking to https://www.buymeacoffee.com/misterfishup"
+  "link.item.label.聯絡資訊": {
+    "message": "Contact",
+    "description": "The label of footer link with label=聯絡資訊 linking to about#contact"
+  },
+  "link.item.label.支持本站 🍰": {
+    "message": "Support this website 🍰",
+    "description": "The label of footer link with label=支持本站 🍰 linking to https://www.buymeacoffee.com/misterfishup"
   }
 }
