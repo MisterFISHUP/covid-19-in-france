@@ -105,7 +105,7 @@ description: 介紹這本法國 COVID-19 日誌內容的資料來源
 
 ## 本日新聞重點 {#news}
 
-此部分的內容整理於 Grace Tseng 的臉書貼文。原臉書貼文內容為 Grace Tseng 對各大媒體報導的整合 (BFM, Le Parisien, Le Figaro, 20 Minutes, Le Monde, L'Internaute, etc)。
+此部分的內容整理於 Grace Tseng 在[臉書社團](https://www.facebook.com/groups/279746385504501)（現名：巴黎臺灣同學會）的貼文。原臉書貼文內容為 Grace Tseng 對各大媒體報導的整合 (BFM, Le Parisien, Le Figaro, 20 Minutes, Le Monde, L'Internaute, etc)。
 
 自 2021 年 2 月起多數新聞重點會附上來源連結，讓讀者能輕鬆地查看原始報導文章。
 
