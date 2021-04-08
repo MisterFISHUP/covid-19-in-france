@@ -322,5 +322,21 @@
   "digestComp.SourceFb.linkTitle": {
     "message": "前往脸书社团贴文",
     "description": "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "homepage.title": {
+    "message": "首页"
+  },
+  "homepage.description": {
+    "message": "一本记录法国新冠肺炎 (COVID-19) 的日志，提供法国每日疫情数据以及新闻重点整理"
+  },
+  "homepage.hero.title": {
+    "message": "法国 COVID-19 日志"
+  },
+  "homepage.hero.tagline": {
+    "message": "一本记录<b>法国新冠肺炎疫情</b>的日志",
+    "description": "Homepage hero tagline, can contain simple html tags"
+  },
+  "homepage.hero.button.startReading": {
+    "message": "开始阅读"
   }
 }

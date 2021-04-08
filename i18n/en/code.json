@@ -322,5 +322,21 @@
   "digestComp.SourceFb.linkTitle": {
     "message": "前往臉書社團貼文",
     "description": "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "homepage.title": {
+    "message": "Homepage"
+  },
+  "homepage.description": {
+    "message": "Daily Digest of COVID-19 in France: COVID-19 statistics and news"
+  },
+  "homepage.hero.title": {
+    "message": "COVID-19 IN FRANCE"
+  },
+  "homepage.hero.tagline": {
+    "message": "Daily Digest of <b>COVID-19</b> in France",
+    "description": "Homepage hero tagline, can contain simple html tags"
+  },
+  "homepage.hero.button.startReading": {
+    "message": "Start Reading"
   }
 }

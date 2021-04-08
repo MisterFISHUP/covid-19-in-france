@@ -1,27 +1,76 @@
-/* stylelint-disable docusaurus/copyright-header */
-
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
+  padding: 3em 0;
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
+.heroText {
+  font-size: 22px;
+  padding: 110px 30px;
+}
+
+.heroLogo {
+  width: 400px;
+  margin: 16px 30px;
+  float: right;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.15) rotate(2deg);
   }
 }
 
+.heroTitle {
+  font-size: 3em;
+}
+
+.heroTagline {
+  font-size: 1.5em;
+  b {
+    color: var(--ifm-color-primary);
+    font-weight: normal;
+  }
+}
+
+// not really used
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .heroBanner {
+    padding: 3em;
+  }
+  .heroText {
+    font-size: 18px;
+    padding: 65px 0;
+  }
+  .heroLogo {
+    width: 300px;
+    margin: 10px 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .heroBanner {
+    padding: 2em;
+  }
+  .heroLogo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    max-width: 70%;
+  }
+  .heroText {
+    font-size: 14px;
+    padding: 28px 0;
+    text-align: center;
+  }
+  .buttons {
+    justify-content: center;
+  }
+  .getStarted {
+    font-size: 18px;
+  }
 }
 
 .features {

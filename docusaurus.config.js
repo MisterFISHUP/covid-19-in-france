@@ -42,7 +42,7 @@ module.exports = {
     //   anonymizeIP: false,
     // },
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: 'dark',
       respectPrefersColorScheme: true,
       switchConfig: {
         darkIcon: '🌙',
