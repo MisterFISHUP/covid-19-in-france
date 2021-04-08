@@ -1,6 +1,60 @@
 ---
 title: 關於本站
 description: 關於法國 COVID-19 日誌這個網站以及站長 FISH UP
+hide_table_of_contents: true
 ---
 
-## lorem ipsum
+# 關於本站 {#about}
+
+<br />
+
+## 🎯 本站宗旨 {#objective}
+
+以日誌的形式提供法國每日疫情的數據以及新聞整理，讓讀者快速掌握法國疫情、也能夠輕鬆查找歷史資訊。
+
+<br />
+
+## 🌱 關於站長 {#author}
+
+嗨！我是 **FISH UP**，本名**于上鈞**（Mister FISH UP，魚上君 😆），這個網站是我架設的。我很享受設計和架站的過程，希望您喜歡這個網站，更希望它能幫助您了解法國的新冠肺炎疫情，不論您會不會法文、住不住在法國！
+
+這是我的 [CV](https://cv.misterfishup.com/)，好奇的人可以看一看（網站沒有中文，但有小彩蛋 😋）。
+
+另外，這裡要表達我對 Grace Tseng 的感謝，感謝她熱心且堅持不懈地在[臉書社團](https://www.facebook.com/groups/279746385504501)（現名：巴黎臺灣同學會）每日發法國疫情整理的貼文，並同意我[整理](/digest/content-and-format-specification)她的貼文以及發佈到此法國 COVID-19 日誌。她有個臉書粉絲專頁[馬力的法國主婦生活 A City Trotter in France](https://www.facebook.com/citytrotterfrance)，時常會在上面分享疫情新聞整理和其他法國生活日常，大家可以追蹤或按讚她的貼文來支持她。
+
+<br />
+
+## 🥰 支持本站 {#support}
+
+如果您覺得這個網站對您很有幫助，疫情結束後一起吃個飯或請杯珍珠奶茶吧！
+
+您也可以 [🍰 Buy me a cake](https://www.buymeacoffee.com/misterfishup) 來更直接地支持本站和支持我繼續創作。
+
+當然，請不要吝嗇踴躍將這個網站分享給親朋好友，這毫無疑問也是對我的一大支持 💪！
+
+<br />
+
+## ✍️ 聯絡資訊 {#contact}
+
+有任何問題、或發現內容錯誤、或純粹想表達支持 😀，您都可以
+
+- 寫信至 [misterfishup+covid19fr@gmail.com](mailto:misterfishup+covid19fr@gmail.com)
+- 透過[臉書](https://www.facebook.com/profile.php?id=100000697055529)、[LinkedIn](https://www.linkedin.com/in/shang-chun-yu/)、[Telegram](https://t.me/fish_up) 聯絡我
+
+也可以加入[臉書社團](https://www.facebook.com/groups/279746385504501 "巴黎臺灣同學會")以發文、留言或私訊。
+
+<br />
+
+## 👋🏼 歡迎合作 {#collaboration}
+
+非常歡迎與我討論或合作新點子！
+
+如果您：
+
+- 想討論**網站架設**、**中英法筆譯以及口譯**、**外語學習**、**文章撰寫與排版**
+- 或是在尋找能**條理地規劃專案並執行**、**嚴謹且高效率地工作**、**富有創意又同時細心**的人
+- 或是想討論數學 (?)
+- 或是想討論節奏遊戲 (?)
+- 或只是**想認識我並交個朋友**
+
+歡迎透過上方[聯絡資訊](#contact)聯繫我！
