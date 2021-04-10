@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 477.374 351.178" height="351.18px" version="1.1" viewBox="0 0 477.374 351.178" width="477.37px" x="0px" xml:space="preserve" y="0px">
+<g id="Layer_2_copy">
+	<g>
+		<path d="m437.28 0.752l34.932 279c0.859 6.876-4.392 13.192-11.726 14.109l-410.61 51.41c-7.337 0.919-13.982-3.908-14.842-10.781l-34.933-279 437.18-54.738z" fill="#EFEFEF"/>
+	</g>
+	<path d="m437.18 0l34.933 279c0.862 6.877-4.391 13.191-11.727 14.11l-410.61 51.41c-7.336 0.919-13.98-3.908-14.841-10.783l-34.929-279 437.18-54.74z" fill="#000001" id="x" opacity=".2"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<path d="m449 11.626l19.927 297.29c0.491 7.325-5.052 13.658-12.372 14.151l-409.94 27.47c-7.324 0.49-13.659-5.048-14.15-12.375l-19.923-297.28 436.45-29.254z" fill="#EFEFEF"/>
+	</g>
+	<path d="m448.95 10.824l19.924 297.29c0.492 7.326-5.049 13.657-12.373 14.149l-409.93 27.477c-7.325 0.489-13.66-5.046-14.15-12.373l-19.927-297.29 436.46-29.256z" fill="#000001" id="x_1_" opacity=".1"/>
+</g>
+<g id="Layer_1">
+	<g>
+		<path d="m477.37 33.28v304.32c0 7.5-6.079 13.576-13.575 13.576h-419.63c-7.498 0-13.575-6.076-13.575-13.576v-304.32h446.78z" fill="#EFEFEF"/>
+	</g>
+	<g fill="#CECECE">
+		<rect fill="inherit" height="56.706" width="400.38" x="53.93" y="53.855"/>
+		<rect fill="inherit" height="22.339" width="275.66" x="53.93" y="276.9"/>
+		<rect fill="inherit" height="22.339" width="110.97" x="343.34" y="132.99"/>
+		<rect fill="inherit" height="6.825" width="110.97" x="343.34" y="166.41"/>
+		<rect fill="inherit" height="6.825" width="110.97" x="343.34" y="177.12"/>
+		<rect fill="inherit" height="6.824" width="110.97" x="343.34" y="187.39"/>
+		<rect fill="inherit" height="6.824" width="82.714" x="53.93" y="310.02"/>
+		<rect fill="inherit" height="6.825" width="82.714" x="53.93" y="320.73"/>
+		<rect fill="inherit" height="6.824" width="82.714" x="53.93" y="331"/>
+		<rect fill="inherit" height="6.824" width="82.713" x="150.51" y="310.02"/>
+		<rect fill="inherit" height="6.825" width="82.713" x="150.51" y="320.73"/>
+		<rect fill="inherit" height="6.824" width="82.713" x="150.51" y="331"/>
+		<rect fill="inherit" height="6.824" width="82.712" x="246.88" y="310.02"/>
+		<rect fill="inherit" height="6.825" width="82.712" x="246.88" y="320.73"/>
+		<rect fill="inherit" height="6.824" width="82.712" x="246.88" y="331"/>
+		<rect fill="inherit" height="6.824" width="110.97" x="343.34" y="198.1"/>
+		<rect fill="inherit" height="6.825" width="110.97" x="343.34" y="207.96"/>
+		<rect fill="inherit" height="6.823" width="110.97" x="343.34" y="218.67"/>
+		<rect fill="inherit" height="6.823" width="110.97" x="343.34" y="228.94"/>
+		<rect fill="inherit" height="6.825" width="110.97" x="343.34" y="239.65"/>
+		<rect fill="inherit" height="6.824" width="110.97" x="343.34" y="332.39"/>
+	</g>
+	<g fill="#5B5B5B">
+		<rect fill="inherit" height="134.03" width="275.66" x="53.93" y="133.66"/>
+		<rect fill="inherit" height="71.435" width="110.97" x="343.34" y="256.52"/>
+		<rect fill="inherit" height="2.578" width="400.38" x="53.93" y="122.59"/>
+		<rect fill="inherit" height="209.88" width="1.288" x="334.62" y="133.41"/>
+	</g>
+</g>
+</svg>

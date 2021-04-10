@@ -8,8 +8,8 @@ import styles from "./styles.module.scss";
 
 const features = [
   {
-    title: "Easy to Use",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    title: "法國官方數據",
+    imageUrl: "img/covid_data.svg",
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and used to get your website up and running
@@ -18,8 +18,8 @@ const features = [
     ),
   },
   {
-    title: "Focus on What Matters",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    title: "疫情新聞整理",
+    imageUrl: "img/newspaper.svg",
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the{" "}
@@ -28,8 +28,8 @@ const features = [
     ),
   },
   {
-    title: "Powered by React",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    title: "新冠肺炎記者會重點",
+    imageUrl: "img/press_conference.svg",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same
