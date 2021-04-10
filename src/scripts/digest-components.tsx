@@ -485,18 +485,12 @@ export const Subtitle = ({ date }) => {
 };
 
 export const Grace = ({ children }) => (
-  <a>
-    <em>
-      {gt}: {children}
-    </em>
-  </a>
+  <em style={{ color: "var(--ifm-color-primary)" }}>
+    {gt}: {children}
+  </em>
 );
 
-export const Fish = ({ children }) => (
-  <a>
-    <em>FISH UP: {children}</em>
-  </a>
-);
+export const Fish = ({ children }) => <em style={{ color: "var(--ifm-color-primary)" }}>FISH UP: {children}</em>;
 
 // date is required, if date is earlier then earliestDate then placeholder img is used
 // if srcx is absent, img will be the main img
