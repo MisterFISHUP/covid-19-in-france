@@ -15,4 +15,4 @@ Wishing you all a safe and healthy 2021 ☘️
 
 FISH UP
 
-![Take care and stay safe](/img/digest/love.jpg)
+![Take care and stay safe](/img/digest/love686F74.jpg)

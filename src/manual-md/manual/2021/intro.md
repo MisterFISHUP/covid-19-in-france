@@ -15,4 +15,4 @@ import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
 
 站長 FISH UP
 
-![Take care and stay safe](/img/digest/love.jpg)
+![Take care and stay safe](/img/digest/love686F74.jpg)
