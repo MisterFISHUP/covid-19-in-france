@@ -5,7 +5,7 @@ const siteYear = startYear == currentYear ? String(startYear) : `${startYear} - 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "法國 COVID-19 日誌",
-  tagline: "一本記錄法國新冠肺炎 (Covid-19) 的中文日誌。",
+  tagline: "一本記錄法國新冠肺炎 (COVID-19) 的日誌",
   url: "https://covid-fr.misterfishup.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -34,11 +34,11 @@ module.exports = {
     //   apiKey: '',
     //   indexName: '',
     // },
-    // image: "", // Relative to your site's "static" directory.
-    // googleAnalytics: {
-    //   trackingID: 'UA-x-x',
-    //   anonymizeIP: false,
-    // },
+    image: "img/social_preview.png", // Relative to "static" directory
+    googleAnalytics: {
+      trackingID: "UA-173562145-3",
+      anonymizeIP: true,
+    },
     colorMode: {
       defaultMode: "dark",
       respectPrefersColorScheme: true,
