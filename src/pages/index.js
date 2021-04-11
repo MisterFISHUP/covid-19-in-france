@@ -9,7 +9,7 @@ import styles from "./styles.module.scss";
 const features = [
   {
     title: "法國官方數據",
-    imageUrl: "img/covid_data.svg",
+    imageUrl: "img/features/covid_data.svg",
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and used to get your website up and running
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: "疫情新聞整理",
-    imageUrl: "img/newspaper.svg",
+    imageUrl: "img/features/newspaper.svg",
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the{" "}
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: "新冠肺炎記者會重點",
-    imageUrl: "img/press_conference.svg",
+    imageUrl: "img/features/press_conference.svg",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same
