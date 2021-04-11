@@ -1,9 +1,9 @@
 ---
 title: Content and format specification
-description: The content and format specification of Daily Digest of COVID-19 IN FRANCE
+description: The content and format specification of Daily Digest - COVID-19 IN FRANCE
 ---
 
-![Content and format specification of this COVID-19 IN FRANCE Daily Digest](/img/digest/formatting.jpg)
+![Content and format specification of Daily Digest - COVID-19 IN FRANCE](/img/digest/formatting.jpg)
 
 ## 用詞與翻譯 {#wording-and-translation}
 

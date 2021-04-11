@@ -1,13 +1,13 @@
 ---
 title: About 2021
-description: 2021 is not over yet, this year's daily digest of COVID-19 in France is constantly being updated 😉
+description: 2021 is not over yet, this year's daily digests of COVID-19 in France are constantly being updated 😉
 slug: ./
 ---
 
 import { monthEnLower } from "@site/src/scripts/utils";
 import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
 
-2021 is not over yet, this year's daily digest of COVID-19 in France is constantly being updated.
+2021 is not over yet, this year's daily digests of COVID-19 in France are constantly being updated.
 
 <div>Currently updated as of <a href={`./${monthEnLower(date.m)}/${date.d}`}><span>{date.d}</span>/<span>{date.m}</span>/2021</a>.</div><br /><br />
 
