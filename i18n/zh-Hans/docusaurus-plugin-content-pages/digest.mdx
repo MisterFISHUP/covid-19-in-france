@@ -1,0 +1,50 @@
+---
+title: 日志序
+description: 这是一本记录法国新冠肺炎 (COVID-19) 的日志，提供法国每日疫情数据以及新闻重点整理
+hide_table_of_contents: true
+---
+
+import { newsEarliestDate as date } from "@site/src/scripts/dateVariables";
+import Link from "@docusaurus/Link";
+
+<h1 className="pages--h1">日志序</h1>
+
+这是一本记录法国新冠肺炎 (COVID-19) 的日志，提供法国每日疫情数据以及新闻重点整理。
+
+这本**法国 COVID-19 日志**从 2020 年 3 月 1 日开始记录了法国新冠肺炎的疫情，也就是法国累积确诊数破百的隔日（2/29 累积确诊数到达 100，3/1 又新增 30 到达 130 人确诊）。
+
+一篇日志一般会包含：
+
+- **法国官方数据**：当日的疫情数据
+- **本日新闻重点**：一些疫情新闻整理
+
+另外，一週会有一篇日志包含**一週疫情报告重点**。
+
+<div className="comment--translc_gray">
+  注：法国官方数据从 2020 年 3 月 2 日也就是第二篇日志才开始有记录，而新闻重点目前最旧整理至 2020 年{" "}
+  <span>{date.m}</span> 月 <span>{date.d}</span> 日，未来会逐步补上更早内容。
+</div>
+<br />
+
+关于日志内容的资料来源，可以参考本日志附录中的[资料来源](digest/sources)，裡面有完整详细的介绍。若发现错误或有问题想讨论，您可以透过[关于本站](about)中的[联络资讯](about#contact)来联络我。
+
+欢迎分享这个网站或[支持本站](about#support-this-website)，这对我来说都是莫大的鼓励与肯定。但最重要的是，希望这个网站有帮助到您。
+
+<br />
+
+祝各位平安健康
+
+站长 FISH UP
+
+<div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center" }}>
+  <Link className="button button--primary button--lg margin--sm" to="/digest/2021/" title="开始阅读 2021 年日志">
+    阅读 2021 年日志
+  </Link>
+  <Link
+    className="button button--primary button--outline button--lg margin--sm"
+    to="/digest/2020/december/31"
+    title="开始阅读 2020 年日志"
+  >
+    阅读 2020 年日志
+  </Link>
+</div>
