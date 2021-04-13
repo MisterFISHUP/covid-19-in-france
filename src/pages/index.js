@@ -10,32 +10,18 @@ const features = [
   {
     title: "法國官方數據",
     imageUrl: "img/features/covid_data.svg",
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and used to get your website up and running
-        quickly.
-      </>
-    ),
+    description:
+      "提供每日官方數據，包含確診數、死亡數、疫苗接種數等，以及各項指標數據如有效傳染數、陽性確診率、重症病房佔有率等等",
   },
   {
     title: "疫情新聞整理",
     imageUrl: "img/features/newspaper.svg",
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the{" "}
-        <code>docs</code> directory.
-      </>
-    ),
+    description: "條列式扼要呈現每日疫情媒體報導、提供相關新聞報導或影片連結",
   },
   {
     title: "新冠肺炎記者會重點",
     imageUrl: "img/features/press_conference.svg",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same
-        header and footer.
-      </>
-    ),
+    description: "提供記者會重點整理、總統談話摘要、封城或宵禁政策措施整理、疫情新限制措施整理",
   },
 ];
 
@@ -75,7 +61,7 @@ function Banner() {
           />
           <div className={styles.buttons}>
             <Link
-              className={clsx("button button--outline button--primary button--lg", styles.getStarted)}
+              className={clsx("button button--outline button--primary button--lg", styles.startReading)}
               to={useBaseUrl("digest")}
             >
               <Translate id="homepage.hero.button.startReading">開始閱讀</Translate>
@@ -109,6 +95,17 @@ export default function Home() {
             </div>
           </section>
         )}
+        <div className="flex-center--wrap">
+          <Link
+            className={clsx(
+              "button button--outline button--primary button--lg margin-bottom--xl  ",
+              styles.startReading
+            )}
+            to={useBaseUrl("digest")}
+          >
+            <Translate id="homepage.features.button.startReading">開始閱讀</Translate>
+          </Link>
+        </div>
       </main>
     </Layout>
   );
