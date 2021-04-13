@@ -8,20 +8,29 @@ import styles from "./styles.module.scss";
 
 const features = [
   {
-    title: "法國官方數據",
+    title: translate({ id: "homepage.features.officialStatistics.title", message: "法國官方數據" }),
     imageUrl: "img/features/covid_data.svg",
-    description:
-      "提供每日官方數據，包含確診數、死亡數、疫苗接種數等，以及各項指標數據如有效傳染數、陽性確診率、重症病房佔有率等等",
+    description: translate({
+      id: "homepage.features.officialStatistics.description",
+      message:
+        "提供每日官方數據，包含確診數、死亡數、疫苗接種數等，以及各項指標數據如有效傳染數、陽性確診率、重症病房佔有率等等",
+    }),
   },
   {
-    title: "疫情新聞整理",
+    title: translate({ id: "homepage.features.news.title", message: "疫情新聞整理" }),
     imageUrl: "img/features/newspaper.svg",
-    description: "條列式扼要呈現每日疫情媒體報導、提供相關新聞報導或影片連結",
+    description: translate({
+      id: "homepage.features.news.description",
+      message: "條列式扼要呈現每日疫情媒體報導、提供相關新聞報導或影片連結",
+    }),
   },
   {
-    title: "新冠肺炎記者會重點",
+    title: translate({ id: "homepage.features.pressConference.title", message: "新冠肺炎記者會重點" }),
     imageUrl: "img/features/press_conference.svg",
-    description: "提供記者會重點整理、總統談話摘要、封城或宵禁政策措施整理、疫情新限制措施整理",
+    description: translate({
+      id: "homepage.features.pressConference.description",
+      message: "提供記者會重點整理、總統談話摘要、封城或宵禁政策措施整理、疫情新限制措施整理",
+    }),
   },
 ];
 

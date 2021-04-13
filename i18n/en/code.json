@@ -338,5 +338,26 @@
   },
   "homepage.hero.button.startReading": {
     "message": "Start Reading"
+  },
+  "homepage.features.officialStatistics.title": {
+    "message": "Official Statistics"
+  },
+  "homepage.features.officialStatistics.description": {
+    "message": "Provides daily COVID-19 statistics in France including confirmed cases, deaths, vaccinations, etc., as well as monitoring indicators such as effective reproduction number, RT-PCR positivity rate, ICU bed occupancy rate, etc."
+  },
+  "homepage.features.news.title": {
+    "message": "Daily News Highlights"
+  },
+  "homepage.features.news.description": {
+    "message": "Provides daily digests of Covid-19 news in France and links to news articles or videos (currently only available in traditional Chinese and simplified Chinese)"
+  },
+  "homepage.features.pressConference.title": {
+    "message": "Press Conference Summary"
+  },
+  "homepage.features.pressConference.description": {
+    "message": "Provides highlights of press conferences, summaries of presidential speeches, summaries of lockdown or curfew rules or any new policies and restrictions (currently only available in traditional Chinese and simplified Chinese)"
+  },
+  "homepage.features.button.startReading": {
+    "message": "Start Reading"
   }
 }

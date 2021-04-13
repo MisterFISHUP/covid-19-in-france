@@ -338,5 +338,26 @@
   },
   "homepage.hero.button.startReading": {
     "message": "开始阅读"
+  },
+  "homepage.features.officialStatistics.title": {
+    "message": "法国官方数据"
+  },
+  "homepage.features.officialStatistics.description": {
+    "message": "提供每日官方数据，包含确诊数、死亡数、疫苗接种数等，以及各项指针数据如有效传染数、阳性确诊率、重症病房占有率等等"
+  },
+  "homepage.features.news.title": {
+    "message": "疫情新闻整理"
+  },
+  "homepage.features.news.description": {
+    "message": "条列式扼要呈现每日疫情媒体报导、提供相关新闻报导或视频链接"
+  },
+  "homepage.features.pressConference.title": {
+    "message": "新冠肺炎记者会重点"
+  },
+  "homepage.features.pressConference.description": {
+    "message": "提供记者会重点整理、总统谈话摘要、封城或宵禁政策措施整理、疫情新限制措施整理"
+  },
+  "homepage.features.button.startReading": {
+    "message": "开始阅读"
   }
 }
