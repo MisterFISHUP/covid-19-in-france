@@ -5,7 +5,7 @@ const sidebars =
         2021: [
           "2021/intro",
           {
-            "4 月": ["2021/april/9", "2021/april/1"],
+            "4 月": ["2021/april/11", "2021/april/1"],
             "3 月": ["2021/march/5", "2021/march/4", "2021/march/3", "2021/march/2", "2021/march/1"],
             "2 月": ["2021/february/1"],
             "1 月": ["2021/january/1"],
@@ -51,8 +51,8 @@ const sidebars =
               // "2021/april/14",
               // "2021/april/13",
               // "2021/april/12",
-              // "2021/april/11",
-              // "2021/april/10",
+              "2021/april/11",
+              "2021/april/10",
               "2021/april/9",
               "2021/april/8",
               "2021/april/7",
