@@ -184,7 +184,7 @@
     "description": "The label for new cases in ChartCases"
   },
   "digestComp.ChartCases.title": {
-    "message": "确诊数近两週走势",
+    "message": "确诊数近两周走势",
     "description": "The title of ChartCases"
   },
   "digestComp.Indicators.title": {
@@ -196,7 +196,7 @@
     "description": "The description for incidR in Indicators"
   },
   "digestComp.Indicators.icuOccupR": {
-    "message": "重症病房佔有率：",
+    "message": "重症病房占有率：",
     "description": "The description for icuOccupR in Indicators"
   },
   "digestComp.Indicators.r": {

@@ -43,16 +43,16 @@ USLD|长照机构|unité de soins de longue durée
 
 ### 🔣 标点符号 {#punctuation}
 
-中文句内使用全形标点符号并採中文格式（除少数例外状况，例如斜线一般使用半形斜线）。
+中文句内使用全形标点符号并采中文格式（除少数例外状况，例如斜线一般使用半形斜线）。
 
-欧文句内使用半形标点符号并採欧文格式。
+欧文句内使用半形标点符号并采欧文格式。
 
 <div className="comment_block">
-例：法文句内的标点符号使用法文格式，包括问号、惊歎号前需有一个<strong>半形空格</strong>，冒号、分号前后<strong>各需有一个半形空格</strong>等等。</div>
+例：法文句内的标点符号使用法文格式，包括问号、惊叹号前需有一个<strong>半形空格</strong>，冒号、分号前后<strong>各需有一个半形空格</strong>等等。</div>
 
 ### 🤹 全形半形文字混排 {#halfwidth-fullwidth}
 
-本日志时常会有中文与欧文混排的情况，这裡介绍一些全形半形文字混排时的原则。
+本日志时常会有中文与欧文混排的情况，这里介绍一些全形半形文字混排时的原则。
 
 #### 空格 {#space}
 
@@ -66,7 +66,7 @@ USLD|长照机构|unité de soins de longue durée
 
 若括号内**未出现**任何全形文字或全形符号，则使用**半形**括号。
 
-<div className="comment_block">例：（週日）（1/1 数据）(Auvergne-Rhône-Alpes, ARA) (+30.5%)</div>
+<div className="comment_block">例：（周日）（1/1 数据）(Auvergne-Rhône-Alpes, ARA) (+30.5%)</div>
 
 #### 数字内符号 {#number}
 

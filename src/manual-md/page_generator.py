@@ -114,7 +114,7 @@ description: {y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。法国 COVI
 ---
 '''
         sourceOfData = '''
-<div className="comment--translc_gray">📈 数据来源：请参考附录<a href="../../sources">资料来源</a>。</div>
+<div className="comment--translc_gray">📈 数据来源：请参考附录<a href="../../sources">数据源</a>。</div>
 '''
         official_data_heading = '''
 ## 法国官方数据 {#official-data}
