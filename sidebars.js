@@ -1,7 +1,7 @@
 const sidebars =
   process.env.NODE_ENV === "development"
     ? {
-        appendices: ["sources", "content-and-format-specification"],
+        appendix: ["sources", "content-and-format-specification"],
         2021: [
           "2021/intro",
           {
@@ -27,7 +27,7 @@ const sidebars =
         ],
       }
     : {
-        appendices: ["sources", "content-and-format-specification"],
+        appendix: ["sources", "content-and-format-specification"],
         2021: [
           "2021/intro",
           {
