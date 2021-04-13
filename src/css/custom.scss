@@ -12,6 +12,13 @@ a {
   scroll-margin-top: 1rem;
 }
 
+.flex-center--wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 :root {
   // override default Infima variables
   --ifm-color-primary: #31a8ec;
