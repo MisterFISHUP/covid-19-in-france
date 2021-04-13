@@ -3,7 +3,9 @@ title: Content and format specification
 description: The content and format specification of Daily Digest - COVID-19 IN FRANCE
 ---
 
-![Content and format specification of Daily Digest - COVID-19 IN FRANCE](/img/digest/formatting.jpg)
+<div className="comment_block">This page is currently under construction.</div>
+
+<!-- ![Content and format specification of Daily Digest - COVID-19 IN FRANCE](/img/digest/formatting.jpg)
 
 ## 用詞與翻譯 {#wording-and-translation}
 
@@ -15,11 +17,11 @@ description: The content and format specification of Daily Digest - COVID-19 IN 
 
 關於一些照護機構的法文，本日誌使用以下中文翻譯。
 
-法文|中文|法文全稱
----|---|---
-EHPAD|養老院|établissement d'hébergement pour personnes âgées dépendantes
-EMS|護理院|établissement médico-social
-USLD|長照機構|unité de soins de longue durée
+| 法文  | 中文     | 法文全稱                                                     |
+| ----- | -------- | ------------------------------------------------------------ |
+| EHPAD | 養老院   | établissement d'hébergement pour personnes âgées dépendantes |
+| EMS   | 護理院   | établissement médico-social                                  |
+| USLD  | 長照機構 | unité de soins de longue durée                               |
 
 <h3>😷 陽性確診率</h3>
 
@@ -80,4 +82,4 @@ USLD|長照機構|unité de soins de longue durée
 
 數據變化箭頭使用箭頭符號 →（與前後數字各空一格）而不使用 ->。
 
-使用百分比符號 % 時，符號前面緊鄰數字而不加空格（例如：10%）。
+使用百分比符號 % 時，符號前面緊鄰數字而不加空格（例如：10%）。 -->
