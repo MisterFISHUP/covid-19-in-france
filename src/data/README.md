@@ -1,4 +1,4 @@
-# Official data
+# Official statistics
 
 Build csv -> generate json -> display data in digest pages by react components
 

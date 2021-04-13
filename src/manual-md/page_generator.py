@@ -93,7 +93,7 @@ import {{ Subtitle, Grace, Fish, OfficialData, SourceFb, Figure, ChartCases }} f
 <ChartCases date={date} />
 '''
     official_data_heading = '''
-## 法國官方數據 {#official-data}
+## 法國官方數據 {#official-statistics}
 '''
     official_data = '''
 <OfficialData date={date} />
@@ -117,7 +117,7 @@ description: {y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。法国 COVI
 <div className="comment--translc_gray">📈 数据来源：请参考附录<a href="../../sources">数据源</a>。</div>
 '''
         official_data_heading = '''
-## 法国官方数据 {#official-data}
+## 法国官方数据 {#official-statistics}
 '''
         news_heading = '''
 ## 本日新闻重点 {#news}
@@ -139,7 +139,7 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
 <ChartCases date={date} dateFmt="d/m" />
 '''
         official_data_heading = '''
-## Official Data {#official-data}
+## Official Statistics {#official-statistics}
 '''
         news_only_zh = '''
 <div className="comment--translc_gray">📢 For the COVID-19 Daily News Digest, it is only available in <strong>traditional Chinese</strong> and <strong>simplified Chinese</strong> at the moment.</div><br />

@@ -5,7 +5,7 @@ description: The sources of data used in this website 'Daily Digest - COVID-19 I
 
 This page presents the sources of data used in the daily digests.
 
-## Official Data {#official-data}
+## Official Statistics {#official-statistics}
 
 The sources are:
 
@@ -29,7 +29,7 @@ The first point itself provides raw data for download. The raw data for the firs
 The historical data in sources [1][vac] and [3][indic] sometimes change when the data is updated.
 :::
 
-All daily digests, except for the first one on 1/3/2020, contain the section **Official Data**. The sources of the data are detailed below.
+All daily digests, except for the first one on 1/3/2020, contain the section **Official Statistics**. The sources of the data are detailed below.
 
 ### Cumulative Confirmed Cases {#cumulative-cases}
 
