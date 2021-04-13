@@ -359,5 +359,13 @@
   },
   "homepage.features.button.startReading": {
     "message": "开始阅读"
+  },
+  "digestComp.ChartCases.chartsPageLink": {
+    "message": "数据图表",
+    "description": "The page name of Charts"
+  },
+  "digestComp.ChartCases.seeMoreCharts": {
+    "message": "更多数据可视化可参见{chartsPageLink}（页面尚在建构中）。",
+    "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
   }
 }

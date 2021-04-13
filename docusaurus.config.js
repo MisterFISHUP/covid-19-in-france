@@ -83,6 +83,10 @@ module.exports = {
           label: "2020 年",
         },
         {
+          to: "charts",
+          label: "數據圖表",
+        },
+        {
           type: "doc",
           docId: "sources",
           label: "附錄",

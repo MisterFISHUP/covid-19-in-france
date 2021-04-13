@@ -15,6 +15,10 @@
     "message": "2020 年",
     "description": "Navbar item with label 2020 年"
   },
+  "item.label.數據圖表": {
+    "message": "数据图表",
+    "description": "Navbar item with label 數據圖表"
+  },
   "item.label.附錄": {
     "message": "附录",
     "description": "Navbar item with label 附錄"

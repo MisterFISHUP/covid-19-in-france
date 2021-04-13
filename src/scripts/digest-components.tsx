@@ -1,6 +1,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 import Translate, { translate } from "@docusaurus/Translate";
+import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
 import {
@@ -548,6 +549,14 @@ export const ChartCases = ({ date, dateFmt }) => {
   const stepSize = dataMin > 200000 ? 10000 : dataMin > 2000 ? 1000 : 100;
   const suggestedMin = Math.max(0, dataMin - 2 * stepSize);
 
+  const chartsPageLink = (
+    <Link to="/charts">
+      <Translate id="digestComp.ChartCases.chartsPageLink" description="The page name of Charts">
+        數據圖表
+      </Translate>
+    </Link>
+  );
+
   const data = {
     labels: dateFmt == "d/m" ? listOfDates.map(lblDateDM) : listOfDates.map(lblDateMD),
     datasets: [
@@ -643,6 +652,16 @@ export const ChartCases = ({ date, dateFmt }) => {
         </Translate>
       </div>
       <Line data={data} options={options} />
+      <p>
+        &#x1F6C8;{" "}
+        <Translate
+          id="digestComp.ChartCases.seeMoreCharts"
+          description="The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
+          values={{ chartsPageLink: chartsPageLink }}
+        >
+          {"更多數據視覺化可參見{chartsPageLink}（頁面尚在建構中）。"}
+        </Translate>
+      </p>
     </>
   );
 };
