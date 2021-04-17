@@ -622,13 +622,13 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
       </div>
       <Line data={data} options={options} />
       <p style={{ marginTop: 16 }}>
-        &#x1F6C8;{" "}
+        &#9824;{" "}
         <Translate
           id="digestComp.ChartCases.seeMoreCharts"
           description="The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
           values={{ chartsPageLink: chartsPageLink }}
         >
-          {"更多數據視覺化可參見{chartsPageLink}（頁面尚在建構中）。"}
+          {"更多數據視覺化可參見{chartsPageLink}。"}
         </Translate>
       </p>
     </>

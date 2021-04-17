@@ -365,7 +365,7 @@
     "description": "The page name of Charts"
   },
   "digestComp.ChartCases.seeMoreCharts": {
-    "message": "See {chartsPageLink} for more data visualisations (the page is currently under construction).",
+    "message": "See {chartsPageLink} for more data visualisations.",
     "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
   },
   "chartsComp.Cases.label.total": {

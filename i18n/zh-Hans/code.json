@@ -365,7 +365,7 @@
     "description": "The page name of Charts"
   },
   "digestComp.ChartCases.seeMoreCharts": {
-    "message": "更多数据可视化可参见{chartsPageLink}（页面尚在建构中）。",
+    "message": "更多数据可视化可参见{chartsPageLink}。",
     "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
   },
   "chartsComp.Cases.label.total": {
