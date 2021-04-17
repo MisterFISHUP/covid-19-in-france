@@ -1,9 +1,11 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+import { chartSettings } from "./chartSettings";
 import Translate, { translate } from "@docusaurus/Translate";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { fbPostsLinks as fbLinks, officialData as od } from "../data/data";
+import { newsEarliestDateISO } from "./dateVariables";
 import {
   beautifyNumber as bn,
   beautifyNumberWithSign as bnws,
@@ -16,8 +18,6 @@ import {
   toLabelDateMD as lblDateMD,
   toLabelDateDM as lblDateDM,
   reverseMDLabelDate as revMD,
-  neutralGray,
-  earliestDate,
   getMonthName,
 } from "./utils";
 
@@ -497,7 +497,7 @@ export const Fish = ({ children }) => <em style={{ color: "var(--ifm-color-prima
 // if srcx is absent, img will be the main img
 // used className: `img-digest`, `caption`
 export const Figure = ({ date, srcx, children }) => {
-  const n = (Date.parse(earliestDate) - Date.parse(date)) / 864e5;
+  const n = (Date.parse(newsEarliestDateISO) - Date.parse(date)) / 864e5;
   const src =
     n <= 0
       ? `/img/digest/${toYYYYMM(date)}/covid-19-in-france-${date}${srcx ? "-" + srcx : ""}.jpg`
@@ -561,6 +561,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
     labels: dateFmt == "d/m" ? listOfDates.map(lblDateDM) : listOfDates.map(lblDateMD),
     datasets: [
       {
+        ...chartSettings.lineStyle,
         label: translate({
           id: "digestComp.ChartCases.label.total",
           message: "總累計",
@@ -568,13 +569,10 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
         }),
         data: dataCasesCumul,
         fill: false,
-        pointBackgroundColor: "rgb(56, 182, 255, 1)",
-        borderColor: "rgb(56, 182, 255, 0.8)",
-        borderWidth: 1,
-        pointHoverRadius: 5,
         yAxisID: "y-axis-cumul",
       },
       {
+        ...chartSettings.barStyle,
         type: "bar",
         label: translate({
           id: "digestComp.ChartCases.label.new",
@@ -582,50 +580,21 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
           description: "The label for new cases in ChartCases",
         }),
         data: dataCasesCumul.map((x, i, arr) => (i > 0 ? x - arr[i - 1] : x - od[tdb(date, duration)]?.[dataName])),
-        backgroundColor: "rgb(255, 97, 132, 0.2)",
-        hoverBackgroundColor: "rgb(255, 97, 132, 0.5)",
-        borderWidth: 1,
-        borderColor: "rgb(231, 84, 116, 0.4)",
-        hoverBorderColor: "rgb(231, 84, 116, 0.9)",
         yAxisID: "y-axis-var",
       },
     ],
   };
   const options = {
-    layout: {
-      padding: {
-        bottom: 30,
-      },
-    },
-    legend: {
-      labels: {
-        fontSize: 18,
-        fontColor: neutralGray,
-      },
-    },
-    tooltips: {
-      titleFontSize: 20,
-      bodyFontSize: 16,
-      xPadding: 10,
-      yPadding: 8,
-      caretSize: 8,
-    },
+    legend: chartSettings.legend,
+    tooltips: chartSettings.tooltips,
     scales: {
-      xAxes: [
-        {
-          offset: true,
-          ticks: {
-            fontColor: neutralGray,
-          },
-        },
-      ],
+      xAxes: chartSettings.scales.xAxes,
       yAxes: [
         {
           id: "y-axis-cumul",
           position: "left",
           ticks: {
-            maxTicksLimit: 9,
-            fontColor: neutralGray,
+            ...chartSettings.scales.yAxes.ticks,
             stepSize: stepSize,
             suggestedMin: suggestedMin,
           },
@@ -637,8 +606,8 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
             drawOnChartArea: false,
           },
           ticks: {
-            maxTicksLimit: 9,
-            fontColor: neutralGray,
+            ...chartSettings.scales.yAxes.ticks,
+            min: 0, // because new cases could absurdly be negative...
           },
         },
       ],
@@ -652,7 +621,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
         </Translate>
       </div>
       <Line data={data} options={options} />
-      <p>
+      <p style={{ marginTop: 16 }}>
         &#x1F6C8;{" "}
         <Translate
           id="digestComp.ChartCases.seeMoreCharts"

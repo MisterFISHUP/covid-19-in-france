@@ -3,7 +3,7 @@ import Slider from "@material-ui/core/Slider";
 import { Line } from "react-chartjs-2";
 import Translate, { translate } from "@docusaurus/Translate";
 import { officialData as od } from "../data/data";
-import { digestLatestDate2021 } from "./dateVariables";
+import { digestLatestDate2021ISO } from "./dateVariables";
 import { chartSettings } from "./chartSettings";
 import {
   theDayBefore as tdb,
@@ -12,15 +12,10 @@ import {
   toLabelDateDM as lblDateDM,
 } from "./utils";
 
-// ex: '2021-03-31'
-const latestDateISO: string = new Date(Date.UTC(2021, digestLatestDate2021.m - 1, digestLatestDate2021.d))
-  .toISOString()
-  .slice(0, 10);
-
 // ===== Cases related values =====
 
 const casesMaxDur: number = 360;
-const datesInCasesMaxDur: string[] = arrD(latestDateISO, casesMaxDur);
+const datesInCasesMaxDur: string[] = arrD(digestLatestDate2021ISO, casesMaxDur);
 const dataInCasesMaxDur = {
   cumul: datesInCasesMaxDur.map((d) => od[d]?.casesCumul),
   new: datesInCasesMaxDur.map((d) => od[d]?.casesCumul - od[tdb(d)]?.casesCumul),

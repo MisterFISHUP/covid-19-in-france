@@ -1,7 +1,5 @@
 export const graceTseng: string = "Grace Tseng";
 export const startDate: string = "2020-03-01";
-export const earliestDate: string = "2020-10-26";
-export const neutralGray: string = "rgb(150, 150, 150)";
 
 export const isNumber = (x: any) => typeof x == "number";
 
