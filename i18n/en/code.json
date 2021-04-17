@@ -377,5 +377,15 @@
   "chartsComp.CasesTrend.title": {
     "message": "Confirmed cases - Trend over the last {duration} days",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Deaths.label.total": {
+    "message": "Total deaths"
+  },
+  "chartsCompo.Deaths.label.new": {
+    "message": "New deaths"
+  },
+  "chartsComp.DeathsTrend.title": {
+    "message": "Deaths - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
   }
 }

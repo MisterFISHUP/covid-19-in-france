@@ -377,5 +377,15 @@
   "chartsComp.CasesTrend.title": {
     "message": "确诊数近 {duration} 日走势",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Deaths.label.total": {
+    "message": "总累计"
+  },
+  "chartsCompo.Deaths.label.new": {
+    "message": "当日死亡数"
+  },
+  "chartsComp.DeathsTrend.title": {
+    "message": "死亡数近 {duration} 日走势",
+    "description": "Trend over the last <duration> days"
   }
 }

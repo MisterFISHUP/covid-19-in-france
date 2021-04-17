@@ -1,0 +1,125 @@
+import React, { useState } from "react";
+import Slider from "@material-ui/core/Slider";
+import { Line } from "react-chartjs-2";
+import Translate, { translate } from "@docusaurus/Translate";
+import { officialData as od } from "../../data/data";
+import { digestLatestDate2021ISO } from "../dateVariables";
+import { chartSettings } from "../chartSettings";
+import {
+  theDayBefore as tdb,
+  arrayOfDates as arrD,
+  toLabelDateMD as lblDateMD,
+  toLabelDateDM as lblDateDM,
+} from "../utils";
+
+const maxDur: number = 360;
+const datesInMaxDur: string[] = arrD(digestLatestDate2021ISO, maxDur);
+const dataInMaxDur = {
+  cumul: datesInMaxDur.map((d) => od[d]?.deathsCumul),
+  new: datesInMaxDur.map((d) => od[d]?.deathsCumul - od[tdb(d)]?.deathsCumul),
+};
+
+const allDur = [15, 30, 60, 90, 120, 180, 240, 360]; // last one = maxDur
+const marks = allDur.map((x) => {
+  return { value: x, label: x };
+});
+
+// dataFmt is optional: with string "d/m", the chart will have day/month date labels
+const Deaths = ({ duration, dateFmt = "m/d" }) => {
+  const dates: string[] = datesInMaxDur.slice(maxDur - duration);
+
+  // data
+  const dataDeathsCumul = dataInMaxDur.cumul.slice(maxDur - duration);
+  const dataDeathsNew = dataInMaxDur.new.slice(maxDur - duration);
+
+  const data = {
+    labels: dateFmt == "d/m" ? dates.map(lblDateDM) : dates.map(lblDateMD),
+    datasets: [
+      {
+        ...chartSettings.lineStyle,
+        label: translate({
+          id: "chartsComp.Deaths.label.total",
+          message: "總累計",
+        }),
+        data: dataDeathsCumul,
+        fill: false,
+        yAxisID: "y-axis-cumul",
+      },
+      {
+        ...chartSettings.barStyle,
+        type: "bar",
+        label: translate({
+          id: "chartsCompo.Deaths.label.new",
+          message: "當日死亡數",
+        }),
+        data: dataDeathsNew,
+        yAxisID: "y-axis-var",
+      },
+    ],
+  };
+  const options = {
+    legend: chartSettings.legend,
+    tooltips: chartSettings.tooltips,
+    scales: {
+      xAxes: chartSettings.scales.xAxes,
+      yAxes: [
+        {
+          id: "y-axis-cumul",
+          position: "left",
+          ticks: {
+            ...chartSettings.scales.yAxes.ticks,
+          },
+        },
+        {
+          id: "y-axis-var",
+          position: "right",
+          gridLines: {
+            drawOnChartArea: false,
+          },
+          ticks: {
+            ...chartSettings.scales.yAxes.ticks,
+            min: 0, // because new deaths could absurdly be negative...
+          },
+        },
+      ],
+    },
+  };
+  return <Line data={data} options={options} />;
+};
+
+// --------
+// EXPORTS
+// --------
+
+// dataFmt is optional: with string "d/m", the chart will have day/month date labels
+export const DeathsTrend = ({ dateFmt = "m/d" }) => {
+  const defaultValue = allDur[0];
+  const [duration, setDuration] = useState(defaultValue);
+
+  return (
+    <>
+      <div className="chart-title">
+        <Translate
+          id="chartsComp.DeathsTrend.title"
+          description="Trend over the last <duration> days"
+          values={{ duration: duration }}
+        >
+          {"死亡數近 {duration} 日走勢"}
+        </Translate>
+      </div>
+      <Slider
+        defaultValue={defaultValue}
+        aria-labelledby="discrete-slider-restrict"
+        valueLabelDisplay="off"
+        step={null}
+        marks={marks}
+        max={maxDur}
+        min={allDur[0]}
+        onChange={(e, v) => {
+          if (typeof v == "number") setDuration(v);
+        }}
+      />
+      <Deaths duration={duration} dateFmt={dateFmt} />
+    </>
+  );
+};
