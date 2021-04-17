@@ -367,5 +367,15 @@
   "digestComp.ChartCases.seeMoreCharts": {
     "message": "更多数据可视化可参见{chartsPageLink}（页面尚在建构中）。",
     "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
+  },
+  "chartsComp.Cases.label.total": {
+    "message": "总累计"
+  },
+  "chartsCompo.Cases.label.new": {
+    "message": "当日确诊数"
+  },
+  "chartsComp.CasesTrend.title": {
+    "message": "确诊数近 {duration} 日走势",
+    "description": "Trend over the last <duration> days"
   }
 }

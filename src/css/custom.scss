@@ -153,3 +153,18 @@ html[data-theme="dark"] {
     margin-bottom: 1rem;
   }
 }
+
+.MuiSlider- {
+  &root {
+    color: var(--ifm-color-primary) !important;
+  }
+  &markLabel {
+    color: var(--ifm-color-emphasis-400) !important;
+  }
+  &markLabelActive {
+    color: var(--ifm-font-color-base) !important;
+  }
+  &markActive {
+    background-color: var(--ifm-color-emphasis-0) !important;
+  }
+}

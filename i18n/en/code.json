@@ -367,5 +367,15 @@
   "digestComp.ChartCases.seeMoreCharts": {
     "message": "See {chartsPageLink} for more data visualisations (the page is currently under construction).",
     "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
+  },
+  "chartsComp.Cases.label.total": {
+    "message": "Total cases"
+  },
+  "chartsCompo.Cases.label.new": {
+    "message": "New cases"
+  },
+  "chartsComp.CasesTrend.title": {
+    "message": "Confirmed cases - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
   }
 }
