@@ -32,11 +32,6 @@ const Cases = ({ duration, dateFmt = "m/d" }) => {
   const dataCasesCumul = dataInMaxDur.cumul.slice(maxDur - duration);
   const dataCasesNew = dataInMaxDur.new.slice(maxDur - duration);
 
-  // stepSize & suggestedMin (only for casesCumul)
-  const minCasesCumul = Math.min(...dataCasesCumul.filter(Number));
-  const stepSizeCasesCumul = minCasesCumul > 200000 ? 10000 : minCasesCumul > 2000 ? 1000 : 100;
-  const suggestedMinCasesCumul = Math.max(0, minCasesCumul - 2 * stepSizeCasesCumul);
-
   const data = {
     labels: dateFmt == "d/m" ? dates.map(lblDateDM) : dates.map(lblDateMD),
     datasets: [
@@ -73,8 +68,6 @@ const Cases = ({ duration, dateFmt = "m/d" }) => {
           position: "left",
           ticks: {
             ...chartSettings.scales.yAxes.ticks,
-            stepSize: stepSizeCasesCumul,
-            suggestedMin: suggestedMinCasesCumul,
           },
         },
         {
