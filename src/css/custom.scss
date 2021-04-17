@@ -154,6 +154,17 @@ html[data-theme="dark"] {
   }
 }
 
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 .MuiSlider- {
   &root {
     color: var(--ifm-color-primary) !important;
