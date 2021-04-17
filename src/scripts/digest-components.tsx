@@ -533,7 +533,7 @@ export const Figure = ({ date, srcx, children }) => {
 };
 
 // date is required; dataFmt is optional: with string 'd/m', the chart will have day/month date labels
-export const ChartCases = ({ date, dateFmt }) => {
+export const ChartCases = ({ date, dateFmt = "m/d" }) => {
   const duration = 14;
   const renderChartThold = 5;
   const dataName = "casesCumul";
