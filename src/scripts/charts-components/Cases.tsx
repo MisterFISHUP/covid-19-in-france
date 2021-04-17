@@ -2,39 +2,35 @@ import React, { useState } from "react";
 import Slider from "@material-ui/core/Slider";
 import { Line } from "react-chartjs-2";
 import Translate, { translate } from "@docusaurus/Translate";
-import { officialData as od } from "../data/data";
-import { digestLatestDate2021ISO } from "./dateVariables";
-import { chartSettings } from "./chartSettings";
+import { officialData as od } from "../../data/data";
+import { digestLatestDate2021ISO } from "../dateVariables";
+import { chartSettings } from "../chartSettings";
 import {
   theDayBefore as tdb,
   arrayOfDates as arrD,
   toLabelDateMD as lblDateMD,
   toLabelDateDM as lblDateDM,
-} from "./utils";
+} from "../utils";
 
-// ===== Cases related values =====
-
-const casesMaxDur: number = 360;
-const datesInCasesMaxDur: string[] = arrD(digestLatestDate2021ISO, casesMaxDur);
-const dataInCasesMaxDur = {
-  cumul: datesInCasesMaxDur.map((d) => od[d]?.casesCumul),
-  new: datesInCasesMaxDur.map((d) => od[d]?.casesCumul - od[tdb(d)]?.casesCumul),
+const maxDur: number = 360;
+const datesInMaxDur: string[] = arrD(digestLatestDate2021ISO, maxDur);
+const dataInMaxDur = {
+  cumul: datesInMaxDur.map((d) => od[d]?.casesCumul),
+  new: datesInMaxDur.map((d) => od[d]?.casesCumul - od[tdb(d)]?.casesCumul),
 };
 
-const casesAllDur = [15, 30, 60, 90, 120, 180, 240, 360]; // last one = casesMaxDur
-const casesMarks = casesAllDur.map((x) => {
+const allDur = [15, 30, 60, 90, 120, 180, 240, 360]; // last one = maxDur
+const marks = allDur.map((x) => {
   return { value: x, label: x };
 });
 
-// ===== Cases chart =====
-
-// dataFmt is optional: with string 'd/m', the chart will have day/month date labels
+// dataFmt is optional: with string "d/m", the chart will have day/month date labels
 const Cases = ({ duration, dateFmt = "m/d" }) => {
-  const dates: string[] = datesInCasesMaxDur.slice(casesMaxDur - duration);
+  const dates: string[] = datesInMaxDur.slice(maxDur - duration);
 
   // data
-  const dataCasesCumul = dataInCasesMaxDur.cumul.slice(casesMaxDur - duration);
-  const dataCasesNew = dataInCasesMaxDur.new.slice(casesMaxDur - duration);
+  const dataCasesCumul = dataInMaxDur.cumul.slice(maxDur - duration);
+  const dataCasesNew = dataInMaxDur.new.slice(maxDur - duration);
 
   // stepSize & suggestedMin (only for casesCumul)
   const minCasesCumul = Math.min(...dataCasesCumul.filter(Number));
@@ -77,7 +73,7 @@ const Cases = ({ duration, dateFmt = "m/d" }) => {
           position: "left",
           ticks: {
             ...chartSettings.scales.yAxes.ticks,
-            stepSizeCasesCumul: stepSizeCasesCumul,
+            stepSize: stepSizeCasesCumul,
             suggestedMin: suggestedMinCasesCumul,
           },
         },
@@ -102,9 +98,9 @@ const Cases = ({ duration, dateFmt = "m/d" }) => {
 // EXPORTS
 // --------
 
-// dataFmt is optional: with string 'd/m', the chart will have day/month date labels
+// dataFmt is optional: with string "d/m", the chart will have day/month date labels
 export const CasesTrend = ({ dateFmt = "m/d" }) => {
-  const defaultValue = casesAllDur[0];
+  const defaultValue = allDur[0];
   const [duration, setDuration] = useState(defaultValue);
 
   return (
@@ -123,9 +119,9 @@ export const CasesTrend = ({ dateFmt = "m/d" }) => {
         aria-labelledby="discrete-slider-restrict"
         valueLabelDisplay="off"
         step={null}
-        marks={casesMarks}
-        max={casesMaxDur}
-        min={casesAllDur[0]}
+        marks={marks}
+        max={maxDur}
+        min={allDur[0]}
         onChange={(e, v) => {
           if (typeof v == "number") setDuration(v);
         }}
