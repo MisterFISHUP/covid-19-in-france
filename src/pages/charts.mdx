@@ -5,6 +5,7 @@ description: 視覺化法國新冠肺炎 (Covid-19) 數據，讓法國疫情現�
 
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
 import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
+import { IcuOccupRTrend } from "@site/src/scripts/charts-components/IcuOccupR";
 import { IncidRTrend } from "@site/src/scripts/charts-components/IncidR";
 
 <h1 className="pages--h1">數據圖表</h1>
@@ -20,6 +21,10 @@ import { IncidRTrend } from "@site/src/scripts/charts-components/IncidR";
 ## 死亡數 {#deaths}
 
 <DeathsTrend />
+
+## 重症病房佔有率 {#icu-bed-occupancy-rate}
+
+<IcuOccupRTrend />
 
 ## 每 10 萬人確診數 {#incidence-rate}
 

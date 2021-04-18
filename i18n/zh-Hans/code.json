@@ -394,5 +394,12 @@
   "chartsComp.IncidRTrend.title": {
     "message": "每 10 万人确诊数近 {duration} 日走势",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IcuOccupR.label": {
+    "message": "重症病房占有率"
+  },
+  "chartsComp.IcuOccupRTrend.title": {
+    "message": "重症病房占有率近 {duration} 日走势",
+    "description": "Trend over the last <duration> days"
   }
 }

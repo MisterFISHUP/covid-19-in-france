@@ -394,5 +394,12 @@
   "chartsComp.IncidRTrend.title": {
     "message": "Incidence rate - Trend over the last {duration} days",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IcuOccupR.label": {
+    "message": "ICU bed occupancy rate"
+  },
+  "chartsComp.IcuOccupRTrend.title": {
+    "message": "ICU bed occupancy rate - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
   }
 }
