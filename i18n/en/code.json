@@ -408,5 +408,12 @@
   "chartsComp.PosRTrend.title": {
     "message": "RT-PCR positivity rate - Trend over the last {duration} days",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.R.label": {
+    "message": "Effective reproduction number"
+  },
+  "chartsComp.RTrend.title": {
+    "message": "Effective reproduction number - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
   }
 }
