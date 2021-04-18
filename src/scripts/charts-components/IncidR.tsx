@@ -38,7 +38,7 @@ const IncidR = ({ duration, dateFmt = "m/d" }) => {
     ],
   };
   const options = {
-    legend: chartSettings.legend,
+    legend: { display: false },
     tooltips: chartSettings.tooltips,
     scales: {
       xAxes: [chartSettings.scales.xAxes],
