@@ -561,7 +561,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
     labels: dateFmt == "d/m" ? listOfDates.map(lblDateDM) : listOfDates.map(lblDateMD),
     datasets: [
       {
-        ...chartSettings.lineStyle,
+        ...chartSettings.lineStyle.blue,
         label: translate({
           id: "digestComp.ChartCases.label.total",
           message: "總累計",
@@ -572,7 +572,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
         yAxisID: "y-axis-cumul",
       },
       {
-        ...chartSettings.barStyle,
+        ...chartSettings.barStyle.red,
         type: "bar",
         label: translate({
           id: "digestComp.ChartCases.label.new",
@@ -588,7 +588,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
     legend: chartSettings.legend,
     tooltips: chartSettings.tooltips,
     scales: {
-      xAxes: chartSettings.scales.xAxes,
+      xAxes: [{ ...chartSettings.scales.xAxes, offset: true }],
       yAxes: [
         {
           id: "y-axis-cumul",

@@ -5,16 +5,11 @@ import Translate, { translate } from "@docusaurus/Translate";
 import { officialData as od } from "../../data/data";
 import { digestLatestDate2021ISO } from "../dateVariables";
 import { chartSettings } from "../chartSettings";
-import {
-  arrayOfDates as arrD,
-  toLabelDateMD as lblDateMD,
-  toLabelDateDM as lblDateDM,
-  trimDecimal
-} from "../utils";
+import { arrayOfDates as arrD, toLabelDateMD as lblDateMD, toLabelDateDM as lblDateDM, trimDecimal } from "../utils";
 
 const maxDur: number = 360;
 const datesInMaxDur: string[] = arrD(digestLatestDate2021ISO, maxDur);
-const dataInMaxDur =  datesInMaxDur.map((d) => trimDecimal(od[d]?.incidR, 2));
+const dataInMaxDur = datesInMaxDur.map((d) => trimDecimal(od[d]?.incidR, 2));
 
 const allDur = [60, 120, 180, 270, 360]; // last one = maxDur
 const marks = allDur.map((x) => {
@@ -32,7 +27,7 @@ const IncidR = ({ duration, dateFmt = "m/d" }) => {
     labels: dateFmt == "d/m" ? dates.map(lblDateDM) : dates.map(lblDateMD),
     datasets: [
       {
-        ...chartSettings.lineStyle,
+        ...chartSettings.lineStyle.blue,
         label: translate({
           id: "chartsComp.IncidR.label",
           message: "全法國每 10 萬人確診數",
@@ -46,7 +41,7 @@ const IncidR = ({ duration, dateFmt = "m/d" }) => {
     legend: chartSettings.legend,
     tooltips: chartSettings.tooltips,
     scales: {
-      xAxes: chartSettings.scales.xAxes,
+      xAxes: [chartSettings.scales.xAxes],
       yAxes: [
         {
           ticks: {

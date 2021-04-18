@@ -36,7 +36,7 @@ const Deaths = ({ duration, dateFmt = "m/d" }) => {
     labels: dateFmt == "d/m" ? dates.map(lblDateDM) : dates.map(lblDateMD),
     datasets: [
       {
-        ...chartSettings.lineStyle,
+        ...chartSettings.lineStyle.blue,
         label: translate({
           id: "chartsComp.Deaths.label.total",
           message: "總累計",
@@ -46,7 +46,7 @@ const Deaths = ({ duration, dateFmt = "m/d" }) => {
         yAxisID: "y-axis-cumul",
       },
       {
-        ...chartSettings.barStyle,
+        ...chartSettings.barStyle.red,
         type: "bar",
         label: translate({
           id: "chartsCompo.Deaths.label.new",
@@ -61,7 +61,7 @@ const Deaths = ({ duration, dateFmt = "m/d" }) => {
     legend: chartSettings.legend,
     tooltips: chartSettings.tooltips,
     scales: {
-      xAxes: chartSettings.scales.xAxes,
+      xAxes: [{ ...chartSettings.scales.xAxes, offset: true }],
       yAxes: [
         {
           id: "y-axis-cumul",
