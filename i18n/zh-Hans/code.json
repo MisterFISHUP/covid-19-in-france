@@ -415,5 +415,25 @@
   "chartsComp.RTrend.title": {
     "message": "有效传染数近 {duration} 日走势",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac1And2.label.vac1": {
+    "message": "第 1 剂"
+  },
+  "chartsCompo.Vac1And2.label.vac2": {
+    "message": "第 2 剂"
+  },
+  "chartsComp.Vac1And2Trend.title": {
+    "message": "疫苗接种数近 {duration} 日走势",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac.label.total": {
+    "message": "总累计"
+  },
+  "chartsCompo.Vac.label.new": {
+    "message": "当日接种数"
+  },
+  "chartsComp.VacTrend.title": {
+    "message": "第 {dose} 剂接种数近 {duration} 日走势",
+    "description": "Doses <dose>. Trend over the last <duration> days"
   }
 }

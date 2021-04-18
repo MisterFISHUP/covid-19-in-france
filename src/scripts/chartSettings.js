@@ -3,8 +3,14 @@ const neutralGray = "rgb(150, 150, 150)";
 export const chartSettings = {
   lineStyle: {
     blue: {
-      pointBackgroundColor: "rgb(56, 182, 255, 1)",
+      pointBackgroundColor: "rgb(56, 182, 255)",
       borderColor: "rgb(56, 182, 255, 0.8)",
+      borderWidth: 1,
+      pointHoverRadius: 5,
+    },
+    orange: {
+      pointBackgroundColor: "rgb(255, 177, 61)",
+      borderColor: "rgb(255, 177, 61, 0.8)",
       borderWidth: 1,
       pointHoverRadius: 5,
     },

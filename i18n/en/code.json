@@ -415,5 +415,25 @@
   "chartsComp.RTrend.title": {
     "message": "Effective reproduction number - Trend over the last {duration} days",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac1And2.label.vac1": {
+    "message": "First doses"
+  },
+  "chartsCompo.Vac1And2.label.vac2": {
+    "message": "Second doses"
+  },
+  "chartsComp.Vac1And2Trend.title": {
+    "message": "Vaccinations - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac.label.total": {
+    "message": "Total"
+  },
+  "chartsCompo.Vac.label.new": {
+    "message": "New"
+  },
+  "chartsComp.VacTrend.title": {
+    "message": "Doses {dose} - Trend over the last {duration} days",
+    "description": "Doses <dose>. Trend over the last <duration> days"
   }
 }

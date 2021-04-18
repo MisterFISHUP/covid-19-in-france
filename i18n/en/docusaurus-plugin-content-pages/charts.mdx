@@ -5,6 +5,7 @@ description: Visualisation of COVID-19 data in France. Current pandemic situatio
 
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
 import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
+import { VacDashboard } from "@site/src/scripts/charts-components/Vac";
 import { IcuOccupRTrend } from "@site/src/scripts/charts-components/IcuOccupR";
 import { IncidRTrend } from "@site/src/scripts/charts-components/IncidR";
 import { PosRTrend } from "@site/src/scripts/charts-components/PosR";
@@ -23,6 +24,10 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 ## Deaths {#deaths}
 
 <DeathsTrend dateFmt="d/m" />
+
+## Vaccinations {#vaccinations}
+
+<VacDashboard dateFmt="d/m" />
 
 ## ICU Bed Occupancy Rate {#icu-bed-occupancy-rate}
 
