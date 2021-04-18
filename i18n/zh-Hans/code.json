@@ -401,5 +401,12 @@
   "chartsComp.IcuOccupRTrend.title": {
     "message": "重症病房占有率近 {duration} 日走势",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.PosR.label": {
+    "message": "RT-PCR 阳性确诊率"
+  },
+  "chartsComp.PosRTrend.title": {
+    "message": "RT-PCR 阳性确诊率近 {duration} 日走势",
+    "description": "Trend over the last <duration> days"
   }
 }

@@ -401,5 +401,12 @@
   "chartsComp.IcuOccupRTrend.title": {
     "message": "ICU bed occupancy rate - Trend over the last {duration} days",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.PosR.label": {
+    "message": "RT-PCR positivity rate"
+  },
+  "chartsComp.PosRTrend.title": {
+    "message": "RT-PCR positivity rate - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
   }
 }
