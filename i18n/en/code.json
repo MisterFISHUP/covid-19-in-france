@@ -387,5 +387,12 @@
   "chartsComp.DeathsTrend.title": {
     "message": "Deaths - Trend over the last {duration} days",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IncidR.label": {
+    "message": "Incidence rate"
+  },
+  "chartsComp.IncidRTrend.title": {
+    "message": "Incidence rate - Trend over the last {duration} days",
+    "description": "Trend over the last <duration> days"
   }
 }

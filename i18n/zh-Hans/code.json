@@ -387,5 +387,12 @@
   "chartsComp.DeathsTrend.title": {
     "message": "死亡数近 {duration} 日走势",
     "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IncidR.label": {
+    "message": "全法国每 10 万人确诊数"
+  },
+  "chartsComp.IncidRTrend.title": {
+    "message": "每 10 万人确诊数近 {duration} 日走势",
+    "description": "Trend over the last <duration> days"
   }
 }

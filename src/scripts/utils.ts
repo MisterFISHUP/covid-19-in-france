@@ -3,6 +3,9 @@ export const startDate: string = "2020-03-01";
 
 export const isNumber = (x: any) => typeof x == "number";
 
+// ex: (123.456, 2) -> 123.45
+export const trimDecimal = (num: number, n: number): number => Math.round(num * Math.pow(10, n)) / Math.pow(10, n);
+
 // ex: 1234.567 -> '1,234.57'
 const maxDecimal = 2;
 export const beautifyNumber = (x: number): string => {
