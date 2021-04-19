@@ -40,7 +40,7 @@ module.exports = {
       anonymizeIP: true,
     },
     colorMode: {
-      defaultMode: "dark",
+      defaultMode: "light",
       respectPrefersColorScheme: true,
       switchConfig: {
         darkIcon: "🌙",
@@ -62,7 +62,7 @@ module.exports = {
       // style: 'primary', // or 'dark'
       title: "法國 COVID-19 日誌",
       logo: {
-        alt: "My Site Logo",
+        alt: "Website Logo",
         src: "img/logo.svg",
         srcDark: "img/logo-dark.svg",
       },
@@ -118,7 +118,7 @@ module.exports = {
             {
               html: `
                 <img src="/img/logo.svg" alt="法國 COVID-19 日誌 | Daily Digest - COVID-19 IN FRANCE" title="法國 COVID-19 日誌 | Daily Digest - COVID-19 IN FRANCE" class="footer-logo"/>
-              `, // todo: change src link
+              `,
             },
           ],
         },
@@ -173,10 +173,10 @@ module.exports = {
               label: "支持本站 🍰",
               href: "https://www.buymeacoffee.com/misterfishup",
             },
-            // {
-            //   label: 'Github',
-            //   href: 'https://github.com/MisterFISHUP/covid-19-in-france',
-            // },
+            {
+              label: "GitHub",
+              href: "https://github.com/MisterFISHUP/covid-19-in-france",
+            },
           ],
         },
       ],

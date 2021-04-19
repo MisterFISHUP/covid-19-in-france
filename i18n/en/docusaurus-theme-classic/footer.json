@@ -50,5 +50,9 @@
   "link.item.label.支持本站 🍰": {
     "message": "Support this website 🍰",
     "description": "The label of footer link with label=支持本站 🍰 linking to https://www.buymeacoffee.com/misterfishup"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/MisterFISHUP/covid-19-in-france"
   }
 }
