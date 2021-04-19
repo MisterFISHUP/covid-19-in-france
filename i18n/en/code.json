@@ -336,6 +336,9 @@
     "message": "Daily Digest of <b>COVID-19</b> in France",
     "description": "Homepage hero tagline, can contain simple html tags"
   },
+  "homepage.hero.logoLink.title": {
+    "message": "Click me to read the latest digest directly"
+  },
   "homepage.hero.button.startReading": {
     "message": "Start Reading"
   },

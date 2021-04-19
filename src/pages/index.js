@@ -5,6 +5,8 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.scss";
+import { monthEnLower } from "@site/src/scripts/utils";
+import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
 
 const features = [
   {
@@ -53,7 +55,12 @@ function Banner() {
   return (
     <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
-        <img className={styles.heroLogo} src={useBaseUrl("/img/logo.svg")} />
+        <Link
+          to={`/digest/2021/${monthEnLower(digestLatestDate2021.m)}/${digestLatestDate2021.d}`}
+          title={translate({ id: "homepage.hero.logoLink.title", message: "點我直接閱讀最新一篇日誌" })}
+        >
+          <img className={styles.heroLogo} src={useBaseUrl("/img/logo.svg")} alt="Website Logo" />
+        </Link>
         <div className={styles.heroText}>
           <h1 className={styles.heroTitle}>
             <Translate id="homepage.hero.title">法國 COVID-19 日誌</Translate>

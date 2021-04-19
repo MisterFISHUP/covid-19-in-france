@@ -336,6 +336,9 @@
     "message": "一本记录<b>法国新冠肺炎疫情</b>的日志",
     "description": "Homepage hero tagline, can contain simple html tags"
   },
+  "homepage.hero.logoLink.title": {
+    "message": "点我直接阅读最新一篇日志"
+  },
   "homepage.hero.button.startReading": {
     "message": "开始阅读"
   },
