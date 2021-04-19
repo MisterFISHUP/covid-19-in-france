@@ -22,6 +22,8 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 
 ## 确诊数 {#confirmed-cases}
 
+通过 RT-PCR 检测或抗原检测阳性的确诊病例数。数据可能因筛检量（如周末筛检量减少）和获得结果所需时间不同而有很大差异。
+
 <CasesTrend />
 
 ## 死亡数 {#deaths}
@@ -34,16 +36,24 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 
 ## 重症病房占有率 {#icu-bed-occupancy-rate}
 
+目前在重症病房的 COVID-19 患者人数与重症病房初始床位（也就是疫情前）总数的比例。
+
 <IcuOccupRTrend />
 
 ## 每 10 万人确诊数 {#incidence-rate}
+
+在一个滚动周内，60 天以上首次检测呈阳性的人数（RT-PCR 和抗原检测）对上全法国人口数。此数值可能会因筛检活动和获得结果所需时间而波动。
 
 <IncidRTrend />
 
 ## RT-PCR 阳性确诊率 {#positivity-rate}
 
+新的阳性检测人数占某一时期首次阳性和阴性检测的总人数的比例。
+
 <PosRTrend />
 
 ## 有效传染数 (R) {#effective-reproduction-number}
+
+一个病人平均可以感染的人数。有效传染数可能会因筛檢活动和获得结果所需时间而波动。
 
 <RTrend />

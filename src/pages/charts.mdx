@@ -22,6 +22,8 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 
 ## 確診數 {#confirmed-cases}
 
+透過 RT-PCR 檢測或抗原檢測陽性的確診病例數。資料可能因篩檢量（如週末篩檢量減少）和獲得結果所需時間不同而有很大差異。
+
 <CasesTrend />
 
 ## 死亡數 {#deaths}
@@ -34,16 +36,24 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 
 ## 重症病房佔有率 {#icu-bed-occupancy-rate}
 
+目前在重症病房的 COVID-19 患者人數與重症病房初始床位（也就是疫情前）總數的比例。
+
 <IcuOccupRTrend />
 
 ## 每 10 萬人確診數 {#incidence-rate}
+
+在一個滾動周內，60 天以上首次檢測呈陽性的人數（RT-PCR 和抗原檢測）對上全法國人口數。此數值可能會因篩檢活動和獲得結果所需時間而波動。
 
 <IncidRTrend />
 
 ## RT-PCR 陽性確診率 {#positivity-rate}
 
+新的陽性檢測人數佔某一時期首次陽性和陰性檢測的總人數的比例。
+
 <PosRTrend />
 
 ## 有效傳染數 (R) {#effective-reproduction-number}
+
+一個病人平均可以感染的人數。有效傳染數可能會因篩檢活動和獲得結果所需時間而波動。
 
 <RTrend />
