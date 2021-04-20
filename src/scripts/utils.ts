@@ -58,8 +58,17 @@ export const getMonthName = (m: number, locale: string): string => {
   return d.toLocaleString(locale, { month: "long" });
 }
 
-// ex: (12, 'en) -> 'december'
+// ex: 12 -> 'december'
 export const monthEnLower = (m: number): string => {
   const monthEn = getMonthName(m, 'en');
   return monthEn[0].toLowerCase() + monthEn.slice(1);
+}
+
+// return a random date between sY-sM-sD (included) and eY-eM-eD (excluded)
+// ex: (2020, 12, 1, 2020, 12, 3) -> { y: 2020, m: 12, d: 1 or 2 }
+export const randomDate = (sY: number, sM: number, sD: number, eY: number, eM: number, eD: number): { y: number, m: number, d: number } => {
+  const sDateInMS: number = new Date(sY, sM - 1, sD).getTime();
+  const eDateInMS: number = new Date(eY, eM - 1, eD).getTime();
+  const rDate = new Date(sDateInMS + Math.floor(Math.random() * (eDateInMS - sDateInMS)));
+  return { y: rDate.getFullYear(), m: rDate.getMonth() + 1, d: rDate.getDate() };
 }

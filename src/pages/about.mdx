@@ -4,6 +4,11 @@ description: 關於法國 COVID-19 日誌這個網站以及站長 FISH UP
 hide_table_of_contents: true
 ---
 
+import { randomDate, monthEnLower } from "@site/src/scripts/utils";
+import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
+import Link from "@docusaurus/Link";
+export const randDate = randomDate(2020, 3, 1, 2021, date.m, date.d);
+
 <h1 className="pages--h1">關於本站</h1>
 
 ## 🎯 本站宗旨 {#objective}
@@ -54,3 +59,19 @@ hide_table_of_contents: true
 - 或只是**想認識我並交個朋友**
 
 歡迎透過上方[聯絡資訊](#contact)聯繫我！
+
+<br />
+<div className="flex-center--wrap">
+  <Link
+    className="button button--primary button--outline button--lg margin--sm"
+    to={`/digest/2021/${monthEnLower(date.m)}/${date.d}`}
+  >
+    返回最新一篇日誌
+  </Link>
+  <Link
+    className="button button--primary button--lg margin--sm"
+    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
+  >
+    閱讀隨機一篇日誌
+  </Link>
+</div>
