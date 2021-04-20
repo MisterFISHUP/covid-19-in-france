@@ -4,10 +4,10 @@ description: Daily Digest - COVID-19 IN FRANCE is a website that presents daily 
 hide_table_of_contents: true
 ---
 
-import { randomDate, monthEnLower, getMonthName } from "@site/src/scripts/utils";
+import { monthEnLower, getMonthName } from "@site/src/scripts/utils";
 import { digestLatestDate2021 as lDate } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
-export const randDate = randomDate(2020, 3, 1, 2021, lDate.m, lDate.d);
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 
 <h1 className="pages--h1">✨ Preface</h1>
 
@@ -46,16 +46,6 @@ Best wishes and stay safe.
 FISH UP
 
 <div className="flex-center--wrap">
-  <Link
-    className="button button--primary button--lg margin--sm"
-    to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}
-  >
-    Read the latest digest
-  </Link>
-  <Link
-    className="button button--primary button--outline button--lg margin--sm"
-    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
-  >
-    Read a random digest
-  </Link>
+  <DigestLinkButton linkType="latest" isButtonOutline={false} buttonText="Read the latest digest" />
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="Read a random digest" />
 </div>

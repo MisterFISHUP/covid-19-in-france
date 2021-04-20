@@ -4,10 +4,7 @@ description: About this website 'Daily Digest - COVID-19 IN FRANCE' and its crea
 hide_table_of_contents: true
 ---
 
-import { randomDate, monthEnLower } from "@site/src/scripts/utils";
-import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
-import Link from "@docusaurus/Link";
-export const randDate = randomDate(2020, 3, 1, 2021, date.m, date.d);
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 
 <h1 className="pages--h1">About</h1>
 
@@ -57,16 +54,6 @@ Feel free to contact me via the [contact information](#contact) above!
 
 <br />
 <div className="flex-center--wrap">
-  <Link
-    className="button button--primary button--outline button--lg margin--sm"
-    to={`/digest/2021/${monthEnLower(date.m)}/${date.d}`}
-  >
-    Back to the latest digest
-  </Link>
-  <Link
-    className="button button--primary button--lg margin--sm"
-    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
-  >
-    Read a random digest
-  </Link>
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="Back to the latest digest" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="Read a random digest" />
 </div>

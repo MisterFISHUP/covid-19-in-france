@@ -4,10 +4,7 @@ description: 關於法國 COVID-19 日誌這個網站以及站長 FISH UP
 hide_table_of_contents: true
 ---
 
-import { randomDate, monthEnLower } from "@site/src/scripts/utils";
-import { digestLatestDate2021 as date } from "@site/src/scripts/dateVariables";
-import Link from "@docusaurus/Link";
-export const randDate = randomDate(2020, 3, 1, 2021, date.m, date.d);
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 
 <h1 className="pages--h1">關於本站</h1>
 
@@ -62,16 +59,6 @@ export const randDate = randomDate(2020, 3, 1, 2021, date.m, date.d);
 
 <br />
 <div className="flex-center--wrap">
-  <Link
-    className="button button--primary button--outline button--lg margin--sm"
-    to={`/digest/2021/${monthEnLower(date.m)}/${date.d}`}
-  >
-    返回最新一篇日誌
-  </Link>
-  <Link
-    className="button button--primary button--lg margin--sm"
-    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
-  >
-    閱讀隨機一篇日誌
-  </Link>
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="返回最新一篇日誌" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="閱讀隨機一篇日誌" />
 </div>

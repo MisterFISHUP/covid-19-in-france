@@ -4,10 +4,10 @@ description: 这是一本记录法国新冠肺炎 (COVID-19) 的日志，提供�
 hide_table_of_contents: true
 ---
 
-import { randomDate, monthEnLower } from "@site/src/scripts/utils";
+import { monthEnLower } from "@site/src/scripts/utils";
 import { newsEarliestDate, digestLatestDate2021 as lDate } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
-export const randDate = randomDate(2020, 3, 1, 2021, lDate.m, lDate.d);
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 
 <h1 className="pages--h1">✨ 日志序</h1>
 
@@ -47,16 +47,6 @@ export const randDate = randomDate(2020, 3, 1, 2021, lDate.m, lDate.d);
 站长 FISH UP
 
 <div className="flex-center--wrap">
-  <Link
-    className="button button--primary button--lg margin--sm"
-    to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}
-  >
-    阅读最新一篇日志
-  </Link>
-  <Link
-    className="button button--primary button--outline button--lg margin--sm"
-    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
-  >
-    阅读随机一篇日志
-  </Link>
+  <DigestLinkButton linkType="latest" isButtonOutline={false} buttonText="阅读最新一篇日志" />
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="阅读随机一篇日志" />
 </div>
