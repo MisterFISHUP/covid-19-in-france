@@ -15,11 +15,11 @@ description: 這本法國 COVID-19 日誌使用的內容與格式規範
 
 關於一些照護機構的法文，本日誌使用以下中文翻譯。
 
-法文|中文|法文全稱
----|---|---
-EHPAD|養老院|établissement d'hébergement pour personnes âgées dépendantes
-EMS|護理院|établissement médico-social
-USLD|長照機構|unité de soins de longue durée
+| 法文  | 中文     | 法文全稱                                                     |
+| ----- | -------- | ------------------------------------------------------------ |
+| EHPAD | 養老院   | établissement d'hébergement pour personnes âgées dépendantes |
+| EMS   | 護理院   | établissement médico-social                                  |
+| USLD  | 長照機構 | unité de soins de longue durée                               |
 
 <h3>😷 陽性確診率</h3>
 
@@ -31,7 +31,7 @@ USLD|長照機構|unité de soins de longue durée
 
 ---
 
-## 排版與格式 {#typesetting}
+## 排版與格式 {#formatting}
 
 ### 📆 日期 {#date}
 
@@ -68,7 +68,7 @@ USLD|長照機構|unité de soins de longue durée
 
 <div className="comment_block">例：（週日）（1/1 數據）(Auvergne-Rhône-Alpes, ARA) (+30.5%)</div>
 
-#### 數字內符號 {#number}
+### 0️⃣ 數字內符號 {#numbers}
 
 數字小數點使用半形句號（在法文句內例外，此時使用半形逗號）。
 

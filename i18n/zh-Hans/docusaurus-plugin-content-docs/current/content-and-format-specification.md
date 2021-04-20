@@ -15,11 +15,11 @@ description: 这本法国 COVID-19 日志使用的内容与格式规范
 
 关于一些照护机构的法文，本日志使用以下中文翻译。
 
-法文|中文|法文全称
----|---|---
-EHPAD|养老院|établissement d'hébergement pour personnes âgées dépendantes
-EMS|护理院|établissement médico-social
-USLD|长照机构|unité de soins de longue durée
+| 法文  | 中文     | 法文全称                                                     |
+| ----- | -------- | ------------------------------------------------------------ |
+| EHPAD | 养老院   | établissement d'hébergement pour personnes âgées dépendantes |
+| EMS   | 护理院   | établissement médico-social                                  |
+| USLD  | 长照机构 | unité de soins de longue durée                               |
 
 <h3>😷 阳性确诊率</h3>
 
@@ -31,7 +31,7 @@ USLD|长照机构|unité de soins de longue durée
 
 ---
 
-## 排版与格式 {#typesetting}
+## 排版与格式 {#formatting}
 
 ### 📆 日期 {#date}
 
@@ -68,7 +68,7 @@ USLD|长照机构|unité de soins de longue durée
 
 <div className="comment_block">例：（周日）（1/1 数据）(Auvergne-Rhône-Alpes, ARA) (+30.5%)</div>
 
-#### 数字内符号 {#number}
+### 0️⃣ 数字内符号 {#numbers}
 
 数字小数点使用半形句号（在法文句内例外，此时使用半形逗号）。
 
