@@ -3,6 +3,8 @@ title: Content and format specification
 description: The content and format specification of Daily Digest - COVID-19 IN FRANCE
 ---
 
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
+
 ![Content and format specification of Daily Digest - COVID-19 IN FRANCE](/img/digest/formatting.jpg)
 
 ## Wording and translation {#wording-and-translation}
@@ -51,3 +53,9 @@ Notice that in French, a **comma** is used in place of a decimal point, and a **
 ### 🧩 Miscellaneous {#typesetting-miscellaneous}
 
 When using the per cent sign %, the number immediately precedes the symbol without a space (for example: 10%).
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="Back to the latest digest" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="Read a random digest" />
+</div>

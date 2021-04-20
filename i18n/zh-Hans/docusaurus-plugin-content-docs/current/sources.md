@@ -3,6 +3,8 @@ title: 数据源
 description: 介绍这本法国 COVID-19 日志内容的数据源
 ---
 
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
+
 如同[日志序](/digest)所提到，一篇日志一般会包含**法国官方数据**以及**本日新闻重点**两部份，并且一周会有一篇日志包含**一周疫情报告重点**。本页面将介绍这本**法国 COVID-19 日志**内容的数据源。
 
 ## 法国官方数据 {#official-statistics}
@@ -118,3 +120,9 @@ description: 介绍这本法国 COVID-19 日志内容的数据源
 ## 其他 {#others}
 
 有时一篇日志会有其他上述未提及的部分，例如新冠肺炎记者会或总统演讲的摘要、新防疫措施整理等等。一般来说内容同样是来自对 Grace Tseng 脸书贴文的整理。
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="返回最新一篇日志" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="阅读随机一篇日志" />
+</div>

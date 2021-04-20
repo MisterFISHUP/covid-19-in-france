@@ -4,6 +4,7 @@ description: 可视化法国新冠肺炎 (Covid-19) 数据，让法国疫情现�
 ---
 
 import Link from "@docusaurus/Link";
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
 import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
 import { VacDashboard } from "@site/src/scripts/charts-components/Vac";
@@ -57,3 +58,9 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 一个病人平均可以感染的人数。有效传染数可能会因筛檢活动和获得结果所需时间而波动。
 
 <RTrend />
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="返回最新一篇日志" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="阅读随机一篇日志" />
+</div>

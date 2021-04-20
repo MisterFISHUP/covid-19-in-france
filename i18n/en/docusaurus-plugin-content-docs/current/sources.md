@@ -3,6 +3,8 @@ title: Sources
 description: The sources of data used in this website 'Daily Digest - COVID-19 IN FRANCE'
 ---
 
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
+
 This page presents the sources of data used in the daily digests.
 
 ## Official Statistics {#official-statistics}
@@ -100,3 +102,9 @@ Note: Figures in brackets with a plus or minus sign indicate the change from the
 | Number of departments in a highly vulnerable situation                                             |  [4][spf]  | ??? to 7/2/2021            |
 | Number of clusters under investigation from 9/5/2020                                               |  [4][spf]  | ??? to 26/1/2021           |
 | Proportion of residents in EHPAD/long-term care units having received at least one dose of vaccine |  [4][spf]  | From 8/2/2021 to 17/3/2021 |
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="Back to the latest digest" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="Read a random digest" />
+</div>

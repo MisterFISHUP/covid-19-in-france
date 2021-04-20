@@ -4,6 +4,7 @@ description: Visualisation of COVID-19 data in France. Current pandemic situatio
 ---
 
 import Link from "@docusaurus/Link";
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
 import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
 import { VacDashboard } from "@site/src/scripts/charts-components/Vac";
@@ -59,3 +60,9 @@ Number of new positive testers as a proportion of the total number of first-time
 The average number of people a patient can infect. The effective R may fluctuate according to screening activities and the time taken to deliver the results.
 
 <RTrend dateFmt="d/m" />
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="Back to the latest digest" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="Read a random digest" />
+</div>

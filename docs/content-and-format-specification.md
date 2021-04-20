@@ -3,6 +3,8 @@ title: 內容與格式規範
 description: 這本法國 COVID-19 日誌使用的內容與格式規範
 ---
 
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
+
 ![法國 COVID-19 日誌內容與格式規範](/img/digest/formatting.jpg)
 
 ## 用詞與翻譯 {#wording-and-translation}
@@ -81,3 +83,9 @@ description: 這本法國 COVID-19 日誌使用的內容與格式規範
 數據變化箭頭使用箭頭符號 →（與前後數字各空一格）而不使用 ->。
 
 使用百分比符號 % 時，符號前面緊鄰數字而不加空格（例如：10%）。
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="返回最新一篇日誌" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="閱讀隨機一篇日誌" />
+</div>
