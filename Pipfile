@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-ipykernel = "*"
-nbconvert = "*"
 opencc = "*"
 
 [dev-packages]
+pandas = "*"
+ipykernel = "*"
+nbconvert = "*"
 
 [requires]
 python_version = "3.7"
