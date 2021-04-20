@@ -4,14 +4,24 @@ description: 這是一本記錄法國新冠肺炎 (COVID-19) 的日誌，提供�
 hide_table_of_contents: true
 ---
 
-import { newsEarliestDate as date } from "@site/src/scripts/dateVariables";
+import { randomDate, monthEnLower } from "@site/src/scripts/utils";
+import { newsEarliestDate, digestLatestDate2021 as lDate } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
+export const randDate = randomDate(2020, 3, 1, 2021, lDate.m, lDate.d);
 
 <h1 className="pages--h1">✨ 日誌序</h1>
 
 這是一本記錄法國新冠肺炎 (COVID-19) 的日誌，提供法國每日疫情數據以及新聞重點整理。
 
-這本**法國 COVID-19 日誌**從 2020 年 3 月 1 日開始記錄了法國新冠肺炎的疫情，也就是法國累積確診數破百的隔日（2/29 累積確診數到達 100，3/1 又新增 30 到達 130 人確診）。
+<p>
+  這本<strong>法國 COVID-19 日誌</strong>從 2020 年 3 月 1
+  日開始記錄了法國新冠肺炎的疫情，也就是法國累積確診數破百的隔日（2/29 累積確診數到達 100，3/1 又新增 30 到達 130
+  人確診）。目前日誌最新更新至{" "}
+  <Link to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}>
+    2021 年 {lDate.m} 月 {lDate.d} 日
+  </Link>
+  。
+</p>
 
 一篇日誌一般會包含：
 
@@ -22,7 +32,7 @@ import Link from "@docusaurus/Link";
 
 <div className="comment--translc_gray">
   註：法國官方數據從 2020 年 3 月 2 日也就是第二篇日誌才開始有記錄，而新聞重點目前最舊整理至 2020 年{" "}
-  <span>{date.m}</span> 月 <span>{date.d}</span> 日，未來會逐步補上更早內容。
+  {newsEarliestDate.m} 月 {newsEarliestDate.d} 日，未來會逐步補上更早內容。
 </div>
 <br />
 
@@ -37,14 +47,16 @@ import Link from "@docusaurus/Link";
 站長 FISH UP
 
 <div className="flex-center--wrap">
-  <Link className="button button--primary button--lg margin--sm" to="/digest/2021/" title="開始閱讀 2021 年日誌">
-    閱讀 2021 年日誌
+  <Link
+    className="button button--primary button--lg margin--sm"
+    to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}
+  >
+    閱讀最新一篇日誌
   </Link>
   <Link
     className="button button--primary button--outline button--lg margin--sm"
-    to="/digest/2020/december/31"
-    title="開始閱讀 2020 年日誌"
+    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
   >
-    閱讀 2020 年日誌
+    閱讀隨機一篇日誌
   </Link>
 </div>

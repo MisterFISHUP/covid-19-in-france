@@ -4,13 +4,24 @@ description: Daily Digest - COVID-19 IN FRANCE is a website that presents daily 
 hide_table_of_contents: true
 ---
 
+import { randomDate, monthEnLower, getMonthName } from "@site/src/scripts/utils";
+import { digestLatestDate2021 as lDate } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
+export const randDate = randomDate(2020, 3, 1, 2021, lDate.m, lDate.d);
 
 <h1 className="pages--h1">✨ Preface</h1>
 
 **Daily Digest - COVID-19 IN FRANCE** is a website that presents daily COVID-19 statistics and news in France in the form of a daily digest.
 
-It records the outbreak of COVID-19 in France from 1 March 2020, the day after the cumulative number of confirmed cases in France reached 100 (France had 100 cumulative confirmed cases of COVID-19 on 29/2 and confirmed 30 more cases on 1/3, bringing the total number to 130).
+<p>
+  It records the outbreak of COVID-19 in France from 1 March 2020, the day after the cumulative number of confirmed
+  cases in France reached 100 (France had 100 cumulative confirmed cases of COVID-19 on 29/2 and confirmed 30 more cases
+  on 1/3, bringing the total number to 130). It is currently updated as of{" "}
+  <Link to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}>
+    {lDate.d} {getMonthName(lDate.m)} 2021
+  </Link>
+  .
+</p>
 
 A digest will normally contain:
 
@@ -37,16 +48,14 @@ FISH UP
 <div className="flex-center--wrap">
   <Link
     className="button button--primary button--lg margin--sm"
-    to="/digest/2021/"
-    title="Start reading 2021's digests"
+    to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}
   >
-    Read 2021's digests
+    Read the latest digest
   </Link>
   <Link
     className="button button--primary button--outline button--lg margin--sm"
-    to="/digest/2020/december/31"
-    title="Start reading 2020's digests"
+    to={`/digest/${randDate.y}/${monthEnLower(randDate.m)}/${randDate.d}`}
   >
-    Read 2020's digests
+    Read a random digest
   </Link>
 </div>
