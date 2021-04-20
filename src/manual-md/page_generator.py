@@ -79,6 +79,7 @@ description: {y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。法國 COVI
     export_import = f'''
 export const date = "{dt.strftime('%Y-%m-%d')}";
 import {{ Subtitle, Grace, Fish, OfficialData, SourceFb, Figure, ChartCases }} from "@site/src/scripts/digest-components";
+import {{ DigestLinkButton }} from "@site/src/scripts/components/DigestLinkButton";
 '''
     subtitle = '''
 <Subtitle date={date} />
@@ -105,6 +106,12 @@ import {{ Subtitle, Grace, Fish, OfficialData, SourceFb, Figure, ChartCases }} f
     news_heading = '''
 ## 本日新聞重點 {#news}
 '''
+    random_digest_button = '''
+<br /> 
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="🎲 閱讀隨機一篇日誌" />
+</div>
+'''
 
     # overwrite some strings for `zh-Hans`
     if locale == 'zh-Hans':
@@ -121,6 +128,12 @@ description: {y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。法国 COVI
 '''
         news_heading = '''
 ## 本日新闻重点 {#news}
+'''
+        random_digest_button = '''
+<br /> 
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="🎲 阅读随机一篇日志" />
+</div>
 '''
 
     # overwrite some strings for `en`
@@ -147,18 +160,24 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
         news_heading = '''
 ## COVID-19 Daily News Digest {#news}
 '''
+        random_digest_button = '''
+<br /> 
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="🎲 Read a random digest" />
+</div>
+'''
 
     if man:
-        man = '\n' + man
+        man = '\n' + man + '\n'
     else:
         sourceFb = ''
         news_heading = ''
 
     # There's no data for 2020/3/1
     if dt == date(2020,3,1):
-        return  front_matter + export_import + subtitle + main_img + man
+        return  front_matter + export_import + subtitle + main_img + man + random_digest_button
 
-    return front_matter + export_import + subtitle + main_img + sourceOfData + chartCases + official_data_heading + official_data + news_only_zh + sourceFb + news_heading + man
+    return front_matter + export_import + subtitle + main_img + sourceOfData + chartCases + official_data_heading + official_data + news_only_zh + sourceFb + news_heading + man + random_digest_button
 
 # print(digest_content(2021,3,2, 'en'))
 
