@@ -58,7 +58,7 @@ module.exports = {
       darkTheme: require("prism-react-renderer/themes/dracula"),
     },
     navbar: {
-      hideOnScroll: false, // can't be true if using scroll smooth
+      hideOnScroll: true,
       // style: 'primary', // or 'dark'
       title: "法國 COVID-19 日誌",
       logo: {
