@@ -3,6 +3,8 @@ title: Data charts - COVID-19 in France
 description: Visualisation of COVID-19 data in France. Current pandemic situation and trends.
 ---
 
+import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
+import { getMonthName } from "@site/src/scripts/utils";
 import Link from "@docusaurus/Link";
 import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
@@ -18,8 +20,12 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 <p className="subtitle">Visualisation of COVID-19 data in France. Current pandemic situation and trends.</p>
 
 <div className="comment--translc_gray">
-  📈 Data sources: see <Link to="/digest/sources">Appendix - Sources</Link>.
+  🔄 Last updated on {digestLatestDate2021.d} {getMonthName(digestLatestDate2021.m, "en")} 2021
 </div>
+
+<em>
+  Data sources: see <Link to="/digest/sources">Appendix - Sources</Link>
+</em>
 
 ## Confirmed Cases {#confirmed-cases}
 

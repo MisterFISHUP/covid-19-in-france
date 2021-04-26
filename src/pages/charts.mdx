@@ -3,6 +3,7 @@ title: 數據圖表 - 法國疫情數據視覺化
 description: 視覺化法國新冠肺炎 (Covid-19) 數據，讓法國疫情現況與趨勢一目了然
 ---
 
+import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
 import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
@@ -18,8 +19,12 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 <p className="subtitle">視覺化法國新冠肺炎 (Covid-19) 數據，讓法國疫情現況與趨勢一目了然</p>
 
 <div className="comment--translc_gray">
-  📈 數據來源：請參考附錄<Link to="/digest/sources">資料來源</Link>。
+  🔄 最後更新日期：2021 年 {digestLatestDate2021.m} 月 {digestLatestDate2021.d} 日
 </div>
+
+<em>
+  數據來源：請參考附錄<Link to="/digest/sources">資料來源</Link>
+</em>
 
 ## 確診數 {#confirmed-cases}
 

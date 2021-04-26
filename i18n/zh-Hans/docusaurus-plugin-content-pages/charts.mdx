@@ -3,6 +3,7 @@ title: 数据图表 - 法国疫情数据可视化
 description: 可视化法国新冠肺炎 (Covid-19) 数据，让法国疫情现况与趋势一目了然
 ---
 
+import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
 import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
@@ -18,8 +19,12 @@ import { RTrend } from "@site/src/scripts/charts-components/R";
 <p className="subtitle">可视化法国新冠肺炎 (Covid-19) 数据，让法国疫情现况与趋势一目了然</p>
 
 <div className="comment--translc_gray">
-  📈 数据来源：请参考附录<Link to="/digest/sources">数据源</Link>。
+  🔄 最后更新日期：2021 年 {digestLatestDate2021.m} 月 {digestLatestDate2021.d} 日
 </div>
+
+<em>
+  数据来源：请参考附录<Link to="/digest/sources">数据源</Link>
+</em>
 
 ## 确诊数 {#confirmed-cases}
 
