@@ -87,7 +87,7 @@ Note: Figures in brackets with a plus or minus sign indicate the change from the
 | Item         |  Source  | Availability    |
 | ------------ | :------: | --------------- |
 | First doses  | [1][vac] | From 27/12/2020 |
-| Second doses | [1][vac] | From 16/1/2021  |
+| Second doses | [1][vac] | From 6/1/2021   |
 
 Note: Figures in brackets with a plus or minus sign indicate the change from the previous day.
 
