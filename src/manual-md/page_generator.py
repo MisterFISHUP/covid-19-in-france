@@ -14,8 +14,8 @@ from opencc import OpenCC
 digest_start = date(2020, 3, 1)
 start_year = 2020
 cur_year = 2021
-lastest_month = 4
-lastest_day = 27
+lastest_month = 5
+lastest_day = 1
 one_day = timedelta(days=1)
 
  # not using strftime("%B") for months since it depends on the current locale
