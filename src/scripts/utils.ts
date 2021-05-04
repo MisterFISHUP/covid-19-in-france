@@ -16,6 +16,15 @@ export const beautifyNumber = (x: number): string => {
 // ex: 1234.567 -> '+1,234.57'
 export const beautifyNumberWithSign = (x: number): string => (x >= 0 ? "+" + beautifyNumber(x) : beautifyNumber(x));
 
+// ex: 1234567.8 -> '1.23M', 1234.5 -> '1.23k', 123.456 -> '123.45'
+export const minifyNumber = (x: number): string => {
+  const absVal = Math.abs(x);
+  if (absVal >= 1e9) return beautifyNumber(x / 1e9) + "B";
+  if (absVal >= 1e6) return beautifyNumber(x / 1e6) + "M";
+  if (absVal >= 1e3) return beautifyNumber(x / 1e3) + "K";
+  return beautifyNumber(x);
+}
+
 // ex: '2020-12-01' -> '202012'
 export const toYYYYMM = (d: string): string => {
   return d.slice(0, 4) + d.slice(5, 7);

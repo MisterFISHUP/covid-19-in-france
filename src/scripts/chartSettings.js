@@ -1,3 +1,5 @@
+import { minifyNumber } from "./utils";
+
 const neutralGray = "rgb(150, 150, 150)";
 
 export const chartSettings = {
@@ -47,6 +49,7 @@ export const chartSettings = {
       ticks: {
         maxTicksLimit: 9,
         fontColor: neutralGray,
+        callback: (value) => minifyNumber(value),
       },
     },
   },
