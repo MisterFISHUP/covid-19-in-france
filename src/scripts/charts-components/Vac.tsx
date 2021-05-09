@@ -34,8 +34,7 @@ const marks = allDur.map((x) => {
 // Vac1And2
 // ---------
 
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-const Vac1And2 = ({ duration, dateFmt = "m/d" }) => {
+const Vac1And2 = ({ duration, dateFmt }) => {
   const dates: string[] = datesInMaxDur.slice(maxDur - duration);
 
   // data
@@ -76,8 +75,7 @@ const Vac1And2 = ({ duration, dateFmt = "m/d" }) => {
   return <Line data={data} options={options} />;
 };
 
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-const Vac1And2Trend = ({ dateFmt = "m/d" }) => {
+const Vac1And2Trend = ({ dateFmt }) => {
   const defaultValue = allDur[0];
   const [duration, setDuration] = useState(defaultValue);
 
@@ -114,8 +112,7 @@ const Vac1And2Trend = ({ dateFmt = "m/d" }) => {
 // ----
 
 // dose = '1' | '2' (vac1 or vac2)
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-const Vac = ({ dose, duration, dateFmt = "m/d" }) => {
+const Vac = ({ dose, duration, dateFmt }) => {
   const dates: string[] = datesInMaxDur.slice(maxDur - duration);
 
   // data
@@ -177,8 +174,7 @@ const Vac = ({ dose, duration, dateFmt = "m/d" }) => {
 };
 
 // dose = '1' | '2' (vac1 or vac2)
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-const VacTrend = ({ dose, dateFmt = "m/d" }) => {
+const VacTrend = ({ dose, dateFmt }) => {
   const defaultValue = allDur[0];
   const [duration, setDuration] = useState(defaultValue);
 
@@ -214,23 +210,16 @@ const VacTrend = ({ dose, dateFmt = "m/d" }) => {
 // EXPORTS
 // --------
 
-// dataFmt is optional: with string "d/m", the charts will have day/month date labels
-export const VacDashboard = ({ dateFmt = "m/d" }) => {
+export const VacDashboard = () => {
+  const dateFmt = translate({ id: "dateFmt", message: "m/d" });
+
   return (
     <>
       <Vac1And2Trend dateFmt={dateFmt} />
-      <div className="container">
-        <div className="row">
-          <div className="col col--6">
-            <br />
-            <VacTrend dose="1" dateFmt={dateFmt} />
-          </div>
-          <div className="col col--6">
-            <br />
-            <VacTrend dose="2" dateFmt={dateFmt} />
-          </div>
-        </div>
-      </div>
+      <br />
+      <VacTrend dose="1" dateFmt={dateFmt} />
+      <br />
+      <VacTrend dose="2" dateFmt={dateFmt} />
     </>
   );
 };

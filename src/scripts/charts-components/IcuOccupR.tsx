@@ -16,8 +16,7 @@ const marks = allDur.map((x) => {
   return { value: x, label: x };
 });
 
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-const IcuOccupR = ({ duration, dateFmt = "m/d" }) => {
+const IcuOccupR = ({ duration, dateFmt }) => {
   const dates: string[] = datesInMaxDur.slice(maxDur - duration);
 
   // data
@@ -58,8 +57,8 @@ const IcuOccupR = ({ duration, dateFmt = "m/d" }) => {
 // EXPORTS
 // --------
 
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-export const IcuOccupRTrend = ({ dateFmt = "m/d" }) => {
+export const IcuOccupRTrend = () => {
+  const dateFmt = translate({ id: "dateFmt", message: "m/d" });
   const defaultValue = allDur[0];
   const [duration, setDuration] = useState(defaultValue);
 

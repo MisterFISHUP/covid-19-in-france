@@ -24,8 +24,7 @@ const marks = allDur.map((x) => {
   return { value: x, label: x };
 });
 
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-const Deaths = ({ duration, dateFmt = "m/d" }) => {
+const Deaths = ({ duration, dateFmt }) => {
   const dates: string[] = datesInMaxDur.slice(maxDur - duration);
 
   // data
@@ -91,8 +90,8 @@ const Deaths = ({ duration, dateFmt = "m/d" }) => {
 // EXPORTS
 // --------
 
-// dataFmt is optional: with string "d/m", the chart will have day/month date labels
-export const DeathsTrend = ({ dateFmt = "m/d" }) => {
+export const DeathsTrend = () => {
+  const dateFmt = translate({ id: "dateFmt", message: "m/d" });
   const defaultValue = allDur[0];
   const [duration, setDuration] = useState(defaultValue);
 
