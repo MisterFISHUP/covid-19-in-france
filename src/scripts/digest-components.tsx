@@ -532,8 +532,8 @@ export const Figure = ({ date, srcx, children }) => {
   );
 };
 
-// date is required; dataFmt is optional: with string 'd/m', the chart will have day/month date labels
-export const ChartCases = ({ date, dateFmt = "m/d" }) => {
+export const ChartCases = ({ date }) => {
+  const dateFmt = translate({ id: "dateFmt", message: "m/d" });
   const duration = 14;
   const renderChartThold = 5;
   const dataName = "casesCumul";
@@ -584,6 +584,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
       },
     ],
   };
+
   const options = {
     legend: chartSettings.legend,
     tooltips: chartSettings.tooltips,
@@ -613,6 +614,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
       ],
     },
   };
+
   return (
     <>
       <div className="chart-title">
@@ -637,6 +639,7 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
 
 export const OfficialData = ({ date }) => {
   const numFmt = translate({ id: "numFmt", message: "fr" });
+
   return (
     <div className="official_data_block">
       <CasesCumul date={date} numFmt={numFmt} />

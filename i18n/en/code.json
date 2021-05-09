@@ -441,5 +441,8 @@
   },
   "numFmt": {
     "message": "en"
+  },
+  "dateFmt": {
+    "message": "d/m"
   }
 }

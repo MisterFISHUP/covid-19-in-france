@@ -147,10 +147,6 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
         sourceOfData = '''
 <div className="comment--translc_gray">📈 Data sources: see <a href="../../sources">Appendix - Sources</a>.</div>
 '''
-        # add `dateFmt="d/m"`
-        chartCases = '''
-<ChartCases date={date} dateFmt="d/m" />
-'''
         official_data_heading = '''
 ## Official Statistics {#official-statistics}
 '''
