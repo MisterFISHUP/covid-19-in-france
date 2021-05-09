@@ -30,7 +30,7 @@ export const chartSettings = {
   },
   legend: {
     labels: {
-      fontSize: 18,
+      fontSize: 16,
       fontColor: neutralGray,
     },
   },
@@ -49,7 +49,7 @@ export const chartSettings = {
     },
     yAxes: {
       ticks: {
-        maxTicksLimit: 9,
+        maxTicksLimit: 7,
         fontColor: neutralGray,
         callback: (value) => minifyNumber(value, numFmt),
       },
