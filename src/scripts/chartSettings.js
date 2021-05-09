@@ -1,6 +1,8 @@
+import { translate } from "@docusaurus/Translate";
 import { minifyNumber } from "./utils";
 
 const neutralGray = "rgb(150, 150, 150)";
+const numFmt = translate({ id: "numFmt", message: "en" });
 
 export const chartSettings = {
   lineStyle: {
@@ -49,7 +51,7 @@ export const chartSettings = {
       ticks: {
         maxTicksLimit: 9,
         fontColor: neutralGray,
-        callback: (value) => minifyNumber(value),
+        callback: (value) => minifyNumber(value, numFmt),
       },
     },
   },
