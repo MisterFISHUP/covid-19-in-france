@@ -638,7 +638,7 @@ export const ChartCases = ({ date }) => {
 };
 
 export const OfficialData = ({ date }) => {
-  const numFmt = translate({ id: "numFmt", message: "fr" });
+  const numFmt = translate({ id: "numFmt", message: "en" });
 
   return (
     <div className="official_data_block">
