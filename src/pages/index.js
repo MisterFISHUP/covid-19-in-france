@@ -7,6 +7,8 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.scss";
 import { monthEnLower } from "@site/src/scripts/utils";
 import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
+import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
+import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
 
 const features = [
   {
@@ -39,7 +41,7 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx("col col--4", styles.feature)}>
+    <div className="col col--4 padding-horiz--lg">
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -89,6 +91,53 @@ function Banner() {
   );
 }
 
+function Features() {
+  return (
+    <section className={clsx("padding-vert--lg", styles.bgFeatures)}>
+      <div className="container">
+        <div className="row">
+          {features.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+      <div className="flex-center--wrap margin-vert--md">
+        <Link
+          className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+          to={useBaseUrl("digest")}
+        >
+          <Translate id="homepage.features.button.startReading">開始閱讀</Translate>
+        </Link>
+      </div>
+    </section>
+  );
+}
+
+function SomeCharts() {
+  return (
+    <section className="padding-vert--lg">
+      <div className="container">
+        <div className="row">
+          <div className="col col--6 padding--lg">
+            <CasesTrend />
+          </div>
+          <div className="col col--6 padding--lg">
+            <DeathsTrend />
+          </div>
+        </div>
+      </div>
+      <div className="flex-center--wrap margin-vert--md">
+        <Link
+          className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+          to={useBaseUrl("charts")}
+        >
+          <Translate id="homepage.charts.button.seeMoreCharts">看更多數據圖表</Translate>
+        </Link>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const title = translate({ id: "homepage.title", message: "首頁" });
   const description = translate({
@@ -100,28 +149,8 @@ export default function Home() {
     <Layout title={title} description={description}>
       <Banner />
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-        <div className="flex-center--wrap">
-          <Link
-            className={clsx(
-              "button button--outline button--primary button--lg margin-bottom--xl  ",
-              styles.startReading
-            )}
-            to={useBaseUrl("digest")}
-          >
-            <Translate id="homepage.features.button.startReading">開始閱讀</Translate>
-          </Link>
-        </div>
+        <Features />
+        <SomeCharts />
       </main>
     </Layout>
   );

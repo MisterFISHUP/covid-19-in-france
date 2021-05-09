@@ -363,6 +363,9 @@
   "homepage.features.button.startReading": {
     "message": "Start Reading"
   },
+  "homepage.charts.button.seeMoreCharts": {
+    "message": "See More Charts"
+  },
   "digestComp.ChartCases.chartsPageLink": {
     "message": "Charts",
     "description": "The page name of Charts"

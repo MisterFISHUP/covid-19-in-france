@@ -73,15 +73,16 @@
   }
 }
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.bgFeatures {
+  background-color: var(--ifm-footer-background-color);
 }
 
 .featureImage {
   height: 200px;
   width: 250px;
   margin: 16px 0;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }

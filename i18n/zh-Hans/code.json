@@ -363,6 +363,9 @@
   "homepage.features.button.startReading": {
     "message": "开始阅读"
   },
+  "homepage.charts.button.seeMoreCharts": {
+    "message": "看更多数据图表"
+  },
   "digestComp.ChartCases.chartsPageLink": {
     "message": "数据图表",
     "description": "The page name of Charts"
