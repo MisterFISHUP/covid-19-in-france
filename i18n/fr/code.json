@@ -1,0 +1,451 @@
+{
+  "homepage.features.officialStatistics.title": {
+    "message": "法國官方數據"
+  },
+  "homepage.features.officialStatistics.description": {
+    "message": "提供每日官方數據，包含確診數、死亡數、疫苗接種數等，以及各項指標數據如有效傳染數、陽性確診率、重症病房佔有率等等"
+  },
+  "homepage.features.news.title": {
+    "message": "疫情新聞整理"
+  },
+  "homepage.features.news.description": {
+    "message": "條列式扼要呈現每日疫情媒體報導、提供相關新聞報導或影片連結"
+  },
+  "homepage.features.pressConference.title": {
+    "message": "新冠肺炎記者會重點"
+  },
+  "homepage.features.pressConference.description": {
+    "message": "提供記者會重點整理、總統談話摘要、封城或宵禁政策措施整理、疫情新限制措施整理"
+  },
+  "homepage.hero.logoLink.title": {
+    "message": "點我直接閱讀最新一篇日誌"
+  },
+  "homepage.hero.title": {
+    "message": "法國 COVID-19 日誌"
+  },
+  "homepage.hero.tagline": {
+    "message": "一本記錄<b>法國新冠肺炎疫情</b>的日誌",
+    "description": "Homepage hero tagline, can contain simple html tags"
+  },
+  "homepage.hero.button.startReading": {
+    "message": "開始閱讀"
+  },
+  "homepage.features.button.startReading": {
+    "message": "開始閱讀"
+  },
+  "homepage.charts.button.seeMoreCharts": {
+    "message": "看更多數據圖表"
+  },
+  "homepage.title": {
+    "message": "首頁"
+  },
+  "homepage.description": {
+    "message": "一本記錄法國新冠肺炎 (COVID-19) 的日誌，提供法國每日疫情數據以及新聞重點整理"
+  },
+  "numFmt": {
+    "message": "en"
+  },
+  "digestComp.CasesCumul.title": {
+    "message": "🧫 累積確診數",
+    "description": "The heading of CasesCumul"
+  },
+  "digestComp.CasesCumul.casesCumul": {
+    "message": "總累計：",
+    "description": "The description for casesCumul in CasesCumul"
+  },
+  "digestComp.CasesCumul.casesEhpadEmsCumul": {
+    "message": "養老院/護理院：",
+    "description": "The description for casesEhpadEmsCumul in CasesCumul"
+  },
+  "digestComp.CasesCumul.noUpdateEhpadEms": {
+    "message": "（未更新）",
+    "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
+  },
+  "digestComp.CasesCumul.casesRtPcr": {
+    "message": "新增 RT-PCR 確診：",
+    "description": "The description for casesRtPcr in CasesCumul"
+  },
+  "digestComp.CasesCumul.casesAntig": {
+    "message": "新增抗原檢測確診：",
+    "description": "The description for casesAntig in CasesCumul"
+  },
+  "digestComp.DeathsCumul.title": {
+    "message": "☠️ 累積死亡數",
+    "description": "The heading of DeathsCumul"
+  },
+  "digestComp.DeathsCumul.deathsCumul": {
+    "message": "總累計：",
+    "description": "The description for deathsCumul in DeathsCumul"
+  },
+  "digestComp.DeathsCumul.deathsHospiCumul": {
+    "message": "醫院：",
+    "description": "The description for deathsHospiCumul in DeathsCumul"
+  },
+  "digestComp.DeathsCumul.deathsEhpadEmsCumul": {
+    "message": "養老院/護理院：",
+    "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
+  },
+  "digestComp.DeathsCumul.noUpdateEhpadEms": {
+    "message": "（未更新）",
+    "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
+  },
+  "digestComp.Hospi.title": {
+    "message": "🏥 住院數",
+    "description": "The heading of Hospi"
+  },
+  "digestComp.Hospi.hospi": {
+    "message": "當前：",
+    "description": "The description for hospi in Hospi"
+  },
+  "digestComp.Hospi.hospiNew": {
+    "message": "本日入院：",
+    "description": "The description for hospiNew in Hospi"
+  },
+  "digestComp.Hospi.hospiWeek": {
+    "message": "過去七日入院：",
+    "description": "The description for hospiWeek in Hospi"
+  },
+  "digestComp.Hospi.hospiWeekVar": {
+    "message": "（與七日前數據相比 {hospiWeekVar}）",
+    "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
+  },
+  "digestComp.Icu.title": {
+    "message": "😞 重症數",
+    "description": "The heading of Icu"
+  },
+  "digestComp.Icu.icu": {
+    "message": "當前：",
+    "description": "The description for icu in Icu"
+  },
+  "digestComp.Icu.icuNew": {
+    "message": "本日重症：",
+    "description": "The description for icuNew in Icu"
+  },
+  "digestComp.Icu.icuWeek": {
+    "message": "過去七日重症：",
+    "description": "The description for icuWeek in Icu"
+  },
+  "digestComp.Icu.icuWeekVar": {
+    "message": "（與七日前數據相比 {icuWeekVar}）",
+    "description": "The weekly variation of icuWeek in Icu, inside parentheses"
+  },
+  "digestComp.ReturnHomeCumul.title": {
+    "message": "🏡 累積出院數",
+    "description": "The heading of ReturnHomeCumul"
+  },
+  "digestComp.ReturnHomeCumul.returnHomeCumul": {
+    "message": "總累計：",
+    "description": "The description for returnHomeCumul in ReturnHomeCumul"
+  },
+  "digestComp.VacCumul.title": {
+    "message": "💉 疫苗接種數",
+    "description": "The heading of VacCumul"
+  },
+  "digestComp.VacCumul.vac1": {
+    "message": "第 1 劑接種累計：",
+    "description": "The description for vac1 in VacCumul"
+  },
+  "digestComp.VacCumul.vac2": {
+    "message": "第 2 劑接種累計：",
+    "description": "The description for vac2 in VacCumul"
+  },
+  "digestComp.Indicators.title": {
+    "message": "📊 各項指標數據",
+    "description": "The heading of Indicators"
+  },
+  "digestComp.Indicators.incidR": {
+    "message": "法國每 10 萬人確診數：",
+    "description": "The description for incidR in Indicators"
+  },
+  "digestComp.Indicators.icuOccupR": {
+    "message": "重症病房佔有率：",
+    "description": "The description for icuOccupR in Indicators"
+  },
+  "digestComp.Indicators.r": {
+    "message": "有效傳染數 (R)：",
+    "description": "The description for r in Indicators"
+  },
+  "digestComp.Indicators.posR": {
+    "message": "RT-PCR 陽性確診率：",
+    "description": "The description for posR in Indicators"
+  },
+  "digestComp.Indicators.highVul": {
+    "message": "疫情列為高度脆弱地區：共 {highVul} 區",
+    "description": "The line for highVul in Indicators"
+  },
+  "digestComp.Indicators.vacEhpadUsldPct": {
+    "message": "養老院/長照機構接種至少 1 劑疫苗比例：{pct}%（截至 {dateMD}）",
+    "description": "The line for vacEhpadUsldPct in Indicators"
+  },
+  "digestComp.Indicators.clusters": {
+    "message": "2020 年 5/9 起（或第一次解封後）至 {dateMD} 群聚感染情況：尚在調查中的有 {clustersTotal} 起，其中包含養老院 {clustersEhpad} 起",
+    "description": "The line for clusters in Indicators"
+  },
+  "digestComp.Subtitle": {
+    "message": "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。日誌第 {n} 篇。",
+    "description": "The subtitle of a daily digest"
+  },
+  "digestComp.Figure.defaultCaption": {
+    "message": "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
+    "description": "The default image caption in Figure"
+  },
+  "dateFmt": {
+    "message": "m/d"
+  },
+  "digestComp.ChartCases.chartsPageLink": {
+    "message": "數據圖表",
+    "description": "The page name of Charts"
+  },
+  "digestComp.ChartCases.label.total": {
+    "message": "總累計",
+    "description": "The label for total cases in ChartCases"
+  },
+  "digestComp.ChartCases.label.new": {
+    "message": "當日確診數",
+    "description": "The label for new cases in ChartCases"
+  },
+  "digestComp.ChartCases.title": {
+    "message": "確診數近兩週走勢",
+    "description": "The title of ChartCases"
+  },
+  "digestComp.ChartCases.seeMoreCharts": {
+    "message": "更多數據視覺化可參見{chartsPageLink}。",
+    "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
+  },
+  "digestComp.SourceFb.phrase": {
+    "message": "📝 以下內容整理於 {gt} 在臉書社團中的",
+    "description": "The starting phrase in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "digestComp.SourceFb.thisPost": {
+    "message": "此貼文",
+    "description": "'This post' (content of anchor tags in SourceFb, used only in traditional and simplified Chinese)"
+  },
+  "digestComp.SourceFb.linkTitle": {
+    "message": "前往臉書社團貼文",
+    "description": "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "chartsComp.Cases.label.total": {
+    "message": "總累計"
+  },
+  "chartsCompo.Cases.label.new": {
+    "message": "當日確診數"
+  },
+  "chartsComp.CasesTrend.title": {
+    "message": "確診數近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Deaths.label.total": {
+    "message": "總累計"
+  },
+  "chartsCompo.Deaths.label.new": {
+    "message": "當日死亡數"
+  },
+  "chartsComp.DeathsTrend.title": {
+    "message": "死亡數近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IcuOccupR.label": {
+    "message": "重症病房佔有率"
+  },
+  "chartsComp.IcuOccupRTrend.title": {
+    "message": "重症病房佔有率近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IncidR.label": {
+    "message": "全法國每 10 萬人確診數"
+  },
+  "chartsComp.IncidRTrend.title": {
+    "message": "每 10 萬人確診數近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.PosR.label": {
+    "message": "RT-PCR 陽性確診率"
+  },
+  "chartsComp.PosRTrend.title": {
+    "message": "RT-PCR 陽性確診率近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.R.label": {
+    "message": "有效傳染數"
+  },
+  "chartsComp.RTrend.title": {
+    "message": "有效傳染數近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac1And2.label.vac1": {
+    "message": "第 1 劑"
+  },
+  "chartsCompo.Vac1And2.label.vac2": {
+    "message": "第 2 劑"
+  },
+  "chartsComp.Vac1And2Trend.title": {
+    "message": "疫苗接種數近 {duration} 日走勢",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac.label.total": {
+    "message": "總累計"
+  },
+  "chartsCompo.Vac.label.new": {
+    "message": "當日接種數"
+  },
+  "chartsComp.VacTrend.title": {
+    "message": "第 {dose} 劑接種數近 {duration} 日走勢",
+    "description": "Doses <dose>. Trend over the last <duration> days"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nous n'avons pas trouvé ce que vous recherchez.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Pagination de la liste des posts du blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nouvelles entrées",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Anciennes entrées",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Une minute de lecture|{readingTime} minutes de lecture",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Lire plus",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Pagination des blog posts",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Article plus récent",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Article plus ancien",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un article|{count} articles",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagués avec « {tagName} »",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pagination des documents",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveCloseButtonLabel": {
+    "message": "Fermer le menu latéral",
+    "description": "The ARIA label for close button of mobile doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveOpenButtonLabel": {
+    "message": "Ouvrir le menu latéral",
+    "description": "The ARIA label for open button of mobile doc sidebar"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Éditer cette page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers le titre",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Aller au contenu principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "COVID-19 EN FRANCE",
+    "description": "The title in the navbar"
+  },
+  "item.label.日誌序": {
+    "message": "Préface",
+    "description": "Navbar item with label 日誌序"
+  },
+  "item.label.2021 年": {
+    "message": "2021",
+    "description": "Navbar item with label 2021 年"
+  },
+  "item.label.2020 年": {
+    "message": "2020",
+    "description": "Navbar item with label 2020 年"
+  },
+  "item.label.數據圖表": {
+    "message": "Graphiques",
+    "description": "Navbar item with label 數據圖表"
+  },
+  "item.label.附錄": {
+    "message": "Appendice",
+    "description": "Navbar item with label 附錄"
+  },
+  "item.label.關於本站": {
+    "message": "À propos",
+    "description": "Navbar item with label 關於本站"
+  }
+}

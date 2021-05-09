@@ -1,11 +1,15 @@
 {
   "link.title.日誌": {
-    "message": "Daily Digest",
+    "message": "Résumé Quotidien",
     "description": "The title of the footer links column with title=日誌 in the footer"
   },
   "link.title.法國疫情數據": {
-    "message": "Official Statistics",
+    "message": "Statistiques Officielles",
     "description": "The title of the footer links column with title=法國疫情數據 in the footer"
+  },
+  "link.title.其他": {
+    "message": "Plus",
+    "description": "The title of the footer links column with title=其他 in the footer"
   },
   "link.item.label.2021 年": {
     "message": "2021",
@@ -16,43 +20,39 @@
     "description": "The label of footer link with label=2020 年 linking to digest/2020/december/31"
   },
   "link.item.label.官方數據儀表板": {
-    "message": "Official Dashboard",
+    "message": "Tableau de bord officiel",
     "description": "The label of footer link with label=官方數據儀表板 linking to https://www.gouvernement.fr/info-coronavirus/carte-et-donnees"
   },
   "link.item.label.官方數據儀表板 - 疫情總覽": {
-    "message": "Official Dashboard - Overview",
+    "message": "Tableau de bord officiel - Vue d'ensemble",
     "description": "The label of footer link with label=官方數據儀表板 - 疫情總覽 linking to https://dashboard.covid19.data.gouv.fr/vue-d-ensemble"
   },
   "link.item.label.官方數據庫": {
-    "message": "Official Database",
+    "message": "Base de données officielle",
     "description": "The label of footer link with label=官方數據庫 linking to https://www.data.gouv.fr/fr/pages/donnees-coronavirus"
   },
   "link.item.label.法國衛生部 - 疫苗數據": {
-    "message": "French Ministry of Health - Vaccination Dashboard",
+    "message": "Tableau de bord officiel de la vaccination",
     "description": "The label of footer link with label=法國衛生部 - 疫苗數據 linking to https://solidarites-sante.gouv.fr/grands-dossiers/vaccin-covid-19/article/le-tableau-de-bord-de-la-vaccination"
   },
   "link.item.label.法國公共衛生局 SpF": {
-    "message": "French Public Health Agency (SpF)",
+    "message": "Santé publique France (SpF)",
     "description": "The label of footer link with label=法國公共衛生局 SpF linking to https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde"
-  },
-  "copyright": {
-    "message": "Copyright © 2021 Daily Digest - COVID-19 IN FRANCE",
-    "description": "The footer copyright"
-  },
-  "link.title.其他": {
-    "message": "More",
-    "description": "The title of the footer links column with title=其他 in the footer"
   },
   "link.item.label.聯絡資訊": {
     "message": "Contact",
     "description": "The label of footer link with label=聯絡資訊 linking to about#contact"
   },
   "link.item.label.支持本站 🍰": {
-    "message": "Support this website 🍰",
+    "message": "Soutenir ce site 🍰",
     "description": "The label of footer link with label=支持本站 🍰 linking to https://www.buymeacoffee.com/misterfishup"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/MisterFISHUP/covid-19-in-france"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 Résumé Quotidien - COVID-19 EN FRANCE",
+    "description": "The footer copyright"
   }
 }
