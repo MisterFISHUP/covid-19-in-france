@@ -21,8 +21,8 @@ import {
   getMonthName,
 } from "./utils";
 
-// not empty if `casesCumul` exists for the date
-const CasesCumul = ({ date }) => {
+const CasesCumul = ({ date, numFmt }) => {
+  // get data
   const casesCumul = od[date]?.casesCumul;
   const casesCumulTdb = od[tdb(date)]?.casesCumul;
   const casesEhpadEmsCumul = od[date]?.casesEhpadEmsCumul;
@@ -30,77 +30,70 @@ const CasesCumul = ({ date }) => {
   const casesRtPcr = od[date]?.casesRtPcr;
   const casesAntig = od[date]?.casesAntig;
 
-  if (!isNum(casesCumul)) {
-    return <></>;
-  } else {
-    return (
-      <div>
-        <h3>
-          <Translate id="digestComp.CasesCumul.title" description="The heading of CasesCumul">
-            🧫 累積確診數
+  // return nothing if `casesCumul` doesn't exist for the date
+  if (!isNum(casesCumul)) return <></>;
+
+  return (
+    <div>
+      <h3>
+        <Translate id="digestComp.CasesCumul.title" description="The heading of CasesCumul">
+          🧫 累積確診數
+        </Translate>
+      </h3>
+      <ul>
+        <li>
+          <Translate id="digestComp.CasesCumul.casesCumul" description="The description for casesCumul in CasesCumul">
+            總累計：
           </Translate>
-        </h3>
-        <ul>
+          {bn(casesCumul, numFmt)}
+          {isNum(casesCumulTdb) ? <em> ({bnws(casesCumul - casesCumulTdb, numFmt)})</em> : null}
+        </li>
+        {isNum(casesEhpadEmsCumul) ? (
           <li>
-            <Translate id="digestComp.CasesCumul.casesCumul" description="The description for casesCumul in CasesCumul">
-              總累計：
+            <Translate
+              id="digestComp.CasesCumul.casesEhpadEmsCumul"
+              description="The description for casesEhpadEmsCumul in CasesCumul"
+            >
+              養老院/護理院：
             </Translate>
-            {bn(casesCumul)}
-            {isNum(casesCumulTdb) ? <em> ({bnws(casesCumul - casesCumulTdb)})</em> : null}
+            {bn(casesEhpadEmsCumul, numFmt)}
+            {!isNum(casesEhpadEmsCumulTdb) ? null : casesEhpadEmsCumul - casesEhpadEmsCumulTdb ? (
+              <em> ({bnws(casesEhpadEmsCumul - casesEhpadEmsCumulTdb, numFmt)})</em>
+            ) : (
+              <em>
+                <Translate
+                  id="digestComp.CasesCumul.noUpdateEhpadEms"
+                  description="The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
+                >
+                  （未更新）
+                </Translate>
+              </em>
+            )}
           </li>
-          {isNum(casesEhpadEmsCumul) ? (
-            <li>
-              <Translate
-                id="digestComp.CasesCumul.casesEhpadEmsCumul"
-                description="The description for casesEhpadEmsCumul in CasesCumul"
-              >
-                養老院/護理院：
-              </Translate>
-              {bn(casesEhpadEmsCumul)}
-              {!isNum(casesEhpadEmsCumulTdb) ? null : casesEhpadEmsCumul - casesEhpadEmsCumulTdb ? (
-                <em> ({bnws(casesEhpadEmsCumul - casesEhpadEmsCumulTdb)})</em>
-              ) : (
-                <em>
-                  <Translate
-                    id="digestComp.CasesCumul.noUpdateEhpadEms"
-                    description="The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
-                  >
-                    （未更新）
-                  </Translate>
-                </em>
-              )}
-            </li>
-          ) : null}
-          {isNum(casesRtPcr) ? (
-            <li>
-              <Translate
-                id="digestComp.CasesCumul.casesRtPcr"
-                description="The description for casesRtPcr in CasesCumul"
-              >
-                新增 RT-PCR 確診：
-              </Translate>
-              {bn(casesRtPcr)}
-            </li>
-          ) : null}
-          {isNum(casesAntig) ? (
-            <li>
-              <Translate
-                id="digestComp.CasesCumul.casesAntig"
-                description="The description for casesAntig in CasesCumul"
-              >
-                新增抗原檢測確診：
-              </Translate>
-              {bn(casesAntig)}
-            </li>
-          ) : null}
-        </ul>
-      </div>
-    );
-  }
+        ) : null}
+        {isNum(casesRtPcr) ? (
+          <li>
+            <Translate id="digestComp.CasesCumul.casesRtPcr" description="The description for casesRtPcr in CasesCumul">
+              新增 RT-PCR 確診：
+            </Translate>
+            {bn(casesRtPcr, numFmt)}
+          </li>
+        ) : null}
+        {isNum(casesAntig) ? (
+          <li>
+            <Translate id="digestComp.CasesCumul.casesAntig" description="The description for casesAntig in CasesCumul">
+              新增抗原檢測確診：
+            </Translate>
+            {bn(casesAntig, numFmt)}
+          </li>
+        ) : null}
+      </ul>
+    </div>
+  );
 };
 
-// not empty if `deathsHospiCumul` exists for the date
-const DeathsCumul = ({ date }) => {
+const DeathsCumul = ({ date, numFmt }) => {
+  // get data
   const deathsCumul = od[date]?.deathsCumul;
   const deathsCumulTdb = od[tdb(date)]?.deathsCumul;
   const deathsHospiCumul = od[date]?.deathsHospiCumul;
@@ -108,260 +101,259 @@ const DeathsCumul = ({ date }) => {
   const deathsEhpadEmsCumul = od[date]?.deathsEhpadEmsCumul;
   const deathsEhpadEmsCumulTdb = od[tdb(date)]?.deathsEhpadEmsCumul;
 
-  if (!isNum(deathsHospiCumul)) {
-    return <></>;
-  } else {
-    return (
-      <div>
-        <h3>
-          <Translate id="digestComp.DeathsCumul.title" description="The heading of DeathsCumul">
-            ☠️ 累積死亡數
-          </Translate>
-        </h3>
-        <ul>
-          {isNum(deathsCumul) ? (
-            <li>
-              <Translate
-                id="digestComp.DeathsCumul.deathsCumul"
-                description="The description for deathsCumul in DeathsCumul"
-              >
-                總累計：
-              </Translate>
-              {bn(deathsCumul)}
-              {isNum(deathsCumulTdb) ? <em> ({bnws(deathsCumul - deathsCumulTdb)})</em> : null}
-            </li>
-          ) : null}
+  // return nothing if `deathsHospiCumul` doesn't exist for the date
+  if (!isNum(deathsHospiCumul)) return <></>;
+
+  return (
+    <div>
+      <h3>
+        <Translate id="digestComp.DeathsCumul.title" description="The heading of DeathsCumul">
+          ☠️ 累積死亡數
+        </Translate>
+      </h3>
+      <ul>
+        {isNum(deathsCumul) ? (
           <li>
             <Translate
-              id="digestComp.DeathsCumul.deathsHospiCumul"
-              description="The description for deathsHospiCumul in DeathsCumul"
+              id="digestComp.DeathsCumul.deathsCumul"
+              description="The description for deathsCumul in DeathsCumul"
             >
-              醫院：
+              總累計：
             </Translate>
-            {bn(deathsHospiCumul)}
-            {isNum(deathsHospiCumulTdb) ? <em> ({bnws(deathsHospiCumul - deathsHospiCumulTdb)})</em> : null}
+            {bn(deathsCumul, numFmt)}
+            {isNum(deathsCumulTdb) ? <em> ({bnws(deathsCumul - deathsCumulTdb, numFmt)})</em> : null}
           </li>
-          {isNum(deathsEhpadEmsCumul) ? (
-            <li>
-              <Translate
-                id="digestComp.DeathsCumul.deathsEhpadEmsCumul"
-                description="The description for deathsEhpadEmsCumul in DeathsCumul"
-              >
-                養老院/護理院：
-              </Translate>
-              {bn(deathsEhpadEmsCumul)}
-              {!isNum(deathsEhpadEmsCumulTdb) ? null : deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb ? (
-                <em> ({bnws(deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb)})</em>
-              ) : (
-                <em>
-                  <Translate
-                    id="digestComp.DeathsCumul.noUpdateEhpadEms"
-                    description="The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
-                  >
-                    （未更新）
-                  </Translate>
-                </em>
-              )}
-            </li>
-          ) : null}
-        </ul>
-      </div>
-    );
-  }
+        ) : null}
+        <li>
+          <Translate
+            id="digestComp.DeathsCumul.deathsHospiCumul"
+            description="The description for deathsHospiCumul in DeathsCumul"
+          >
+            醫院：
+          </Translate>
+          {bn(deathsHospiCumul, numFmt)}
+          {isNum(deathsHospiCumulTdb) ? <em> ({bnws(deathsHospiCumul - deathsHospiCumulTdb, numFmt)})</em> : null}
+        </li>
+        {isNum(deathsEhpadEmsCumul) ? (
+          <li>
+            <Translate
+              id="digestComp.DeathsCumul.deathsEhpadEmsCumul"
+              description="The description for deathsEhpadEmsCumul in DeathsCumul"
+            >
+              養老院/護理院：
+            </Translate>
+            {bn(deathsEhpadEmsCumul, numFmt)}
+            {!isNum(deathsEhpadEmsCumulTdb) ? null : deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb ? (
+              <em> ({bnws(deathsEhpadEmsCumul - deathsEhpadEmsCumulTdb, numFmt)})</em>
+            ) : (
+              <em>
+                <Translate
+                  id="digestComp.DeathsCumul.noUpdateEhpadEms"
+                  description="The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
+                >
+                  （未更新）
+                </Translate>
+              </em>
+            )}
+          </li>
+        ) : null}
+      </ul>
+    </div>
+  );
 };
 
-// not empty if `hospi` exists for the date
-const Hospi = ({ date }) => {
+const Hospi = ({ date, numFmt }) => {
+  // get data
   const hospi = od[date]?.hospi;
   const hospiTdb = od[tdb(date)]?.hospi;
   const hospiNew = od[date]?.hospiNew;
   const hospiNewTdb = od[tdb(date)]?.hospiNew;
   const hospiWeek = od[date]?.hospiWeek;
   const hospiWeekWb = od[tdb(date, 7)]?.hospiWeek;
-  if (!isNum(hospi)) {
-    return <></>;
-  } else {
-    return (
-      <div>
-        <h3>
-          <Translate id="digestComp.Hospi.title" description="The heading of Hospi">
-            🏥 住院數
+
+  // return nothing if `hospi` doesn't exist for the date
+  if (!isNum(hospi)) return <></>;
+
+  return (
+    <div>
+      <h3>
+        <Translate id="digestComp.Hospi.title" description="The heading of Hospi">
+          🏥 住院數
+        </Translate>
+      </h3>
+      <ul>
+        <li>
+          <Translate id="digestComp.Hospi.hospi" description="The description for hospi in Hospi">
+            當前：
           </Translate>
-        </h3>
-        <ul>
+          {bn(hospi, numFmt)}
+          {isNum(hospiTdb) ? <em> ({bnws(hospi - hospiTdb, numFmt)})</em> : null}
+        </li>
+        {isNum(hospiNew) ? (
           <li>
-            <Translate id="digestComp.Hospi.hospi" description="The description for hospi in Hospi">
-              當前：
+            <Translate id="digestComp.Hospi.hospiNew" description="The description for hospiNew in Hospi">
+              本日入院：
             </Translate>
-            {bn(hospi)}
-            {isNum(hospiTdb) ? <em> ({bnws(hospi - hospiTdb)})</em> : null}
+            {bn(hospiNew, numFmt)}
+            {isNum(hospiNewTdb) ? <em> ({bnws(hospiNew - hospiNewTdb, numFmt)})</em> : null}
           </li>
-          {isNum(hospiNew) ? (
-            <li>
-              <Translate id="digestComp.Hospi.hospiNew" description="The description for hospiNew in Hospi">
-                本日入院：
-              </Translate>
-              {bn(hospiNew)}
-              {isNum(hospiNewTdb) ? <em> ({bnws(hospiNew - hospiNewTdb)})</em> : null}
-            </li>
-          ) : null}
-          {isNum(hospiWeek) ? (
-            <li>
-              <Translate id="digestComp.Hospi.hospiWeek" description="The description for hospiWeek in Hospi">
-                過去七日入院：
-              </Translate>
-              {bn(hospiWeek)}
-              {isNum(hospiWeekWb) ? (
-                <em>
-                  <Translate
-                    id="digestComp.Hospi.hospiWeekVar"
-                    description="The weekly variation of hospiWeek in Hospi, inside parentheses"
-                    values={{ hospiWeekVar: bnws(hospiWeek - hospiWeekWb) }}
-                  >
-                    {"（與七日前數據相比 {hospiWeekVar}）"}
-                  </Translate>
-                </em>
-              ) : null}
-            </li>
-          ) : null}
-        </ul>
-      </div>
-    );
-  }
+        ) : null}
+        {isNum(hospiWeek) ? (
+          <li>
+            <Translate id="digestComp.Hospi.hospiWeek" description="The description for hospiWeek in Hospi">
+              過去七日入院：
+            </Translate>
+            {bn(hospiWeek, numFmt)}
+            {isNum(hospiWeekWb) ? (
+              <em>
+                <Translate
+                  id="digestComp.Hospi.hospiWeekVar"
+                  description="The weekly variation of hospiWeek in Hospi, inside parentheses"
+                  values={{ hospiWeekVar: bnws(hospiWeek - hospiWeekWb, numFmt) }}
+                >
+                  {"（與七日前數據相比 {hospiWeekVar}）"}
+                </Translate>
+              </em>
+            ) : null}
+          </li>
+        ) : null}
+      </ul>
+    </div>
+  );
 };
 
-// not empty if `icu` exists for the date
-const Icu = ({ date }) => {
+const Icu = ({ date, numFmt }) => {
+  // get data
   const icu = od[date]?.icu;
   const icuTdb = od[tdb(date)]?.icu;
   const icuNew = od[date]?.icuNew;
   const icuNewTdb = od[tdb(date)]?.icuNew;
   const icuWeek = od[date]?.icuWeek;
   const icuWeekWb = od[tdb(date, 7)]?.icuWeek;
-  if (!isNum(icu)) {
-    return <></>;
-  } else {
-    return (
-      <div>
-        <h3>
-          <Translate id="digestComp.Icu.title" description="The heading of Icu">
-            😞 重症數
+
+  // return nothing if `icu` doesn't exist for the date
+  if (!isNum(icu)) return <></>;
+
+  return (
+    <div>
+      <h3>
+        <Translate id="digestComp.Icu.title" description="The heading of Icu">
+          😞 重症數
+        </Translate>
+      </h3>
+      <ul>
+        <li>
+          <Translate id="digestComp.Icu.icu" description="The description for icu in Icu">
+            當前：
           </Translate>
-        </h3>
-        <ul>
+          {bn(icu, numFmt)}
+          {isNum(icuTdb) ? <em> ({bnws(icu - icuTdb, numFmt)})</em> : null}
+        </li>
+        {isNum(icuNew) ? (
           <li>
-            <Translate id="digestComp.Icu.icu" description="The description for icu in Icu">
-              當前：
+            <Translate id="digestComp.Icu.icuNew" description="The description for icuNew in Icu">
+              本日重症：
             </Translate>
-            {bn(icu)}
-            {isNum(icuTdb) ? <em> ({bnws(icu - icuTdb)})</em> : null}
+            {bn(icuNew, numFmt)}
+            {isNum(icuNewTdb) ? <em> ({bnws(icuNew - icuNewTdb, numFmt)})</em> : null}
           </li>
-          {isNum(icuNew) ? (
-            <li>
-              <Translate id="digestComp.Icu.icuNew" description="The description for icuNew in Icu">
-                本日重症：
-              </Translate>
-              {bn(icuNew)}
-              {isNum(icuNewTdb) ? <em> ({bnws(icuNew - icuNewTdb)})</em> : null}
-            </li>
-          ) : null}
-          {isNum(icuWeek) ? (
-            <li>
-              <Translate id="digestComp.Icu.icuWeek" description="The description for icuWeek in Icu">
-                過去七日重症：
-              </Translate>
-              {bn(icuWeek)}
-              {isNum(icuWeekWb) ? (
-                <em>
-                  <Translate
-                    id="digestComp.Icu.icuWeekVar"
-                    description="The weekly variation of icuWeek in Icu, inside parentheses"
-                    values={{ icuWeekVar: bnws(icuWeek - icuWeekWb) }}
-                  >
-                    {"（與七日前數據相比 {icuWeekVar}）"}
-                  </Translate>
-                </em>
-              ) : null}
-            </li>
-          ) : null}
-        </ul>
-      </div>
-    );
-  }
+        ) : null}
+        {isNum(icuWeek) ? (
+          <li>
+            <Translate id="digestComp.Icu.icuWeek" description="The description for icuWeek in Icu">
+              過去七日重症：
+            </Translate>
+            {bn(icuWeek, numFmt)}
+            {isNum(icuWeekWb) ? (
+              <em>
+                <Translate
+                  id="digestComp.Icu.icuWeekVar"
+                  description="The weekly variation of icuWeek in Icu, inside parentheses"
+                  values={{ icuWeekVar: bnws(icuWeek - icuWeekWb, numFmt) }}
+                >
+                  {"（與七日前數據相比 {icuWeekVar}）"}
+                </Translate>
+              </em>
+            ) : null}
+          </li>
+        ) : null}
+      </ul>
+    </div>
+  );
 };
 
-// not empty if `returnHomeCumul` exists for the date
-const ReturnHomeCumul = ({ date }) => {
+const ReturnHomeCumul = ({ date, numFmt }) => {
+  // get data
   const returnHomeCumul = od[date]?.returnHomeCumul;
   const returnHomeCumultdb = od[tdb(date)]?.returnHomeCumul;
-  if (!isNum(returnHomeCumul)) {
-    return <></>;
-  } else {
-    return (
-      <div>
-        <h3>
-          <Translate id="digestComp.ReturnHomeCumul.title" description="The heading of ReturnHomeCumul">
-            🏡 累積出院數
+
+  // return nothing if `returnHomeCumul` doesn't exist for the date
+  if (!isNum(returnHomeCumul)) return <></>;
+
+  return (
+    <div>
+      <h3>
+        <Translate id="digestComp.ReturnHomeCumul.title" description="The heading of ReturnHomeCumul">
+          🏡 累積出院數
+        </Translate>
+      </h3>
+      <ul>
+        <li>
+          <Translate
+            id="digestComp.ReturnHomeCumul.returnHomeCumul"
+            description="The description for returnHomeCumul in ReturnHomeCumul"
+          >
+            總累計：
           </Translate>
-        </h3>
-        <ul>
-          <li>
-            <Translate
-              id="digestComp.ReturnHomeCumul.returnHomeCumul"
-              description="The description for returnHomeCumul in ReturnHomeCumul"
-            >
-              總累計：
-            </Translate>
-            {bn(returnHomeCumul)}
-            {isNum(returnHomeCumultdb) ? <em> ({bnws(returnHomeCumul - returnHomeCumultdb)})</em> : null}
-          </li>
-        </ul>
-      </div>
-    );
-  }
+          {bn(returnHomeCumul, numFmt)}
+          {isNum(returnHomeCumultdb) ? <em> ({bnws(returnHomeCumul - returnHomeCumultdb, numFmt)})</em> : null}
+        </li>
+      </ul>
+    </div>
+  );
 };
 
-// not empty if `vac1` exists for the date
-const VacCumul = ({ date }) => {
+const VacCumul = ({ date, numFmt }) => {
+  // get data
   const vac1 = od[date]?.vac1;
   const vac1Tdb = od[tdb(date)]?.vac1;
   const vac2 = od[date]?.vac2;
   const vac2Tdb = od[tdb(date)]?.vac2;
-  if (!isNum(vac1)) {
-    return <></>;
-  } else {
-    return (
-      <div>
-        <h3>
-          <Translate id="digestComp.VacCumul.title" description="The heading of VacCumul">
-            💉 疫苗接種數
+
+  // return nothing if `vac1` doesn't exist for the date
+  if (!isNum(vac1)) return <></>;
+
+  return (
+    <div>
+      <h3>
+        <Translate id="digestComp.VacCumul.title" description="The heading of VacCumul">
+          💉 疫苗接種數
+        </Translate>
+      </h3>
+      <ul>
+        <li>
+          <Translate id="digestComp.VacCumul.vac1" description="The description for vac1 in VacCumul">
+            第 1 劑接種累計：
           </Translate>
-        </h3>
-        <ul>
+          {bn(vac1, numFmt)}
+          {isNum(vac1Tdb) ? <em> ({bnws(vac1 - vac1Tdb, numFmt)})</em> : null}
+        </li>
+        {isNum(vac2) ? (
           <li>
-            <Translate id="digestComp.VacCumul.vac1" description="The description for vac1 in VacCumul">
-              第 1 劑接種累計：
+            <Translate id="digestComp.VacCumul.vac2" description="The description for vac2 in VacCumul">
+              第 2 劑接種累計：
             </Translate>
-            {bn(vac1)}
-            {isNum(vac1Tdb) ? <em> ({bnws(vac1 - vac1Tdb)})</em> : null}
+            {bn(vac2, numFmt)}
+            {isNum(vac2Tdb) ? <em> ({bnws(vac2 - vac2Tdb, numFmt)})</em> : null}
           </li>
-          {isNum(vac2) ? (
-            <li>
-              <Translate id="digestComp.VacCumul.vac2" description="The description for vac2 in VacCumul">
-                第 2 劑接種累計：
-              </Translate>
-              {bn(vac2)}
-              {isNum(vac2Tdb) ? <em> ({bnws(vac2 - vac2Tdb)})</em> : null}
-            </li>
-          ) : null}
-        </ul>
-      </div>
-    );
-  }
+        ) : null}
+      </ul>
+    </div>
+  );
 };
 
-// not empty if `icuOccupR` exists for the date
-const Indicators = ({ date }) => {
+const Indicators = ({ date, numFmt }) => {
+  // get data
   const incidR = od[date]?.incidR;
   const icuOccupR = od[date]?.icuOccupR;
   const r = od[date]?.r;
@@ -369,9 +361,12 @@ const Indicators = ({ date }) => {
   const vacEhpadUsldPct = od[date]?.vacEhpadUsldPct;
   const highVul = od[date]?.highVul;
   const clusters = od[date]?.clusters;
+
+  // return nothing if `icuOccupR` doesn't exist for the date
   if (!isNum(icuOccupR)) {
     return <></>;
   }
+
   return (
     <div>
       <h3>
@@ -385,21 +380,21 @@ const Indicators = ({ date }) => {
             <Translate id="digestComp.Indicators.incidR" description="The description for incidR in Indicators">
               法國每 10 萬人確診數：
             </Translate>
-            {bn(incidR)}
+            {bn(incidR, numFmt)}
           </li>
         ) : null}
         <li>
           <Translate id="digestComp.Indicators.icuOccupR" description="The description for icuOccupR in Indicators">
             重症病房佔有率：
           </Translate>
-          {bn(icuOccupR)}%
+          {bn(icuOccupR, numFmt)}%
         </li>
         {isNum(r) ? (
           <li>
             <Translate id="digestComp.Indicators.r" description="The description for r in Indicators">
               有效傳染數 (R)：
             </Translate>
-            {bn(r)}
+            {bn(r, numFmt)}
           </li>
         ) : null}
         {isNum(posR) ? (
@@ -407,7 +402,7 @@ const Indicators = ({ date }) => {
             <Translate id="digestComp.Indicators.posR" description="The description for posR in Indicators">
               RT-PCR 陽性確診率：
             </Translate>
-            {bn(posR)}%
+            {bn(posR, numFmt)}%
           </li>
         ) : null}
         {isNum(highVul) ? (
@@ -426,7 +421,11 @@ const Indicators = ({ date }) => {
             <Translate
               id="digestComp.Indicators.vacEhpadUsldPct"
               description="The line for vacEhpadUsldPct in Indicators"
-              values={{ pct: bn(vacEhpadUsldPct[0]), dateMD: vacEhpadUsldPct[1], dateDM: revMD(vacEhpadUsldPct[1]) }}
+              values={{
+                pct: bn(vacEhpadUsldPct[0], numFmt),
+                dateMD: vacEhpadUsldPct[1],
+                dateDM: revMD(vacEhpadUsldPct[1]),
+              }}
             >
               {"養老院/長照機構接種至少 1 劑疫苗比例：{pct}%（截至 {dateMD}）"}
             </Translate>
@@ -438,8 +437,8 @@ const Indicators = ({ date }) => {
               id="digestComp.Indicators.clusters"
               description="The line for clusters in Indicators"
               values={{
-                clustersTotal: bn(clusters[0]),
-                clustersEhpad: bn(clusters[1]),
+                clustersTotal: bn(clusters[0], numFmt),
+                clustersEhpad: bn(clusters[1], numFmt),
                 dateMD: clusters[2],
                 dateDM: revMD(clusters[2]),
               }}
@@ -465,6 +464,7 @@ export const Subtitle = ({ date }) => {
   const [yyyy, mm, dd] = date.split("-");
   const month_en = getMonthName(parseInt(mm), "en");
   const month_fr = getMonthName(parseInt(mm), "fr");
+
   return (
     <p className="subtitle">
       <Translate
@@ -636,15 +636,16 @@ export const ChartCases = ({ date, dateFmt = "m/d" }) => {
 };
 
 export const OfficialData = ({ date }) => {
+  const numFmt = translate({ id: "numFmt", message: "fr" });
   return (
     <div className="official_data_block">
-      <CasesCumul date={date} />
-      <DeathsCumul date={date} />
-      <Hospi date={date} />
-      <Icu date={date} />
-      <ReturnHomeCumul date={date} />
-      <VacCumul date={date} />
-      <Indicators date={date} />
+      <CasesCumul date={date} numFmt={numFmt} />
+      <DeathsCumul date={date} numFmt={numFmt} />
+      <Hospi date={date} numFmt={numFmt} />
+      <Icu date={date} numFmt={numFmt} />
+      <ReturnHomeCumul date={date} numFmt={numFmt} />
+      <VacCumul date={date} numFmt={numFmt} />
+      <Indicators date={date} numFmt={numFmt} />
     </div>
   );
 };

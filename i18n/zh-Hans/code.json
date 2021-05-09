@@ -438,5 +438,8 @@
   "chartsComp.VacTrend.title": {
     "message": "第 {dose} 剂接种数近 {duration} 日走势",
     "description": "Doses <dose>. Trend over the last <duration> days"
+  },
+  "numFmt": {
+    "message": "en"
   }
 }

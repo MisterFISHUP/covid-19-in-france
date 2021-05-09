@@ -438,5 +438,8 @@
   "chartsComp.VacTrend.title": {
     "message": "Doses {dose} - Trend over the last {duration} days",
     "description": "Doses <dose>. Trend over the last <duration> days"
+  },
+  "numFmt": {
+    "message": "en"
   }
 }
