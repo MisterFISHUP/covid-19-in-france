@@ -35,12 +35,12 @@ All daily digests, except for the first one on 1/3/2020, contain the section **O
 
 ### Cumulative Confirmed Cases {#cumulative-cases}
 
-| Item                  |  Source  | Availability                                           |
-| --------------------- | :------: | ------------------------------------------------------ |
-| Total                 | [2][vue] | From 2/3/2020/3/2                                      |
-| EHPAD/EMS             | [2][vue] | From 12/4/2020/4/12 to 19/2/2021, except for 21/4/2020 |
-| New RT-PCR confirmed  | [4][spf] | From 17/11/2020 to 7/12/2020                           |
-| New antigen confirmed | [4][spf] | From 18/11/2020 to 7/12/2020                           |
+| Item                  |  Source  | Availability                                      |
+| --------------------- | :------: | ------------------------------------------------- |
+| Total                 | [2][vue] | From 2/3/2020                                     |
+| EHPAD/EMS             | [2][vue] | From 12/4/2020 to 19/2/2021, except for 21/4/2020 |
+| New RT-PCR confirmed  | [4][spf] | From 17/11/2020 to 7/12/2020                      |
+| New antigen confirmed | [4][spf] | From 18/11/2020 to 7/12/2020                      |
 
 Note: Figures in brackets with a plus or minus sign indicate the change from the previous day. For _EHPAD/EMS_, a **no update** hint will be added when there is no update.
 
