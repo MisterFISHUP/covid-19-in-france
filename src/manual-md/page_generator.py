@@ -169,7 +169,7 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
     # overwrite some strings for `fr`
     if locale == 'fr':        
         front_matter = f'''---
-title: {weekday_fr[dt.weekday()]} {d} {month_fr[m-1]} {y}
+title: {weekday_fr[dt.weekday()].capitalize()} {d} {month_fr[m-1]} {y}
 sidebar_label: {weekday_fr[dt.weekday()][:3]}. {d} {month_fr[m-1]}
 description: Résumé quotidien du COVID-19 en France le {d} {month_fr[m-1]} {y}. Jour {(dt - digest_start).days + 1}.
 ---
@@ -181,7 +181,7 @@ description: Résumé quotidien du COVID-19 en France le {d} {month_fr[m-1]} {y}
 ## Statistiques officielles {#official-statistics}
 '''
         news_only_zh = '''
-<div className="comment--translc_gray">📢 Pour l'actualité en bref du COVID-19, il n'est pour l'instant disponible qu'en <strong>chinois traditionnel</strong> et en <strong>chinois simplifié</strong>.</div><br />
+<div className="comment--translc_gray">📢 Pour l'actualité en bref du COVID-19, elle n'est pour le moment disponible qu'en <strong>chinois traditionnel</strong> et en <strong>chinois simplifié</strong>.</div><br />
 '''
         news_heading = '''
 ## Actualité en bref {#news}

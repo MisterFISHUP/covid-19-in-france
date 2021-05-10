@@ -3,7 +3,7 @@
     "message": "Statistiques officielles"
   },
   "homepage.features.officialStatistics.description": {
-    "message": "Présente des statistiques du COVID-19 en France : le nombre des cas confirmés, des décès, des vaccinations, etc., ainsi que divers indicateurs tels que le taux de positivité, le nombre de reproduction effectif, le taux d’occupation des lits en réanimation, etc."
+    "message": "Présente des statistiques du COVID-19 en France : le nombre de cas confirmés, des décès, des vaccinations, etc., ainsi que divers indicateurs tels que le taux de positivité, le nombre de reproduction effectif, le taux d’occupation des lits en réanimation, etc."
   },
   "homepage.features.news.title": {
     "message": "Actualité en bref"
@@ -12,7 +12,7 @@
     "message": "Fournit des résumés quotidiens de l'actualité sur le Covid-19 en France et des liens vers des articles/vidéos d'actualité (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
   },
   "homepage.features.pressConference.title": {
-    "message": "Résumé de conférences de presse"
+    "message": "Résumés des conférences de presse"
   },
   "homepage.features.pressConference.description": {
     "message": "Fournit des résumés de conférences de presse, de discours présidentiels, de nouvelles mesures de confinement ou de couvre-feu (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
@@ -169,7 +169,7 @@
     "description": "The description for posR in Indicators"
   },
   "digestComp.Indicators.highVul": {
-    "message": "Nombre des départements en situation de vulnérabilité élevée : {highVul}",
+    "message": "Nombre de départements en situation de vulnérabilité élevée : {highVul}",
     "description": "The line for highVul in Indicators"
   },
   "digestComp.Indicators.vacEhpadUsldPct": {
@@ -177,7 +177,7 @@
     "description": "The line for vacEhpadUsldPct in Indicators"
   },
   "digestComp.Indicators.clusters": {
-    "message": "Nombre des clusters en cours d'inverstigation du 9/5/2020 au {dateDM} : {clustersTotal}, dont {clustersEhpad} en EHPAD",
+    "message": "Nombre de clusters en cours d'inverstigation du 9/5/2020 au {dateDM} : {clustersTotal}, dont {clustersEhpad} en EHPAD",
     "description": "The line for clusters in Indicators"
   },
   "digestComp.Subtitle": {

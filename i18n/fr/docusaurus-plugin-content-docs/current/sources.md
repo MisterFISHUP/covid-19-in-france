@@ -72,7 +72,7 @@ Note : Les chiffres entre parenthèses avec un signe plus ou moins indiquent la 
 | Au cours des dernières 24h      | [2][vue] | Du 19/3/2020                        |
 | Au cours de la dernière semaine | [4][spf] | ???, sauf 19/3/2021                 |
 
-Note : Les chiffres entre parenthèses avec un signe plus ou moins indiquent la variation par rapport à la veille (ou par rapport à la **semaine dernière** lorsqu'il s'agit du nombre des patients _en réanimation au cours de la dernière semaine_).
+Note : Les chiffres entre parenthèses avec un signe plus ou moins indiquent la variation par rapport à la veille (ou par rapport à la **semaine dernière** lorsqu'il s'agit du nombre de patients _en réanimation au cours de la dernière semaine_).
 
 ### Retours à domicile {#returning-home}
 
@@ -99,8 +99,8 @@ Note : Les chiffres entre parenthèses avec un signe plus ou moins indiquent la 
 | Taux d’occupation des lits en réanimation                                     | [3][indic] | Du 18/3/2020             |
 | Nombre de reproduction effectif (R)                                           | [3][indic] | Du 1/6/2020              |
 | Taux de positivité des tests RT-PCR                                           | [3][indic] | Du 19/5/2020             |
-| Nombre des départements en situation de vulnérabilité élevée                  |  [4][spf]  | ??? au 7/2/2021          |
-| Nombre des clusters en cours d'inverstigation depuis 9/5/2020                 |  [4][spf]  | ??? au 26/1/2021         |
+| Nombre de départements en situation de vulnérabilité élevée                  |  [4][spf]  | ??? au 7/2/2021          |
+| Nombre de clusters en cours d'inverstigation depuis 9/5/2020                 |  [4][spf]  | ??? au 26/1/2021         |
 | Proportion des résidents en EHPAD/USLD ayant reçu au moins une dose de vaccin |  [4][spf]  | Du 8/2/2021 au 17/3/2021 |
 
 <br />
