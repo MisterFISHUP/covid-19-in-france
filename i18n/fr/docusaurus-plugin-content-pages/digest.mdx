@@ -1,0 +1,50 @@
+---
+title: Préface
+description: Résumé Quotidien - COVID-19 EN FRANCE est un site web qui présente les statistiques et actualités quotidiennes du COVID-19 en France sous forme de résumé quotidien
+hide_table_of_contents: true
+---
+
+import { monthEnLower, getMonthName } from "@site/src/scripts/utils";
+import { digestLatestDate2021 as lDate } from "@site/src/scripts/dateVariables";
+import Link from "@docusaurus/Link";
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
+
+<h1 className="pages--h1">✨ Préface</h1>
+
+**Résumé Quotidien - COVID-19 EN FRANCE** est un site web qui présente les statistiques et actualités quotidiennes du COVID-19 en France sous forme de résumé quotidien.
+
+<p>
+  Il enregistre la pandémie de COVID-19 en France à partir du 1er mars 2020, le lendemain du jour où le nombre total de
+  cas confirmés en France a atteint 100 (100 cas au total au 29 février, puis 30 nouveaux cas confirmés le 1er mars, portant à 130 le nombre total). Le site est actuellement mis à jour le{" "}
+  <Link to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}>
+    {lDate.d} {getMonthName(lDate.m, "fr")} 2021
+  </Link>{" "}
+  (dernier résumé disponible).
+</p>
+
+Un résumé quotidien contient en général :
+
+- **Statistiques officielles** : les données épidémiques du jour
+- **Actualité en bref** : le résumé de l'acutalité sur le Covid-19 en France (disponible uniquement en chinois traditionnel/simplifié pour le moment)
+
+De plus, chaque semaine, il y a un digest du point épidémiologique hebdomadaire en France (aussi disponible uniquement en chinois traditionnel/simplifié pour le moment).
+
+<div className="comment--translc_gray">
+  NB : Les statistiques officielles ne sont disponibles qu'à partir du 2 mars 2020, c'est-à-dire à partir du résumé quotidien Jour 2.
+</div>
+<br />
+
+Les sources de données sont détaillées dans [Sources](digest/sources) en Appendice. Si vous avez des questions ou si vous trouvez des erreurs, vous pouvez me contacter via [les informations de contact](about#contact) dans [À propos](about).
+
+N'hésitez pas à partager ce site et même à le soutenir en [m'achetant un gâteau](about#support-this-website). J'espère que ce site vous aidera à mieux saisir la situation de la pandémie en France.
+
+<br />
+
+Prenez soin de vous et portez-vous bien.
+
+FISH UP
+
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={false} buttonText="Lire le dernier résumé" />
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="Lire un résumé aléatoire" />
+</div>

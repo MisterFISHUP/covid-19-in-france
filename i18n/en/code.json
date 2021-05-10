@@ -244,7 +244,7 @@
     "description": "The description for hospiWeek in Hospi"
   },
   "digestComp.Hospi.hospiWeekVar": {
-    "message": " (compared with last week {hospiWeekVar})",
+    "message": " ({hospiWeekVar} compared with last week)",
     "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
   },
   "digestComp.Icu.title": {
@@ -264,7 +264,7 @@
     "description": "The description for icuWeek in Icu"
   },
   "digestComp.Icu.icuWeekVar": {
-    "message": " (compared with last week {icuWeekVar})",
+    "message": " ({icuWeekVar} compared with last week)",
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   },
   "digestComp.CasesCumul.title": {

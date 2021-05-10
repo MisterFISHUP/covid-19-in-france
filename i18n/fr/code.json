@@ -1,0 +1,450 @@
+{
+  "homepage.features.officialStatistics.title": {
+    "message": "Statistiques officielles"
+  },
+  "homepage.features.officialStatistics.description": {
+    "message": "Présente des statistiques du COVID-19 en France : le nombre de cas confirmés, des décès, des vaccinations, etc., ainsi que divers indicateurs tels que le taux de positivité, le nombre de reproduction effectif, le taux d’occupation des lits en réanimation, etc."
+  },
+  "homepage.features.news.title": {
+    "message": "Actualité en bref"
+  },
+  "homepage.features.news.description": {
+    "message": "Fournit des résumés quotidiens de l'actualité sur le Covid-19 en France et des liens vers des articles/vidéos d'actualité (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
+  },
+  "homepage.features.pressConference.title": {
+    "message": "Résumés des conférences de presse"
+  },
+  "homepage.features.pressConference.description": {
+    "message": "Fournit des résumés de conférences de presse, de discours présidentiels, de nouvelles mesures de confinement ou de couvre-feu (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
+  },
+  "homepage.hero.logoLink.title": {
+    "message": "Cliquez pour lire directement le dernier résumé"
+  },
+  "homepage.hero.title": {
+    "message": "COVID-19 EN FRANCE"
+  },
+  "homepage.hero.tagline": {
+    "message": "Résumé quotidien du <b>COVID-19</b> en France"
+  },
+  "homepage.hero.button.startReading": {
+    "message": "Démarrer la lecture"
+  },
+  "homepage.features.button.startReading": {
+    "message": "Démarrer la lecture"
+  },
+  "homepage.charts.button.seeMoreCharts": {
+    "message": "Voir plus de graphiques"
+  },
+  "homepage.title": {
+    "message": "Page d'accueil"
+  },
+  "homepage.description": {
+    "message": "Un site qui présente les statistiques et actualités quotidiennes du COVID-19 en France sous forme de résumé quotidien"
+  },
+  "numFmt": {
+    "message": "fr"
+  },
+  "digestComp.CasesCumul.title": {
+    "message": "🧫 Cumul des cas confirmés",
+    "description": "The heading of CasesCumul"
+  },
+  "digestComp.CasesCumul.casesCumul": {
+    "message": "Total : ",
+    "description": "The description for casesCumul in CasesCumul"
+  },
+  "digestComp.CasesCumul.casesEhpadEmsCumul": {
+    "message": "EHPAD/EMS : ",
+    "description": "The description for casesEhpadEmsCumul in CasesCumul"
+  },
+  "digestComp.CasesCumul.noUpdateEhpadEms": {
+    "message": " (non actualisé)",
+    "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
+  },
+  "digestComp.CasesCumul.casesRtPcr": {
+    "message": "Nouveaux cas confirmés par RT-PCR : ",
+    "description": "The description for casesRtPcr in CasesCumul"
+  },
+  "digestComp.CasesCumul.casesAntig": {
+    "message": "Nouveaux cas confirmés par test antigénique : ",
+    "description": "The description for casesAntig in CasesCumul"
+  },
+  "digestComp.DeathsCumul.title": {
+    "message": "☠️ Cumul des décès",
+    "description": "The heading of DeathsCumul"
+  },
+  "digestComp.DeathsCumul.deathsCumul": {
+    "message": "Total : ",
+    "description": "The description for deathsCumul in DeathsCumul"
+  },
+  "digestComp.DeathsCumul.deathsHospiCumul": {
+    "message": "Hôpital : ",
+    "description": "The description for deathsHospiCumul in DeathsCumul"
+  },
+  "digestComp.DeathsCumul.deathsEhpadEmsCumul": {
+    "message": "EHPAD/EMS : ",
+    "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
+  },
+  "digestComp.DeathsCumul.noUpdateEhpadEms": {
+    "message": " (non actualisé)",
+    "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
+  },
+  "digestComp.Hospi.title": {
+    "message": "🏥 Hospitalisations",
+    "description": "The heading of Hospi"
+  },
+  "digestComp.Hospi.hospi": {
+    "message": "Total : ",
+    "description": "The description for hospi in Hospi"
+  },
+  "digestComp.Hospi.hospiNew": {
+    "message": "Au cours des dernières 24h : ",
+    "description": "The description for hospiNew in Hospi"
+  },
+  "digestComp.Hospi.hospiWeek": {
+    "message": "Au cours de la dernière semaine : ",
+    "description": "The description for hospiWeek in Hospi"
+  },
+  "digestComp.Hospi.hospiWeekVar": {
+    "message": " ({hospiWeekVar} par rapport à la semaine dernière)",
+    "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
+  },
+  "digestComp.Icu.title": {
+    "message": "😞 Réanimation",
+    "description": "The heading of Icu"
+  },
+  "digestComp.Icu.icu": {
+    "message": "Total : ",
+    "description": "The description for icu in Icu"
+  },
+  "digestComp.Icu.icuNew": {
+    "message": "Au cours des dernières 24h : ",
+    "description": "The description for icuNew in Icu"
+  },
+  "digestComp.Icu.icuWeek": {
+    "message": "Au cours de la dernière semaine : ",
+    "description": "The description for icuWeek in Icu"
+  },
+  "digestComp.Icu.icuWeekVar": {
+    "message": " ({icuWeekVar} par rapport à la semaine dernière)",
+    "description": "The weekly variation of icuWeek in Icu, inside parentheses"
+  },
+  "digestComp.ReturnHomeCumul.title": {
+    "message": "🏡 Retours à domicile",
+    "description": "The heading of ReturnHomeCumul"
+  },
+  "digestComp.ReturnHomeCumul.returnHomeCumul": {
+    "message": "Cumul : ",
+    "description": "The description for returnHomeCumul in ReturnHomeCumul"
+  },
+  "digestComp.VacCumul.title": {
+    "message": "💉 Cumul des vaccinations",
+    "description": "The heading of VacCumul"
+  },
+  "digestComp.VacCumul.vac1": {
+    "message": "Premières doses : ",
+    "description": "The description for vac1 in VacCumul"
+  },
+  "digestComp.VacCumul.vac2": {
+    "message": "Secondes doses : ",
+    "description": "The description for vac2 in VacCumul"
+  },
+  "digestComp.Indicators.title": {
+    "message": "📊 Indicateurs de suivi",
+    "description": "The heading of Indicators"
+  },
+  "digestComp.Indicators.incidR": {
+    "message": "Taux d'incidence : ",
+    "description": "The description for incidR in Indicators"
+  },
+  "digestComp.Indicators.icuOccupR": {
+    "message": "Taux d’occupation des lits en réanimation : ",
+    "description": "The description for icuOccupR in Indicators"
+  },
+  "digestComp.Indicators.r": {
+    "message": "Nombre de reproduction effectif (R) : ",
+    "description": "The description for r in Indicators"
+  },
+  "digestComp.Indicators.posR": {
+    "message": "Taux de positivité des tests RT-PCR : ",
+    "description": "The description for posR in Indicators"
+  },
+  "digestComp.Indicators.highVul": {
+    "message": "Nombre de départements en situation de vulnérabilité élevée : {highVul}",
+    "description": "The line for highVul in Indicators"
+  },
+  "digestComp.Indicators.vacEhpadUsldPct": {
+    "message": "Proportion des résidents en EHPAD/USLD ayant reçu au moins une dose de vaccin : {pct}% (au {dateMD})",
+    "description": "The line for vacEhpadUsldPct in Indicators"
+  },
+  "digestComp.Indicators.clusters": {
+    "message": "Nombre de clusters en cours d'inverstigation du 9/5/2020 au {dateDM} : {clustersTotal}, dont {clustersEhpad} en EHPAD",
+    "description": "The line for clusters in Indicators"
+  },
+  "digestComp.Subtitle": {
+    "message": "Résumé quotidien du COVID-19 en France le {d} {month_fr} {y}. Jour {n}.",
+    "description": "The subtitle of a daily digest"
+  },
+  "digestComp.Figure.defaultCaption": {
+    "message": "Covid-19 en France le {d} {month_fr} {y}",
+    "description": "The default image caption in Figure"
+  },
+  "dateFmt": {
+    "message": "d/m"
+  },
+  "digestComp.ChartCases.chartsPageLink": {
+    "message": "Graphiques",
+    "description": "The page name of Charts"
+  },
+  "digestComp.ChartCases.label.total": {
+    "message": "Cumul",
+    "description": "The label for total cases in ChartCases"
+  },
+  "digestComp.ChartCases.label.new": {
+    "message": "Nouveaux cas",
+    "description": "The label for new cases in ChartCases"
+  },
+  "digestComp.ChartCases.title": {
+    "message": "Cas confirmés - Tendance sur les deux dernières semaines",
+    "description": "The title of ChartCases"
+  },
+  "digestComp.ChartCases.seeMoreCharts": {
+    "message": "Voir {chartsPageLink} pour plus de visualisations de données.",
+    "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
+  },
+  "digestComp.SourceFb.phrase": {
+    "message": "📝 以下內容整理於 {gt} 在臉書社團中的",
+    "description": "The starting phrase in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "digestComp.SourceFb.thisPost": {
+    "message": "此貼文",
+    "description": "'This post' (content of anchor tags in SourceFb, used only in traditional and simplified Chinese)"
+  },
+  "digestComp.SourceFb.linkTitle": {
+    "message": "前往臉書社團貼文",
+    "description": "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)"
+  },
+  "chartsComp.Cases.label.total": {
+    "message": "Cumul"
+  },
+  "chartsCompo.Cases.label.new": {
+    "message": "Nouveaux cas"
+  },
+  "chartsComp.CasesTrend.title": {
+    "message": "Cas confirmés - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Deaths.label.total": {
+    "message": "Cumul"
+  },
+  "chartsCompo.Deaths.label.new": {
+    "message": "Nouveaux décès"
+  },
+  "chartsComp.DeathsTrend.title": {
+    "message": "Décès - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IcuOccupR.label": {
+    "message": "Taux d’occupation des lits en réanimation"
+  },
+  "chartsComp.IcuOccupRTrend.title": {
+    "message": "Taux d’occupation des lits en réanimation - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.IncidR.label": {
+    "message": "Taux d’incidence"
+  },
+  "chartsComp.IncidRTrend.title": {
+    "message": "Taux d’incidence - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.PosR.label": {
+    "message": "Taux de positivité des tests RT-PCR"
+  },
+  "chartsComp.PosRTrend.title": {
+    "message": "Taux de positivité - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.R.label": {
+    "message": "Nombre de reproduction effectif"
+  },
+  "chartsComp.RTrend.title": {
+    "message": "Nombre de reproduction effectif - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac1And2.label.vac1": {
+    "message": "Premières doses"
+  },
+  "chartsCompo.Vac1And2.label.vac2": {
+    "message": "Secondes doses"
+  },
+  "chartsComp.Vac1And2Trend.title": {
+    "message": "Vaccinations - Tendance sur les {duration} derniers jours",
+    "description": "Trend over the last <duration> days"
+  },
+  "chartsComp.Vac.label.total": {
+    "message": "Cumul"
+  },
+  "chartsCompo.Vac.label.new": {
+    "message": "Nouvelles injections"
+  },
+  "chartsComp.VacTrend.title": {
+    "message": "Doses {dose} - Tendance sur les {duration} derniers jours",
+    "description": "Doses <dose>. Trend over the last <duration> days"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nous n'avons pas trouvé ce que vous recherchez.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Pagination de la liste des posts du blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nouvelles entrées",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Anciennes entrées",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Une minute de lecture|{readingTime} minutes de lecture",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Lire plus",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Pagination des blog posts",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Article plus récent",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Article plus ancien",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un article|{count} articles",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagués avec « {tagName} »",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pagination des documents",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveCloseButtonLabel": {
+    "message": "Fermer le menu latéral",
+    "description": "The ARIA label for close button of mobile doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveOpenButtonLabel": {
+    "message": "Ouvrir le menu latéral",
+    "description": "The ARIA label for open button of mobile doc sidebar"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Éditer cette page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers le titre",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Aller au contenu principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  }
+}

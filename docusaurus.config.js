@@ -15,17 +15,12 @@ module.exports = {
   projectName: "covid-19-in-france",
   i18n: {
     defaultLocale: "zh-Hant",
-    locales: ["zh-Hant", "zh-Hans", "en"],
+    locales: ["zh-Hant", "zh-Hans", "en", "fr"],
     localeConfigs: {
-      "zh-Hant": {
-        label: "正體中文",
-      },
-      "zh-Hans": {
-        label: "简体中文",
-      },
-      en: {
-        label: "English",
-      },
+      "zh-Hant": { label: "正體中文" },
+      "zh-Hans": { label: "简体中文" },
+      en: { label: "English" },
+      fr: { label: "Français" },
     },
   },
   themeConfig: {
