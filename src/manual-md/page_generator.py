@@ -20,9 +20,11 @@ one_day = timedelta(days=1)
 
  # not using strftime("%B") for months since it depends on the current locale
 month_en = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
+month_fr = ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre')
 weekday_zh_hant = ('週一', '週二', '週三', '週四', '週五', '週六', '週日')
 weekday_zh_hans = ('周一', '周二', '周三', '周四', '周五', '周六', '周日')
 weekday_en = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+weekday_fr = ('lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche')
 
 # %% [markdown]
 # ## Get manual md path and content
@@ -72,7 +74,8 @@ def digest_content(y, m, d, locale='zh-Hant'):
     man = manual_content(y, m, d, locale)
 
     front_matter = f'''---
-title: {m} 月 {d} 日（{weekday_zh_hant[dt.weekday()]}）
+title: {y} 年 {m} 月 {d} 日（{weekday_zh_hant[dt.weekday()]}）
+sidebar_label: {m} 月 {d} 日（{weekday_zh_hant[dt.weekday()]}）
 description: {y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。法國 COVID-19 日誌第 {(dt - digest_start).days + 1} 篇。
 ---
 '''
@@ -116,7 +119,8 @@ import {{ DigestLinkButton }} from "@site/src/scripts/components/DigestLinkButto
     # overwrite some strings for `zh-Hans`
     if locale == 'zh-Hans':
         front_matter = f'''---
-title: {m} 月 {d} 日（{weekday_zh_hans[dt.weekday()]}）
+title: {y} 年 {m} 月 {d} 日（{weekday_zh_hans[dt.weekday()]}）
+sidebar_label: {m} 月 {d} 日（{weekday_zh_hans[dt.weekday()]}）
 description: {y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。法国 COVID-19 日志第 {(dt - digest_start).days + 1} 篇。
 ---
 '''
@@ -139,7 +143,7 @@ description: {y} 年 {m} 月 {d} 日法国新冠肺炎疫情汇报。法国 COVI
     # overwrite some strings for `en`
     if locale == 'en':        
         front_matter = f'''---
-title: {weekday_en[dt.weekday()]}, {d} {month_en[m-1]}
+title: {weekday_en[dt.weekday()]}, {d} {month_en[m-1]} {y}
 sidebar_label: {weekday_en[dt.weekday()][:3]}. {d} {month_en[m-1]}
 description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day {(dt - digest_start).days + 1}.
 ---
@@ -162,6 +166,32 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
   <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="🎲 Read a random digest" />
 </div>
 '''
+    # overwrite some strings for `fr`
+    if locale == 'fr':        
+        front_matter = f'''---
+title: {weekday_fr[dt.weekday()]} {d} {month_fr[m-1]} {y}
+sidebar_label: {weekday_fr[dt.weekday()][:3]}. {d} {month_fr[m-1]}
+description: Résumé quotidien du COVID-19 en France le {d} {month_fr[m-1]} {y}. Jour {(dt - digest_start).days + 1}.
+---
+'''
+        sourceOfData = '''
+<div className="comment--translc_gray">📈 Sources des données : voir <a href="../../sources">Appendice - Sources</a>.</div>
+'''
+        official_data_heading = '''
+## Statistiques officielles {#official-statistics}
+'''
+        news_only_zh = '''
+<div className="comment--translc_gray">📢 Pour l'actualité en bref du COVID-19, il n'est pour l'instant disponible qu'en <strong>chinois traditionnel</strong> et en <strong>chinois simplifié</strong>.</div><br />
+'''
+        news_heading = '''
+## Actualité en bref {#news}
+'''
+        random_digest_button = '''
+<br /> 
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="🎲 Lire un résumé aléatoire" />
+</div>
+'''
 
     if man:
         man = '\n' + man + '\n'
@@ -175,7 +205,7 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
 
     return front_matter + export_import + subtitle + main_img + sourceOfData + chartCases + official_data_heading + official_data + news_only_zh + sourceFb + news_heading + man + random_digest_button
 
-# print(digest_content(2021,3,2, 'en'))
+# print(digest_content(2021,3,2, 'fr'))
 
 # %% [markdown]
 # ## Generate digest pages
@@ -190,14 +220,16 @@ description: Daily digest of COVID-19 in France on {d} {month_en[m-1]} {y}. Day 
 # %%
 def generate_a_page(y, m, d):
     '''
-    Generate the digest page of date d/m/y for zh-Hant, zh-Hans and en
+    Generate the digest page of date d/m/y for zh-Hant, zh-Hans, en and fr
     '''
     folder = Path('..', '..', 'docs', str(y), month_en[m-1].lower())
     folder_sc = Path('..', '..', 'i18n', 'zh-Hans', 'docusaurus-plugin-content-docs', 'current', str(y), month_en[m-1].lower())
     folder_en = Path('..', '..', 'i18n', 'en', 'docusaurus-plugin-content-docs', 'current', str(y), month_en[m-1].lower())
+    folder_fr = Path('..', '..', 'i18n', 'fr', 'docusaurus-plugin-content-docs', 'current', str(y), month_en[m-1].lower())
     mdx = Path(folder, f'{d}.mdx')
     mdx_sc = Path(folder_sc, f'{d}.mdx')
     mdx_en = Path(folder_en, f'{d}.mdx')
+    mdx_fr = Path(folder_fr, f'{d}.mdx')
 
     # write file: zh-Hant
     folder.mkdir(parents=True, exist_ok=True)
@@ -213,6 +245,11 @@ def generate_a_page(y, m, d):
     folder_en.mkdir(parents=True, exist_ok=True)
     with open(mdx_en, 'w') as f:
         f.write(digest_content(y, m, d, 'en'))
+    
+    # write file: fr
+    folder_fr.mkdir(parents=True, exist_ok=True)
+    with open(mdx_fr, 'w') as f:
+        f.write(digest_content(y, m, d, 'fr'))
 
     print(f'> generated mdx for {y}/{m}/{d} in `/docs/` and `/i18n/{{locale}}/docusaurus-plugin-content-docs/current/`')
 
@@ -223,7 +260,7 @@ def generate_pages(s_y, s_m, s_d, e_y, e_m, e_d):
     if n_pages < 2:
         raise Exception("The ending date should be at least one day after the starting day.")
 
-    prompt = f'writing {n_pages} pages: from {s_y}/{s_m}/{s_d} to {e_y}/{e_m}/{e_d} in zh-Hant, zh-Hans and en'
+    prompt = f'writing {n_pages} pages: from {s_y}/{s_m}/{s_d} to {e_y}/{e_m}/{e_d} in zh-Hant, zh-Hans, en and fr'
     print(f'Start {prompt}...')
 
     dt = s_dt
@@ -289,6 +326,7 @@ def clear_generated_pages():
         dir_to_delete = Path('..', '..', 'docs', str(y))
         dir_to_delete_sc = Path('..', '..', 'i18n', 'zh-Hans', 'docusaurus-plugin-content-docs', 'current', str(y))
         dir_to_delete_en = Path('..', '..', 'i18n', 'en', 'docusaurus-plugin-content-docs', 'current', str(y))
+        dir_to_delete_fr = Path('..', '..', 'i18n', 'fr', 'docusaurus-plugin-content-docs', 'current', str(y))
 
         if dir_to_delete.is_dir():
             shutil.rmtree(dir_to_delete)
@@ -301,6 +339,10 @@ def clear_generated_pages():
         if dir_to_delete_en.is_dir():
             shutil.rmtree(dir_to_delete_en)
             print(f"> deleted folder `{y}` in `/i18n/en/docusaurus-plugin-content-docs/current/` (as well as all its contents)")
+        
+        if dir_to_delete_fr.is_dir():
+            shutil.rmtree(dir_to_delete_fr)
+            print(f"> deleted folder `{y}` in `/i18n/fr/docusaurus-plugin-content-docs/current/` (as well as all its contents)")
 
     print('Finish clearing generated files.')
 
@@ -318,6 +360,7 @@ def main():
     create_intro_mdx('zh-Hant')
     create_intro_mdx('zh-Hans')
     create_intro_mdx('en')
+    create_intro_mdx('fr')
 
 main()
 
