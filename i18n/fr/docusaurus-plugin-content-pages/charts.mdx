@@ -1,0 +1,74 @@
+---
+title: Data charts - COVID-19 in France
+description: Visualisation of COVID-19 data in France. Current pandemic situation and trends.
+---
+
+import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
+import { getMonthName } from "@site/src/scripts/utils";
+import Link from "@docusaurus/Link";
+import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
+import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
+import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
+import { VacDashboard } from "@site/src/scripts/charts-components/Vac";
+import { IcuOccupRTrend } from "@site/src/scripts/charts-components/IcuOccupR";
+import { IncidRTrend } from "@site/src/scripts/charts-components/IncidR";
+import { PosRTrend } from "@site/src/scripts/charts-components/PosR";
+import { RTrend } from "@site/src/scripts/charts-components/R";
+
+<h1 className="pages--h1">Charts</h1>
+
+<p className="subtitle">Visualisation of COVID-19 data in France. Current pandemic situation and trends.</p>
+
+<div className="comment--translc_gray">
+  🔄 Last updated on {digestLatestDate2021.d} {getMonthName(digestLatestDate2021.m, "en")} 2021
+</div>
+
+<em>
+  Data sources: see <Link to="/digest/sources">Appendix - Sources</Link>
+</em>
+
+## Confirmed Cases {#confirmed-cases}
+
+Number of cases confirmed by a positive RT-PCR test or by a positive antigenic test. The data may be highly variable depending on the screening activities (e.g. decreased activities on weekends) and the time taken to deliver the results.
+
+<CasesTrend />
+
+## Deaths {#deaths}
+
+<DeathsTrend />
+
+## Vaccinations {#vaccinations}
+
+<VacDashboard />
+
+## ICU Bed Occupancy Rate {#icu-bed-occupancy-rate}
+
+The ratio of the number of COVID-19 patients currently in the ICU or continuing care unit to the total ICU beds in initial capacity, i.e. before the crisis.
+
+<IcuOccupRTrend />
+
+## Incidence Rate {#incidence-rate}
+
+Number of persons, over a rolling week, testing positive (RT-PCR and antigenic test) for the first time in more than 60 days, relative to the size of the population.
+
+It is expressed per 100,000 inhabitants and allows geographical areas to be compared with each other. The incidence rate may fluctuate according to screening activities and the time taken to deliver the results.
+
+<IncidRTrend />
+
+## RT-PCR Positivity Rate {#positivity-rate}
+
+Number of new positive testers as a proportion of the total number of first-time positive and negative testers in a given period.
+
+<PosRTrend />
+
+## Effective Reproduction Number (R) {#effective-reproduction-number}
+
+The average number of people a patient can infect. The effective R may fluctuate according to screening activities and the time taken to deliver the results.
+
+<RTrend />
+
+<br />
+<div className="flex-center--wrap">
+  <DigestLinkButton linkType="latest" isButtonOutline={true} buttonText="Back to the latest digest" />
+  <DigestLinkButton linkType="random" isButtonOutline={false} buttonText="Read a random digest" />
+</div>

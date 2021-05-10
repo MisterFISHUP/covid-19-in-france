@@ -1,215 +1,214 @@
 {
   "homepage.features.officialStatistics.title": {
-    "message": "法國官方數據"
+    "message": "Statistiques officielles"
   },
   "homepage.features.officialStatistics.description": {
-    "message": "提供每日官方數據，包含確診數、死亡數、疫苗接種數等，以及各項指標數據如有效傳染數、陽性確診率、重症病房佔有率等等"
+    "message": "Présente des statistiques du COVID-19 en France : le nombre des cas confirmés, des décès, des vaccinations, etc., ainsi que divers indicateurs tels que le taux de positivité, le nombre de reproduction effectif, le taux d’occupation des lits en réanimation, etc."
   },
   "homepage.features.news.title": {
-    "message": "疫情新聞整理"
+    "message": "Points forts de l'actualité"
   },
   "homepage.features.news.description": {
-    "message": "條列式扼要呈現每日疫情媒體報導、提供相關新聞報導或影片連結"
+    "message": "Fournit des résumés quotidiens de l'actualité sur le Covid-19 en France et des liens vers des articles/vidéos d'actualité (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
   },
   "homepage.features.pressConference.title": {
-    "message": "新冠肺炎記者會重點"
+    "message": "Résumé de conférences de presse"
   },
   "homepage.features.pressConference.description": {
-    "message": "提供記者會重點整理、總統談話摘要、封城或宵禁政策措施整理、疫情新限制措施整理"
+    "message": "Fournit des résumés de conférences de presse, de discours présidentiels, de nouvelles mesures de confinement ou de couvre-feu (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
   },
   "homepage.hero.logoLink.title": {
-    "message": "點我直接閱讀最新一篇日誌"
+    "message": "Cliquez pour lire directement le dernier résumé"
   },
   "homepage.hero.title": {
-    "message": "法國 COVID-19 日誌"
+    "message": "COVID-19 EN FRANCE"
   },
   "homepage.hero.tagline": {
-    "message": "一本記錄<b>法國新冠肺炎疫情</b>的日誌",
-    "description": "Homepage hero tagline, can contain simple html tags"
+    "message": "Résumé quotidien du <b>COVID-19</b> en France"
   },
   "homepage.hero.button.startReading": {
-    "message": "開始閱讀"
+    "message": "Démarrer la lecture"
   },
   "homepage.features.button.startReading": {
-    "message": "開始閱讀"
+    "message": "Démarrer la lecture"
   },
   "homepage.charts.button.seeMoreCharts": {
-    "message": "看更多數據圖表"
+    "message": "Voir plus de graphiques"
   },
   "homepage.title": {
-    "message": "首頁"
+    "message": "Page d'accueil"
   },
   "homepage.description": {
-    "message": "一本記錄法國新冠肺炎 (COVID-19) 的日誌，提供法國每日疫情數據以及新聞重點整理"
+    "message": "Un site qui présente les statistiques et actualités quotidiennes du COVID-19 en France sous forme de résumé quotidien"
   },
   "numFmt": {
-    "message": "en"
+    "message": "fr"
   },
   "digestComp.CasesCumul.title": {
-    "message": "🧫 累積確診數",
+    "message": "🧫 Cumul des cas confirmés",
     "description": "The heading of CasesCumul"
   },
   "digestComp.CasesCumul.casesCumul": {
-    "message": "總累計：",
+    "message": "Total : ",
     "description": "The description for casesCumul in CasesCumul"
   },
   "digestComp.CasesCumul.casesEhpadEmsCumul": {
-    "message": "養老院/護理院：",
+    "message": "EHPAD/EMS : ",
     "description": "The description for casesEhpadEmsCumul in CasesCumul"
   },
   "digestComp.CasesCumul.noUpdateEhpadEms": {
-    "message": "（未更新）",
+    "message": " (non actualisé)",
     "description": "The no update hint for casesEhpadEmsCumul in CasesCumul, inside parentheses"
   },
   "digestComp.CasesCumul.casesRtPcr": {
-    "message": "新增 RT-PCR 確診：",
+    "message": "Nouveaux cas confirmés par RT-PCR : ",
     "description": "The description for casesRtPcr in CasesCumul"
   },
   "digestComp.CasesCumul.casesAntig": {
-    "message": "新增抗原檢測確診：",
+    "message": "Nouveaux cas confirmés par test antigénique : ",
     "description": "The description for casesAntig in CasesCumul"
   },
   "digestComp.DeathsCumul.title": {
-    "message": "☠️ 累積死亡數",
+    "message": "☠️ Cumul des décès",
     "description": "The heading of DeathsCumul"
   },
   "digestComp.DeathsCumul.deathsCumul": {
-    "message": "總累計：",
+    "message": "Total : ",
     "description": "The description for deathsCumul in DeathsCumul"
   },
   "digestComp.DeathsCumul.deathsHospiCumul": {
-    "message": "醫院：",
+    "message": "Hôpital : ",
     "description": "The description for deathsHospiCumul in DeathsCumul"
   },
   "digestComp.DeathsCumul.deathsEhpadEmsCumul": {
-    "message": "養老院/護理院：",
+    "message": "EHPAD/EMS : ",
     "description": "The description for deathsEhpadEmsCumul in DeathsCumul"
   },
   "digestComp.DeathsCumul.noUpdateEhpadEms": {
-    "message": "（未更新）",
+    "message": " (non actualisé)",
     "description": "The no update hint for deathsEhpadEmsCumul in DeathsCumul, inside parentheses"
   },
   "digestComp.Hospi.title": {
-    "message": "🏥 住院數",
+    "message": "🏥 Hospitalisations",
     "description": "The heading of Hospi"
   },
   "digestComp.Hospi.hospi": {
-    "message": "當前：",
+    "message": "Total : ",
     "description": "The description for hospi in Hospi"
   },
   "digestComp.Hospi.hospiNew": {
-    "message": "本日入院：",
+    "message": "Au cours des dernières 24h : ",
     "description": "The description for hospiNew in Hospi"
   },
   "digestComp.Hospi.hospiWeek": {
-    "message": "過去七日入院：",
+    "message": "Au cours de la dernière semaine : ",
     "description": "The description for hospiWeek in Hospi"
   },
   "digestComp.Hospi.hospiWeekVar": {
-    "message": "（與七日前數據相比 {hospiWeekVar}）",
+    "message": " ({hospiWeekVar} par rapport à la semaine dernière)",
     "description": "The weekly variation of hospiWeek in Hospi, inside parentheses"
   },
   "digestComp.Icu.title": {
-    "message": "😞 重症數",
+    "message": "😞 Réanimation",
     "description": "The heading of Icu"
   },
   "digestComp.Icu.icu": {
-    "message": "當前：",
+    "message": "Total : ",
     "description": "The description for icu in Icu"
   },
   "digestComp.Icu.icuNew": {
-    "message": "本日重症：",
+    "message": "Au cours des dernières 24h : ",
     "description": "The description for icuNew in Icu"
   },
   "digestComp.Icu.icuWeek": {
-    "message": "過去七日重症：",
+    "message": "Au cours de la dernière semaine : ",
     "description": "The description for icuWeek in Icu"
   },
   "digestComp.Icu.icuWeekVar": {
-    "message": "（與七日前數據相比 {icuWeekVar}）",
+    "message": " ({icuWeekVar} par rapport à la semaine dernière)",
     "description": "The weekly variation of icuWeek in Icu, inside parentheses"
   },
   "digestComp.ReturnHomeCumul.title": {
-    "message": "🏡 累積出院數",
+    "message": "🏡 Retours à domicile",
     "description": "The heading of ReturnHomeCumul"
   },
   "digestComp.ReturnHomeCumul.returnHomeCumul": {
-    "message": "總累計：",
+    "message": "Cumul : ",
     "description": "The description for returnHomeCumul in ReturnHomeCumul"
   },
   "digestComp.VacCumul.title": {
-    "message": "💉 疫苗接種數",
+    "message": "💉 Cumul des vaccinations",
     "description": "The heading of VacCumul"
   },
   "digestComp.VacCumul.vac1": {
-    "message": "第 1 劑接種累計：",
+    "message": "Premières doses : ",
     "description": "The description for vac1 in VacCumul"
   },
   "digestComp.VacCumul.vac2": {
-    "message": "第 2 劑接種累計：",
+    "message": "Secondes doses : ",
     "description": "The description for vac2 in VacCumul"
   },
   "digestComp.Indicators.title": {
-    "message": "📊 各項指標數據",
+    "message": "📊 Indicateurs de suivi",
     "description": "The heading of Indicators"
   },
   "digestComp.Indicators.incidR": {
-    "message": "法國每 10 萬人確診數：",
+    "message": "Taux d'incidence : ",
     "description": "The description for incidR in Indicators"
   },
   "digestComp.Indicators.icuOccupR": {
-    "message": "重症病房佔有率：",
+    "message": "Taux d’occupation des lits en réanimation : ",
     "description": "The description for icuOccupR in Indicators"
   },
   "digestComp.Indicators.r": {
-    "message": "有效傳染數 (R)：",
+    "message": "Nombre de reproduction effectif (R) : ",
     "description": "The description for r in Indicators"
   },
   "digestComp.Indicators.posR": {
-    "message": "RT-PCR 陽性確診率：",
+    "message": "Taux de positivité des tests RT-PCR : ",
     "description": "The description for posR in Indicators"
   },
   "digestComp.Indicators.highVul": {
-    "message": "疫情列為高度脆弱地區：共 {highVul} 區",
+    "message": "Nombre des départements en situation de vulnérabilité élevée : {highVul}",
     "description": "The line for highVul in Indicators"
   },
   "digestComp.Indicators.vacEhpadUsldPct": {
-    "message": "養老院/長照機構接種至少 1 劑疫苗比例：{pct}%（截至 {dateMD}）",
+    "message": "Proportion des résidents en EHPAD/USLD ayant reçu au moins une dose de vaccin : {pct}% (au {dateMD})",
     "description": "The line for vacEhpadUsldPct in Indicators"
   },
   "digestComp.Indicators.clusters": {
-    "message": "2020 年 5/9 起（或第一次解封後）至 {dateMD} 群聚感染情況：尚在調查中的有 {clustersTotal} 起，其中包含養老院 {clustersEhpad} 起",
+    "message": "Nombre des clusters en cours d'inverstigation du 9/5/2020 au {dateDM} : {clustersTotal}, dont {clustersEhpad} en EHPAD",
     "description": "The line for clusters in Indicators"
   },
   "digestComp.Subtitle": {
-    "message": "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報。日誌第 {n} 篇。",
+    "message": "Résumé quotidien du COVID-19 en France le {d} {month_fr} {y}. Jour {n}.",
     "description": "The subtitle of a daily digest"
   },
   "digestComp.Figure.defaultCaption": {
-    "message": "{y} 年 {m} 月 {d} 日法國新冠肺炎疫情匯報",
+    "message": "Covid-19 en France le {d} {month_fr} {y}",
     "description": "The default image caption in Figure"
   },
   "dateFmt": {
-    "message": "m/d"
+    "message": "d/m"
   },
   "digestComp.ChartCases.chartsPageLink": {
-    "message": "數據圖表",
+    "message": "Graphiques",
     "description": "The page name of Charts"
   },
   "digestComp.ChartCases.label.total": {
-    "message": "總累計",
+    "message": "Cumul",
     "description": "The label for total cases in ChartCases"
   },
   "digestComp.ChartCases.label.new": {
-    "message": "當日確診數",
+    "message": "Nouveaux cas",
     "description": "The label for new cases in ChartCases"
   },
   "digestComp.ChartCases.title": {
-    "message": "確診數近兩週走勢",
+    "message": "Cas confirmés - Tendance sur les deux dernières semaines",
     "description": "The title of ChartCases"
   },
   "digestComp.ChartCases.seeMoreCharts": {
-    "message": "更多數據視覺化可參見{chartsPageLink}。",
+    "message": "Voir {chartsPageLink} pour plus de visualisations de données.",
     "description": "The sentence for seeing more charts on the Charts page, `chartsPageLink` being the page link"
   },
   "digestComp.SourceFb.phrase": {
@@ -225,71 +224,71 @@
     "description": "The title of links 'this post' in SourceFb (used only in traditional and simplified Chinese)"
   },
   "chartsComp.Cases.label.total": {
-    "message": "總累計"
+    "message": "Cumul"
   },
   "chartsCompo.Cases.label.new": {
-    "message": "當日確診數"
+    "message": "Nouveaux cas"
   },
   "chartsComp.CasesTrend.title": {
-    "message": "確診數近 {duration} 日走勢",
+    "message": "Cas confirmés - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.Deaths.label.total": {
-    "message": "總累計"
+    "message": "Cumul"
   },
   "chartsCompo.Deaths.label.new": {
-    "message": "當日死亡數"
+    "message": "Nouveaux décès"
   },
   "chartsComp.DeathsTrend.title": {
-    "message": "死亡數近 {duration} 日走勢",
+    "message": "Décès - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.IcuOccupR.label": {
-    "message": "重症病房佔有率"
+    "message": "Taux d’occupation des lits en réanimation"
   },
   "chartsComp.IcuOccupRTrend.title": {
-    "message": "重症病房佔有率近 {duration} 日走勢",
+    "message": "Taux d’occupation des lits en réanimation - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.IncidR.label": {
-    "message": "全法國每 10 萬人確診數"
+    "message": "Taux d’incidence"
   },
   "chartsComp.IncidRTrend.title": {
-    "message": "每 10 萬人確診數近 {duration} 日走勢",
+    "message": "Taux d’incidence - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.PosR.label": {
-    "message": "RT-PCR 陽性確診率"
+    "message": "Taux de positivité des tests RT-PCR"
   },
   "chartsComp.PosRTrend.title": {
-    "message": "RT-PCR 陽性確診率近 {duration} 日走勢",
+    "message": "Taux de positivité - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.R.label": {
-    "message": "有效傳染數"
+    "message": "Nombre de reproduction effectif"
   },
   "chartsComp.RTrend.title": {
-    "message": "有效傳染數近 {duration} 日走勢",
+    "message": "Nombre de reproduction effectif - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.Vac1And2.label.vac1": {
-    "message": "第 1 劑"
+    "message": "Premières doses"
   },
   "chartsCompo.Vac1And2.label.vac2": {
-    "message": "第 2 劑"
+    "message": "Secondes doses"
   },
   "chartsComp.Vac1And2Trend.title": {
-    "message": "疫苗接種數近 {duration} 日走勢",
+    "message": "Vaccinations - Tendance sur les {duration} derniers jours",
     "description": "Trend over the last <duration> days"
   },
   "chartsComp.Vac.label.total": {
-    "message": "總累計"
+    "message": "Cumul"
   },
   "chartsCompo.Vac.label.new": {
-    "message": "當日接種數"
+    "message": "Nouvelles injections"
   },
   "chartsComp.VacTrend.title": {
-    "message": "第 {dose} 劑接種數近 {duration} 日走勢",
+    "message": "Doses {dose} - Tendance sur les {duration} derniers jours",
     "description": "Doses <dose>. Trend over the last <duration> days"
   },
   "theme.NotFound.title": {
