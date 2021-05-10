@@ -1,6 +1,6 @@
 ---
-title: Preface
-description: Daily Digest - COVID-19 IN FRANCE is a website that presents daily COVID-19 statistics and news in France in the form of a daily digest
+title: Préface
+description: Résumé Quotidien - COVID-19 EN FRANCE est un site web qui présente les statistiques et actualités quotidiennes du COVID-19 en France sous forme de résumé quotidien
 hide_table_of_contents: true
 ---
 
@@ -9,43 +9,42 @@ import { digestLatestDate2021 as lDate } from "@site/src/scripts/dateVariables";
 import Link from "@docusaurus/Link";
 import { DigestLinkButton } from "@site/src/scripts/components/DigestLinkButton";
 
-<h1 className="pages--h1">✨ Preface</h1>
+<h1 className="pages--h1">✨ Préface</h1>
 
-**Daily Digest - COVID-19 IN FRANCE** is a website that presents daily COVID-19 statistics and news in France in the form of a daily digest.
+**Résumé Quotidien - COVID-19 EN FRANCE** est un site web qui présente les statistiques et actualités quotidiennes du COVID-19 en France sous forme de résumé quotidien.
 
 <p>
-  It records the outbreak of COVID-19 in France from 1 March 2020, the day after the cumulative number of confirmed
-  cases in France reached 100 (France had 100 cumulative confirmed cases of COVID-19 on 29/2 and confirmed 30 more cases
-  on 1/3, bringing the total number to 130). It is currently updated as of{" "}
+  Il enregistre la pandémie de COVID-19 en France à partir du 1er mars 2020, le lendemain du jour où le nombre total de
+  cas confirmés en France a atteint 100 (100 cas au total au 29 février, puis 30 nouveaux cas confirmés le 1er mars, portant à 130 le nombre total). Le site est actuellement mis à jour le{" "}
   <Link to={`/digest/2021/${monthEnLower(lDate.m)}/${lDate.d}`}>
-    {lDate.d} {getMonthName(lDate.m, 'en')} 2021
-  </Link>
-  .
+    {lDate.d} {getMonthName(lDate.m, "fr")} 2021
+  </Link>{" "}
+  (dernier résumé disponible).
 </p>
 
-A digest will normally contain:
+Un résumé quotidien contient en général :
 
-- **Official Statistics**: French official statistics of that day
-- **Daily News Highlights**: Covid-19 news in France (currently only available in traditional Chinese and simplified Chinese)
+- **Statistiques officielles** : les données épidémiques du jour
+- **Actualité en bref** : le résumé de l'acutalité sur le Covid-19 en France (disponible uniquement en chinois traditionnel/simplifié pour le moment)
 
-In addition, each week there is a digest of the weekly epidemiological update in France (also only available in traditional Chinese and simplified Chinese at the moment).
+De plus, chaque semaine, il y a un digest du point épidémiologique hebdomadaire en France (aussi disponible uniquement en chinois traditionnel/simplifié pour le moment).
 
 <div className="comment--translc_gray">
-  Note: The official statistics is only available from 2 March 2020, i.e. from Daily Digest Day 2.
+  NB : Les statistiques officielles ne sont disponibles qu'à partir du 2 mars 2020, c'est-à-dire à partir du résumé quotidien Jour 2.
 </div>
 <br />
 
-All data sources can be found in [Sources](digest/sources) in Appendix. If you have any questions or find any errors, you can contact me via the [contact information](about#contact) in the [About page](about).
+Les sources de données sont détaillées dans [Sources](digest/sources) en Appendice. Si vous avez des questions ou si vous trouvez des erreurs, vous pouvez me contacter via [les informations de contact](about#contact) dans [À propos](about).
 
-Feel free to share this website and even consider [supporting it by buying me a cake](about#supportthis-website). I hope this website helps you get a better insight into the pandemic situation in France.
+N'hésitez pas à partager ce site et même à le soutenir en [m'achetant un gâteau](about#support-this-website). J'espère que ce site vous aidera à mieux saisir la situation de la pandémie en France.
 
 <br />
 
-Best wishes and stay safe.
+Prenez soin de vous et portez-vous bien.
 
 FISH UP
 
 <div className="flex-center--wrap">
-  <DigestLinkButton linkType="latest" isButtonOutline={false} buttonText="Read the latest digest" />
-  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="Read a random digest" />
+  <DigestLinkButton linkType="latest" isButtonOutline={false} buttonText="Lire le dernier résumé" />
+  <DigestLinkButton linkType="random" isButtonOutline={true} buttonText="Lire un résumé aléatoire" />
 </div>

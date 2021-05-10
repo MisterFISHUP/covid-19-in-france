@@ -6,7 +6,7 @@
     "message": "Présente des statistiques du COVID-19 en France : le nombre des cas confirmés, des décès, des vaccinations, etc., ainsi que divers indicateurs tels que le taux de positivité, le nombre de reproduction effectif, le taux d’occupation des lits en réanimation, etc."
   },
   "homepage.features.news.title": {
-    "message": "Points forts de l'actualité"
+    "message": "Actualité en bref"
   },
   "homepage.features.news.description": {
     "message": "Fournit des résumés quotidiens de l'actualité sur le Covid-19 en France et des liens vers des articles/vidéos d'actualité (disponibles uniquement en chinois traditionnel/simplifié pour le moment)"
