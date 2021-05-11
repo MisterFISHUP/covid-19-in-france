@@ -24,10 +24,20 @@
     "message": "COVID-19 EN FRANCE"
   },
   "homepage.hero.tagline": {
-    "message": "Résumé quotidien du <b>COVID-19</b> en France"
+    "message": "Résumé quotidien du <b>COVID-19</b> en France",
+    "description": "Homepage hero tagline, can contain simple html tags"
   },
   "homepage.hero.button.startReading": {
     "message": "Démarrer la lecture"
+  },
+  "homepage.LatestOfficialData.title": {
+    "message": "Statistiques officielles"
+  },
+  "homepage.LatestOfficialData.dateTitle": {
+    "message": "Date : {day} {monthFr} {year}"
+  },
+  "homepage.LatestOfficialData.button.readTheLatestDigest": {
+    "message": "Lire le dernier résumé"
   },
   "homepage.features.button.startReading": {
     "message": "Démarrer la lecture"

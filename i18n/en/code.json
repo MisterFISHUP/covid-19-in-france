@@ -342,6 +342,15 @@
   "homepage.hero.button.startReading": {
     "message": "Start Reading"
   },
+  "homepage.LatestOfficialData.title": {
+    "message": "French Official Statistics"
+  },
+  "homepage.LatestOfficialData.dateTitle": {
+    "message": "Date: {day} {monthEn} {year}"
+  },
+  "homepage.LatestOfficialData.button.readTheLatestDigest": {
+    "message": "Read the latest digest"
+  },
   "homepage.features.officialStatistics.title": {
     "message": "Official Statistics"
   },

@@ -342,6 +342,15 @@
   "homepage.hero.button.startReading": {
     "message": "开始阅读"
   },
+  "homepage.LatestOfficialData.title": {
+    "message": "法国疫情速览"
+  },
+  "homepage.LatestOfficialData.dateTitle": {
+    "message": "日期：{year} 年 {month} 月 {day} 日"
+  },
+  "homepage.LatestOfficialData.button.readTheLatestDigest": {
+    "message": "阅读最新一篇日志"
+  },
   "homepage.features.officialStatistics.title": {
     "message": "法国官方数据"
   },

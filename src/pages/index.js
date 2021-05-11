@@ -5,8 +5,9 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.scss";
-import { monthEnLower } from "@site/src/scripts/utils";
-import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
+import { monthEnLower, getMonthName } from "@site/src/scripts/utils";
+import { digestLatestDate2021, digestLatestDate2021ISO } from "@site/src/scripts/dateVariables";
+import { OfficialData } from "@site/src/scripts/digest-components";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
 import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
 
@@ -91,6 +92,50 @@ function Banner() {
   );
 }
 
+function LatestOfficalData() {
+  const d = digestLatestDate2021.d;
+  const m = digestLatestDate2021.m;
+  const mEn = getMonthName(m, "en");
+  const mFr = getMonthName(m, "fr");
+  const y = 2021;
+  const linkToLatestDigest = `/digest/${y}/${monthEnLower(m)}/${d}`;
+
+  return (
+    <section className={clsx("padding-vert--lg", styles.bgLatestOfficalData)}>
+      <div className="container">
+        <div className="text--center margin-vert--lg">
+          <h1>
+            <Translate id="homepage.LatestOfficialData.title">法國疫情速覽</Translate>
+          </h1>
+          <h3>
+            <Translate
+              id="homepage.LatestOfficialData.dateTitle"
+              values={{
+                day: d,
+                month: m,
+                monthEn: mEn,
+                monthFr: mFr,
+                year: y,
+              }}
+            >
+              {"日期：{year} 年 {month} 月 {day} 日"}
+            </Translate>
+          </h3>
+        </div>
+        <OfficialData date={digestLatestDate2021ISO} />
+      </div>
+      <div className="flex-center--wrap margin-vert--md">
+        <Link
+          className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+          to={linkToLatestDigest}
+        >
+          <Translate id="homepage.LatestOfficialData.button.readTheLatestDigest">閱讀最新一篇日誌</Translate>
+        </Link>
+      </div>
+    </section>
+  );
+}
+
 function Features() {
   return (
     <section className={clsx("padding-vert--lg", styles.bgFeatures)}>
@@ -115,7 +160,7 @@ function Features() {
 
 function SomeCharts() {
   return (
-    <section className="padding-vert--lg">
+    <section className={clsx("padding-vert--lg", styles.bgSomeCharts)}>
       <div className="container">
         <div className="row">
           <div className="col col--6 padding--lg">
@@ -149,8 +194,9 @@ export default function Home() {
     <Layout title={title} description={description}>
       <Banner />
       <main>
-        <Features />
+        <LatestOfficalData />
         <SomeCharts />
+        <Features />
       </main>
     </Layout>
   );
