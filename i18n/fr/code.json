@@ -34,7 +34,10 @@
     "message": "Statistiques officielles"
   },
   "homepage.LatestOfficialData.dateTitle": {
-    "message": "Date : {day} {monthFr} {year}"
+    "message": "Date : "
+  },
+  "homepage.LatestOfficialData.dateFormat": {
+    "message": "d/M/y"
   },
   "homepage.LatestOfficialData.button.readTheLatestDigest": {
     "message": "Lire le dernier résumé"

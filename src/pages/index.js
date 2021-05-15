@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import DatePicker from "react-date-picker";
 import clsx from "clsx";
 import Translate, { translate } from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
@@ -6,7 +7,7 @@ import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.scss";
 import { monthEnLower, getMonthName } from "@site/src/scripts/utils";
-import { digestLatestDate2021, digestLatestDate2021ISO } from "@site/src/scripts/dateVariables";
+import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
 import { OfficialData } from "@site/src/scripts/digest-components";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
 import { DeathsTrend } from "@site/src/scripts/charts-components/Deaths";
@@ -99,6 +100,10 @@ function LatestOfficalData() {
   const mFr = getMonthName(m, "fr");
   const y = 2021;
   const linkToLatestDigest = `/digest/${y}/${monthEnLower(m)}/${d}`;
+  const [selectedDate, onChange] = useState(new Date(2021, m - 1, d));
+
+  const toISO = (v) =>
+    `${v.getFullYear()}-${("0" + String(1 + v.getMonth())).slice(-2)}-${("0" + v.getDate()).slice(-2)}`;
 
   return (
     <section className={clsx("padding-vert--lg", styles.bgLatestOfficalData)}>
@@ -108,21 +113,22 @@ function LatestOfficalData() {
             <Translate id="homepage.LatestOfficialData.title">法國疫情速覽</Translate>
           </h1>
           <h3>
-            <Translate
-              id="homepage.LatestOfficialData.dateTitle"
-              values={{
-                day: d,
-                month: m,
-                monthEn: mEn,
-                monthFr: mFr,
-                year: y,
-              }}
-            >
-              {"日期：{year} 年 {month} 月 {day} 日"}
-            </Translate>
+            <Translate id="homepage.LatestOfficialData.dateTitle">日期：</Translate>
+            <DatePicker
+              onChange={onChange}
+              value={selectedDate}
+              minDate={new Date(2020, 3 - 1, 2)}
+              maxDate={new Date(2021, m - 1, d)}
+              clearIcon={null}
+              format={translate({ id: "homepage.LatestOfficialData.dateFormat", message: "y 年 M 月 d 日" })}
+              calendarAriaLabel="Toggle calendar"
+              dayAriaLabel="Day"
+              monthAriaLabel="Month"
+              yearAriaLabel="Year"
+            />
           </h3>
         </div>
-        <OfficialData date={digestLatestDate2021ISO} />
+        <OfficialData date={toISO(selectedDate)} />
       </div>
       <div className="flex-center--wrap margin-vert--md">
         <Link

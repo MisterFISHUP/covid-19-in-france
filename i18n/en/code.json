@@ -346,7 +346,10 @@
     "message": "French Official Statistics"
   },
   "homepage.LatestOfficialData.dateTitle": {
-    "message": "Date: {day} {monthEn} {year}"
+    "message": "Date: "
+  },
+  "homepage.LatestOfficialData.dateFormat": {
+    "message": "d/M/y"
   },
   "homepage.LatestOfficialData.button.readTheLatestDigest": {
     "message": "Read the latest digest"
