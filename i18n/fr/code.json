@@ -27,8 +27,8 @@
     "message": "Résumé quotidien du <b>COVID-19</b> en France",
     "description": "Homepage hero tagline, can contain simple html tags"
   },
-  "homepage.hero.button.startReading": {
-    "message": "Démarrer la lecture"
+  "homepage.hero.button.learnMore": {
+    "message": "EN SAVOIR PLUS"
   },
   "homepage.LatestOfficialData.title": {
     "message": "Statistiques officielles"
@@ -42,11 +42,17 @@
   "homepage.LatestOfficialData.button.readTheLatestDigest": {
     "message": "Lire le dernier résumé"
   },
+  "homepage.SomeCharts.title": {
+    "message": "Graphiques"
+  },
+  "homepage.SomeCharts.dateTitle": {
+    "message": "Dernière mise à jour : {day}/{month}/{year}"
+  },
+  "homepage.SomeCharts.button.seeMoreCharts": {
+    "message": "Voir plus de graphiques"
+  },
   "homepage.features.button.startReading": {
     "message": "Démarrer la lecture"
-  },
-  "homepage.charts.button.seeMoreCharts": {
-    "message": "Voir plus de graphiques"
   },
   "homepage.title": {
     "message": "Page d'accueil"

@@ -339,8 +339,8 @@
   "homepage.hero.logoLink.title": {
     "message": "点我直接阅读最新一篇日志"
   },
-  "homepage.hero.button.startReading": {
-    "message": "开始阅读"
+  "homepage.hero.button.learnMore": {
+    "message": "了解更多"
   },
   "homepage.LatestOfficialData.title": {
     "message": "法国疫情速览"
@@ -353,6 +353,15 @@
   },
   "homepage.LatestOfficialData.button.readTheLatestDigest": {
     "message": "阅读最新一篇日志"
+  },
+  "homepage.SomeCharts.title": {
+    "message": "数据图表"
+  },
+  "homepage.SomeCharts.dateTitle": {
+    "message": "最后更新：{year} 年 {month} 月 {day} 日"
+  },
+  "homepage.SomeCharts.button.seeMoreCharts": {
+    "message": "看更多数据图表"
   },
   "homepage.features.officialStatistics.title": {
     "message": "法国官方数据"
@@ -374,9 +383,6 @@
   },
   "homepage.features.button.startReading": {
     "message": "开始阅读"
-  },
-  "homepage.charts.button.seeMoreCharts": {
-    "message": "看更多数据图表"
   },
   "digestComp.ChartCases.chartsPageLink": {
     "message": "数据图表",

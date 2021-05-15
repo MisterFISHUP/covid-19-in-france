@@ -339,8 +339,8 @@
   "homepage.hero.logoLink.title": {
     "message": "Click me to read the latest digest directly"
   },
-  "homepage.hero.button.startReading": {
-    "message": "Start Reading"
+  "homepage.hero.button.learnMore": {
+    "message": "LEARN MORE"
   },
   "homepage.LatestOfficialData.title": {
     "message": "French Official Statistics"
@@ -353,6 +353,15 @@
   },
   "homepage.LatestOfficialData.button.readTheLatestDigest": {
     "message": "Read the latest digest"
+  },
+  "homepage.SomeCharts.title": {
+    "message": "Charts"
+  },
+  "homepage.SomeCharts.dateTitle": {
+    "message": "Last updated: {day}/{month}/{year}"
+  },
+  "homepage.SomeCharts.button.seeMoreCharts": {
+    "message": "See More Charts"
   },
   "homepage.features.officialStatistics.title": {
     "message": "Official Statistics"
@@ -374,9 +383,6 @@
   },
   "homepage.features.button.startReading": {
     "message": "Start Reading"
-  },
-  "homepage.charts.button.seeMoreCharts": {
-    "message": "See More Charts"
   },
   "digestComp.ChartCases.chartsPageLink": {
     "message": "Charts",

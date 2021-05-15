@@ -6,7 +6,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.scss";
-import { monthEnLower, getMonthName } from "@site/src/scripts/utils";
+import { monthEnLower } from "@site/src/scripts/utils";
 import { digestLatestDate2021 } from "@site/src/scripts/dateVariables";
 import { OfficialData } from "@site/src/scripts/digest-components";
 import { CasesTrend } from "@site/src/scripts/charts-components/Cases";
@@ -81,10 +81,10 @@ function Banner() {
           />
           <div className={styles.buttons}>
             <Link
-              className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+              className={clsx("button button--outline button--primary button--lg", styles.btnCta)}
               to={useBaseUrl("digest")}
             >
-              <Translate id="homepage.hero.button.startReading">開始閱讀</Translate>
+              <Translate id="homepage.hero.button.learnMore">了解更多</Translate>
             </Link>
           </div>
         </div>
@@ -96,8 +96,6 @@ function Banner() {
 function LatestOfficalData() {
   const d = digestLatestDate2021.d;
   const m = digestLatestDate2021.m;
-  const mEn = getMonthName(m, "en");
-  const mFr = getMonthName(m, "fr");
   const y = 2021;
   const linkToLatestDigest = `/digest/${y}/${monthEnLower(m)}/${d}`;
   const [selectedDate, onChange] = useState(new Date(2021, m - 1, d));
@@ -132,7 +130,7 @@ function LatestOfficalData() {
       </div>
       <div className="flex-center--wrap margin-vert--md">
         <Link
-          className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+          className={clsx("button button--outline button--primary button--lg", styles.btnCta)}
           to={linkToLatestDigest}
         >
           <Translate id="homepage.LatestOfficialData.button.readTheLatestDigest">閱讀最新一篇日誌</Translate>
@@ -154,7 +152,7 @@ function Features() {
       </div>
       <div className="flex-center--wrap margin-vert--md">
         <Link
-          className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+          className={clsx("button button--outline button--primary button--lg", styles.btnCta)}
           to={useBaseUrl("digest")}
         >
           <Translate id="homepage.features.button.startReading">開始閱讀</Translate>
@@ -165,9 +163,30 @@ function Features() {
 }
 
 function SomeCharts() {
+  const day = digestLatestDate2021.d;
+  const month = digestLatestDate2021.m;
+  const year = 2021;
+
   return (
     <section className={clsx("padding-vert--lg", styles.bgSomeCharts)}>
       <div className="container">
+        <div className="text--center margin-top--lg">
+          <h1>
+            <Translate id="homepage.SomeCharts.title">數據圖表</Translate>
+          </h1>
+          <h3>
+            <Translate
+              id="homepage.SomeCharts.dateTitle"
+              values={{
+                day,
+                month,
+                year,
+              }}
+            >
+              {"最後更新：{year} 年 {month} 月 {day} 日"}
+            </Translate>
+          </h3>
+        </div>
         <div className="row">
           <div className="col col--6 padding--lg">
             <CasesTrend />
@@ -179,10 +198,10 @@ function SomeCharts() {
       </div>
       <div className="flex-center--wrap margin-vert--md">
         <Link
-          className={clsx("button button--outline button--primary button--lg", styles.startReading)}
+          className={clsx("button button--outline button--primary button--lg", styles.btnCta)}
           to={useBaseUrl("charts")}
         >
-          <Translate id="homepage.charts.button.seeMoreCharts">看更多數據圖表</Translate>
+          <Translate id="homepage.SomeCharts.button.seeMoreCharts">看更多數據圖表</Translate>
         </Link>
       </div>
     </section>
