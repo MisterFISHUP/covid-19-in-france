@@ -113,6 +113,7 @@ function LatestOfficalData() {
           <h3>
             <Translate id="homepage.LatestOfficialData.dateTitle">日期：</Translate>
             <DatePicker
+              className={styles.DatePicker}
               onChange={onChange}
               value={selectedDate}
               minDate={new Date(2020, 3 - 1, 2)}

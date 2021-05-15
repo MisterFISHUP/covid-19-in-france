@@ -73,6 +73,17 @@
   }
 }
 
+.DatePicker {
+  input {
+    color: var(--ifm-font-color-base);
+    transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  }
+  svg {
+    stroke: var(--ifm-font-color-base);
+    transition: stroke var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  }
+}
+
 .featureImage {
   height: 200px;
   width: 250px;
