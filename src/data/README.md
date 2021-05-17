@@ -21,7 +21,7 @@ Data are all `int`.
 | Column Name | Description   | Avalability                |
 | ----------- | ------------- | -------------------------- |
 | vac1        | cumulative... | from 2020/12/27 (included) |
-| vac2        | cumulative... | from 2021/1/4 (included)   |
+| vac2        | cumulative... | from 2020/12/27 (included) |
 
 ### vue-densemble.csv
 
