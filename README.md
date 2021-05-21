@@ -4,13 +4,16 @@
 
 [Daily Digest - COVID-19 IN FRANCE][website_en] is a website that presents daily COVID-19 statistics and news in France in the form of a daily digest.
 
-Website available in [traditional Chinese][website], [simplified Chinese][website_zh-hans] and [English][website_en]
+Website available in [traditional Chinese][website], [simplified Chinese][website_zh-hans], [English][website_en] and [French][website_fr].
 
 **👉 Check the website [here][website_en]**
 
 [website]: https://covid-fr.misterfishup.com/
 [website_zh-hans]: https://covid-fr.misterfishup.com/zh-Hans/
 [website_en]: https://covid-fr.misterfishup.com/en/
+[website_fr]: https://covid-fr.misterfishup.com/fr/
+
+> Note: Daily News Digests are only available in traditional Chinese and simplified Chinese at the moment.
 
 ---
 
