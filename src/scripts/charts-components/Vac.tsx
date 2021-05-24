@@ -69,7 +69,12 @@ const Vac1And2 = ({ duration, dateFmt }) => {
     tooltips: chartSettings.tooltips,
     scales: {
       xAxes: [chartSettings.scales.xAxes],
-      yAxes: [{ ticks: chartSettings.scales.yAxes.ticks }],
+      yAxes: [
+        {
+          gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
+          ticks: chartSettings.scales.yAxes.ticksStyle.normal,
+        },
+      ],
     },
   };
   return <Line data={data} options={options} />;
@@ -153,19 +158,14 @@ const Vac = ({ dose, duration, dateFmt }) => {
         {
           id: "y-axis-cumul",
           position: "left",
-          ticks: {
-            ...chartSettings.scales.yAxes.ticks,
-          },
+          gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
+          ticks: chartSettings.scales.yAxes.ticksStyle.blue,
         },
         {
           id: "y-axis-var",
           position: "right",
-          gridLines: {
-            drawOnChartArea: false,
-          },
-          ticks: {
-            ...chartSettings.scales.yAxes.ticks,
-          },
+          gridLines: chartSettings.scales.yAxes.gridLinesStyle.hidden,
+          ticks: chartSettings.scales.yAxes.ticksStyle.red,
         },
       ],
     },

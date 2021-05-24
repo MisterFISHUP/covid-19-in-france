@@ -43,9 +43,8 @@ const PosR = ({ duration, dateFmt }) => {
       xAxes: [chartSettings.scales.xAxes],
       yAxes: [
         {
-          ticks: {
-            ...chartSettings.scales.yAxes.ticks,
-          },
+          gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
+          ticks: chartSettings.scales.yAxes.ticksStyle.normal,
         },
       ],
     },

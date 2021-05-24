@@ -2,6 +2,7 @@ import { translate } from "@docusaurus/Translate";
 import { minifyNumber } from "./utils";
 
 const neutralGray = "rgb(150, 150, 150)";
+const translucentGray = "rgb(150, 150, 150, 0.2)";
 const numFmt = translate({ id: "numFmt", message: "en" });
 
 export const chartSettings = {
@@ -43,15 +44,38 @@ export const chartSettings = {
   },
   scales: {
     xAxes: {
+      gridLines: {
+        color: translucentGray,
+      },
       ticks: {
         fontColor: neutralGray,
       },
     },
     yAxes: {
-      ticks: {
-        maxTicksLimit: 7,
-        fontColor: neutralGray,
-        callback: (value) => minifyNumber(value, numFmt),
+      gridLinesStyle: {
+        hidden: {
+          drawOnChartArea: false,
+        },
+        visible: {
+          color: translucentGray,
+        },
+      },
+      ticksStyle: {
+        normal: {
+          maxTicksLimit: 7,
+          fontColor: neutralGray,
+          callback: (value) => minifyNumber(value, numFmt),
+        },
+        blue: {
+          maxTicksLimit: 7,
+          fontColor: "rgb(74, 189, 255)",
+          callback: (value) => minifyNumber(value, numFmt),
+        },
+        red: {
+          maxTicksLimit: 7,
+          fontColor: "rgb(255, 125, 153)",
+          callback: (value) => minifyNumber(value, numFmt),
+        },
       },
     },
   },

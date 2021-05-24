@@ -65,18 +65,15 @@ const Cases = ({ duration, dateFmt }) => {
         {
           id: "y-axis-cumul",
           position: "left",
-          ticks: {
-            ...chartSettings.scales.yAxes.ticks,
-          },
+          gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
+          ticks: chartSettings.scales.yAxes.ticksStyle.blue,
         },
         {
           id: "y-axis-var",
           position: "right",
-          gridLines: {
-            drawOnChartArea: false,
-          },
+          gridLines: chartSettings.scales.yAxes.gridLinesStyle.hidden,
           ticks: {
-            ...chartSettings.scales.yAxes.ticks,
+            ...chartSettings.scales.yAxes.ticksStyle.red,
             min: 0, // because new cases could absurdly be negative...
           },
         },
