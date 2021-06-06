@@ -62,5 +62,9 @@
   "sidebar.2021.category.5 月": {
     "message": "May",
     "description": "The label for category 5 月 in sidebar 2021"
+  },
+  "sidebar.2021.category.6 月": {
+    "message": "June",
+    "description": "The label for category 6 月 in sidebar 2021"
   }
 }
