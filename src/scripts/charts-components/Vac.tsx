@@ -12,7 +12,7 @@ import {
   toLabelDateDM as lblDateDM,
 } from "../utils";
 
-const maxDur: number = 150;
+const maxDur: number = 240;
 const datesInMaxDur: string[] = arrD(digestLatestDate2021ISO, maxDur);
 const dataInMaxDur = {
   vac1Cumul: datesInMaxDur.map((d) => od[d]?.vac1),
@@ -21,7 +21,7 @@ const dataInMaxDur = {
   vac2New: datesInMaxDur.map((d) => od[d]?.vac2 - od[tdb(d)]?.vac2),
 };
 
-const allDur = [15, 30, 60, 90, 120, 150]; // last one = maxDur
+const allDur = [15, 60, 120, 180, 240]; // last one = maxDur
 const marks = allDur.map((x) => {
   return { value: x, label: x };
 });
@@ -99,7 +99,7 @@ const Vac1And2Trend = ({ dateFmt }) => {
         defaultValue={defaultValue}
         aria-labelledby="discrete-slider-restrict"
         valueLabelDisplay="off"
-        step={null}
+        step={15}
         marks={marks}
         max={maxDur}
         min={allDur[0]}
@@ -157,13 +157,13 @@ const Vac = ({ dose, duration, dateFmt }) => {
       yAxes: [
         {
           id: "y-axis-cumul",
-          position: "left",
+          position: "right",
           gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
           ticks: chartSettings.scales.yAxes.ticksStyle.blue,
         },
         {
           id: "y-axis-var",
-          position: "right",
+          position: "left",
           gridLines: chartSettings.scales.yAxes.gridLinesStyle.hidden,
           ticks: chartSettings.scales.yAxes.ticksStyle.red,
         },
@@ -193,7 +193,7 @@ const VacTrend = ({ dose, dateFmt }) => {
         defaultValue={defaultValue}
         aria-labelledby="discrete-slider-restrict"
         valueLabelDisplay="off"
-        step={null}
+        step={15}
         marks={marks}
         max={maxDur}
         min={allDur[0]}

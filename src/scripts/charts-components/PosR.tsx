@@ -7,11 +7,11 @@ import { digestLatestDate2021ISO } from "../dateVariables";
 import { chartSettings } from "../chartSettings";
 import { arrayOfDates as arrD, toLabelDateMD as lblDateMD, toLabelDateDM as lblDateDM, trimDecimal } from "../utils";
 
-const maxDur: number = 360;
+const maxDur: number = 480;
 const datesInMaxDur: string[] = arrD(digestLatestDate2021ISO, maxDur);
 const dataInMaxDur = datesInMaxDur.map((d) => trimDecimal(od[d]?.posR, 2));
 
-const allDur = [60, 120, 180, 270, 360]; // last one = maxDur
+const allDur = [60, 120, 180, 270, 360, 480]; // last one = maxDur
 const marks = allDur.map((x) => {
   return { value: x, label: x };
 });
@@ -76,7 +76,7 @@ export const PosRTrend = () => {
         defaultValue={defaultValue}
         aria-labelledby="discrete-slider-restrict"
         valueLabelDisplay="off"
-        step={null}
+        step={30}
         marks={marks}
         max={maxDur}
         min={allDur[0]}

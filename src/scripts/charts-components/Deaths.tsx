@@ -12,14 +12,14 @@ import {
   toLabelDateDM as lblDateDM,
 } from "../utils";
 
-const maxDur: number = 360;
+const maxDur: number = 480;
 const datesInMaxDur: string[] = arrD(digestLatestDate2021ISO, maxDur);
 const dataInMaxDur = {
   cumul: datesInMaxDur.map((d) => od[d]?.deathsCumul),
   new: datesInMaxDur.map((d) => od[d]?.deathsCumul - od[tdb(d)]?.deathsCumul),
 };
 
-const allDur = [15, 30, 60, 90, 120, 180, 240, 360]; // last one = maxDur
+const allDur = [15, 90, 180, 270, 360, 480]; // last one = maxDur
 const marks = allDur.map((x) => {
   return { value: x, label: x };
 });
@@ -64,13 +64,13 @@ const Deaths = ({ duration, dateFmt }) => {
       yAxes: [
         {
           id: "y-axis-cumul",
-          position: "left",
+          position: "right",
           gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
           ticks: chartSettings.scales.yAxes.ticksStyle.blue,
         },
         {
           id: "y-axis-var",
-          position: "right",
+          position: "left",
           gridLines: chartSettings.scales.yAxes.gridLinesStyle.hidden,
           ticks: {
             ...chartSettings.scales.yAxes.ticksStyle.red,
@@ -107,7 +107,7 @@ export const DeathsTrend = () => {
         defaultValue={defaultValue}
         aria-labelledby="discrete-slider-restrict"
         valueLabelDisplay="off"
-        step={null}
+        step={15}
         marks={marks}
         max={maxDur}
         min={allDur[0]}

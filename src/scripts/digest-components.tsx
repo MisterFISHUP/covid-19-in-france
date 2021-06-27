@@ -593,7 +593,7 @@ export const ChartCases = ({ date }) => {
       yAxes: [
         {
           id: "y-axis-cumul",
-          position: "left",
+          position: "right",
           gridLines: chartSettings.scales.yAxes.gridLinesStyle.visible,
           ticks: {
             ...chartSettings.scales.yAxes.ticksStyle.blue,
@@ -603,7 +603,7 @@ export const ChartCases = ({ date }) => {
         },
         {
           id: "y-axis-var",
-          position: "right",
+          position: "left",
           gridLines: chartSettings.scales.yAxes.gridLinesStyle.hidden,
           ticks: {
             ...chartSettings.scales.yAxes.ticksStyle.red,
