@@ -1127,7 +1127,7 @@
         "casesEhpadEmsCumul": 37405,
         "deathsEhpadEmsCumul": 10350,
         "incidR": 4.98845302752388,
-        "r": 0.81,
+        "r": 0.82,
         "icuOccupR": 23.3,
         "posR": 1.48888671475457
     },
@@ -1511,7 +1511,7 @@
         "casesEhpadEmsCumul": 37995,
         "deathsEhpadEmsCumul": 10488,
         "incidR": 5.17619050705435,
-        "r": 0.94,
+        "r": 0.93,
         "icuOccupR": 11.7,
         "posR": 1.32413982367672
     },
@@ -1559,7 +1559,7 @@
         "casesEhpadEmsCumul": 38107,
         "deathsEhpadEmsCumul": 10497,
         "incidR": 5.5397456261451,
-        "r": 1.0,
+        "r": 0.99,
         "icuOccupR": 11.3,
         "posR": 1.28994653556721
     },
@@ -1575,7 +1575,7 @@
         "casesEhpadEmsCumul": 38107,
         "deathsEhpadEmsCumul": 10497,
         "incidR": 5.48163640629043,
-        "r": 1.02,
+        "r": 1.01,
         "icuOccupR": 11.0,
         "posR": 1.22720464863386
     },
@@ -1591,7 +1591,7 @@
         "casesEhpadEmsCumul": 38107,
         "deathsEhpadEmsCumul": 10497,
         "incidR": 5.60232478598859,
-        "r": 1.03,
+        "r": 1.04,
         "icuOccupR": 10.8,
         "posR": 1.19420809075981
     },
@@ -1623,7 +1623,7 @@
         "casesEhpadEmsCumul": 38107,
         "deathsEhpadEmsCumul": 10497,
         "incidR": 5.87499112530665,
-        "r": 1.05,
+        "r": 1.06,
         "icuOccupR": 10.2,
         "posR": 1.1852444134498
     },
@@ -1639,7 +1639,7 @@
         "casesEhpadEmsCumul": 38107,
         "deathsEhpadEmsCumul": 10497,
         "incidR": 5.70960334572028,
-        "r": 1.06,
+        "r": 1.07,
         "icuOccupR": 10.3,
         "posR": 1.15095121672844
     },
@@ -1655,7 +1655,7 @@
         "casesEhpadEmsCumul": 38107,
         "deathsEhpadEmsCumul": 10497,
         "incidR": 5.71705324570165,
-        "r": 1.07,
+        "r": 1.08,
         "icuOccupR": 10.3,
         "posR": 1.13512985802741
     },
@@ -1783,7 +1783,7 @@
         "casesEhpadEmsCumul": 39256,
         "deathsEhpadEmsCumul": 10476,
         "incidR": 5.67086386581717,
-        "r": 1.19,
+        "r": 1.18,
         "icuOccupR": 9.2,
         "posR": 1.11181869701626
     },
@@ -1847,7 +1847,7 @@
         "casesEhpadEmsCumul": 39464,
         "deathsEhpadEmsCumul": 10541,
         "incidR": 6.59763142349932,
-        "r": 1.29,
+        "r": 1.3,
         "icuOccupR": 8.9,
         "posR": 1.11309698875591
     },
@@ -1879,7 +1879,7 @@
         "casesEhpadEmsCumul": 39464,
         "deathsEhpadEmsCumul": 10541,
         "incidR": 6.93883684264597,
-        "r": 1.36,
+        "r": 1.37,
         "icuOccupR": 8.7,
         "posR": 1.12678987074702
     },
@@ -1911,7 +1911,7 @@
         "casesEhpadEmsCumul": 39554,
         "deathsEhpadEmsCumul": 10516,
         "incidR": 8.77300221805872,
-        "r": 1.42,
+        "r": 1.41,
         "icuOccupR": 8.3,
         "posR": 1.18258815684557
     },
@@ -1927,7 +1927,7 @@
         "casesEhpadEmsCumul": 39554,
         "deathsEhpadEmsCumul": 10516,
         "incidR": 9.03076875741405,
-        "r": 1.43,
+        "r": 1.42,
         "icuOccupR": 8.1,
         "posR": 1.20788543323249
     },
@@ -1943,7 +1943,7 @@
         "casesEhpadEmsCumul": 39554,
         "deathsEhpadEmsCumul": 10516,
         "incidR": 9.49713249624767,
-        "r": 1.44,
+        "r": 1.43,
         "icuOccupR": 7.6,
         "posR": 1.26461479246151
     },
@@ -1991,7 +1991,7 @@
         "casesEhpadEmsCumul": 39554,
         "deathsEhpadEmsCumul": 10516,
         "incidR": 10.4641295138292,
-        "r": 1.4,
+        "r": 1.41,
         "icuOccupR": 7.4,
         "posR": 1.35271004275974
     },
@@ -2007,7 +2007,7 @@
         "casesEhpadEmsCumul": 39638,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 10.860464192838,
-        "r": 1.38,
+        "r": 1.39,
         "icuOccupR": 7.1,
         "posR": 1.36549269389284
     },
@@ -2023,7 +2023,7 @@
         "casesEhpadEmsCumul": 39638,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 11.3149080917014,
-        "r": 1.37,
+        "r": 1.38,
         "icuOccupR": 7.0,
         "posR": 1.37460154837262
     },
@@ -2055,7 +2055,7 @@
         "casesEhpadEmsCumul": 39638,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 12.4413329688842,
-        "r": 1.36,
+        "r": 1.35,
         "icuOccupR": 6.9,
         "posR": 1.43089709536458
     },
@@ -2071,7 +2071,7 @@
         "casesEhpadEmsCumul": 39638,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 12.6901596282619,
-        "r": 1.36,
+        "r": 1.35,
         "icuOccupR": 6.8,
         "posR": 1.44869605448472
     },
@@ -2087,7 +2087,7 @@
         "casesEhpadEmsCumul": 39638,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 12.6692999083141,
-        "r": 1.37,
+        "r": 1.35,
         "icuOccupR": 6.8,
         "posR": 1.44279062822392
     },
@@ -2103,7 +2103,7 @@
         "casesEhpadEmsCumul": 39638,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 13.551368066108,
-        "r": 1.37,
+        "r": 1.36,
         "icuOccupR": 7.1,
         "posR": 1.51977461550287
     },
@@ -2151,7 +2151,7 @@
         "casesEhpadEmsCumul": 39645,
         "deathsEhpadEmsCumul": 10506,
         "incidR": 16.1513831596054,
-        "r": 1.36,
+        "r": 1.37,
         "icuOccupR": 7.2,
         "posR": 1.79553732779654
     },
@@ -2231,7 +2231,7 @@
         "casesEhpadEmsCumul": 39744,
         "deathsEhpadEmsCumul": 10505,
         "incidR": 19.9731818500471,
-        "r": 1.37,
+        "r": 1.38,
         "icuOccupR": 7.3,
         "posR": 2.19740049406677
     },
@@ -2247,7 +2247,7 @@
         "casesEhpadEmsCumul": 39744,
         "deathsEhpadEmsCumul": 10505,
         "incidR": 21.3603532265778,
-        "r": 1.38,
+        "r": 1.39,
         "icuOccupR": 7.0,
         "posR": 2.33383854252304
     },
@@ -2263,7 +2263,7 @@
         "casesEhpadEmsCumul": 39744,
         "deathsEhpadEmsCumul": 10505,
         "incidR": 23.4180156014315,
-        "r": 1.39,
+        "r": 1.4,
         "icuOccupR": 6.9,
         "posR": 2.51194279604469
     },
@@ -2279,7 +2279,7 @@
         "casesEhpadEmsCumul": 39744,
         "deathsEhpadEmsCumul": 10505,
         "incidR": 25.7662240755587,
-        "r": 1.4,
+        "r": 1.41,
         "icuOccupR": 6.8,
         "posR": 2.67294625357825
     },
@@ -2311,7 +2311,7 @@
         "casesEhpadEmsCumul": 39744,
         "deathsEhpadEmsCumul": 10505,
         "incidR": 25.7855938155102,
-        "r": 1.45,
+        "r": 1.44,
         "icuOccupR": 7.0,
         "posR": 2.74813572671723
     },
@@ -2327,7 +2327,7 @@
         "casesEhpadEmsCumul": 39744,
         "deathsEhpadEmsCumul": 10505,
         "incidR": 29.0352401873829,
-        "r": 1.47,
+        "r": 1.46,
         "icuOccupR": 7.1,
         "posR": 2.92732096128251
     },
@@ -2343,7 +2343,7 @@
         "casesEhpadEmsCumul": 39930,
         "deathsEhpadEmsCumul": 10511,
         "incidR": 32.0852292397548,
-        "r": 1.5,
+        "r": 1.48,
         "icuOccupR": 7.1,
         "posR": 3.06151173337807
     },
@@ -2359,7 +2359,7 @@
         "casesEhpadEmsCumul": 39930,
         "deathsEhpadEmsCumul": 10511,
         "incidR": 35.0041000524547,
-        "r": 1.51,
+        "r": 1.5,
         "icuOccupR": 7.2,
         "posR": 3.18785161624742
     },
@@ -2407,7 +2407,7 @@
         "casesEhpadEmsCumul": 39930,
         "deathsEhpadEmsCumul": 10511,
         "incidR": 41.4244238563975,
-        "r": 1.48,
+        "r": 1.49,
         "icuOccupR": 7.3,
         "posR": 3.29149800926052
     },
@@ -2423,7 +2423,7 @@
         "casesEhpadEmsCumul": 39930,
         "deathsEhpadEmsCumul": 10511,
         "incidR": 41.9027074352013,
-        "r": 1.47,
+        "r": 1.48,
         "icuOccupR": 7.3,
         "posR": 3.32354418412267
     },
@@ -2519,7 +2519,7 @@
         "casesEhpadEmsCumul": 40083,
         "deathsEhpadEmsCumul": 10507,
         "incidR": 58.8661296927758,
-        "r": 1.4,
+        "r": 1.41,
         "icuOccupR": 7.8,
         "posR": 3.7992553044174
     },
@@ -2535,7 +2535,7 @@
         "casesEhpadEmsCumul": 40083,
         "deathsEhpadEmsCumul": 10507,
         "incidR": 59.319083611643,
-        "r": 1.38,
+        "r": 1.39,
         "icuOccupR": 7.8,
         "posR": 3.81339535097567
     },
@@ -2599,7 +2599,7 @@
         "casesEhpadEmsCumul": 40300,
         "deathsEhpadEmsCumul": 10514,
         "incidR": 73.1982472769312,
-        "r": 1.35,
+        "r": 1.34,
         "icuOccupR": 9.1,
         "posR": 4.41267349072501
     },
@@ -2615,7 +2615,7 @@
         "casesEhpadEmsCumul": 40300,
         "deathsEhpadEmsCumul": 10476,
         "incidR": 76.8799878477232,
-        "r": 1.34,
+        "r": 1.33,
         "icuOccupR": 9.2,
         "posR": 4.56462736688641
     },
@@ -2663,7 +2663,7 @@
         "casesEhpadEmsCumul": 40300,
         "deathsEhpadEmsCumul": 10476,
         "incidR": 82.7788186529702,
-        "r": 1.3,
+        "r": 1.31,
         "icuOccupR": 10.5,
         "posR": 4.78537848392815
     },
@@ -2679,7 +2679,7 @@
         "casesEhpadEmsCumul": 40876,
         "deathsEhpadEmsCumul": 10475,
         "incidR": 86.9567225625212,
-        "r": 1.29,
+        "r": 1.3,
         "icuOccupR": 11.2,
         "posR": 4.84500966743846
     },
@@ -2759,7 +2759,7 @@
         "casesEhpadEmsCumul": 41389,
         "deathsEhpadEmsCumul": 10515,
         "incidR": 96.3435965390447,
-        "r": 1.24,
+        "r": 1.23,
         "icuOccupR": 13.1,
         "posR": 4.79258280344711
     },
@@ -2839,7 +2839,7 @@
         "casesEhpadEmsCumul": 42699,
         "deathsEhpadEmsCumul": 10560,
         "incidR": 111.444543801277,
-        "r": 1.18,
+        "r": 1.17,
         "icuOccupR": 16.2,
         "posR": 5.3772663190428
     },
@@ -2855,7 +2855,7 @@
         "casesEhpadEmsCumul": 42699,
         "deathsEhpadEmsCumul": 10560,
         "incidR": 112.497959658643,
-        "r": 1.17,
+        "r": 1.16,
         "icuOccupR": 16.4,
         "posR": 5.45533235743362
     },
@@ -2887,7 +2887,7 @@
         "casesEhpadEmsCumul": 42699,
         "deathsEhpadEmsCumul": 10560,
         "incidR": 114.199516814387,
-        "r": 1.14,
+        "r": 1.13,
         "icuOccupR": 18.0,
         "posR": 5.675872819571
     },
@@ -2935,7 +2935,7 @@
         "casesEhpadEmsCumul": 43555,
         "deathsEhpadEmsCumul": 10571,
         "incidR": 113.047762277268,
-        "r": 1.06,
+        "r": 1.07,
         "icuOccupR": 20.6,
         "posR": 6.22361268444975
     },
@@ -3111,7 +3111,7 @@
         "casesEhpadEmsCumul": 45701,
         "deathsEhpadEmsCumul": 10781,
         "incidR": 130.528207593549,
-        "r": 1.2,
+        "r": 1.19,
         "icuOccupR": 27.9,
         "posR": 7.87790169618946
     },
@@ -3175,7 +3175,7 @@
         "casesEhpadEmsCumul": 47549,
         "deathsEhpadEmsCumul": 10832,
         "incidR": 175.322966201517,
-        "r": 1.36,
+        "r": 1.37,
         "icuOccupR": 28.4,
         "posR": 9.53677723259369
     },
@@ -3191,7 +3191,7 @@
         "casesEhpadEmsCumul": 47549,
         "deathsEhpadEmsCumul": 10832,
         "incidR": 181.418474366272,
-        "r": 1.38,
+        "r": 1.39,
         "icuOccupR": 28.8,
         "posR": 9.68214688420929
     },
@@ -3223,7 +3223,7 @@
         "casesEhpadEmsCumul": 47549,
         "deathsEhpadEmsCumul": 10832,
         "incidR": 198.568144123381,
-        "r": 1.4,
+        "r": 1.39,
         "icuOccupR": 30.4,
         "posR": 10.1263081590831
     },
@@ -3239,7 +3239,7 @@
         "casesEhpadEmsCumul": 48845,
         "deathsEhpadEmsCumul": 10856,
         "incidR": 211.873665490104,
-        "r": 1.4,
+        "r": 1.39,
         "icuOccupR": 32.3,
         "posR": 10.3803452401548
     },
@@ -3303,7 +3303,7 @@
         "casesEhpadEmsCumul": 48845,
         "deathsEhpadEmsCumul": 10912,
         "incidR": 258.142014314387,
-        "r": 1.4,
+        "r": 1.41,
         "icuOccupR": 36.9,
         "posR": 10.895954738758
     },
@@ -3319,7 +3319,7 @@
         "casesEhpadEmsCumul": 48845,
         "deathsEhpadEmsCumul": 10912,
         "incidR": 260.350164668864,
-        "r": 1.4,
+        "r": 1.42,
         "icuOccupR": 38.3,
         "posR": 10.9359050344818
     },
@@ -3335,7 +3335,7 @@
         "casesEhpadEmsCumul": 48845,
         "deathsEhpadEmsCumul": 10912,
         "incidR": 280.569193218296,
-        "r": 1.42,
+        "r": 1.43,
         "icuOccupR": 41.3,
         "posR": 11.4434551572545
     },
@@ -3367,7 +3367,7 @@
         "casesEhpadEmsCumul": 53385,
         "deathsEhpadEmsCumul": 11012,
         "incidR": 330.818768592622,
-        "r": 1.46,
+        "r": 1.45,
         "icuOccupR": 44.3,
         "posR": 12.8056517456092
     },
@@ -3383,7 +3383,7 @@
         "casesEhpadEmsCumul": 53385,
         "deathsEhpadEmsCumul": 11012,
         "incidR": 359.281856461436,
-        "r": 1.48,
+        "r": 1.46,
         "icuOccupR": 45.7,
         "posR": 13.4894115738449
     },
@@ -3399,7 +3399,7 @@
         "casesEhpadEmsCumul": 57261,
         "deathsEhpadEmsCumul": 11126,
         "incidR": 391.712761060326,
-        "r": 1.48,
+        "r": 1.47,
         "icuOccupR": 48.1,
         "posR": 14.1907665933103
     },
@@ -3431,7 +3431,7 @@
         "casesEhpadEmsCumul": 57261,
         "deathsEhpadEmsCumul": 11126,
         "incidR": 410.321121233787,
-        "r": 1.46,
+        "r": 1.47,
         "icuOccupR": 50.9,
         "posR": 14.6075533208822
     },
@@ -3447,7 +3447,7 @@
         "casesEhpadEmsCumul": 57261,
         "deathsEhpadEmsCumul": 11126,
         "incidR": 445.287971786335,
-        "r": 1.44,
+        "r": 1.45,
         "icuOccupR": 54.6,
         "posR": 15.3224007854618,
         "hospiWeek": 13066,
@@ -3471,7 +3471,7 @@
         "casesEhpadEmsCumul": 62297,
         "deathsEhpadEmsCumul": 11361,
         "incidR": 470.86347842237,
-        "r": 1.41,
+        "r": 1.42,
         "icuOccupR": 57.5,
         "posR": 15.7200574243222,
         "hospiWeek": 14110,
@@ -3567,7 +3567,7 @@
         "casesEhpadEmsCumul": 68349,
         "deathsEhpadEmsCumul": 11651,
         "incidR": 499.982157489545,
-        "r": 1.26,
+        "r": 1.25,
         "icuOccupR": 68.1,
         "posR": 15.7787403640796,
         "hospiWeek": 16865,
@@ -3735,7 +3735,7 @@
         "casesEhpadEmsCumul": 80369,
         "deathsEhpadEmsCumul": 12509,
         "incidR": 441.332074896228,
-        "r": 0.94,
+        "r": 0.93,
         "icuOccupR": 87.2,
         "posR": 14.2524786657909,
         "hospiWeek": 20009,
@@ -3903,7 +3903,7 @@
         "casesEhpadEmsCumul": 94240,
         "deathsEhpadEmsCumul": 13739,
         "incidR": 255.227613441676,
-        "r": 0.65,
+        "r": 0.66,
         "icuOccupR": 96.0,
         "posR": 10.8160670018273,
         "hospiWeek": 17631,
@@ -3975,7 +3975,7 @@
         "casesEhpadEmsCumul": 101482,
         "deathsEhpadEmsCumul": 14530,
         "incidR": 203.720494950495,
-        "r": 0.63,
+        "r": 0.62,
         "icuOccupR": 95.7,
         "posR": 9.72289877168642,
         "hospiWeek": 16120,
@@ -4000,7 +4000,7 @@
         "casesEhpadEmsCumul": 101482,
         "deathsEhpadEmsCumul": 14530,
         "incidR": 221.583865125819,
-        "r": 0.63,
+        "r": 0.62,
         "icuOccupR": 94.1,
         "posR": 9.54832363729519,
         "hospiWeek": 15960,
@@ -4104,7 +4104,7 @@
         "casesEhpadEmsCumul": 107460,
         "deathsEhpadEmsCumul": 15287,
         "incidR": 166.48142490363,
-        "r": 0.61,
+        "r": 0.62,
         "icuOccupR": 88.8,
         "posR": 8.1324435251021,
         "hospiWeek": 13585,
@@ -4544,7 +4544,7 @@
         "casesEhpadEmsCumul": 126828,
         "deathsEhpadEmsCumul": 17613,
         "incidR": 112.755726197998,
-        "r": 0.96,
+        "r": 0.95,
         "icuOccupR": 59.9,
         "posR": 6.26001962150027,
         "hospiWeek": 8505,
@@ -4568,7 +4568,7 @@
         "casesEhpadEmsCumul": 126828,
         "deathsEhpadEmsCumul": 17613,
         "incidR": 115.02198577233,
-        "r": 0.99,
+        "r": 0.98,
         "icuOccupR": 58.3,
         "posR": 6.24240895189762,
         "hospiWeek": 8503,
@@ -4664,7 +4664,7 @@
         "casesEhpadEmsCumul": 129501,
         "deathsEhpadEmsCumul": 17936,
         "incidR": 124.008055129856,
-        "r": 1.08,
+        "r": 1.09,
         "icuOccupR": 57.3,
         "posR": 6.06318893665444,
         "hospiWeek": 8722,
@@ -4688,7 +4688,7 @@
         "casesEhpadEmsCumul": 133545,
         "deathsEhpadEmsCumul": 18419,
         "incidR": 128.013121359839,
-        "r": 1.1,
+        "r": 1.11,
         "icuOccupR": 56.8,
         "posR": 5.88543554045158,
         "hospiWeek": 8693,
@@ -4712,7 +4712,7 @@
         "casesEhpadEmsCumul": 133545,
         "deathsEhpadEmsCumul": 18419,
         "incidR": 131.955608429979,
-        "r": 1.12,
+        "r": 1.13,
         "icuOccupR": 56.1,
         "posR": 5.57171374771704,
         "hospiWeek": 8979,
@@ -4760,7 +4760,7 @@
         "casesEhpadEmsCumul": 137358,
         "deathsEhpadEmsCumul": 18774,
         "incidR": 140.470844108682,
-        "r": 1.16,
+        "r": 1.15,
         "icuOccupR": 54.6,
         "posR": 4.66765191516961,
         "hospiWeek": 8830,
@@ -4784,7 +4784,7 @@
         "casesEhpadEmsCumul": 137358,
         "deathsEhpadEmsCumul": 18774,
         "incidR": 144.693447418122,
-        "r": 1.16,
+        "r": 1.15,
         "icuOccupR": 53.7,
         "posR": 4.3682164806599,
         "hospiWeek": 8736,
@@ -4856,7 +4856,7 @@
         "casesEhpadEmsCumul": 140766,
         "deathsEhpadEmsCumul": 19195,
         "incidR": 153.046275277231,
-        "r": 1.1,
+        "r": 1.11,
         "icuOccupR": 53.8,
         "posR": 3.35796413555561,
         "hospiWeek": 8887,
@@ -4928,7 +4928,7 @@
         "casesEhpadEmsCumul": 140766,
         "deathsEhpadEmsCumul": 19195,
         "incidR": 126.766008102958,
-        "r": 1.0,
+        "r": 0.99,
         "icuOccupR": 51.7,
         "posR": 2.72525674507371,
         "hospiWeek": 8194,
@@ -4952,7 +4952,7 @@
         "casesEhpadEmsCumul": 140766,
         "deathsEhpadEmsCumul": 19195,
         "incidR": 125.383306666416,
-        "r": 0.97,
+        "r": 0.96,
         "icuOccupR": 52.2,
         "posR": 2.79653838190856,
         "hospiWeek": 7720,
@@ -4965,7 +4965,7 @@
         ]
     },
     "2020-12-27": {
-        "vac1": 21,
+        "vac1": 22,
         "vac2": 2,
         "casesCumul": 2559686,
         "deathsCumul": 62746,
@@ -4978,7 +4978,7 @@
         "casesEhpadEmsCumul": 140766,
         "deathsEhpadEmsCumul": 19195,
         "incidR": 123.044038072267,
-        "r": 0.95,
+        "r": 0.94,
         "icuOccupR": 52.4,
         "posR": 2.80980841952402,
         "hospiWeek": 7715,
@@ -4991,7 +4991,7 @@
         ]
     },
     "2020-12-28": {
-        "vac1": 98,
+        "vac1": 104,
         "vac2": 2,
         "casesCumul": 2562646,
         "deathsCumul": 63109,
@@ -5004,7 +5004,7 @@
         "casesEhpadEmsCumul": 140766,
         "deathsEhpadEmsCumul": 19195,
         "incidR": 124.204732489364,
-        "r": 0.94,
+        "r": 0.93,
         "icuOccupR": 53.3,
         "posR": 3.15660008118703,
         "hospiWeek": 7634,
@@ -5017,7 +5017,7 @@
         ]
     },
     "2020-12-29": {
-        "vac1": 206,
+        "vac1": 213,
         "vac2": 2,
         "casesCumul": 2574041,
         "deathsCumul": 64078,
@@ -5043,7 +5043,7 @@
         ]
     },
     "2020-12-30": {
-        "vac1": 331,
+        "vac1": 341,
         "vac2": 2,
         "casesCumul": 2600498,
         "deathsCumul": 64381,
@@ -5056,7 +5056,7 @@
         "casesEhpadEmsCumul": 145914,
         "deathsEhpadEmsCumul": 19780,
         "incidR": 129.529920996046,
-        "r": 0.95,
+        "r": 0.96,
         "icuOccupR": 52.4,
         "posR": 4.49770598059241,
         "hospiWeek": 7451,
@@ -5069,7 +5069,7 @@
         ]
     },
     "2020-12-31": {
-        "vac1": 419,
+        "vac1": 431,
         "vac2": 2,
         "casesCumul": 2620425,
         "deathsCumul": 64632,
@@ -5082,7 +5082,7 @@
         "casesEhpadEmsCumul": 145914,
         "deathsEhpadEmsCumul": 19780,
         "incidR": 133.357679606472,
-        "r": 0.97,
+        "r": 0.98,
         "icuOccupR": 51.9,
         "posR": 5.05575263229247,
         "hospiWeek": 7306,
@@ -5095,7 +5095,7 @@
         ]
     },
     "2021-01-01": {
-        "vac1": 495,
+        "vac1": 508,
         "vac2": 3,
         "casesCumul": 2639773,
         "deathsCumul": 64765,
@@ -5108,7 +5108,7 @@
         "casesEhpadEmsCumul": 145914,
         "deathsEhpadEmsCumul": 19780,
         "incidR": 133.678025305671,
-        "r": 1.0,
+        "r": 1.01,
         "icuOccupR": 51.6,
         "posR": 5.08465354783206,
         "hospiWeek": 7242,
@@ -5121,7 +5121,7 @@
         ]
     },
     "2021-01-02": {
-        "vac1": 588,
+        "vac1": 602,
         "vac2": 7,
         "casesCumul": 2643239,
         "deathsCumul": 64921,
@@ -5134,7 +5134,7 @@
         "casesEhpadEmsCumul": 145914,
         "deathsEhpadEmsCumul": 19780,
         "incidR": 139.113472332077,
-        "r": 1.03,
+        "r": 1.04,
         "icuOccupR": 52.0,
         "posR": 5.29590438943043,
         "hospiWeek": 7380,
@@ -5147,7 +5147,7 @@
         ]
     },
     "2021-01-03": {
-        "vac1": 687,
+        "vac1": 700,
         "vac2": 7,
         "casesCumul": 2655728,
         "deathsCumul": 65037,
@@ -5173,7 +5173,7 @@
         ]
     },
     "2021-01-04": {
-        "vac1": 2170,
+        "vac1": 2189,
         "vac2": 14,
         "casesCumul": 2659750,
         "deathsCumul": 65415,
@@ -5186,7 +5186,7 @@
         "casesEhpadEmsCumul": 145914,
         "deathsEhpadEmsCumul": 19780,
         "incidR": 148.762582787945,
-        "r": 1.11,
+        "r": 1.1,
         "icuOccupR": 52.5,
         "posR": 5.62288033934845,
         "hospiWeek": 7490,
@@ -5199,7 +5199,7 @@
         ]
     },
     "2021-01-05": {
-        "vac1": 7606,
+        "vac1": 7639,
         "vac2": 36,
         "casesCumul": 2680239,
         "deathsCumul": 66282,
@@ -5212,7 +5212,7 @@
         "casesEhpadEmsCumul": 149671,
         "deathsEhpadEmsCumul": 20302,
         "incidR": 152.576931578405,
-        "r": 1.14,
+        "r": 1.13,
         "icuOccupR": 51.7,
         "posR": 5.83869772215412,
         "hospiWeek": 7583,
@@ -5225,8 +5225,8 @@
         ]
     },
     "2021-01-06": {
-        "vac1": 18944,
-        "vac2": 77,
+        "vac1": 18990,
+        "vac2": 79,
         "casesCumul": 2705618,
         "deathsCumul": 66565,
         "hospi": 24741,
@@ -5251,8 +5251,8 @@
         ]
     },
     "2021-01-07": {
-        "vac1": 47653,
-        "vac2": 151,
+        "vac1": 47714,
+        "vac2": 156,
         "casesCumul": 2727321,
         "deathsCumul": 66841,
         "hospi": 24521,
@@ -5264,7 +5264,7 @@
         "casesEhpadEmsCumul": 149671,
         "deathsEhpadEmsCumul": 20302,
         "incidR": 157.771001845415,
-        "r": 1.18,
+        "r": 1.17,
         "icuOccupR": 50.9,
         "posR": 6.32432219354022,
         "hospiWeek": 7736,
@@ -5277,8 +5277,8 @@
         ]
     },
     "2021-01-08": {
-        "vac1": 84031,
-        "vac2": 247,
+        "vac1": 84118,
+        "vac2": 256,
         "casesCumul": 2747135,
         "deathsCumul": 67431,
         "hospi": 24410,
@@ -5290,7 +5290,7 @@
         "casesEhpadEmsCumul": 152693,
         "deathsEhpadEmsCumul": 20616,
         "incidR": 184.417804098771,
-        "r": 1.19,
+        "r": 1.18,
         "icuOccupR": 51.5,
         "posR": 6.28882819942839,
         "hospiWeek": 8483,
@@ -5303,8 +5303,8 @@
         ]
     },
     "2021-01-09": {
-        "vac1": 94998,
-        "vac2": 271,
+        "vac1": 95091,
+        "vac2": 280,
         "casesCumul": 2767312,
         "deathsCumul": 67599,
         "hospi": 24273,
@@ -5329,8 +5329,8 @@
         ]
     },
     "2021-01-10": {
-        "vac1": 100651,
-        "vac2": 280,
+        "vac1": 100761,
+        "vac2": 290,
         "casesCumul": 2783256,
         "deathsCumul": 67750,
         "hospi": 24559,
@@ -5355,8 +5355,8 @@
         ]
     },
     "2021-01-11": {
-        "vac1": 139834,
-        "vac2": 396,
+        "vac1": 140006,
+        "vac2": 413,
         "casesCumul": 2786838,
         "deathsCumul": 68060,
         "hospi": 24846,
@@ -5381,8 +5381,8 @@
         ]
     },
     "2021-01-12": {
-        "vac1": 200944,
-        "vac2": 581,
+        "vac1": 201148,
+        "vac2": 602,
         "casesCumul": 2806590,
         "deathsCumul": 68802,
         "hospi": 24737,
@@ -5407,8 +5407,8 @@
         ]
     },
     "2021-01-13": {
-        "vac1": 264979,
-        "vac2": 811,
+        "vac1": 265255,
+        "vac2": 841,
         "casesCumul": 2830442,
         "deathsCumul": 69031,
         "hospi": 24769,
@@ -5433,8 +5433,8 @@
         ]
     },
     "2021-01-14": {
-        "vac1": 345147,
-        "vac2": 1574,
+        "vac1": 345475,
+        "vac2": 1623,
         "casesCumul": 2851670,
         "deathsCumul": 69313,
         "hospi": 25017,
@@ -5446,7 +5446,7 @@
         "casesEhpadEmsCumul": 156006,
         "deathsEhpadEmsCumul": 21003,
         "incidR": 177.432777876241,
-        "r": 1.09,
+        "r": 1.1,
         "icuOccupR": 53.7,
         "posR": 6.3459176305391,
         "hospiWeek": 9214,
@@ -5459,8 +5459,8 @@
         ]
     },
     "2021-01-15": {
-        "vac1": 412861,
-        "vac2": 1921,
+        "vac1": 413243,
+        "vac2": 1979,
         "casesCumul": 2872941,
         "deathsCumul": 69949,
         "hospi": 25043,
@@ -5472,7 +5472,7 @@
         "casesEhpadEmsCumul": 159791,
         "deathsEhpadEmsCumul": 21359,
         "incidR": 179.667747870651,
-        "r": 1.08,
+        "r": 1.09,
         "icuOccupR": 54.0,
         "posR": 6.4129305237496,
         "hospiWeek": 9405,
@@ -5485,8 +5485,8 @@
         ]
     },
     "2021-01-16": {
-        "vac1": 432644,
-        "vac2": 2058,
+        "vac1": 433012,
+        "vac2": 2119,
         "casesCumul": 2894347,
         "deathsCumul": 70142,
         "hospi": 25019,
@@ -5498,7 +5498,7 @@
         "casesEhpadEmsCumul": 159791,
         "deathsEhpadEmsCumul": 21359,
         "incidR": 181.005749907305,
-        "r": 1.07,
+        "r": 1.08,
         "icuOccupR": 54.0,
         "posR": 6.41638866998925,
         "hospiWeek": 9653,
@@ -5511,8 +5511,8 @@
         ]
     },
     "2021-01-17": {
-        "vac1": 443136,
-        "vac2": 2131,
+        "vac1": 443506,
+        "vac2": 2192,
         "casesCumul": 2910989,
         "deathsCumul": 70283,
         "hospi": 25269,
@@ -5524,7 +5524,7 @@
         "casesEhpadEmsCumul": 159791,
         "deathsEhpadEmsCumul": 21359,
         "incidR": 181.405064546306,
-        "r": 1.07,
+        "r": 1.08,
         "icuOccupR": 54.7,
         "posR": 6.42474108425355,
         "hospiWeek": 9631,
@@ -5537,8 +5537,8 @@
         ]
     },
     "2021-01-18": {
-        "vac1": 527738,
-        "vac2": 2512,
+        "vac1": 528164,
+        "vac2": 2594,
         "casesCumul": 2914725,
         "deathsCumul": 70686,
         "hospi": 25619,
@@ -5563,8 +5563,8 @@
         ]
     },
     "2021-01-19": {
-        "vac1": 656485,
-        "vac2": 2957,
+        "vac1": 656959,
+        "vac2": 3062,
         "casesCumul": 2938333,
         "deathsCumul": 71342,
         "hospi": 25567,
@@ -5589,8 +5589,8 @@
         ]
     },
     "2021-01-20": {
-        "vac1": 792055,
-        "vac2": 3406,
+        "vac1": 792634,
+        "vac2": 3526,
         "casesCumul": 2965117,
         "deathsCumul": 71652,
         "hospi": 25686,
@@ -5602,7 +5602,7 @@
         "casesEhpadEmsCumul": 162430,
         "deathsEhpadEmsCumul": 21646,
         "incidR": 191.976472619867,
-        "r": 1.09,
+        "r": 1.08,
         "icuOccupR": 56.2,
         "posR": 6.83241143901949,
         "hospiWeek": 10655,
@@ -5615,8 +5615,8 @@
         ]
     },
     "2021-01-21": {
-        "vac1": 947884,
-        "vac2": 3859,
+        "vac1": 948541,
+        "vac2": 4005,
         "casesCumul": 2987965,
         "deathsCumul": 71998,
         "hospi": 25735,
@@ -5628,7 +5628,7 @@
         "casesEhpadEmsCumul": 162430,
         "deathsEhpadEmsCumul": 21646,
         "incidR": 194.828294332734,
-        "r": 1.09,
+        "r": 1.08,
         "icuOccupR": 56.7,
         "posR": 6.85699932142666,
         "hospiWeek": 10717,
@@ -5641,8 +5641,8 @@
         ]
     },
     "2021-01-22": {
-        "vac1": 1066968,
-        "vac2": 4315,
+        "vac1": 1067711,
+        "vac2": 4480,
         "casesCumul": 3011257,
         "deathsCumul": 72647,
         "hospi": 25908,
@@ -5654,7 +5654,7 @@
         "casesEhpadEmsCumul": 166457,
         "deathsEhpadEmsCumul": 21976,
         "incidR": 197.692035885572,
-        "r": 1.09,
+        "r": 1.08,
         "icuOccupR": 57.4,
         "posR": 6.83717917469047,
         "hospiWeek": 10939,
@@ -5667,8 +5667,8 @@
         ]
     },
     "2021-01-23": {
-        "vac1": 1104874,
-        "vac2": 4409,
+        "vac1": 1105632,
+        "vac2": 4576,
         "casesCumul": 3035181,
         "deathsCumul": 72877,
         "hospi": 25900,
@@ -5693,8 +5693,8 @@
         ]
     },
     "2021-01-24": {
-        "vac1": 1114261,
-        "vac2": 4452,
+        "vac1": 1115025,
+        "vac2": 4623,
         "casesCumul": 3053617,
         "deathsCumul": 73049,
         "hospi": 26393,
@@ -5719,8 +5719,8 @@
         ]
     },
     "2021-01-25": {
-        "vac1": 1191324,
-        "vac2": 5847,
+        "vac1": 1192128,
+        "vac2": 6021,
         "casesCumul": 3057857,
         "deathsCumul": 73494,
         "hospi": 26924,
@@ -5745,8 +5745,8 @@
         ]
     },
     "2021-01-26": {
-        "vac1": 1290334,
-        "vac2": 9161,
+        "vac1": 1291207,
+        "vac2": 9345,
         "casesCumul": 3079943,
         "deathsCumul": 74106,
         "hospi": 27041,
@@ -5771,8 +5771,8 @@
         ]
     },
     "2021-01-27": {
-        "vac1": 1396183,
-        "vac2": 14995,
+        "vac1": 1397093,
+        "vac2": 15220,
         "casesCumul": 3106859,
         "deathsCumul": 74456,
         "hospi": 27169,
@@ -5792,8 +5792,8 @@
         "highVul": 100
     },
     "2021-01-28": {
-        "vac1": 1518842,
-        "vac2": 29676,
+        "vac1": 1519821,
+        "vac2": 29911,
         "casesCumul": 3130629,
         "deathsCumul": 74800,
         "hospi": 27166,
@@ -5813,8 +5813,8 @@
         "highVul": 100
     },
     "2021-01-29": {
-        "vac1": 1609912,
-        "vac2": 47195,
+        "vac1": 1610936,
+        "vac2": 47439,
         "casesCumul": 3153487,
         "deathsCumul": 75620,
         "hospi": 27308,
@@ -5826,7 +5826,7 @@
         "casesEhpadEmsCumul": 173312,
         "deathsEhpadEmsCumul": 22703,
         "incidR": 199.956805479908,
-        "r": 1.04,
+        "r": 1.03,
         "icuOccupR": 61.7,
         "posR": 6.43328370186219,
         "hospiWeek": 11165,
@@ -5834,8 +5834,8 @@
         "highVul": 100
     },
     "2021-01-30": {
-        "vac1": 1638626,
-        "vac2": 51473,
+        "vac1": 1639657,
+        "vac2": 51723,
         "casesCumul": 3177879,
         "deathsCumul": 75862,
         "hospi": 27282,
@@ -5855,8 +5855,8 @@
         "highVul": 100
     },
     "2021-01-31": {
-        "vac1": 1643510,
-        "vac2": 53162,
+        "vac1": 1644552,
+        "vac2": 53413,
         "casesCumul": 3197114,
         "deathsCumul": 76057,
         "hospi": 27613,
@@ -5868,7 +5868,7 @@
         "casesEhpadEmsCumul": 173312,
         "deathsEhpadEmsCumul": 22703,
         "incidR": 200.649646178175,
-        "r": 1.02,
+        "r": 1.03,
         "icuOccupR": 62.2,
         "posR": 6.39894245865059,
         "hospiWeek": 11117,
@@ -5876,8 +5876,8 @@
         "highVul": 100
     },
     "2021-02-01": {
-        "vac1": 1695212,
-        "vac2": 74377,
+        "vac1": 1696285,
+        "vac2": 74624,
         "casesCumul": 3201461,
         "deathsCumul": 76512,
         "hospi": 27914,
@@ -5889,7 +5889,7 @@
         "casesEhpadEmsCumul": 173312,
         "deathsEhpadEmsCumul": 22703,
         "incidR": 200.929762417475,
-        "r": 1.01,
+        "r": 1.02,
         "icuOccupR": 63.6,
         "posR": 6.42053978545511,
         "hospiWeek": 11093,
@@ -5897,8 +5897,8 @@
         "highVul": 100
     },
     "2021-02-02": {
-        "vac1": 1766036,
-        "vac2": 109112,
+        "vac1": 1767124,
+        "vac2": 109350,
         "casesCumul": 3224798,
         "deathsCumul": 77238,
         "hospi": 28071,
@@ -5910,7 +5910,7 @@
         "casesEhpadEmsCumul": 175811,
         "deathsEhpadEmsCumul": 23025,
         "incidR": 201.749251415425,
-        "r": 1.01,
+        "r": 1.02,
         "icuOccupR": 64.7,
         "posR": 6.377808519728,
         "hospiWeek": 11263,
@@ -5918,8 +5918,8 @@
         "highVul": 100
     },
     "2021-02-03": {
-        "vac1": 1837158,
-        "vac2": 146284,
+        "vac1": 1838273,
+        "vac2": 146501,
         "casesCumul": 3251160,
         "deathsCumul": 77595,
         "hospi": 27955,
@@ -5931,7 +5931,7 @@
         "casesEhpadEmsCumul": 175811,
         "deathsEhpadEmsCumul": 23025,
         "incidR": 201.138359616953,
-        "r": 1.0,
+        "r": 1.01,
         "icuOccupR": 64.6,
         "posR": 6.32847659765977,
         "hospiWeek": 11212,
@@ -5939,8 +5939,8 @@
         "highVul": 100
     },
     "2021-02-04": {
-        "vac1": 1917913,
-        "vac2": 196576,
+        "vac1": 1919063,
+        "vac2": 196782,
         "casesCumul": 3274608,
         "deathsCumul": 77952,
         "hospi": 27808,
@@ -5952,7 +5952,7 @@
         "casesEhpadEmsCumul": 175811,
         "deathsEhpadEmsCumul": 23025,
         "incidR": 198.639663163202,
-        "r": 1.0,
+        "r": 0.99,
         "icuOccupR": 64.1,
         "posR": 6.25063295412348,
         "hospiWeek": 11241,
@@ -5960,8 +5960,8 @@
         "highVul": 100
     },
     "2021-02-05": {
-        "vac1": 1985188,
-        "vac2": 242090,
+        "vac1": 1986365,
+        "vac2": 242271,
         "casesCumul": 3296747,
         "deathsCumul": 78603,
         "hospi": 27614,
@@ -5981,8 +5981,8 @@
         "highVul": 100
     },
     "2021-02-06": {
-        "vac1": 2006578,
-        "vac2": 252532,
+        "vac1": 2007781,
+        "vac2": 252706,
         "casesCumul": 3317333,
         "deathsCumul": 78794,
         "hospi": 27369,
@@ -6002,8 +6002,8 @@
         "highVul": 100
     },
     "2021-02-07": {
-        "vac1": 2011408,
-        "vac2": 257638,
+        "vac1": 2012615,
+        "vac2": 257816,
         "casesCumul": 3337048,
         "deathsCumul": 78965,
         "hospi": 27694,
@@ -6015,7 +6015,7 @@
         "casesEhpadEmsCumul": 179604,
         "deathsEhpadEmsCumul": 23383,
         "incidR": 194.299351434057,
-        "r": 0.96,
+        "r": 0.95,
         "icuOccupR": 64.5,
         "posR": 6.04773856762036,
         "hospiWeek": 11063,
@@ -6023,8 +6023,8 @@
         "highVul": 100
     },
     "2021-02-08": {
-        "vac1": 2057390,
-        "vac2": 303834,
+        "vac1": 2058606,
+        "vac2": 304005,
         "casesCumul": 3341365,
         "deathsCumul": 79423,
         "hospi": 28037,
@@ -6047,8 +6047,8 @@
         ]
     },
     "2021-02-09": {
-        "vac1": 2122324,
-        "vac2": 376742,
+        "vac1": 2123562,
+        "vac2": 376900,
         "casesCumul": 3360235,
         "deathsCumul": 80147,
         "hospi": 27677,
@@ -6060,7 +6060,7 @@
         "casesEhpadEmsCumul": 181965,
         "deathsEhpadEmsCumul": 23671,
         "incidR": 183.416537541275,
-        "r": 0.92,
+        "r": 0.93,
         "icuOccupR": 65.9,
         "posR": 5.80853538558813,
         "hospiWeek": 10886,
@@ -6071,8 +6071,8 @@
         ]
     },
     "2021-02-10": {
-        "vac1": 2191750,
-        "vac2": 454003,
+        "vac1": 2193035,
+        "vac2": 454124,
         "casesCumul": 3385622,
         "deathsCumul": 80443,
         "hospi": 27461,
@@ -6095,8 +6095,8 @@
         ]
     },
     "2021-02-11": {
-        "vac1": 2277607,
-        "vac2": 554073,
+        "vac1": 2278941,
+        "vac2": 554151,
         "casesCumul": 3406685,
         "deathsCumul": 80803,
         "hospi": 27007,
@@ -6119,8 +6119,8 @@
         ]
     },
     "2021-02-12": {
-        "vac1": 2355531,
-        "vac2": 629184,
+        "vac1": 2356921,
+        "vac2": 629252,
         "casesCumul": 3427386,
         "deathsCumul": 81448,
         "hospi": 26468,
@@ -6143,8 +6143,8 @@
         ]
     },
     "2021-02-13": {
-        "vac1": 2377266,
-        "vac2": 648846,
+        "vac1": 2378677,
+        "vac2": 648920,
         "casesCumul": 3448617,
         "deathsCumul": 81647,
         "hospi": 26240,
@@ -6167,8 +6167,8 @@
         ]
     },
     "2021-02-14": {
-        "vac1": 2381869,
-        "vac2": 656083,
+        "vac1": 2383285,
+        "vac2": 656156,
         "casesCumul": 3465163,
         "deathsCumul": 81814,
         "hospi": 26445,
@@ -6180,7 +6180,7 @@
         "casesEhpadEmsCumul": 184192,
         "deathsEhpadEmsCumul": 23999,
         "incidR": 168.556967038439,
-        "r": 0.91,
+        "r": 0.9,
         "icuOccupR": 65.2,
         "posR": 5.39319704021812,
         "hospiWeek": 9921,
@@ -6191,8 +6191,8 @@
         ]
     },
     "2021-02-15": {
-        "vac1": 2419049,
-        "vac2": 733074,
+        "vac1": 2420486,
+        "vac2": 733087,
         "casesCumul": 3469539,
         "deathsCumul": 82226,
         "hospi": 26522,
@@ -6215,8 +6215,8 @@
         ]
     },
     "2021-02-16": {
-        "vac1": 2468381,
-        "vac2": 834412,
+        "vac1": 2469860,
+        "vac2": 834394,
         "casesCumul": 3489129,
         "deathsCumul": 82812,
         "hospi": 26239,
@@ -6228,7 +6228,7 @@
         "casesEhpadEmsCumul": 186226,
         "deathsEhpadEmsCumul": 24234,
         "incidR": 167.391802681353,
-        "r": 0.93,
+        "r": 0.94,
         "icuOccupR": 66.0,
         "posR": 5.45858530105426,
         "hospiWeek": 9383,
@@ -6239,8 +6239,8 @@
         ]
     },
     "2021-02-17": {
-        "vac1": 2517830,
-        "vac2": 937858,
+        "vac1": 2519326,
+        "vac2": 937776,
         "casesCumul": 3514147,
         "deathsCumul": 83122,
         "hospi": 25974,
@@ -6252,7 +6252,7 @@
         "casesEhpadEmsCumul": 186226,
         "deathsEhpadEmsCumul": 24234,
         "incidR": 169.507574276062,
-        "r": 0.95,
+        "r": 0.96,
         "icuOccupR": 66.0,
         "posR": 5.54386556521943,
         "hospiWeek": 9432,
@@ -6263,8 +6263,8 @@
         ]
     },
     "2021-02-18": {
-        "vac1": 2586069,
-        "vac2": 1057268,
+        "vac1": 2587635,
+        "vac2": 1057143,
         "casesCumul": 3536648,
         "deathsCumul": 83393,
         "hospi": 25762,
@@ -6287,8 +6287,8 @@
         ]
     },
     "2021-02-19": {
-        "vac1": 2650082,
-        "vac2": 1148920,
+        "vac1": 2651692,
+        "vac2": 1148717,
         "casesCumul": 3560764,
         "deathsCumul": 83964,
         "hospi": 25551,
@@ -6300,7 +6300,7 @@
         "casesEhpadEmsCumul": 188270,
         "deathsEhpadEmsCumul": 24480,
         "incidR": 179.547059490953,
-        "r": 1.0,
+        "r": 1.01,
         "icuOccupR": 66.8,
         "posR": 5.83918367821617,
         "hospiWeek": 9435,
@@ -6311,8 +6311,8 @@
         ]
     },
     "2021-02-20": {
-        "vac1": 2668117,
-        "vac2": 1177490,
+        "vac1": 2669741,
+        "vac2": 1177277,
         "casesCumul": 3583135,
         "deathsCumul": 84121,
         "hospi": 25269,
@@ -6334,8 +6334,8 @@
         ]
     },
     "2021-02-21": {
-        "vac1": 2670990,
-        "vac2": 1183892,
+        "vac1": 2672619,
+        "vac2": 1183675,
         "casesCumul": 3605181,
         "deathsCumul": 84280,
         "hospi": 25464,
@@ -6346,7 +6346,7 @@
         "deathsHospiCumul": 59800,
         "deathsEhpadEmsCumul": 24480,
         "incidR": 182.848855162695,
-        "r": 1.05,
+        "r": 1.04,
         "icuOccupR": 67.1,
         "posR": 5.9345692928994,
         "hospiWeek": 9362,
@@ -6357,8 +6357,8 @@
         ]
     },
     "2021-02-22": {
-        "vac1": 2707604,
-        "vac2": 1257446,
+        "vac1": 2709246,
+        "vac2": 1257134,
         "casesCumul": 3609827,
         "deathsCumul": 84613,
         "hospi": 25831,
@@ -6380,8 +6380,8 @@
         ]
     },
     "2021-02-23": {
-        "vac1": 2760362,
-        "vac2": 1342137,
+        "vac1": 2762028,
+        "vac2": 1341773,
         "casesCumul": 3629891,
         "deathsCumul": 85044,
         "hospi": 25660,
@@ -6403,8 +6403,8 @@
         ]
     },
     "2021-02-24": {
-        "vac1": 2818632,
-        "vac2": 1423925,
+        "vac1": 2820377,
+        "vac2": 1423534,
         "casesCumul": 3661410,
         "deathsCumul": 85321,
         "hospi": 25614,
@@ -6426,8 +6426,8 @@
         ]
     },
     "2021-02-25": {
-        "vac1": 2917617,
-        "vac2": 1516919,
+        "vac1": 2919444,
+        "vac2": 1516573,
         "casesCumul": 3686813,
         "deathsCumul": 85582,
         "hospi": 25317,
@@ -6449,8 +6449,8 @@
         ]
     },
     "2021-02-26": {
-        "vac1": 3029634,
-        "vac2": 1589643,
+        "vac1": 3031541,
+        "vac2": 1589394,
         "casesCumul": 3712020,
         "deathsCumul": 86121,
         "hospi": 25130,
@@ -6461,7 +6461,7 @@
         "deathsHospiCumul": 61265,
         "deathsEhpadEmsCumul": 24856,
         "incidR": 194.552648033424,
-        "r": 1.06,
+        "r": 1.07,
         "icuOccupR": 68.1,
         "posR": 6.56763623139784,
         "hospiWeek": 9482,
@@ -6472,8 +6472,8 @@
         ]
     },
     "2021-02-27": {
-        "vac1": 3080936,
-        "vac2": 1612271,
+        "vac1": 3082873,
+        "vac2": 1612079,
         "casesCumul": 3736016,
         "deathsCumul": 86306,
         "hospi": 24989,
@@ -6484,7 +6484,7 @@
         "deathsHospiCumul": 61450,
         "deathsEhpadEmsCumul": 24856,
         "incidR": 194.680786313103,
-        "r": 1.05,
+        "r": 1.06,
         "icuOccupR": 68.3,
         "posR": 6.59184207831205,
         "hospiWeek": 9467,
@@ -6495,8 +6495,8 @@
         ]
     },
     "2021-02-28": {
-        "vac1": 3086638,
-        "vac2": 1616777,
+        "vac1": 3088584,
+        "vac2": 1616592,
         "casesCumul": 3755968,
         "deathsCumul": 86428,
         "hospi": 25280,
@@ -6507,7 +6507,7 @@
         "deathsHospiCumul": 61572,
         "deathsEhpadEmsCumul": 24856,
         "incidR": 194.555627993416,
-        "r": 1.05,
+        "r": 1.04,
         "icuOccupR": 69.0,
         "posR": 6.58722207256155,
         "hospiWeek": 9613,
@@ -6518,8 +6518,8 @@
         ]
     },
     "2021-03-01": {
-        "vac1": 3150476,
-        "vac2": 1670435,
+        "vac1": 3152491,
+        "vac2": 1670274,
         "casesCumul": 3760671,
         "deathsCumul": 86803,
         "hospi": 25430,
@@ -6530,7 +6530,7 @@
         "deathsHospiCumul": 61947,
         "deathsEhpadEmsCumul": 24856,
         "incidR": 191.976472619867,
-        "r": 1.04,
+        "r": 1.03,
         "icuOccupR": 70.1,
         "posR": 6.57171609288794,
         "hospiWeek": 9483,
@@ -6541,8 +6541,8 @@
         ]
     },
     "2021-03-02": {
-        "vac1": 3250055,
-        "vac2": 1738151,
+        "vac1": 3252140,
+        "vac2": 1738076,
         "casesCumul": 3783528,
         "deathsCumul": 87220,
         "hospi": 25263,
@@ -6564,8 +6564,8 @@
         ]
     },
     "2021-03-03": {
-        "vac1": 3364133,
-        "vac2": 1805531,
+        "vac1": 3366306,
+        "vac2": 1805524,
         "casesCumul": 3810316,
         "deathsCumul": 87542,
         "hospi": 25111,
@@ -6587,8 +6587,8 @@
         ]
     },
     "2021-03-04": {
-        "vac1": 3525189,
-        "vac2": 1877451,
+        "vac1": 3527471,
+        "vac2": 1877593,
         "casesCumul": 3835595,
         "deathsCumul": 87835,
         "hospi": 24891,
@@ -6610,8 +6610,8 @@
         ]
     },
     "2021-03-05": {
-        "vac1": 3723711,
-        "vac2": 1944654,
+        "vac1": 3726127,
+        "vac2": 1945016,
         "casesCumul": 3859102,
         "deathsCumul": 88274,
         "hospi": 24765,
@@ -6622,7 +6622,7 @@
         "deathsHospiCumul": 63100,
         "deathsEhpadEmsCumul": 25174,
         "incidR": 189.221499606757,
-        "r": 1.0,
+        "r": 1.01,
         "icuOccupR": 72.8,
         "posR": 6.47864072816094,
         "hospiWeek": 9222,
@@ -6633,8 +6633,8 @@
         ]
     },
     "2021-03-06": {
-        "vac1": 3929597,
-        "vac2": 1965363,
+        "vac1": 3932170,
+        "vac2": 1965978,
         "casesCumul": 3882408,
         "deathsCumul": 88444,
         "hospi": 24625,
@@ -6656,8 +6656,8 @@
         ]
     },
     "2021-03-07": {
-        "vac1": 4049670,
-        "vac2": 1972569,
+        "vac1": 4052329,
+        "vac2": 1973331,
         "casesCumul": 3904233,
         "deathsCumul": 88574,
         "hospi": 24818,
@@ -6679,8 +6679,8 @@
         ]
     },
     "2021-03-08": {
-        "vac1": 4154930,
-        "vac2": 2025135,
+        "vac1": 4157673,
+        "vac2": 2026039,
         "casesCumul": 3909560,
         "deathsCumul": 88933,
         "hospi": 25195,
@@ -6702,8 +6702,8 @@
         ]
     },
     "2021-03-09": {
-        "vac1": 4325158,
-        "vac2": 2084742,
+        "vac1": 4327997,
+        "vac2": 2085859,
         "casesCumul": 3932862,
         "deathsCumul": 89301,
         "hospi": 25201,
@@ -6725,8 +6725,8 @@
         ]
     },
     "2021-03-10": {
-        "vac1": 4501434,
-        "vac2": 2144769,
+        "vac1": 4504394,
+        "vac2": 2146036,
         "casesCumul": 3963165,
         "deathsCumul": 89632,
         "hospi": 24969,
@@ -6748,8 +6748,8 @@
         ]
     },
     "2021-03-11": {
-        "vac1": 4741631,
-        "vac2": 2212293,
+        "vac1": 4744708,
+        "vac2": 2213814,
         "casesCumul": 3990331,
         "deathsCumul": 89897,
         "hospi": 24858,
@@ -6771,8 +6771,8 @@
         ]
     },
     "2021-03-12": {
-        "vac1": 5033595,
-        "vac2": 2271096,
+        "vac1": 5036882,
+        "vac2": 2273043,
         "casesCumul": 4015560,
         "deathsCumul": 90120,
         "hospi": 24749,
@@ -6783,7 +6783,7 @@
         "deathsHospiCumul": 64809,
         "deathsEhpadEmsCumul": 25311,
         "incidR": 215.573285820851,
-        "r": 1.1,
+        "r": 1.11,
         "icuOccupR": 79.7,
         "posR": 6.67064711482824,
         "hospiWeek": 9655,
@@ -6794,8 +6794,8 @@
         ]
     },
     "2021-03-13": {
-        "vac1": 5262864,
-        "vac2": 2289583,
+        "vac1": 5266264,
+        "vac2": 2291807,
         "casesCumul": 4045319,
         "deathsCumul": 90289,
         "hospi": 24671,
@@ -6817,8 +6817,8 @@
         ]
     },
     "2021-03-14": {
-        "vac1": 5325221,
-        "vac2": 2294084,
+        "vac1": 5328652,
+        "vac2": 2296401,
         "casesCumul": 4071662,
         "deathsCumul": 90429,
         "hospi": 24989,
@@ -6840,8 +6840,8 @@
         ]
     },
     "2021-03-15": {
-        "vac1": 5481646,
-        "vac2": 2329439,
+        "vac1": 5485187,
+        "vac2": 2331902,
         "casesCumul": 4078133,
         "deathsCumul": 90762,
         "hospi": 25469,
@@ -6863,8 +6863,8 @@
         ]
     },
     "2021-03-16": {
-        "vac1": 5621270,
-        "vac2": 2371248,
+        "vac1": 5624863,
+        "vac2": 2373812,
         "casesCumul": 4108108,
         "deathsCumul": 91170,
         "hospi": 25492,
@@ -6886,8 +6886,8 @@
         ]
     },
     "2021-03-17": {
-        "vac1": 5769725,
-        "vac2": 2412660,
+        "vac1": 5773384,
+        "vac2": 2415333,
         "casesCumul": 4146609,
         "deathsCumul": 91411,
         "hospi": 25314,
@@ -6898,7 +6898,7 @@
         "deathsHospiCumul": 66006,
         "deathsEhpadEmsCumul": 25405,
         "incidR": 256.742923097886,
-        "r": 1.21,
+        "r": 1.2,
         "icuOccupR": 83.4,
         "posR": 7.22635748186103,
         "hospiWeek": 10207,
@@ -6909,8 +6909,8 @@
         ]
     },
     "2021-03-18": {
-        "vac1": 5935254,
-        "vac2": 2460856,
+        "vac1": 5938998,
+        "vac2": 2463599,
         "casesCumul": 4181607,
         "deathsCumul": 91679,
         "hospi": 25389,
@@ -6921,15 +6921,15 @@
         "deathsHospiCumul": 66274,
         "deathsEhpadEmsCumul": 25405,
         "incidR": 266.552951393351,
-        "r": 1.22,
+        "r": 1.21,
         "icuOccupR": 83.9,
         "posR": 7.27123080549843,
         "hospiWeek": 10241,
         "icuWeek": 2259
     },
     "2021-03-19": {
-        "vac1": 6162701,
-        "vac2": 2503098,
+        "vac1": 6166586,
+        "vac2": 2505975,
         "casesCumul": 4216695,
         "deathsCumul": 91964,
         "hospi": 25339,
@@ -6945,8 +6945,8 @@
         "posR": 7.30992908639175
     },
     "2021-03-20": {
-        "vac1": 6327761,
-        "vac2": 2517876,
+        "vac1": 6331715,
+        "vac2": 2520880,
         "casesCumul": 4252022,
         "deathsCumul": 92140,
         "hospi": 25537,
@@ -6957,15 +6957,15 @@
         "deathsHospiCumul": 66735,
         "deathsEhpadEmsCumul": 25405,
         "incidR": 282.138142154373,
-        "r": 1.22,
+        "r": 1.23,
         "icuOccupR": 86.1,
         "posR": 7.33804201072357,
         "hospiWeek": 10761,
         "icuWeek": 2391
     },
     "2021-03-21": {
-        "vac1": 6376585,
-        "vac2": 2521624,
+        "vac1": 6380556,
+        "vac2": 2524696,
         "casesCumul": 4282603,
         "deathsCumul": 92278,
         "hospi": 25926,
@@ -6976,15 +6976,15 @@
         "deathsHospiCumul": 66873,
         "deathsEhpadEmsCumul": 25405,
         "incidR": 283.276486871525,
-        "r": 1.22,
+        "r": 1.23,
         "icuOccupR": 87.1,
         "posR": 7.35150422384462,
         "hospiWeek": 10881,
         "icuWeek": 2411
     },
     "2021-03-22": {
-        "vac1": 6544244,
-        "vac2": 2559557,
+        "vac1": 6548306,
+        "vac2": 2562705,
         "casesCumul": 4298395,
         "deathsCumul": 92621,
         "hospi": 26488,
@@ -6995,15 +6995,15 @@
         "deathsHospiCumul": 67216,
         "deathsEhpadEmsCumul": 25405,
         "incidR": 295.434723641118,
-        "r": 1.22,
+        "r": 1.23,
         "icuOccupR": 89.9,
         "posR": 7.47548368148749,
         "hospiWeek": 11095,
         "icuWeek": 2481
     },
     "2021-03-23": {
-        "vac1": 6791849,
-        "vac2": 2607144,
+        "vac1": 6796072,
+        "vac2": 2610443,
         "casesCumul": 4313073,
         "deathsCumul": 92908,
         "hospi": 26756,
@@ -7014,15 +7014,15 @@
         "deathsHospiCumul": 67503,
         "deathsEhpadEmsCumul": 25405,
         "incidR": 306.356277013803,
-        "r": 1.22,
+        "r": 1.23,
         "icuOccupR": 91.6,
         "posR": 7.51458797335534,
         "hospiWeek": 11367,
         "icuWeek": 2522
     },
     "2021-03-24": {
-        "vac1": 7046034,
-        "vac2": 2656292,
+        "vac1": 7050332,
+        "vac2": 2659807,
         "casesCumul": 4378446,
         "deathsCumul": 93153,
         "hospi": 26876,
@@ -7040,8 +7040,8 @@
         "icuWeek": 2560
     },
     "2021-03-25": {
-        "vac1": 7384934,
-        "vac2": 2708467,
+        "vac1": 7389403,
+        "vac2": 2712245,
         "casesCumul": 4424087,
         "deathsCumul": 93378,
         "hospi": 27036,
@@ -7059,8 +7059,8 @@
         "icuWeek": 2588
     },
     "2021-03-26": {
-        "vac1": 7741198,
-        "vac2": 2758498,
+        "vac1": 7745812,
+        "vac2": 2762605,
         "casesCumul": 4465956,
         "deathsCumul": 94275,
         "hospi": 27242,
@@ -7071,15 +7071,15 @@
         "deathsHospiCumul": 68276,
         "deathsEhpadEmsCumul": 25999,
         "incidR": 336.827857917594,
-        "r": 1.22,
+        "r": 1.21,
         "icuOccupR": 94.2,
         "posR": 7.54985545658087,
         "hospiWeek": 12256,
         "icuWeek": 2671
     },
     "2021-03-27": {
-        "vac1": 7934883,
-        "vac2": 2779604,
+        "vac1": 7939574,
+        "vac2": 2783918,
         "casesCumul": 4508575,
         "deathsCumul": 94465,
         "hospi": 27259,
@@ -7090,15 +7090,15 @@
         "deathsHospiCumul": 68466,
         "deathsEhpadEmsCumul": 25999,
         "incidR": 343.380789941205,
-        "r": 1.21,
+        "r": 1.2,
         "icuOccupR": 94.7,
         "posR": 7.53434689249874,
         "hospiWeek": 12461,
         "icuWeek": 2683
     },
     "2021-03-28": {
-        "vac1": 7993327,
-        "vac2": 2784728,
+        "vac1": 7998037,
+        "vac2": 2789103,
         "casesCumul": 4545589,
         "deathsCumul": 94596,
         "hospi": 27712,
@@ -7109,15 +7109,15 @@
         "deathsHospiCumul": 68597,
         "deathsEhpadEmsCumul": 25999,
         "incidR": 343.55064766078,
-        "r": 1.2,
+        "r": 1.19,
         "icuOccupR": 96.3,
         "posR": 7.52798581470904,
         "hospiWeek": 12572,
         "icuWeek": 2732
     },
     "2021-03-29": {
-        "vac1": 8194341,
-        "vac2": 2843683,
+        "vac1": 8199139,
+        "vac2": 2848192,
         "casesCumul": 4554683,
         "deathsCumul": 94956,
         "hospi": 28322,
@@ -7135,8 +7135,8 @@
         "icuWeek": 2739
     },
     "2021-03-30": {
-        "vac1": 8477197,
-        "vac2": 2920629,
+        "vac1": 8482120,
+        "vac2": 2925331,
         "casesCumul": 4585385,
         "deathsCumul": 95337,
         "hospi": 28510,
@@ -7154,8 +7154,8 @@
         "icuWeek": 2821
     },
     "2021-03-31": {
-        "vac1": 8737623,
-        "vac2": 3000753,
+        "vac1": 8742674,
+        "vac2": 3005756,
         "casesCumul": 4644423,
         "deathsCumul": 95640,
         "hospi": 28463,
@@ -7173,8 +7173,8 @@
         "icuWeek": 2903
     },
     "2021-04-01": {
-        "vac1": 9048945,
-        "vac2": 3098111,
+        "vac1": 9054191,
+        "vac2": 3103365,
         "casesCumul": 4695082,
         "deathsCumul": 95948,
         "hospi": 28581,
@@ -7192,8 +7192,8 @@
         "icuWeek": 2975
     },
     "2021-04-02": {
-        "vac1": 9327744,
-        "vac2": 3198476,
+        "vac1": 9333089,
+        "vac2": 3203956,
         "casesCumul": 4741759,
         "deathsCumul": 96280,
         "hospi": 28729,
@@ -7211,8 +7211,8 @@
         "icuWeek": 3001
     },
     "2021-04-03": {
-        "vac1": 9467305,
-        "vac2": 3264020,
+        "vac1": 9472718,
+        "vac2": 3269602,
         "casesCumul": 4755676,
         "deathsCumul": 96465,
         "hospi": 28886,
@@ -7230,8 +7230,8 @@
         "icuWeek": 3074
     },
     "2021-04-04": {
-        "vac1": 9512280,
-        "vac2": 3284178,
+        "vac1": 9517721,
+        "vac2": 3289795,
         "casesCumul": 4822470,
         "deathsCumul": 96650,
         "hospi": 29356,
@@ -7249,8 +7249,8 @@
         "icuWeek": 3109
     },
     "2021-04-05": {
-        "vac1": 9571204,
-        "vac2": 3297182,
+        "vac1": 9576702,
+        "vac2": 3302852,
         "casesCumul": 4833263,
         "deathsCumul": 96847,
         "hospi": 29907,
@@ -7261,15 +7261,15 @@
         "deathsHospiCumul": 70771,
         "deathsEhpadEmsCumul": 26076,
         "incidR": 296.857654537559,
-        "r": 0.97,
+        "r": 0.98,
         "icuOccupR": 107.4,
         "posR": 6.61359265970749,
         "hospiWeek": 12878,
         "icuWeek": 2921
     },
     "2021-04-06": {
-        "vac1": 9785346,
-        "vac2": 3411150,
+        "vac1": 9790992,
+        "vac2": 3416936,
         "casesCumul": 4841308,
         "deathsCumul": 97273,
         "hospi": 30639,
@@ -7287,8 +7287,8 @@
         "icuWeek": 2982
     },
     "2021-04-07": {
-        "vac1": 10042422,
-        "vac2": 3534702,
+        "vac1": 10048165,
+        "vac2": 3540679,
         "casesCumul": 4854259,
         "deathsCumul": 97694,
         "hospi": 30904,
@@ -7299,15 +7299,15 @@
         "deathsHospiCumul": 71601,
         "deathsEhpadEmsCumul": 26093,
         "incidR": 311.414759101152,
-        "r": 0.93,
+        "r": 0.94,
         "icuOccupR": 113.3,
         "posR": 7.3052252181718,
         "hospiWeek": 13605,
         "icuWeek": 3162
     },
     "2021-04-08": {
-        "vac1": 10376467,
-        "vac2": 3667609,
+        "vac1": 10382357,
+        "vac2": 3673812,
         "casesCumul": 4939258,
         "deathsCumul": 98037,
         "hospi": 30555,
@@ -7318,15 +7318,15 @@
         "deathsHospiCumul": 71944,
         "deathsEhpadEmsCumul": 26093,
         "incidR": 307.691299090464,
-        "r": 0.93,
+        "r": 0.94,
         "icuOccupR": 112.8,
         "posR": 7.69302123201887,
         "hospiWeek": 13708,
         "icuWeek": 3172
     },
     "2021-04-09": {
-        "vac1": 10783058,
-        "vac2": 3796790,
+        "vac1": 10789160,
+        "vac2": 3803318,
         "casesCumul": 4980501,
         "deathsCumul": 98367,
         "hospi": 30326,
@@ -7344,8 +7344,8 @@
         "icuWeek": 3167
     },
     "2021-04-10": {
-        "vac1": 10993799,
-        "vac2": 3885810,
+        "vac1": 11000052,
+        "vac2": 3892476,
         "casesCumul": 5023785,
         "deathsCumul": 98574,
         "hospi": 30238,
@@ -7356,15 +7356,15 @@
         "deathsHospiCumul": 72450,
         "deathsEhpadEmsCumul": 26124,
         "incidR": 306.223668794135,
-        "r": 0.96,
+        "r": 0.95,
         "icuOccupR": 114.1,
         "posR": 8.41041716114353,
         "hospiWeek": 13651,
         "icuWeek": 3158
     },
     "2021-04-11": {
-        "vac1": 11048802,
-        "vac2": 3922346,
+        "vac1": 11055097,
+        "vac2": 3929052,
         "casesCumul": 5058680,
         "deathsCumul": 98750,
         "hospi": 30671,
@@ -7375,15 +7375,15 @@
         "deathsHospiCumul": 72626,
         "deathsEhpadEmsCumul": 26124,
         "incidR": 306.336907273851,
-        "r": 0.97,
+        "r": 0.96,
         "icuOccupR": 115.4,
         "posR": 8.43811998827845,
         "hospiWeek": 13754,
         "icuWeek": 3175
     },
     "2021-04-12": {
-        "vac1": 11283311,
-        "vac2": 4044652,
+        "vac1": 11289731,
+        "vac2": 4051506,
         "casesCumul": 5067216,
         "deathsCumul": 99135,
         "hospi": 31262,
@@ -7394,15 +7394,15 @@
         "deathsHospiCumul": 73011,
         "deathsEhpadEmsCumul": 26124,
         "incidR": 362.489783393413,
-        "r": 0.98,
+        "r": 0.97,
         "icuOccupR": 117.0,
         "posR": 8.85595678987629,
         "hospiWeek": 14684,
         "icuWeek": 3381
     },
     "2021-04-13": {
-        "vac1": 11589608,
-        "vac2": 4199273,
+        "vac1": 11596228,
+        "vac2": 4206321,
         "casesCumul": 5106329,
         "deathsCumul": 99480,
         "hospi": 31226,
@@ -7420,8 +7420,8 @@
         "icuWeek": 3303
     },
     "2021-04-14": {
-        "vac1": 11880354,
-        "vac2": 4348735,
+        "vac1": 11887173,
+        "vac2": 4356025,
         "casesCumul": 5149834,
         "deathsCumul": 99777,
         "hospi": 30868,
@@ -7439,8 +7439,8 @@
         "icuWeek": 3082
     },
     "2021-04-15": {
-        "vac1": 12213264,
-        "vac2": 4508446,
+        "vac1": 12220294,
+        "vac2": 4515970,
         "casesCumul": 5187879,
         "deathsCumul": 100073,
         "hospi": 30668,
@@ -7451,15 +7451,15 @@
         "deathsHospiCumul": 73928,
         "deathsEhpadEmsCumul": 26145,
         "incidR": 314.13844253434,
-        "r": 0.97,
+        "r": 0.98,
         "icuOccupR": 117.1,
         "posR": 8.97531080729011,
         "hospiWeek": 13580,
         "icuWeek": 3081
     },
     "2021-04-16": {
-        "vac1": 12549605,
-        "vac2": 4665419,
+        "vac1": 12556944,
+        "vac2": 4673236,
         "casesCumul": 5224321,
         "deathsCumul": 100404,
         "hospi": 30472,
@@ -7470,15 +7470,15 @@
         "deathsHospiCumul": 74234,
         "deathsEhpadEmsCumul": 26170,
         "incidR": 305.663436315536,
-        "r": 0.96,
+        "r": 0.97,
         "icuOccupR": 116.9,
         "posR": 9.06459027606557,
         "hospiWeek": 13522,
         "icuWeek": 3046
     },
     "2021-04-17": {
-        "vac1": 12736482,
-        "vac2": 4761724,
+        "vac1": 12744019,
+        "vac2": 4769665,
         "casesCumul": 5260182,
         "deathsCumul": 100593,
         "hospi": 30329,
@@ -7496,8 +7496,8 @@
         "icuWeek": 3025
     },
     "2021-04-18": {
-        "vac1": 12787053,
-        "vac2": 4799112,
+        "vac1": 12794645,
+        "vac2": 4807098,
         "casesCumul": 5289526,
         "deathsCumul": 100733,
         "hospi": 30789,
@@ -7515,8 +7515,8 @@
         "icuWeek": 2980
     },
     "2021-04-19": {
-        "vac1": 12990264,
-        "vac2": 4944683,
+        "vac1": 12997980,
+        "vac2": 4952827,
         "casesCumul": 5296222,
         "deathsCumul": 101180,
         "hospi": 31214,
@@ -7534,8 +7534,8 @@
         "icuWeek": 2994
     },
     "2021-04-20": {
-        "vac1": 13241706,
-        "vac2": 5124700,
+        "vac1": 13249577,
+        "vac2": 5133023,
         "casesCumul": 5339320,
         "deathsCumul": 101568,
         "hospi": 31086,
@@ -7553,8 +7553,8 @@
         "icuWeek": 3026
     },
     "2021-04-21": {
-        "vac1": 13491801,
-        "vac2": 5303073,
+        "vac1": 13499878,
+        "vac2": 5311589,
         "casesCumul": 5374288,
         "deathsCumul": 101881,
         "hospi": 30954,
@@ -7572,8 +7572,8 @@
         "icuWeek": 3046
     },
     "2021-04-22": {
-        "vac1": 13775986,
-        "vac2": 5503053,
+        "vac1": 13784340,
+        "vac2": 5511877,
         "casesCumul": 5408606,
         "deathsCumul": 102164,
         "hospi": 30634,
@@ -7591,8 +7591,8 @@
         "icuWeek": 3020
     },
     "2021-04-23": {
-        "vac1": 14067944,
-        "vac2": 5699249,
+        "vac1": 14076632,
+        "vac2": 5708428,
         "casesCumul": 5440946,
         "deathsCumul": 102496,
         "hospi": 30438,
@@ -7610,8 +7610,8 @@
         "icuWeek": 2987
     },
     "2021-04-24": {
-        "vac1": 14256478,
-        "vac2": 5819606,
+        "vac1": 14265296,
+        "vac2": 5828922,
         "casesCumul": 5473579,
         "deathsCumul": 102713,
         "hospi": 30100,
@@ -7629,8 +7629,8 @@
         "icuWeek": 2981
     },
     "2021-04-25": {
-        "vac1": 14324972,
-        "vac2": 5861647,
+        "vac1": 14333833,
+        "vac2": 5871010,
         "casesCumul": 5498044,
         "deathsCumul": 102858,
         "hospi": 30287,
@@ -7648,8 +7648,8 @@
         "icuWeek": 2971
     },
     "2021-04-26": {
-        "vac1": 14543444,
-        "vac2": 6029203,
+        "vac1": 14552440,
+        "vac2": 6038705,
         "casesCumul": 5503996,
         "deathsCumul": 103256,
         "hospi": 30596,
@@ -7667,8 +7667,8 @@
         "icuWeek": 2938
     },
     "2021-04-27": {
-        "vac1": 14825033,
-        "vac2": 6237520,
+        "vac1": 14834183,
+        "vac2": 6247183,
         "casesCumul": 5534313,
         "deathsCumul": 103603,
         "hospi": 30281,
@@ -7679,15 +7679,15 @@
         "deathsHospiCumul": 77370,
         "deathsEhpadEmsCumul": 26233,
         "incidR": 246.940344702402,
-        "r": 0.86,
+        "r": 0.85,
         "icuOccupR": 117.5,
         "posR": 8.4837217111591,
         "hospiWeek": 11997,
         "icuWeek": 2825
     },
     "2021-04-28": {
-        "vac1": 15121662,
-        "vac2": 6443433,
+        "vac1": 15130994,
+        "vac2": 6453367,
         "casesCumul": 5565852,
         "deathsCumul": 103918,
         "hospi": 29911,
@@ -7698,15 +7698,15 @@
         "deathsHospiCumul": 77685,
         "deathsEhpadEmsCumul": 26233,
         "incidR": 236.380856468811,
-        "r": 0.84,
+        "r": 0.83,
         "icuOccupR": 116.2,
         "posR": 8.14844262417172,
         "hospiWeek": 11623,
         "icuWeek": 2705
     },
     "2021-04-29": {
-        "vac1": 15475375,
-        "vac2": 6671666,
+        "vac1": 15484902,
+        "vac2": 6681853,
         "casesCumul": 5592390,
         "deathsCumul": 104224,
         "hospi": 29487,
@@ -7724,8 +7724,8 @@
         "icuWeek": 2612
     },
     "2021-04-30": {
-        "vac1": 15844185,
-        "vac2": 6893005,
+        "vac1": 15853967,
+        "vac2": 6903517,
         "casesCumul": 5616689,
         "deathsCumul": 104514,
         "hospi": 28930,
@@ -7743,8 +7743,8 @@
         "icuWeek": 2505
     },
     "2021-05-01": {
-        "vac1": 16008646,
-        "vac2": 6955473,
+        "vac1": 16018537,
+        "vac2": 6966118,
         "casesCumul": 5642359,
         "deathsCumul": 104706,
         "hospi": 28603,
@@ -7762,8 +7762,8 @@
         "icuWeek": 2479
     },
     "2021-05-02": {
-        "vac1": 16099010,
-        "vac2": 6998275,
+        "vac1": 16108942,
+        "vac2": 7009009,
         "casesCumul": 5652247,
         "deathsCumul": 104819,
         "hospi": 28818,
@@ -7774,15 +7774,15 @@
         "deathsHospiCumul": 78566,
         "deathsEhpadEmsCumul": 26253,
         "incidR": 197.681606025598,
-        "r": 0.77,
+        "r": 0.78,
         "icuOccupR": 110.4,
         "posR": 6.72070626328448,
         "hospiWeek": 10748,
         "icuWeek": 2440
     },
     "2021-05-03": {
-        "vac1": 16383819,
-        "vac2": 7186466,
+        "vac1": 16393934,
+        "vac2": 7197370,
         "casesCumul": 5656007,
         "deathsCumul": 105130,
         "hospi": 28950,
@@ -7800,8 +7800,8 @@
         "icuWeek": 2367
     },
     "2021-05-04": {
-        "vac1": 16695597,
-        "vac2": 7434806,
+        "vac1": 16705851,
+        "vac2": 7445975,
         "casesCumul": 5680378,
         "deathsCumul": 105387,
         "hospi": 28427,
@@ -7819,8 +7819,8 @@
         "icuWeek": 2230
     },
     "2021-05-05": {
-        "vac1": 17017519,
-        "vac2": 7682343,
+        "vac1": 17028006,
+        "vac2": 7693692,
         "casesCumul": 5706378,
         "deathsCumul": 105631,
         "hospi": 27686,
@@ -7838,8 +7838,8 @@
         "icuWeek": 2198
     },
     "2021-05-06": {
-        "vac1": 17392261,
-        "vac2": 7953318,
+        "vac1": 17402991,
+        "vac2": 7964984,
         "casesCumul": 5728090,
         "deathsCumul": 105850,
         "hospi": 26985,
@@ -7857,8 +7857,8 @@
         "icuWeek": 2083
     },
     "2021-05-07": {
-        "vac1": 17760894,
-        "vac2": 8249442,
+        "vac1": 17771942,
+        "vac2": 8261313,
         "casesCumul": 5747214,
         "deathsCumul": 106101,
         "hospi": 26331,
@@ -7876,8 +7876,8 @@
         "icuWeek": 2027
     },
     "2021-05-08": {
-        "vac1": 17980271,
-        "vac2": 8330112,
+        "vac1": 17991551,
+        "vac2": 8342176,
         "casesCumul": 5767959,
         "deathsCumul": 106277,
         "hospi": 25800,
@@ -7895,8 +7895,8 @@
         "icuWeek": 1908
     },
     "2021-05-09": {
-        "vac1": 18108751,
-        "vac2": 8384875,
+        "vac1": 18120074,
+        "vac2": 8396984,
         "casesCumul": 5777087,
         "deathsCumul": 106392,
         "hospi": 25797,
@@ -7914,8 +7914,8 @@
         "icuWeek": 1865
     },
     "2021-05-10": {
-        "vac1": 18416618,
-        "vac2": 8637871,
+        "vac1": 18428188,
+        "vac2": 8650171,
         "casesCumul": 5780379,
         "deathsCumul": 106684,
         "hospi": 25666,
@@ -7926,15 +7926,15 @@
         "deathsHospiCumul": 80392,
         "deathsEhpadEmsCumul": 26292,
         "incidR": 154.914710192558,
-        "r": 0.77,
+        "r": 0.78,
         "icuOccupR": 96.3,
         "posR": 4.59760406859947,
         "hospiWeek": 7706,
         "icuWeek": 1747
     },
     "2021-05-11": {
-        "vac1": 18815946,
-        "vac2": 8932408,
+        "vac1": 18827840,
+        "vac2": 8944919,
         "casesCumul": 5800170,
         "deathsCumul": 106935,
         "hospi": 25028,
@@ -7945,15 +7945,15 @@
         "deathsHospiCumul": 80628,
         "deathsEhpadEmsCumul": 26307,
         "incidR": 149.58803170588,
-        "r": 0.77,
+        "r": 0.78,
         "icuOccupR": 93.8,
         "posR": 4.30364173755741,
         "hospiWeek": 7334,
         "icuWeek": 1674
     },
     "2021-05-12": {
-        "vac1": 19244408,
-        "vac2": 9199684,
+        "vac1": 19256762,
+        "vac2": 9212424,
         "casesCumul": 5821668,
         "deathsCumul": 107119,
         "hospi": 24254,
@@ -7964,15 +7964,15 @@
         "deathsHospiCumul": 80812,
         "deathsEhpadEmsCumul": 26307,
         "incidR": 147.233863311768,
-        "r": 0.77,
+        "r": 0.78,
         "icuOccupR": 90.6,
         "posR": 4.07816931402102,
         "hospiWeek": 6847,
         "icuWeek": 1584
     },
     "2021-05-13": {
-        "vac1": 19578647,
-        "vac2": 9276900,
+        "vac1": 19591358,
+        "vac2": 9289760,
         "casesCumul": 5841129,
         "deathsCumul": 107250,
         "hospi": 23656,
@@ -7990,8 +7990,8 @@
         "icuWeek": 1456
     },
     "2021-05-14": {
-        "vac1": 20027793,
-        "vac2": 9478284,
+        "vac1": 20040947,
+        "vac2": 9491328,
         "casesCumul": 5848154,
         "deathsCumul": 107423,
         "hospi": 23406,
@@ -8009,8 +8009,8 @@
         "icuWeek": 1340
     },
     "2021-05-15": {
-        "vac1": 20398169,
-        "vac2": 9597345,
+        "vac1": 20411605,
+        "vac2": 9610507,
         "casesCumul": 5863839,
         "deathsCumul": 107535,
         "hospi": 22950,
@@ -8028,8 +8028,8 @@
         "icuWeek": 1279
     },
     "2021-05-16": {
-        "vac1": 20599020,
-        "vac2": 9631005,
+        "vac1": 20612543,
+        "vac2": 9644239,
         "casesCumul": 5877787,
         "deathsCumul": 107616,
         "hospi": 22963,
@@ -8047,8 +8047,8 @@
         "icuWeek": 1256
     },
     "2021-05-17": {
-        "vac1": 20971150,
-        "vac2": 9808810,
+        "vac1": 20984915,
+        "vac2": 9822197,
         "casesCumul": 5881137,
         "deathsCumul": 107812,
         "hospi": 22749,
@@ -8066,8 +8066,8 @@
         "icuWeek": 1191
     },
     "2021-05-18": {
-        "vac1": 21425436,
-        "vac2": 9999416,
+        "vac1": 21439607,
+        "vac2": 10013088,
         "casesCumul": 5898347,
         "deathsCumul": 108040,
         "hospi": 22058,
@@ -8078,15 +8078,15 @@
         "deathsHospiCumul": 81692,
         "deathsEhpadEmsCumul": 26348,
         "incidR": 123.732408830545,
-        "r": 0.83,
+        "r": 0.84,
         "icuOccupR": 79.4,
         "posR": 4.00347109230936,
         "hospiWeek": 5057,
         "icuWeek": 1149
     },
     "2021-05-19": {
-        "vac1": 21887901,
-        "vac2": 10180557,
+        "vac1": 21902421,
+        "vac2": 10194442,
         "casesCumul": 5917397,
         "deathsCumul": 108181,
         "hospi": 21347,
@@ -8104,8 +8104,8 @@
         "icuWeek": 1100
     },
     "2021-05-20": {
-        "vac1": 22389015,
-        "vac2": 10383128,
+        "vac1": 22404022,
+        "vac2": 10397264,
         "casesCumul": 5568551,
         "deathsCumul": 108314,
         "hospi": 20750,
@@ -8123,8 +8123,8 @@
         "icuWeek": 1161
     },
     "2021-05-21": {
-        "vac1": 22873152,
-        "vac2": 10602548,
+        "vac1": 22888607,
+        "vac2": 10616890,
         "casesCumul": 5581351,
         "deathsCumul": 108437,
         "hospi": 20209,
@@ -8142,8 +8142,8 @@
         "icuWeek": 1166
     },
     "2021-05-22": {
-        "vac1": 23217503,
-        "vac2": 10709839,
+        "vac1": 23233175,
+        "vac2": 10724279,
         "casesCumul": 5593962,
         "deathsCumul": 108526,
         "hospi": 19765,
@@ -8161,8 +8161,8 @@
         "icuWeek": 1145
     },
     "2021-05-23": {
-        "vac1": 23377684,
-        "vac2": 10736277,
+        "vac1": 23393473,
+        "vac2": 10750754,
         "casesCumul": 5603666,
         "deathsCumul": 108596,
         "hospi": 19720,
@@ -8180,8 +8180,8 @@
         "icuWeek": 1124
     },
     "2021-05-24": {
-        "vac1": 23637631,
-        "vac2": 10788674,
+        "vac1": 23653964,
+        "vac2": 10803225,
         "casesCumul": 5605895,
         "deathsCumul": 108658,
         "hospi": 19701,
@@ -8199,8 +8199,8 @@
         "icuWeek": 994
     },
     "2021-05-25": {
-        "vac1": 24032922,
-        "vac2": 11013503,
+        "vac1": 24049582,
+        "vac2": 11028246,
         "casesCumul": 5609050,
         "deathsCumul": 108879,
         "hospi": 19430,
@@ -8218,8 +8218,8 @@
         "icuWeek": 944
     },
     "2021-05-26": {
-        "vac1": 24440965,
-        "vac2": 11238148,
+        "vac1": 24458191,
+        "vac2": 11253120,
         "casesCumul": 5621696,
         "deathsCumul": 109023,
         "hospi": 18593,
@@ -8237,8 +8237,8 @@
         "icuWeek": 954
     },
     "2021-05-27": {
-        "vac1": 24885916,
-        "vac2": 11502705,
+        "vac1": 24903603,
+        "vac2": 11517830,
         "casesCumul": 5635629,
         "deathsCumul": 109165,
         "hospi": 17941,
@@ -8256,8 +8256,8 @@
         "icuWeek": 880
     },
     "2021-05-28": {
-        "vac1": 25310313,
-        "vac2": 11818823,
+        "vac1": 25329098,
+        "vac2": 11834173,
         "casesCumul": 5646897,
         "deathsCumul": 109290,
         "hospi": 17272,
@@ -8275,8 +8275,8 @@
         "icuWeek": 903
     },
     "2021-05-29": {
-        "vac1": 25606249,
-        "vac2": 12000022,
+        "vac1": 25625949,
+        "vac2": 12015536,
         "casesCumul": 5657572,
         "deathsCumul": 109358,
         "hospi": 16847,
@@ -8287,15 +8287,15 @@
         "deathsHospiCumul": 82946,
         "deathsEhpadEmsCumul": 26412,
         "incidR": 92.0181846098625,
-        "r": 0.82,
+        "r": 0.81,
         "icuOccupR": 59.9,
         "posR": 3.09398897029354,
         "hospiWeek": 3363,
         "icuWeek": 882
     },
     "2021-05-30": {
-        "vac1": 25711543,
-        "vac2": 12041746,
+        "vac1": 25731745,
+        "vac2": 12057342,
         "casesCumul": 5666113,
         "deathsCumul": 109402,
         "hospi": 16775,
@@ -8306,15 +8306,15 @@
         "deathsHospiCumul": 82990,
         "deathsEhpadEmsCumul": 26412,
         "incidR": 91.6024801909022,
-        "r": 0.82,
+        "r": 0.81,
         "icuOccupR": 59.2,
         "posR": 3.08411060237954,
         "hospiWeek": 3246,
         "icuWeek": 856
     },
     "2021-05-31": {
-        "vac1": 26064641,
-        "vac2": 12282265,
+        "vac1": 26086444,
+        "vac2": 12298154,
         "casesCumul": 5667324,
         "deathsCumul": 109528,
         "hospi": 16596,
@@ -8325,15 +8325,15 @@
         "deathsHospiCumul": 83116,
         "deathsEhpadEmsCumul": 26412,
         "incidR": 103.926104740081,
-        "r": 0.82,
+        "r": 0.81,
         "icuOccupR": 58.2,
         "posR": 3.08395793614018,
         "hospiWeek": 3507,
         "icuWeek": 927
     },
     "2021-06-01": {
-        "vac1": 26480247,
-        "vac2": 12583612,
+        "vac1": 26505087,
+        "vac2": 12599742,
         "casesCumul": 5677172,
         "deathsCumul": 109662,
         "hospi": 16088,
@@ -8351,8 +8351,8 @@
         "icuWeek": 859
     },
     "2021-06-02": {
-        "vac1": 26883892,
-        "vac2": 12859777,
+        "vac1": 26913069,
+        "vac2": 12876154,
         "casesCumul": 5685915,
         "deathsCumul": 109758,
         "hospi": 15638,
@@ -8370,8 +8370,8 @@
         "icuWeek": 788
     },
     "2021-06-03": {
-        "vac1": 27336809,
-        "vac2": 13171195,
+        "vac1": 27368430,
+        "vac2": 13187829,
         "casesCumul": 5694076,
         "deathsCumul": 109828,
         "hospi": 15283,
@@ -8389,8 +8389,8 @@
         "icuWeek": 750
     },
     "2021-06-04": {
-        "vac1": 27780409,
-        "vac2": 13531357,
+        "vac1": 27814069,
+        "vac2": 13548265,
         "casesCumul": 5701029,
         "deathsCumul": 109916,
         "hospi": 14801,
@@ -8408,8 +8408,8 @@
         "icuWeek": 687
     },
     "2021-06-05": {
-        "vac1": 28079700,
-        "vac2": 13752396,
+        "vac1": 28114210,
+        "vac2": 13769435,
         "casesCumul": 5707683,
         "deathsCumul": 109973,
         "hospi": 14532,
@@ -8420,15 +8420,15 @@
         "deathsHospiCumul": 83547,
         "deathsEhpadEmsCumul": 26426,
         "incidR": 69.1157020871416,
-        "r": 0.73,
+        "r": 0.74,
         "icuOccupR": 49.9,
         "posR": 2.28752819527552,
         "hospiWeek": 2883,
         "icuWeek": 659
     },
     "2021-06-06": {
-        "vac1": 28209342,
-        "vac2": 13813043,
+        "vac1": 28244367,
+        "vac2": 13830126,
         "casesCumul": 5712753,
         "deathsCumul": 109998,
         "hospi": 14525,
@@ -8446,8 +8446,8 @@
         "icuWeek": 671
     },
     "2021-06-07": {
-        "vac1": 28539150,
-        "vac2": 14111192,
+        "vac1": 28575378,
+        "vac2": 14128342,
         "casesCumul": 5713917,
         "deathsCumul": 110062,
         "hospi": 14323,
@@ -8465,8 +8465,8 @@
         "icuWeek": 630
     },
     "2021-06-08": {
-        "vac1": 28922224,
-        "vac2": 14447295,
+        "vac1": 28960451,
+        "vac2": 14464580,
         "casesCumul": 5719935,
         "deathsCumul": 110137,
         "hospi": 13984,
@@ -8484,8 +8484,8 @@
         "icuWeek": 595
     },
     "2021-06-09": {
-        "vac1": 29296762,
-        "vac2": 14765891,
+        "vac1": 29336411,
+        "vac2": 14783213,
         "casesCumul": 5725492,
         "deathsCumul": 110202,
         "hospi": 13526,
@@ -8503,8 +8503,8 @@
         "icuWeek": 585
     },
     "2021-06-10": {
-        "vac1": 29685614,
-        "vac2": 15102595,
+        "vac1": 29727903,
+        "vac2": 15120041,
         "casesCumul": 5729967,
         "deathsCumul": 110270,
         "hospi": 13090,
@@ -8522,8 +8522,8 @@
         "icuWeek": 560
     },
     "2021-06-11": {
-        "vac1": 30062222,
-        "vac2": 15509338,
+        "vac1": 30106444,
+        "vac2": 15526270,
         "casesCumul": 5733838,
         "deathsCumul": 110344,
         "hospi": 12712,
@@ -8541,8 +8541,8 @@
         "icuWeek": 535
     },
     "2021-06-12": {
-        "vac1": 30339382,
-        "vac2": 15751934,
+        "vac1": 30384788,
+        "vac2": 15768651,
         "casesCumul": 5737810,
         "deathsCumul": 110378,
         "hospi": 12496,
@@ -8560,8 +8560,8 @@
         "icuWeek": 523
     },
     "2021-06-13": {
-        "vac1": 30441148,
-        "vac2": 15836581,
+        "vac1": 30487123,
+        "vac2": 15853219,
         "casesCumul": 5740665,
         "deathsCumul": 110391,
         "hospi": 12480,
@@ -8572,15 +8572,15 @@
         "deathsHospiCumul": 83957,
         "deathsEhpadEmsCumul": 26434,
         "incidR": 40.2413797393563,
-        "r": 0.56,
+        "r": 0.57,
         "icuOccupR": 41.6,
         "posR": 1.43828113475525,
         "hospiWeek": 2056,
         "icuWeek": 498
     },
     "2021-06-14": {
-        "vac1": 30672505,
-        "vac2": 16221257,
+        "vac1": 30719660,
+        "vac2": 16237469,
         "casesCumul": 5741354,
         "deathsCumul": 110454,
         "hospi": 12374,
@@ -8598,8 +8598,8 @@
         "icuWeek": 475
     },
     "2021-06-15": {
-        "vac1": 30968404,
-        "vac2": 16645109,
+        "vac1": 31016768,
+        "vac2": 16660918,
         "casesCumul": 5744589,
         "deathsCumul": 110534,
         "hospi": 11895,
@@ -8617,8 +8617,8 @@
         "icuWeek": 436
     },
     "2021-06-16": {
-        "vac1": 31272698,
-        "vac2": 17039702,
+        "vac1": 31322132,
+        "vac2": 17055255,
         "casesCumul": 5747647,
         "deathsCumul": 110578,
         "hospi": 11519,
@@ -8629,15 +8629,15 @@
         "deathsHospiCumul": 84140,
         "deathsEhpadEmsCumul": 26438,
         "incidR": 29.504583886209,
-        "r": 0.54,
+        "r": 0.53,
         "icuOccupR": 37.0,
         "posR": 1.11530403045937,
         "hospiWeek": 1702,
         "icuWeek": 379
     },
     "2021-06-17": {
-        "vac1": 31580947,
-        "vac2": 17451843,
+        "vac1": 31631592,
+        "vac2": 17467276,
         "casesCumul": 5750433,
         "deathsCumul": 110634,
         "hospi": 11114,
@@ -8655,8 +8655,8 @@
         "icuWeek": 350
     },
     "2021-06-18": {
-        "vac1": 31890588,
-        "vac2": 17936882,
+        "vac1": 31942903,
+        "vac2": 17952417,
         "casesCumul": 5752872,
         "deathsCumul": 110702,
         "hospi": 10738,
@@ -8669,13 +8669,13 @@
         "incidR": 25.4861078362592,
         "r": 0.53,
         "icuOccupR": 34.4,
-        "posR": 0.971771197167575,
+        "posR": 0.971693359593576,
         "hospiWeek": 1487,
         "icuWeek": 340
     },
     "2021-06-19": {
-        "vac1": 32109706,
-        "vac2": 18237094,
+        "vac1": 32163225,
+        "vac2": 18252783,
         "casesCumul": 5755496,
         "deathsCumul": 110724,
         "hospi": 10531,
@@ -8685,16 +8685,16 @@
         "returnHomeCumul": 380930,
         "deathsHospiCumul": 84268,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 24.3686228390541,
+        "incidR": 24.3775627190317,
         "r": 0.53,
         "icuOccupR": 33.7,
-        "posR": 0.926738108513638,
+        "posR": 0.926940478874867,
         "hospiWeek": 1394,
         "icuWeek": 318
     },
     "2021-06-20": {
-        "vac1": 32180338,
-        "vac2": 18348473,
+        "vac1": 32234416,
+        "vac2": 18364198,
         "casesCumul": 5757311,
         "deathsCumul": 110738,
         "hospi": 10518,
@@ -8704,16 +8704,16 @@
         "returnHomeCumul": 380979,
         "deathsHospiCumul": 84282,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 24.1868452795087,
-        "r": 0.53,
+        "incidR": 24.2032350594677,
+        "r": 0.54,
         "icuOccupR": 33.7,
-        "posR": 0.91926359245018,
+        "posR": 0.91969901994644,
         "hospiWeek": 1337,
         "icuWeek": 307
     },
     "2021-06-21": {
-        "vac1": 32367290,
-        "vac2": 18776049,
+        "vac1": 32421941,
+        "vac2": 18791890,
         "casesCumul": 5757798,
         "deathsCumul": 110778,
         "hospi": 10386,
@@ -8723,16 +8723,16 @@
         "returnHomeCumul": 381278,
         "deathsHospiCumul": 84322,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 22.3154304041891,
-        "r": 0.54,
+        "incidR": 22.3362901241369,
+        "r": 0.55,
         "icuOccupR": 32.7,
-        "posR": 0.861875489865468,
+        "posR": 0.86247715220872,
         "hospiWeek": 1233,
         "icuWeek": 289
     },
     "2021-06-22": {
-        "vac1": 32581829,
-        "vac2": 19275498,
+        "vac1": 32637245,
+        "vac2": 19291508,
         "casesCumul": 5760002,
         "deathsCumul": 110829,
         "hospi": 10046,
@@ -8742,16 +8742,16 @@
         "returnHomeCumul": 381726,
         "deathsHospiCumul": 84373,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 21.1681458070585,
-        "r": 0.55,
+        "incidR": 21.1904955070026,
+        "r": 0.56,
         "icuOccupR": 30.8,
-        "posR": 0.828783105821958,
+        "posR": 0.829424447550947,
         "hospiWeek": 1111,
         "icuWeek": 268
     },
     "2021-06-23": {
-        "vac1": 32806936,
-        "vac2": 19748805,
+        "vac1": 32863303,
+        "vac2": 19765041,
         "casesCumul": 5762322,
         "deathsCumul": 110862,
         "hospi": 9771,
@@ -8761,16 +8761,16 @@
         "returnHomeCumul": 382124,
         "deathsHospiCumul": 84406,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 20.3575966890856,
+        "incidR": 20.3873962890111,
         "r": 0.57,
         "icuOccupR": 29.8,
-        "posR": 0.803471930232079,
+        "posR": 0.804384107961363,
         "hospiWeek": 1086,
         "icuWeek": 270
     },
     "2021-06-24": {
-        "vac1": 33038268,
-        "vac2": 20194487,
+        "vac1": 33096312,
+        "vac2": 20211157,
         "casesCumul": 5764329,
         "deathsCumul": 110906,
         "hospi": 9392,
@@ -8780,16 +8780,16 @@
         "returnHomeCumul": 382593,
         "deathsHospiCumul": 84450,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 19.5932369509973,
+        "incidR": 19.6245265309191,
         "r": 0.59,
         "icuOccupR": 28.4,
-        "posR": 0.783214550756472,
+        "posR": 0.784178071711421,
         "hospiWeek": 1006,
         "icuWeek": 250
     },
     "2021-06-25": {
-        "vac1": 33257032,
-        "vac2": 20755037,
+        "vac1": 33315332,
+        "vac2": 20771991,
         "casesCumul": 5766315,
         "deathsCumul": 110939,
         "hospi": 9190,
@@ -8799,16 +8799,16 @@
         "returnHomeCumul": 382897,
         "deathsHospiCumul": 84483,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 18.9138060726966,
+        "incidR": 18.9421156926258,
         "r": 0.61,
         "icuOccupR": 27.5,
-        "posR": 0.769882049266629,
+        "posR": 0.770690833125702,
         "hospiWeek": 987,
         "icuWeek": 236
     },
     "2021-06-26": {
-        "vac1": 33406161,
-        "vac2": 21149956,
+        "vac1": 33464596,
+        "vac2": 21167110,
         "casesCumul": 5768443,
         "deathsCumul": 110951,
         "hospi": 9024,
@@ -8818,16 +8818,16 @@
         "returnHomeCumul": 383122,
         "deathsHospiCumul": 84495,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 18.7126587731996,
+        "incidR": 18.7439483531214,
         "r": 0.64,
         "icuOccupR": 26.7,
-        "posR": 0.759227678228682,
+        "posR": 0.760176883129753,
         "hospiWeek": 964,
         "icuWeek": 227
     },
     "2021-06-27": {
-        "vac1": 33460192,
-        "vac2": 21314915,
+        "vac1": 33518652,
+        "vac2": 21332133,
         "casesCumul": 5770021,
         "deathsCumul": 110968,
         "hospi": 8986,
@@ -8837,16 +8837,16 @@
         "returnHomeCumul": 383185,
         "deathsHospiCumul": 84512,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 18.7722579730506,
+        "incidR": 18.8080174929611,
         "r": 0.69,
         "icuOccupR": 26.6,
-        "posR": 0.760994372422757,
+        "posR": 0.762129131469841,
         "hospiWeek": 957,
         "icuWeek": 226
     },
     "2021-06-28": {
-        "vac1": 33607631,
-        "vac2": 21793085,
+        "vac1": 33666448,
+        "vac2": 21810528,
         "casesCumul": 5770530,
         "deathsCumul": 111012,
         "hospi": 8846,
@@ -8856,16 +8856,16 @@
         "returnHomeCumul": 383447,
         "deathsHospiCumul": 84556,
         "deathsEhpadEmsCumul": 26456,
-        "incidR": 18.9897950525065,
+        "incidR": 19.0225746124245,
         "r": 0.74,
         "icuOccupR": 25.8,
-        "posR": 0.768784397748357,
+        "posR": 0.769707050714332,
         "hospiWeek": 919,
         "icuWeek": 218
     },
     "2021-06-29": {
-        "vac1": 33782638,
-        "vac2": 22329793,
+        "vac1": 33841914,
+        "vac2": 22347559,
         "casesCumul": 5772844,
         "deathsCumul": 111057,
         "hospi": 8627,
@@ -8875,16 +8875,16 @@
         "returnHomeCumul": 383768,
         "deathsHospiCumul": 84584,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 19.3861297315153,
-        "r": 0.81,
+        "incidR": 19.4293391514072,
+        "r": 0.8,
         "icuOccupR": 24.7,
-        "posR": 0.782370418208287,
+        "posR": 0.783680690985208,
         "hospiWeek": 875,
         "icuWeek": 200
     },
     "2021-06-30": {
-        "vac1": 33977234,
-        "vac2": 22844772,
+        "vac1": 34036931,
+        "vac2": 22862908,
         "casesCumul": 5775301,
         "deathsCumul": 111082,
         "hospi": 8451,
@@ -8894,16 +8894,16 @@
         "returnHomeCumul": 384051,
         "deathsHospiCumul": 84609,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 20.5587439885826,
-        "r": 0.88,
+        "incidR": 20.615363228441,
+        "r": 0.86,
         "icuOccupR": 23.8,
-        "posR": 0.811965158114885,
+        "posR": 0.813733487579625,
         "hospiWeek": 862,
         "icuWeek": 188
     },
     "2021-07-01": {
-        "vac1": 34184909,
-        "vac2": 23341102,
+        "vac1": 34245129,
+        "vac2": 23359749,
         "casesCumul": 5777965,
         "deathsCumul": 111111,
         "hospi": 8232,
@@ -8913,16 +8913,16 @@
         "returnHomeCumul": 384338,
         "deathsHospiCumul": 84638,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 21.6032199659703,
-        "r": 0.96,
+        "incidR": 21.6762289857878,
+        "r": 0.93,
         "icuOccupR": 23.0,
-        "posR": 0.836741607335671,
+        "posR": 0.838985973455563,
         "hospiWeek": 833,
         "icuWeek": 193
     },
     "2021-07-02": {
-        "vac1": 34392001,
-        "vac2": 23902848,
+        "vac1": 34452845,
+        "vac2": 23922008,
         "casesCumul": 5780648,
         "deathsCumul": 111135,
         "hospi": 8044,
@@ -8932,16 +8932,16 @@
         "returnHomeCumul": 384616,
         "deathsHospiCumul": 84662,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 23.066380322311,
-        "r": 1.04,
+        "incidR": 23.1527991620949,
+        "r": 1.01,
         "icuOccupR": 22.2,
-        "posR": 0.872133146073429,
+        "posR": 0.874771300700875,
         "hospiWeek": 804,
         "icuWeek": 171
     },
     "2021-07-03": {
-        "vac1": 34528884,
-        "vac2": 24297494,
+        "vac1": 34590066,
+        "vac2": 24316921,
         "casesCumul": 5783654,
         "deathsCumul": 111152,
         "hospi": 7912,
@@ -8951,16 +8951,16 @@
         "returnHomeCumul": 384781,
         "deathsHospiCumul": 84679,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 24.319453499177,
-        "r": 1.11,
+        "incidR": 24.4028923789684,
+        "r": 1.1,
         "icuOccupR": 21.8,
-        "posR": 0.891324196923561,
+        "posR": 0.893694645416909,
         "hospiWeek": 802,
         "icuWeek": 174
     },
     "2021-07-04": {
-        "vac1": 34583187,
-        "vac2": 24448135,
+        "vac1": 34644613,
+        "vac2": 24467685,
         "casesCumul": 5786203,
         "deathsCumul": 111161,
         "hospi": 7913,
@@ -8970,15 +8970,16 @@
         "returnHomeCumul": 384812,
         "deathsHospiCumul": 84688,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 24.803696997966,
+        "incidR": 24.885645897761,
+        "r": 1.18,
         "icuOccupR": 21.8,
-        "posR": 0.903459489499529,
+        "posR": 0.905705150730334,
         "hospiWeek": 803,
         "icuWeek": 173
     },
     "2021-07-05": {
-        "vac1": 34738617,
-        "vac2": 24896915,
+        "vac1": 34800668,
+        "vac2": 24916879,
         "casesCumul": 5786999,
         "deathsCumul": 111197,
         "hospi": 7806,
@@ -8988,15 +8989,16 @@
         "returnHomeCumul": 385013,
         "deathsHospiCumul": 84724,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 27.3292130916496,
+        "incidR": 27.4320217113925,
+        "r": 1.26,
         "icuOccupR": 21.3,
-        "posR": 0.971897011345157,
+        "posR": 0.974549288818806,
         "hospiWeek": 768,
         "icuWeek": 164
     },
     "2021-07-06": {
-        "vac1": 34924489,
-        "vac2": 25407807,
+        "vac1": 34987470,
+        "vac2": 25428278,
         "casesCumul": 5790584,
         "deathsCumul": 111231,
         "hospi": 7637,
@@ -9006,15 +9008,16 @@
         "returnHomeCumul": 385289,
         "deathsHospiCumul": 84758,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 29.5552432060823,
+        "incidR": 29.6714616457917,
+        "r": 1.34,
         "icuOccupR": 20.4,
-        "posR": 1.0366160204104,
+        "posR": 1.039126119667,
         "hospiWeek": 776,
         "icuWeek": 161
     },
     "2021-07-07": {
-        "vac1": 35123481,
-        "vac2": 25884236,
+        "vac1": 35187888,
+        "vac2": 25905418,
         "casesCumul": 5794665,
         "deathsCumul": 111259,
         "hospi": 7539,
@@ -9024,15 +9027,16 @@
         "returnHomeCumul": 385490,
         "deathsHospiCumul": 84786,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 32.0941691197325,
+        "incidR": 32.2372071993747,
+        "r": 1.41,
         "icuOccupR": 19.7,
-        "posR": 1.10305074955217,
+        "posR": 1.10593255426665,
         "hospiWeek": 755,
         "icuWeek": 158
     },
     "2021-07-08": {
-        "vac1": 35342794,
-        "vac2": 26350232,
+        "vac1": 35410074,
+        "vac2": 26372813,
         "casesCumul": 5799107,
         "deathsCumul": 111284,
         "hospi": 7384,
@@ -9042,13 +9046,16 @@
         "returnHomeCumul": 385720,
         "deathsHospiCumul": 84811,
         "deathsEhpadEmsCumul": 26473,
-        "incidR": 34.7016341132112,
+        "incidR": 34.940030912615,
+        "r": 1.46,
         "icuOccupR": 19.2,
-        "posR": 1.17300428103752,
+        "posR": 1.17840498739182,
         "hospiWeek": 749,
         "icuWeek": 156
     },
     "2021-07-09": {
+        "vac1": 35625954,
+        "vac2": 26927997,
         "casesCumul": 5803687,
         "deathsCumul": 111302,
         "hospi": 7275,
@@ -9058,11 +9065,16 @@
         "returnHomeCumul": 385950,
         "deathsHospiCumul": 84829,
         "deathsEhpadEmsCumul": 26473,
+        "incidR": 37.7590730655646,
+        "r": 1.49,
         "icuOccupR": 18.8,
+        "posR": 1.23411759033938,
         "hospiWeek": 776,
         "icuWeek": 169
     },
     "2021-07-10": {
+        "vac1": 35769206,
+        "vac2": 27295659,
         "casesCumul": 5808383,
         "deathsCumul": 111321,
         "hospi": 7183,
@@ -9072,11 +9084,16 @@
         "returnHomeCumul": 386122,
         "deathsHospiCumul": 84848,
         "deathsEhpadEmsCumul": 26473,
+        "incidR": 39.7481963605898,
+        "r": 1.5,
         "icuOccupR": 18.7,
+        "posR": 1.25589768649683,
         "hospiWeek": 799,
         "icuWeek": 162
     },
     "2021-07-11": {
+        "vac1": 35827445,
+        "vac2": 27416285,
         "casesCumul": 5812639,
         "deathsCumul": 111325,
         "hospi": 7183,
@@ -9086,17 +9103,126 @@
         "returnHomeCumul": 386141,
         "deathsHospiCumul": 84852,
         "deathsEhpadEmsCumul": 26473,
+        "incidR": 40.4589168188122,
         "icuOccupR": 18.7,
+        "posR": 1.26770676449525,
         "hospiWeek": 783,
         "icuWeek": 154
     },
-    "2021-07-12": {},
-    "2021-07-13": {},
-    "2021-07-14": {},
-    "2021-07-15": {},
-    "2021-07-16": {},
-    "2021-07-17": {},
-    "2021-07-18": {},
+    "2021-07-12": {
+        "vac1": 35986912,
+        "vac2": 27928471,
+        "casesCumul": 5813899,
+        "deathsCumul": 111353,
+        "hospi": 7137,
+        "hospiNew": 267,
+        "icu": 957,
+        "icuNew": 55,
+        "returnHomeCumul": 386424,
+        "deathsHospiCumul": 84880,
+        "deathsEhpadEmsCumul": 26473,
+        "incidR": 46.247489104335,
+        "icuOccupR": 18.9,
+        "posR": 1.4429120241584,
+        "hospiWeek": 916,
+        "icuWeek": 181
+    },
+    "2021-07-13": {
+        "vac1": 36263491,
+        "vac2": 28512706,
+        "casesCumul": 5820849,
+        "deathsCumul": 111407,
+        "hospi": 7076,
+        "hospiNew": 246,
+        "icu": 933,
+        "icuNew": 37,
+        "returnHomeCumul": 386704,
+        "deathsHospiCumul": 84902,
+        "deathsEhpadEmsCumul": 26505,
+        "incidR": 53.469422146273,
+        "icuOccupR": 18.4,
+        "posR": 1.59817870154995,
+        "hospiWeek": 1014,
+        "icuWeek": 189
+    },
+    "2021-07-14": {
+        "vac1": 36437750,
+        "vac2": 28697670,
+        "casesCumul": 5829724,
+        "deathsCumul": 111413,
+        "hospi": 7047,
+        "hospiNew": 115,
+        "icu": 931,
+        "icuNew": 19,
+        "returnHomeCumul": 386839,
+        "deathsHospiCumul": 84908,
+        "deathsEhpadEmsCumul": 26505,
+        "incidR": 50.544591413588,
+        "icuOccupR": 18.4,
+        "posR": 1.64604440821397,
+        "hospiWeek": 990,
+        "icuWeek": 178
+    },
+    "2021-07-15": {
+        "vac1": 36766279,
+        "vac2": 29265463,
+        "casesCumul": 5833341,
+        "deathsCumul": 111429,
+        "hospi": 7054,
+        "hospiNew": 213,
+        "icu": 914,
+        "icuNew": 36,
+        "returnHomeCumul": 387017,
+        "deathsHospiCumul": 84924,
+        "deathsEhpadEmsCumul": 26505,
+        "incidR": 63.4940075612015,
+        "icuOccupR": 18.1,
+        "posR": 1.99530554901337,
+        "hospiWeek": 1099,
+        "icuWeek": 187
+    },
+    "2021-07-16": {
+        "casesCumul": 5844249,
+        "deathsCumul": 111451,
+        "hospi": 6971,
+        "hospiNew": 220,
+        "icu": 899,
+        "icuNew": 33,
+        "returnHomeCumul": 387297,
+        "deathsHospiCumul": 84946,
+        "deathsEhpadEmsCumul": 26505,
+        "icuOccupR": 17.8,
+        "hospiWeek": 1174,
+        "icuWeek": 190
+    },
+    "2021-07-17": {
+        "casesCumul": 5855198,
+        "deathsCumul": 111467,
+        "hospi": 6922,
+        "hospiNew": 114,
+        "icu": 890,
+        "icuNew": 21,
+        "returnHomeCumul": 387439,
+        "deathsHospiCumul": 84962,
+        "deathsEhpadEmsCumul": 26505,
+        "icuOccupR": 17.6,
+        "hospiWeek": 1186,
+        "icuWeek": 203
+    },
+    "2021-07-18": {
+        "casesCumul": 5867730,
+        "deathsCumul": 111472,
+        "hospi": 6936,
+        "hospiNew": 54,
+        "icu": 891,
+        "icuNew": 9,
+        "returnHomeCumul": 387469,
+        "deathsHospiCumul": 84967,
+        "deathsEhpadEmsCumul": 26505,
+        "icuOccupR": 17.6,
+        "hospiWeek": 1215,
+        "icuWeek": 208
+    },
     "2021-07-19": {},
     "2021-07-20": {},
     "2021-07-21": {},
