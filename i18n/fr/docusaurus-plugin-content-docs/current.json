@@ -43,6 +43,10 @@
     "message": "Mars",
     "description": "The label for category 3 月 in sidebar 2020"
   },
+  "sidebar.2021.category.8 月": {
+    "message": "Août",
+    "description": "The label for category 8 月 in sidebar 2021"
+  },
   "sidebar.2021.category.7 月": {
     "message": "Juillet",
     "description": "The label for category 7 月 in sidebar 2021"
