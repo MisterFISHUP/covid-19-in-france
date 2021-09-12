@@ -14,11 +14,11 @@ from opencc import OpenCC
 digest_start = date(2020, 3, 1)
 start_year = 2020
 cur_year = 2021
-lastest_month = 8
-lastest_day = 21
+lastest_month = 9
+lastest_day = 11
 one_day = timedelta(days=1)
 
- # not using strftime("%B") for months since it depends on the current locale
+# not using strftime("%B") for months since it depends on the current locale
 month_en = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
 month_fr = ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre')
 weekday_zh_hant = ('週一', '週二', '週三', '週四', '週五', '週六', '週日')

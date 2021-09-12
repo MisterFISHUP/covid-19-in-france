@@ -74,5 +74,9 @@
   "sidebar.2021.category.8 月": {
     "message": "8 月",
     "description": "The label for category 8 月 in sidebar 2021"
+  },
+  "sidebar.2021.category.9 月": {
+    "message": "9 月",
+    "description": "The label for category 9 月 in sidebar 2021"
   }
 }
