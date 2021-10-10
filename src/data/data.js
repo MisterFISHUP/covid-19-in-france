@@ -20,6 +20,7 @@ import fb202106 from "./facebook-posts-links/202106.json";
 import fb202107 from "./facebook-posts-links/202107.json";
 import fb202108 from "./facebook-posts-links/202108.json";
 import fb202109 from "./facebook-posts-links/202109.json";
+import fb202110 from "./facebook-posts-links/202110.json";
 
 export const officialData = officialDataJson;
 export const fbPostsLinks = {
@@ -44,4 +45,5 @@ export const fbPostsLinks = {
     ...fb202107,
     ...fb202108,
     ...fb202109,
+    ...fb202110,
 };
